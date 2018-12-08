@@ -1,0 +1,2918 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/shitstorm/Documents/GitHub/devblog/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1b7cce15f517607ec9b251d9d5703b00",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8d32529050589268933c1efd6faf4175",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "825267c7f292b514dab46532bf47c17a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "84db155296d15957fdbf2c0483614660",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "dfd0bd6a83590fbb8ddb4ccaea70ee1c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "291e634260dd738f50d84fdd4e29dab0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "97451307fbd473c1dc8eca6754d9ac55",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "16fc2cca-be9d-5da7-bd97-f8e6c52004e2": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-source-filesystem",
+      "id": "16fc2cca-be9d-5da7-bd97-f8e6c52004e2",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/shitstorm/Documents/GitHub/devblog/src/pages",
+        "name": "pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.11",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "acfdff9a457ccf3e67ffec6cecc794d7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ad03789b-b5a8-5152-9f08-5bbd98eccc2b": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-transformer-remark",
+      "id": "ad03789b-b5a8-5152-9f08-5bbd98eccc2b",
+      "name": "gatsby-transformer-remark",
+      "version": "2.1.15",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-images",
+            "id": "8521487e-3d09-5f68-863b-5558371b1d14",
+            "name": "gatsby-remark-images",
+            "version": "2.0.6",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 700,
+              "linkImagesToOriginal": false,
+              "wrapperStyle": "margin: 15px -30px !important",
+              "backgroundColor": "white",
+              "showCaptions": false,
+              "pathPrefix": "",
+              "withWebp": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-responsive-iframe",
+            "id": "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "2.0.7",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": "margin-bottom: 1.0725rem"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-prismjs",
+            "id": "b8d3a2f5-5540-5699-b862-153e57b2c618",
+            "name": "gatsby-remark-prismjs",
+            "version": "3.1.4",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-copy-linked-files",
+            "id": "80533a5b-ad2d-50ff-af51-726674869458",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "2.0.7",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-smartypants",
+            "id": "90305615-131b-5991-a708-2c2d1c43d946",
+            "name": "gatsby-remark-smartypants",
+            "version": "2.0.7",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-smartypants"
+          }
+        ],
+        "excerpt_separator": "<!-- end -->"
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.1.15",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "05b5a22c1055594f6d9540f306c93691",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "8521487e-3d09-5f68-863b-5558371b1d14": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-images",
+      "id": "8521487e-3d09-5f68-863b-5558371b1d14",
+      "name": "gatsby-remark-images",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 700,
+        "linkImagesToOriginal": false,
+        "wrapperStyle": "margin: 15px -30px !important",
+        "backgroundColor": "white",
+        "showCaptions": false,
+        "pathPrefix": "",
+        "withWebp": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit-parents",
+            "version": "^2.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.5"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "28c191f3d78a5e5ed6aec44f9cde0284",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-responsive-iframe",
+      "id": "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": "margin-bottom: 1.0725rem"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0d3143afd6e22b901fee9a2a1881120b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b8d3a2f5-5540-5699-b862-153e57b2c618": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-prismjs",
+      "id": "b8d3a2f5-5540-5699-b862-153e57b2c618",
+      "name": "gatsby-remark-prismjs",
+      "version": "3.1.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "3.1.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a8fa89d44601c9dc5512ddb699332ffe",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "80533a5b-ad2d-50ff-af51-726674869458": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-copy-linked-files",
+      "id": "80533a5b-ad2d-50ff-af51-726674869458",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": [],
+        "ignoreFileExtensions": [
+          "png",
+          "jpg",
+          "jpeg",
+          "bmp",
+          "tiff"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fabc878f269baf856e07a10e50f86f77",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "90305615-131b-5991-a708-2c2d1c43d946": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-smartypants",
+      "id": "90305615-131b-5991-a708-2c2d1c43d946",
+      "name": "gatsby-remark-smartypants",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-remark-smartypants",
+      "packageJson": {
+        "name": "gatsby-remark-smartypants",
+        "description": "Use retext-smartypants to auto-enhance typography of markdown",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "retext",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-smartypants",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1a6785de584f3168a8f46954e0302e77",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.9",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.9",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c2f36212b837eaf14c1ffa79df34c17c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.15",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.15",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "56e9beb2a960a5e43a50a35f5b9a62d3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "624c196c-30dd-59e4-bcdd-a6f980c0396f": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-google-analytics",
+      "id": "624c196c-30dd-59e4-bcdd-a6f980c0396f",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e43e9492d56bbb546ebf6185cc77ff45",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "e1a9b6ff-843f-5a8b-b9fa-7ab223df58a2": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-feed",
+      "id": "e1a9b6ff-843f-5a8b-b9fa-7ab223df58a2",
+      "name": "gatsby-plugin-feed",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-feed",
+      "packageJson": {
+        "name": "gatsby-plugin-feed",
+        "description": "Creates an RSS feed for your Gatsby site.",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "atom",
+          "feed",
+          "gatsby",
+          "gatsby-plugin",
+          "rss"
+        ],
+        "author": "Nicholas Young <nicholas@nicholaswyoung.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "lodash.merge",
+            "version": "^4.6.0"
+          },
+          {
+            "name": "mkdirp",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "pify",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "rss",
+            "version": "^1.2.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "529613d697dfd4f0ebc50581304bbd34",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "10cba8c5-cfe5-5adf-a990-0357f5f3b47f": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-manifest",
+      "id": "10cba8c5-cfe5-5adf-a990-0357f5f3b47f",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Dev Blog",
+        "short_name": "Dev Blog",
+        "start_url": "https://ryanfitzgerald.github.io/devblog/",
+        "background_color": "#fff",
+        "theme_color": "#3498db",
+        "display": "minimal-ui",
+        "icon": "src/main.jpg"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cd6be3019d5dc7fc054be277f32aea67",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.19",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.19",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">=2.0.53"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "febac4c0148cb54707c3b097b0220557",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "80f94fbdbd14ace9120e8220e53dff1d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "7fd0a94869d8603d4f4562da18277517",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog",
+      "packageJson": {
+        "name": "devblog",
+        "description": "GatsbyJS blog template for developers",
+        "version": "2.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby",
+          "dev",
+          "blog",
+          "dev blog"
+        ],
+        "author": "Ryan Fitzgerald <ryanfitzgeralddev@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.31"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^1.0.55"
+          },
+          {
+            "name": "gatsby-paginate",
+            "version": "^1.0.16"
+          },
+          {
+            "name": "gatsby-plugin-feed",
+            "version": "^2.0.8"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.6"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.6"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.8"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^2.0.5"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^2.0.4"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^3.0.2"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "^2.0.5"
+          },
+          {
+            "name": "gatsby-remark-smartypants",
+            "version": "^2.0.5"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.5"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.1.9"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.5"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.5"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.3.2"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.3.2"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.3.3"
+          },
+          {
+            "name": "styled-normalize",
+            "version": "^8.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "eslint",
+            "version": "^4.19.1"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.7.0"
+          },
+          {
+            "name": "gh-pages",
+            "version": "^1.1.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.12.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "209c8e6498d04272b9552c85e0a507fc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "8f4de126-1fe2-5322-8c6f-8ddda25dee9c": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-page-creator",
+      "id": "8f4de126-1fe2-5322-8c6f-8ddda25dee9c",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/shitstorm/Documents/GitHub/devblog/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "42ab54267918c12ad95b96cedeee6137",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Dev Blog",
+        "author": "Ryan Fitzgerald",
+        "description": "Full-stack Web Developer",
+        "siteUrl": "https://ryanfitzgerald.github.io/devblog/"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "/devblog",
+      "polyfill": true,
+      "buildTime": "2018-12-08T10:08:22.109Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4605aa03d022a947f5bc7c750b5e66c2",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "68ea7f63-edc7-5211-bdef-2d4c07ae5e37": {
+      "id": "68ea7f63-edc7-5211-bdef-2d4c07ae5e37",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c750d3758cac4caa3fd5490fe8de27b2",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-12-08T10:05:07.887Z",
+      "accessTime": "2018-12-08T10:08:27.040Z",
+      "changeTime": "2018-12-08T10:05:07.887Z",
+      "birthTime": "2018-12-08T10:05:07.883Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8617741837,
+      "blocks": 0,
+      "atimeMs": 1544263707040.0703,
+      "mtimeMs": 1544263507887.243,
+      "ctimeMs": 1544263507887.243,
+      "birthtimeMs": 1544263507883.4722,
+      "atime": "2018-12-08T10:08:27.040Z",
+      "mtime": "2018-12-08T10:05:07.887Z",
+      "ctime": "2018-12-08T10:05:07.887Z",
+      "birthtime": "2018-12-08T10:05:07.883Z"
+    },
+    "b32ca188-476a-55db-9f9f-9c4a5d76202e": {
+      "id": "b32ca188-476a-55db-9f9f-9c4a5d76202e",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "40870365a6be769c739dac59aee348b4",
+        "type": "Directory",
+        "description": "Directory \"src/pages/another-new-post\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/another-new-post",
+      "relativePath": "another-new-post",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-12-08T10:05:07.884Z",
+      "accessTime": "2018-12-08T10:08:27.042Z",
+      "changeTime": "2018-12-08T10:05:07.884Z",
+      "birthTime": "2018-12-08T10:05:07.884Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages",
+      "base": "another-new-post",
+      "ext": "",
+      "name": "another-new-post",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8617741839,
+      "blocks": 0,
+      "atimeMs": 1544263707042.1184,
+      "mtimeMs": 1544263507884.0295,
+      "ctimeMs": 1544263507884.0295,
+      "birthtimeMs": 1544263507883.6995,
+      "atime": "2018-12-08T10:08:27.042Z",
+      "mtime": "2018-12-08T10:05:07.884Z",
+      "ctime": "2018-12-08T10:05:07.884Z",
+      "birthtime": "2018-12-08T10:05:07.884Z"
+    },
+    "b81584ff-ee03-51cb-abee-654839e0e637": {
+      "id": "b81584ff-ee03-51cb-abee-654839e0e637",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fb3cf6a55c66f8db4841d328a749ee82",
+        "type": "Directory",
+        "description": "Directory \"src/pages/hello-world\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/hello-world",
+      "relativePath": "hello-world",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-12-08T10:05:07.885Z",
+      "accessTime": "2018-12-08T10:08:27.042Z",
+      "changeTime": "2018-12-08T10:05:07.885Z",
+      "birthTime": "2018-12-08T10:05:07.885Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages",
+      "base": "hello-world",
+      "ext": "",
+      "name": "hello-world",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8617741842,
+      "blocks": 0,
+      "atimeMs": 1544263707042.159,
+      "mtimeMs": 1544263507884.8125,
+      "ctimeMs": 1544263507884.8125,
+      "birthtimeMs": 1544263507884.5793,
+      "atime": "2018-12-08T10:08:27.042Z",
+      "mtime": "2018-12-08T10:05:07.885Z",
+      "ctime": "2018-12-08T10:05:07.885Z",
+      "birthtime": "2018-12-08T10:05:07.885Z"
+    },
+    "30befed1-8592-5f57-b826-01817b84e590": {
+      "id": "30befed1-8592-5f57-b826-01817b84e590",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "48c1da2ac19afe2913b05338273dbe2f",
+        "type": "Directory",
+        "description": "Directory \"src/pages/welcome-to-the-blog\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog",
+      "relativePath": "welcome-to-the-blog",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-12-08T10:05:07.888Z",
+      "accessTime": "2018-12-08T10:08:27.042Z",
+      "changeTime": "2018-12-08T10:05:07.888Z",
+      "birthTime": "2018-12-08T10:05:07.887Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages",
+      "base": "welcome-to-the-blog",
+      "ext": "",
+      "name": "welcome-to-the-blog",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8617741845,
+      "blocks": 0,
+      "atimeMs": 1544263707042.1836,
+      "mtimeMs": 1544263507888.0312,
+      "ctimeMs": 1544263507888.0312,
+      "birthtimeMs": 1544263507887.2239,
+      "atime": "2018-12-08T10:08:27.042Z",
+      "mtime": "2018-12-08T10:05:07.888Z",
+      "ctime": "2018-12-08T10:05:07.888Z",
+      "birthtime": "2018-12-08T10:05:07.887Z"
+    },
+    "ff9bc0cf-2e6c-5445-b3d3-ca2744b81933": {
+      "id": "ff9bc0cf-2e6c-5445-b3d3-ca2744b81933",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "baa38d67de050ae1d81f5a98a1824c2b",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/404.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js",
+      "relativePath": "404.js",
+      "extension": "js",
+      "size": 299,
+      "prettySize": "299 B",
+      "modifiedTime": "2018-12-08T10:05:07.884Z",
+      "accessTime": "2018-12-08T10:05:07.884Z",
+      "changeTime": "2018-12-08T10:05:07.884Z",
+      "birthTime": "2018-12-08T10:05:07.884Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8617741838,
+      "blocks": 8,
+      "atimeMs": 1544263507883.5386,
+      "mtimeMs": 1544263507883.5857,
+      "ctimeMs": 1544263507883.5857,
+      "birthtimeMs": 1544263507883.5386,
+      "atime": "2018-12-08T10:05:07.884Z",
+      "mtime": "2018-12-08T10:05:07.884Z",
+      "ctime": "2018-12-08T10:05:07.884Z",
+      "birthtime": "2018-12-08T10:05:07.884Z"
+    },
+    "97dc7b47-1efc-5c72-af46-26d354e0e4fc": {
+      "id": "97dc7b47-1efc-5c72-af46-26d354e0e4fc",
+      "children": [
+        "842c2812-b5ed-5f9b-af05-88f043d8d013"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "22f21e1c8e75ec91b852913fbaba77ee",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/another-new-post/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/another-new-post/index.md",
+      "relativePath": "another-new-post/index.md",
+      "extension": "md",
+      "size": 1031,
+      "prettySize": "1.03 kB",
+      "modifiedTime": "2018-12-08T10:05:07.884Z",
+      "accessTime": "2018-12-08T10:05:09.729Z",
+      "changeTime": "2018-12-08T10:05:07.884Z",
+      "birthTime": "2018-12-08T10:05:07.884Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/another-new-post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "another-new-post",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8617741840,
+      "blocks": 8,
+      "atimeMs": 1544263509728.9275,
+      "mtimeMs": 1544263507883.8875,
+      "ctimeMs": 1544263507883.8875,
+      "birthtimeMs": 1544263507883.7864,
+      "atime": "2018-12-08T10:05:09.729Z",
+      "mtime": "2018-12-08T10:05:07.884Z",
+      "ctime": "2018-12-08T10:05:07.884Z",
+      "birthtime": "2018-12-08T10:05:07.884Z"
+    },
+    "21cf071e-186c-52f6-882e-3041ab2fc69b": {
+      "id": "21cf071e-186c-52f6-882e-3041ab2fc69b",
+      "children": [
+        "1aeb64ff-3b45-51f4-a00c-018432031c95"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0309496623bf5d8ddb2acc36a4b07aaf",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/hello-world/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/hello-world/index.md",
+      "relativePath": "hello-world/index.md",
+      "extension": "md",
+      "size": 2602,
+      "prettySize": "2.6 kB",
+      "modifiedTime": "2018-12-08T10:05:07.885Z",
+      "accessTime": "2018-12-08T10:05:07.885Z",
+      "changeTime": "2018-12-08T10:05:07.885Z",
+      "birthTime": "2018-12-08T10:05:07.885Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/hello-world",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hello-world",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8617741843,
+      "blocks": 8,
+      "atimeMs": 1544263507884.6416,
+      "mtimeMs": 1544263507884.721,
+      "ctimeMs": 1544263507884.721,
+      "birthtimeMs": 1544263507884.6416,
+      "atime": "2018-12-08T10:05:07.885Z",
+      "mtime": "2018-12-08T10:05:07.885Z",
+      "ctime": "2018-12-08T10:05:07.885Z",
+      "birthtime": "2018-12-08T10:05:07.885Z"
+    },
+    "29738dd3-aaef-59a1-a3b4-47a7790fe6f8": {
+      "id": "29738dd3-aaef-59a1-a3b4-47a7790fe6f8",
+      "children": [
+        "7a837e08-f30c-5480-968f-a2a27ae121d4"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3aa43cb9435de0a4e8cf8becbc0b0bcc",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/welcome-to-the-blog/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog/index.md",
+      "relativePath": "welcome-to-the-blog/index.md",
+      "extension": "md",
+      "size": 4975,
+      "prettySize": "4.97 kB",
+      "modifiedTime": "2018-12-08T10:05:07.888Z",
+      "accessTime": "2018-12-08T10:05:07.888Z",
+      "changeTime": "2018-12-08T10:05:07.888Z",
+      "birthTime": "2018-12-08T10:05:07.888Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "welcome-to-the-blog",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8617741847,
+      "blocks": 16,
+      "atimeMs": 1544263507887.8513,
+      "mtimeMs": 1544263507887.9473,
+      "ctimeMs": 1544263507887.9473,
+      "birthtimeMs": 1544263507887.8513,
+      "atime": "2018-12-08T10:05:07.888Z",
+      "mtime": "2018-12-08T10:05:07.888Z",
+      "ctime": "2018-12-08T10:05:07.888Z",
+      "birthtime": "2018-12-08T10:05:07.888Z"
+    },
+    "82e0cf6e-1c74-57a7-8002-d2fd6fc759fa": {
+      "id": "82e0cf6e-1c74-57a7-8002-d2fd6fc759fa",
+      "children": [
+        "bb2d71bc-5f47-5b1f-a754-6e9f71cdaf08"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a36bdd86f732bc910b6582d29adae291",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/pages/welcome-to-the-blog/space.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog/space.jpg",
+      "relativePath": "welcome-to-the-blog/space.jpg",
+      "extension": "jpg",
+      "size": 44765,
+      "prettySize": "44.8 kB",
+      "modifiedTime": "2018-12-08T10:05:07.888Z",
+      "accessTime": "2018-12-08T10:05:09.604Z",
+      "changeTime": "2018-12-08T10:05:07.888Z",
+      "birthTime": "2018-12-08T10:05:07.888Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog",
+      "base": "space.jpg",
+      "ext": ".jpg",
+      "name": "space",
+      "relativeDirectory": "welcome-to-the-blog",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8617741848,
+      "blocks": 88,
+      "atimeMs": 1544263509603.763,
+      "mtimeMs": 1544263507888.3254,
+      "ctimeMs": 1544263507888.3254,
+      "birthtimeMs": 1544263507888.0247,
+      "atime": "2018-12-08T10:05:09.604Z",
+      "mtime": "2018-12-08T10:05:07.888Z",
+      "ctime": "2018-12-08T10:05:07.888Z",
+      "birthtime": "2018-12-08T10:05:07.888Z"
+    },
+    "607f35a8-a4a7-5e89-a2ad-e8cb612b8731": {
+      "id": "607f35a8-a4a7-5e89-a2ad-e8cb612b8731",
+      "children": [
+        "22677f3b-0ba9-580b-a897-c7a3e50bd163"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a6bff11fd84ef0a7e78d1abedda1165c",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/pages/another-new-post/traintrack.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/another-new-post/traintrack.jpg",
+      "relativePath": "another-new-post/traintrack.jpg",
+      "extension": "jpg",
+      "size": 89880,
+      "prettySize": "89.9 kB",
+      "modifiedTime": "2018-12-08T10:05:07.884Z",
+      "accessTime": "2018-12-08T10:05:10.325Z",
+      "changeTime": "2018-12-08T10:05:07.884Z",
+      "birthTime": "2018-12-08T10:05:07.884Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/another-new-post",
+      "base": "traintrack.jpg",
+      "ext": ".jpg",
+      "name": "traintrack",
+      "relativeDirectory": "another-new-post",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8617741841,
+      "blocks": 176,
+      "atimeMs": 1544263510324.9746,
+      "mtimeMs": 1544263507884.471,
+      "ctimeMs": 1544263507884.471,
+      "birthtimeMs": 1544263507884.0178,
+      "atime": "2018-12-08T10:05:10.325Z",
+      "mtime": "2018-12-08T10:05:07.884Z",
+      "ctime": "2018-12-08T10:05:07.884Z",
+      "birthtime": "2018-12-08T10:05:07.884Z"
+    },
+    "bb2d71bc-5f47-5b1f-a754-6e9f71cdaf08": {
+      "id": "bb2d71bc-5f47-5b1f-a754-6e9f71cdaf08",
+      "children": [],
+      "parent": "82e0cf6e-1c74-57a7-8002-d2fd6fc759fa",
+      "internal": {
+        "contentDigest": "a36bdd86f732bc910b6582d29adae291",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "2da92841-571e-570b-86b0-6cdda06d260f": {
+      "id": "2da92841-571e-570b-86b0-6cdda06d260f",
+      "children": [
+        "aa7fac81-037e-5f7c-ace1-eafda226228a"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "09591b6c0ecf431ce8117c089d40cc3a",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/pages/welcome-to-the-blog/featured.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog/featured.jpg",
+      "relativePath": "welcome-to-the-blog/featured.jpg",
+      "extension": "jpg",
+      "size": 67290,
+      "prettySize": "67.3 kB",
+      "modifiedTime": "2018-12-08T10:05:07.888Z",
+      "accessTime": "2018-12-08T10:05:09.603Z",
+      "changeTime": "2018-12-08T10:05:07.888Z",
+      "birthTime": "2018-12-08T10:05:07.887Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog",
+      "base": "featured.jpg",
+      "ext": ".jpg",
+      "name": "featured",
+      "relativeDirectory": "welcome-to-the-blog",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8617741846,
+      "blocks": 136,
+      "atimeMs": 1544263509603.2688,
+      "mtimeMs": 1544263507887.7146,
+      "ctimeMs": 1544263507887.7146,
+      "birthtimeMs": 1544263507887.295,
+      "atime": "2018-12-08T10:05:09.603Z",
+      "mtime": "2018-12-08T10:05:07.888Z",
+      "ctime": "2018-12-08T10:05:07.888Z",
+      "birthtime": "2018-12-08T10:05:07.887Z"
+    },
+    "22677f3b-0ba9-580b-a897-c7a3e50bd163": {
+      "id": "22677f3b-0ba9-580b-a897-c7a3e50bd163",
+      "children": [],
+      "parent": "607f35a8-a4a7-5e89-a2ad-e8cb612b8731",
+      "internal": {
+        "contentDigest": "a6bff11fd84ef0a7e78d1abedda1165c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "aa7fac81-037e-5f7c-ace1-eafda226228a": {
+      "id": "aa7fac81-037e-5f7c-ace1-eafda226228a",
+      "children": [],
+      "parent": "2da92841-571e-570b-86b0-6cdda06d260f",
+      "internal": {
+        "contentDigest": "09591b6c0ecf431ce8117c089d40cc3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "842c2812-b5ed-5f9b-af05-88f043d8d013": {
+      "id": "842c2812-b5ed-5f9b-af05-88f043d8d013",
+      "children": [],
+      "parent": "97dc7b47-1efc-5c72-af46-26d354e0e4fc",
+      "internal": {
+        "content": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. Fusce at pharetra diam. Sed eget erat nibh. Nulla condimentum eros a nisi placerat, nec ultrices arcu dictum. Vestibulum nec elementum mi, id tempor ligula. \n\nEtiam ut lectus ac quam facilisis sodales. Donec laoreet justo id diam aliquet aliquet. Vivamus arcu est, varius in erat non, pharetra pulvinar magna. Fusce quis elementum nulla.\n\n![Train Tracks](./traintrack.jpg)\n\nNullam tristique ante quis gravida aliquet. Donec elementum, leo eu interdum mattis, erat quam vestibulum nunc, nec convallis eros risus ut enim. Sed maximus odio tincidunt velit congue molestie. Nunc in pharetra eros, id pulvinar justo. Pellentesque quis accumsan leo. Praesent efficitur magna a posuere viverra. Morbi sit amet tincidunt mauris. Vestibulum sed maximus felis.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "6089a4c31b1a0eec8a877171cae16a03",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "My Second Post!",
+        "date": "2018-06-29",
+        "_PARENT": "97dc7b47-1efc-5c72-af46-26d354e0e4fc"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. Fusce at pharetra diam. Sed eget erat nibh. Nulla condimentum eros a nisi placerat, nec ultrices arcu dictum. Vestibulum nec elementum mi, id tempor ligula. \n\nEtiam ut lectus ac quam facilisis sodales. Donec laoreet justo id diam aliquet aliquet. Vivamus arcu est, varius in erat non, pharetra pulvinar magna. Fusce quis elementum nulla.\n\n![Train Tracks](./traintrack.jpg)\n\nNullam tristique ante quis gravida aliquet. Donec elementum, leo eu interdum mattis, erat quam vestibulum nunc, nec convallis eros risus ut enim. Sed maximus odio tincidunt velit congue molestie. Nunc in pharetra eros, id pulvinar justo. Pellentesque quis accumsan leo. Praesent efficitur magna a posuere viverra. Morbi sit amet tincidunt mauris. Vestibulum sed maximus felis.\n",
+      "fileAbsolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/another-new-post/index.md",
+      "fields": {
+        "slug": "/another-new-post/"
+      }
+    },
+    "1aeb64ff-3b45-51f4-a00c-018432031c95": {
+      "id": "1aeb64ff-3b45-51f4-a00c-018432031c95",
+      "children": [],
+      "parent": "21cf071e-186c-52f6-882e-3041ab2fc69b",
+      "internal": {
+        "content": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. \n\n<!-- end -->\n\nFusce at pharetra diam. Sed eget erat nibh. Nulla condimentum eros a nisi placerat, nec ultrices arcu dictum. Vestibulum nec elementum mi, id tempor ligula. Etiam ut lectus ac quam facilisis sodales. Donec laoreet justo id diam aliquet aliquet. Vivamus arcu est, varius in erat non, pharetra pulvinar magna. Fusce quis elementum nulla.\n\nNullam tristique ante quis gravida aliquet. Donec elementum, leo eu interdum mattis, erat quam vestibulum nunc, nec convallis eros risus ut enim. Sed maximus odio tincidunt velit congue molestie. Nunc in pharetra eros, id pulvinar justo. Pellentesque quis accumsan leo. Praesent efficitur magna a posuere viverra. Morbi sit amet tincidunt mauris. Vestibulum sed maximus felis. Proin in tellus eu nisi dictum posuere eu id felis. Donec eget mi sit amet neque efficitur suscipit ut ut neque. Vivamus egestas, augue vitae vestibulum feugiat, lorem elit lobortis nulla, eget ornare arcu ipsum ac lacus. Proin a suscipit ligula, non facilisis nibh. Nunc et eros magna.\n\n>Aenean quis nisi eros. Praesent a libero et ante sagittis dictum eget id ipsum. Duis sit amet bibendum justo. Morbi faucibus vehicula bibendum. Praesent ornare hendrerit commodo. Praesent sit amet nisi mauris. Aenean maximus pharetra lacinia. Praesent efficitur erat id dolor laoreet rhoncus. Cras eu efficitur arcu. Nunc pretium, nunc sit amet rutrum molestie, arcu nisi tempus ligula, eu dapibus leo tortor in quam.\n\nVivamus viverra id ipsum nec hendrerit. Fusce mollis enim et ultricies varius. Nam at dictum augue, id dictum augue. Fusce laoreet purus id iaculis cursus. Donec non velit est. Integer pellentesque viverra sapien, id rhoncus ipsum dictum ac. Aliquam vel maximus tortor, vitae interdum turpis. Etiam egestas elementum massa, id dictum magna suscipit vel. Curabitur mi tellus, pharetra eget nisi vitae, blandit vulputate nibh. Aenean tincidunt purus eu feugiat pulvinar. Maecenas quis laoreet lorem, a molestie urna. Cras iaculis justo elit, nec venenatis ante sollicitudin a. Cras eu pellentesque arcu, sit amet auctor felis.\n\n```javascript\n$(document).ready(function() {\n    console.log('Welcome!');\n})\n```\n\nCurabitur non blandit dui. Maecenas in ipsum nec leo pellentesque sodales et nec quam. Ut ut facilisis metus, sit amet aliquam nibh. Quisque blandit dui quis augue dictum vehicula.",
+        "type": "MarkdownRemark",
+        "contentDigest": "db615842307f02e0dfe4250dd63e2739",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Hello World",
+        "date": "2018-06-30",
+        "_PARENT": "21cf071e-186c-52f6-882e-3041ab2fc69b"
+      },
+      "excerpt": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. \n\n",
+      "rawMarkdownBody": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. \n\n<!-- end -->\n\nFusce at pharetra diam. Sed eget erat nibh. Nulla condimentum eros a nisi placerat, nec ultrices arcu dictum. Vestibulum nec elementum mi, id tempor ligula. Etiam ut lectus ac quam facilisis sodales. Donec laoreet justo id diam aliquet aliquet. Vivamus arcu est, varius in erat non, pharetra pulvinar magna. Fusce quis elementum nulla.\n\nNullam tristique ante quis gravida aliquet. Donec elementum, leo eu interdum mattis, erat quam vestibulum nunc, nec convallis eros risus ut enim. Sed maximus odio tincidunt velit congue molestie. Nunc in pharetra eros, id pulvinar justo. Pellentesque quis accumsan leo. Praesent efficitur magna a posuere viverra. Morbi sit amet tincidunt mauris. Vestibulum sed maximus felis. Proin in tellus eu nisi dictum posuere eu id felis. Donec eget mi sit amet neque efficitur suscipit ut ut neque. Vivamus egestas, augue vitae vestibulum feugiat, lorem elit lobortis nulla, eget ornare arcu ipsum ac lacus. Proin a suscipit ligula, non facilisis nibh. Nunc et eros magna.\n\n>Aenean quis nisi eros. Praesent a libero et ante sagittis dictum eget id ipsum. Duis sit amet bibendum justo. Morbi faucibus vehicula bibendum. Praesent ornare hendrerit commodo. Praesent sit amet nisi mauris. Aenean maximus pharetra lacinia. Praesent efficitur erat id dolor laoreet rhoncus. Cras eu efficitur arcu. Nunc pretium, nunc sit amet rutrum molestie, arcu nisi tempus ligula, eu dapibus leo tortor in quam.\n\nVivamus viverra id ipsum nec hendrerit. Fusce mollis enim et ultricies varius. Nam at dictum augue, id dictum augue. Fusce laoreet purus id iaculis cursus. Donec non velit est. Integer pellentesque viverra sapien, id rhoncus ipsum dictum ac. Aliquam vel maximus tortor, vitae interdum turpis. Etiam egestas elementum massa, id dictum magna suscipit vel. Curabitur mi tellus, pharetra eget nisi vitae, blandit vulputate nibh. Aenean tincidunt purus eu feugiat pulvinar. Maecenas quis laoreet lorem, a molestie urna. Cras iaculis justo elit, nec venenatis ante sollicitudin a. Cras eu pellentesque arcu, sit amet auctor felis.\n\n```javascript\n$(document).ready(function() {\n    console.log('Welcome!');\n})\n```\n\nCurabitur non blandit dui. Maecenas in ipsum nec leo pellentesque sodales et nec quam. Ut ut facilisis metus, sit amet aliquam nibh. Quisque blandit dui quis augue dictum vehicula.",
+      "fileAbsolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/hello-world/index.md",
+      "fields": {
+        "slug": "/hello-world/"
+      }
+    },
+    "7a837e08-f30c-5480-968f-a2a27ae121d4": {
+      "id": "7a837e08-f30c-5480-968f-a2a27ae121d4",
+      "children": [],
+      "parent": "29738dd3-aaef-59a1-a3b4-47a7790fe6f8",
+      "internal": {
+        "content": "\nWelcome to the new blog, I hope you enjoy your stay! This is an example of how you can control what excerpt shows up.\n\n<!-- end -->\n\n## Lorem ipsum dolor sit amet, consectetur adipiscing elit\n\nSed urna justo, scelerisque consectetur pharetra vitae, facilisis vel diam. Maecenas auctor enim a volutpat mattis. Morbi sit amet turpis a purus ornare pellentesque sit amet et ipsum. Suspendisse imperdiet mi at felis aliquet, nec consectetur arcu dignissim. Sed vitae diam maximus, maximus diam ac, scelerisque mi.\n\n*   Morbi sit amet turpis a purus\n*   Etiam tempor ultricies mi\n    *   Maecenas auctor enim a volutpat mattis\n*   Sed urna justo, scelerisque consectetur pharetra vitae\n\nNam nec augue vel nisl placerat faucibus. Donec congue **nulla quis nunc** sagittis placerat. Pellentesque non tincidunt velit, cursus porttitor tellus. Suspendisse pulvinar tortor at _augue aliquam sagittis_. Duis non pulvinar augue. Ut tristique dignissim ligula, eget tempus diam molestie non. Nulla ultrices eleifend rutrum. Mauris convallis sollicitudin dui, pulvinar suscipit velit. Maecenas viverra finibus metus vitae blandit.\n\n### Pellentesque consectetur facilisis venenatis\n\nNam ullamcorper, orci nec tempor hendrerit, lorem nunc laoreet diam, vel gravida sem mi quis augue. Nunc odio velit, facilisis quis dictum non, facilisis quis felis. Vivamus [elementum dapibus nibh](https://google.com), eget aliquet nunc luctus maximus. Sed finibus risus eget ultrices maximus. Aliquam commodo consectetur diam eget tristique. Nunc quis erat quis felis fringilla tempus. Cras tempor nibh dolor, ac lacinia lacus ultrices eu.\n\n> Quisque tempor nulla turpis, ut placerat arcu lobortis nec. Aenean sed vehicula nisi. Nullam vitae placerat enim. Etiam hendrerit enim vel tempor fermentum. Morbi rutrum euismod ipsum a luctus.\n\nMorbi et libero id metus tempor imperdiet eget non mi. Mauris pulvinar quis enim at placerat. Vestibulum vitae dapibus lectus, ut elementum est.\n\n### Pellentesque facilisis venenatis mi, sit amet molestie nisl ornare et\n\nMorbi posuere facilisis eros vel euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam malesuada dapibus dolor non cursus. Sed in turpis justo. Cras sed hendrerit nulla. Sed ornare, leo et suscipit tincidunt, justo diam sollicitudin risus, vitae vulputate nulla augue et lacus.\n\n1.  Morbi posuere facilisis\n2.  Pellentesque habitant morbi tristique\n3.  Etiam malesuada dapibus\n\nUt vel ligula ante. Proin quis metus magna. Nulla nec dui vulputate, semper orci in, sagittis dolor. Mauris dictum neque non fermentum consectetur. Integer vel pellentesque ex, ut tincidunt quam.\n\n#### Sed ac orci a dolor venenatis vulputate\n\nSed sollicitudin, turpis ac malesuada dapibus, magna dui semper orci, in congue justo felis quis ante. Phasellus consequat et dolor fringilla accumsan. Pellentesque ullamcorper porttitor dolor et imperdiet.\n\n![Space](./space.jpg)\n\nPellentesque consectetur facilisis venenatis. Nam ullamcorper, orci nec tempor hendrerit, lorem nunc laoreet diam, vel gravida sem mi quis augue. Nunc odio velit, facilisis quis dictum non, facilisis quis felis. Vivamus elementum dapibus nibh, eget aliquet nunc luctus maximus. Sed finibus risus eget ultrices maximus. Aliquam commodo consectetur diam eget tristique. Nunc quis erat quis felis fringilla tempus. Cras tempor nibh dolor, ac lacinia lacus ultrices eu.\n\n##### Nulla nec dui vulputate, semper orci in, sagittis dolor\n\nMauris dictum neque non fermentum consectetur. Integer vel pellentesque ex, ut tincidunt quam. Sed ac orci a dolor venenatis vulputate. Sed sollicitudin, turpis ac malesuada dapibus, magna dui semper orci, in congue justo felis quis ante. Phasellus consequat et dolor fringilla accumsan. Pellentesque ullamcorper porttitor dolor et imperdiet.\n\n```javascript\n$(document).ready(function() {\n    console.log('More jQuery, wow!')\n})\n```\n\n###### ras aliquet ipsum ut enim pellentesque, id varius quam placerat\n\nMaecenas non scelerisque leo. Sed id purus fringilla, consequat magna non, faucibus neque. Cras ornare nisi a lectus ultricies convallis. Integer tristique dictum eros, et elementum ante consectetur eget. Phasellus sollicitudin est vestibulum suscipit pellentesque. Duis in eros cursus magna laoreet aliquam vel a lectus. Nulla ut nisi vitae ipsum sollicitudin vestibulum. Aenean sit amet mattis odio. Vestibulum ultrices sed ipsum nec pretium. Integer non turpis nunc. Praesent tincidunt tincidunt alique\n\nInteger mollis dolor non libero placerat, ut efficitur nisi ultricies. Etiam ac lacinia urna, eget ornare nunc. Suspendisse eget eros id turpis gravida semper. Duis ornare lorem et est pellentesque, quis rhoncus leo vestibulum. Nullam eu nulla ut elit rutrum iaculis. Cras a laoreet elit, in aliquet erat. Sed interdum varius posuere. Pellentesque eget luctus erat. Nam quis sem in ligula efficitur bibendum.",
+        "type": "MarkdownRemark",
+        "contentDigest": "bc9f8a41adbc0ca0fb76319ba6821d73",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Welcome to the Blog!",
+        "date": "2018-07-01",
+        "featuredImage": "./featured.jpg",
+        "_PARENT": "29738dd3-aaef-59a1-a3b4-47a7790fe6f8"
+      },
+      "excerpt": "\nWelcome to the new blog, I hope you enjoy your stay! This is an example of how you can control what excerpt shows up.\n\n",
+      "rawMarkdownBody": "\nWelcome to the new blog, I hope you enjoy your stay! This is an example of how you can control what excerpt shows up.\n\n<!-- end -->\n\n## Lorem ipsum dolor sit amet, consectetur adipiscing elit\n\nSed urna justo, scelerisque consectetur pharetra vitae, facilisis vel diam. Maecenas auctor enim a volutpat mattis. Morbi sit amet turpis a purus ornare pellentesque sit amet et ipsum. Suspendisse imperdiet mi at felis aliquet, nec consectetur arcu dignissim. Sed vitae diam maximus, maximus diam ac, scelerisque mi.\n\n*   Morbi sit amet turpis a purus\n*   Etiam tempor ultricies mi\n    *   Maecenas auctor enim a volutpat mattis\n*   Sed urna justo, scelerisque consectetur pharetra vitae\n\nNam nec augue vel nisl placerat faucibus. Donec congue **nulla quis nunc** sagittis placerat. Pellentesque non tincidunt velit, cursus porttitor tellus. Suspendisse pulvinar tortor at _augue aliquam sagittis_. Duis non pulvinar augue. Ut tristique dignissim ligula, eget tempus diam molestie non. Nulla ultrices eleifend rutrum. Mauris convallis sollicitudin dui, pulvinar suscipit velit. Maecenas viverra finibus metus vitae blandit.\n\n### Pellentesque consectetur facilisis venenatis\n\nNam ullamcorper, orci nec tempor hendrerit, lorem nunc laoreet diam, vel gravida sem mi quis augue. Nunc odio velit, facilisis quis dictum non, facilisis quis felis. Vivamus [elementum dapibus nibh](https://google.com), eget aliquet nunc luctus maximus. Sed finibus risus eget ultrices maximus. Aliquam commodo consectetur diam eget tristique. Nunc quis erat quis felis fringilla tempus. Cras tempor nibh dolor, ac lacinia lacus ultrices eu.\n\n> Quisque tempor nulla turpis, ut placerat arcu lobortis nec. Aenean sed vehicula nisi. Nullam vitae placerat enim. Etiam hendrerit enim vel tempor fermentum. Morbi rutrum euismod ipsum a luctus.\n\nMorbi et libero id metus tempor imperdiet eget non mi. Mauris pulvinar quis enim at placerat. Vestibulum vitae dapibus lectus, ut elementum est.\n\n### Pellentesque facilisis venenatis mi, sit amet molestie nisl ornare et\n\nMorbi posuere facilisis eros vel euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam malesuada dapibus dolor non cursus. Sed in turpis justo. Cras sed hendrerit nulla. Sed ornare, leo et suscipit tincidunt, justo diam sollicitudin risus, vitae vulputate nulla augue et lacus.\n\n1.  Morbi posuere facilisis\n2.  Pellentesque habitant morbi tristique\n3.  Etiam malesuada dapibus\n\nUt vel ligula ante. Proin quis metus magna. Nulla nec dui vulputate, semper orci in, sagittis dolor. Mauris dictum neque non fermentum consectetur. Integer vel pellentesque ex, ut tincidunt quam.\n\n#### Sed ac orci a dolor venenatis vulputate\n\nSed sollicitudin, turpis ac malesuada dapibus, magna dui semper orci, in congue justo felis quis ante. Phasellus consequat et dolor fringilla accumsan. Pellentesque ullamcorper porttitor dolor et imperdiet.\n\n![Space](./space.jpg)\n\nPellentesque consectetur facilisis venenatis. Nam ullamcorper, orci nec tempor hendrerit, lorem nunc laoreet diam, vel gravida sem mi quis augue. Nunc odio velit, facilisis quis dictum non, facilisis quis felis. Vivamus elementum dapibus nibh, eget aliquet nunc luctus maximus. Sed finibus risus eget ultrices maximus. Aliquam commodo consectetur diam eget tristique. Nunc quis erat quis felis fringilla tempus. Cras tempor nibh dolor, ac lacinia lacus ultrices eu.\n\n##### Nulla nec dui vulputate, semper orci in, sagittis dolor\n\nMauris dictum neque non fermentum consectetur. Integer vel pellentesque ex, ut tincidunt quam. Sed ac orci a dolor venenatis vulputate. Sed sollicitudin, turpis ac malesuada dapibus, magna dui semper orci, in congue justo felis quis ante. Phasellus consequat et dolor fringilla accumsan. Pellentesque ullamcorper porttitor dolor et imperdiet.\n\n```javascript\n$(document).ready(function() {\n    console.log('More jQuery, wow!')\n})\n```\n\n###### ras aliquet ipsum ut enim pellentesque, id varius quam placerat\n\nMaecenas non scelerisque leo. Sed id purus fringilla, consequat magna non, faucibus neque. Cras ornare nisi a lectus ultricies convallis. Integer tristique dictum eros, et elementum ante consectetur eget. Phasellus sollicitudin est vestibulum suscipit pellentesque. Duis in eros cursus magna laoreet aliquam vel a lectus. Nulla ut nisi vitae ipsum sollicitudin vestibulum. Aenean sit amet mattis odio. Vestibulum ultrices sed ipsum nec pretium. Integer non turpis nunc. Praesent tincidunt tincidunt alique\n\nInteger mollis dolor non libero placerat, ut efficitur nisi ultricies. Etiam ac lacinia urna, eget ornare nunc. Suspendisse eget eros id turpis gravida semper. Duis ornare lorem et est pellentesque, quis rhoncus leo vestibulum. Nullam eu nulla ut elit rutrum iaculis. Cras a laoreet elit, in aliquet erat. Sed interdum varius posuere. Pellentesque eget luctus erat. Nam quis sem in ligula efficitur bibendum.",
+      "fileAbsolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog/index.md",
+      "fields": {
+        "slug": "/welcome-to-the-blog/"
+      }
+    },
+    "b157c9d2-eee9-53b6-a85b-f5c704a10288": {
+      "id": "b157c9d2-eee9-53b6-a85b-f5c704a10288",
+      "children": [
+        "4845ab5b-d4ae-5309-8604-d4083feab0da"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/pages/hello-world/salty_egg.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/hello-world/salty_egg.jpg",
+      "relativePath": "hello-world/salty_egg.jpg",
+      "extension": "jpg",
+      "size": 684322,
+      "prettySize": "684 kB",
+      "modifiedTime": "2018-12-08T10:05:07.886Z",
+      "accessTime": "2018-12-08T10:05:10.325Z",
+      "changeTime": "2018-12-08T10:05:07.886Z",
+      "birthTime": "2018-12-08T10:05:07.885Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/hello-world",
+      "base": "salty_egg.jpg",
+      "ext": ".jpg",
+      "name": "salty_egg",
+      "relativeDirectory": "hello-world",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8617741844,
+      "blocks": 1344,
+      "atimeMs": 1544263510324.8994,
+      "mtimeMs": 1544263507886.3994,
+      "ctimeMs": 1544263507886.3994,
+      "birthtimeMs": 1544263507884.8054,
+      "atime": "2018-12-08T10:05:10.325Z",
+      "mtime": "2018-12-08T10:05:07.886Z",
+      "ctime": "2018-12-08T10:05:07.886Z",
+      "birthtime": "2018-12-08T10:05:07.885Z"
+    },
+    "4845ab5b-d4ae-5309-8604-d4083feab0da": {
+      "id": "4845ab5b-d4ae-5309-8604-d4083feab0da",
+      "children": [],
+      "parent": "b157c9d2-eee9-53b6-a85b-f5c704a10288",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/index.js",
+      "componentChunkName": "component---src-templates-index-js",
+      "context": {
+        "group": [
+          {
+            "node": {
+              "fields": {
+                "slug": "/welcome-to-the-blog/"
+              },
+              "excerpt": "\nWelcome to the new blog, I hope you enjoy your stay! This is an example of how you can control what excerpt shows up.\n\n",
+              "frontmatter": {
+                "title": "Welcome to the Blog!",
+                "date": "July 1, 2018",
+                "featuredImage": {
+                  "childImageSharp": {
+                    "sizes": {
+                      "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGQAAAQUAAAAAAAAAAAAAAAAAAAECAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAB/9oADAMBAAIQAxAAAAHKtownhAs//8QAFxABAQEBAAAAAAAAAAAAAAAAAAIyA//aAAgBAQABBQKIVhxTp//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ASf/xAAWEQADAAAAAAAAAAAAAAAAAAABEEH/2gAIAQIBAT8BNX//xAAZEAEAAgMAAAAAAAAAAAAAAAABABAxQXH/2gAIAQEABj8CgbM08jX/xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhMUFRof/aAAgBAQABPyGR9LoObhCdmZec0f/aAAwDAQACAAMAAAAQiy//xAAYEQACAwAAAAAAAAAAAAAAAAAAAREhYf/aAAgBAwEBPxBIS0o//8QAFxEAAwEAAAAAAAAAAAAAAAAAARARkf/aAAgBAgEBPxAsRf/EAB0QAAIBBAMAAAAAAAAAAAAAAAABETFRgaEhscH/2gAIAQEAAT8QRxOS0RSk2BUVEsWHFuRvTd+Coz2z/9k=",
+                      "aspectRatio": 2.2,
+                      "src": "/static/09591b6c0ecf431ce8117c089d40cc3a/6b3a1/featured.jpg",
+                      "srcSet": "/static/09591b6c0ecf431ce8117c089d40cc3a/182ff/featured.jpg 213w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/7f5c7/featured.jpg 425w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/6b3a1/featured.jpg 850w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/838e8/featured.jpg 1100w",
+                      "sizes": "(max-width: 850px) 100vw, 850px"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "fields": {
+                "slug": "/hello-world/"
+              },
+              "excerpt": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. \n\n",
+              "frontmatter": {
+                "title": "Hello World",
+                "date": "June 30, 2018",
+                "featuredImage": null
+              }
+            }
+          },
+          {
+            "node": {
+              "fields": {
+                "slug": "/another-new-post/"
+              },
+              "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi…",
+              "frontmatter": {
+                "title": "My Second Post!",
+                "date": "June 29, 2018",
+                "featuredImage": null
+              }
+            }
+          }
+        ],
+        "pathPrefix": "",
+        "first": true,
+        "last": true,
+        "index": 1,
+        "pageCount": 1,
+        "additionalContext": {}
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c190135708ec478a71d5d82e9de75510",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /welcome-to-the-blog/": {
+      "jsonName": "welcome-to-the-blog-bfd",
+      "internalComponentName": "ComponentWelcomeToTheBlog",
+      "path": "/welcome-to-the-blog/",
+      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/welcome-to-the-blog/",
+        "previous": {
+          "fields": {
+            "slug": "/hello-world/"
+          },
+          "excerpt": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. \n\n",
+          "frontmatter": {
+            "title": "Hello World",
+            "date": "June 30, 2018",
+            "featuredImage": null
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
+      "id": "SitePage /welcome-to-the-blog/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ffb6e5002987ba6c6c42afb1458bfc6c",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /hello-world/": {
+      "jsonName": "hello-world-8bc",
+      "internalComponentName": "ComponentHelloWorld",
+      "path": "/hello-world/",
+      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/hello-world/",
+        "previous": {
+          "fields": {
+            "slug": "/another-new-post/"
+          },
+          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi…",
+          "frontmatter": {
+            "title": "My Second Post!",
+            "date": "June 29, 2018",
+            "featuredImage": null
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/welcome-to-the-blog/"
+          },
+          "excerpt": "\nWelcome to the new blog, I hope you enjoy your stay! This is an example of how you can control what excerpt shows up.\n\n",
+          "frontmatter": {
+            "title": "Welcome to the Blog!",
+            "date": "July 1, 2018",
+            "featuredImage": {
+              "childImageSharp": {
+                "sizes": {
+                  "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGQAAAQUAAAAAAAAAAAAAAAAAAAECAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAB/9oADAMBAAIQAxAAAAHKtownhAs//8QAFxABAQEBAAAAAAAAAAAAAAAAAAIyA//aAAgBAQABBQKIVhxTp//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ASf/xAAWEQADAAAAAAAAAAAAAAAAAAABEEH/2gAIAQIBAT8BNX//xAAZEAEAAgMAAAAAAAAAAAAAAAABABAxQXH/2gAIAQEABj8CgbM08jX/xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhMUFRof/aAAgBAQABPyGR9LoObhCdmZec0f/aAAwDAQACAAMAAAAQiy//xAAYEQACAwAAAAAAAAAAAAAAAAAAAREhYf/aAAgBAwEBPxBIS0o//8QAFxEAAwEAAAAAAAAAAAAAAAAAARARkf/aAAgBAgEBPxAsRf/EAB0QAAIBBAMAAAAAAAAAAAAAAAABETFRgaEhscH/2gAIAQEAAT8QRxOS0RSk2BUVEsWHFuRvTd+Coz2z/9k=",
+                  "aspectRatio": 2.2,
+                  "src": "/static/09591b6c0ecf431ce8117c089d40cc3a/6b3a1/featured.jpg",
+                  "srcSet": "/static/09591b6c0ecf431ce8117c089d40cc3a/182ff/featured.jpg 213w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/7f5c7/featured.jpg 425w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/6b3a1/featured.jpg 850w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/838e8/featured.jpg 1100w",
+                  "sizes": "(max-width: 850px) 100vw, 850px"
+                }
+              }
+            }
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
+      "id": "SitePage /hello-world/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "99a3dd89f5f29eb74fa6a3f5ca9c184a",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /another-new-post/": {
+      "jsonName": "another-new-post-55e",
+      "internalComponentName": "ComponentAnotherNewPost",
+      "path": "/another-new-post/",
+      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/another-new-post/",
+        "previous": null,
+        "next": {
+          "fields": {
+            "slug": "/hello-world/"
+          },
+          "excerpt": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. \n\n",
+          "frontmatter": {
+            "title": "Hello World",
+            "date": "June 30, 2018",
+            "featuredImage": null
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
+      "id": "SitePage /another-new-post/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a4605fd61309c541135fa0350f90f1fe",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "8f4de126-1fe2-5322-8c6f-8ddda25dee9c",
+      "pluginCreatorId": "8f4de126-1fe2-5322-8c6f-8ddda25dee9c",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "897c132632fe944ce4045d5640f9dc37",
+        "description": "8f4de126-1fe2-5322-8c6f-8ddda25dee9c",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "685cebb405484669b14f082d6d3626c7",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "482977de70ac8d198812aca53af96b93"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "2da92841-571e-570b-86b0-6cdda06d260f": [
+        null,
+        "/welcome-to-the-blog/"
+      ],
+      "Site": [
+        "/welcome-to-the-blog/",
+        "/hello-world/",
+        "/another-new-post/"
+      ],
+      "7a837e08-f30c-5480-968f-a2a27ae121d4": [
+        "/welcome-to-the-blog/"
+      ],
+      "1aeb64ff-3b45-51f4-a00c-018432031c95": [
+        "/hello-world/"
+      ],
+      "842c2812-b5ed-5f9b-af05-88f043d8d013": [
+        "/another-new-post/"
+      ],
+      "aa7fac81-037e-5f7c-ace1-eafda226228a": [
+        "/welcome-to-the-blog/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        null
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "index": "289/path---index-6a9-y65uUhyvVYsHZWAogRFLMIAzUbs",
+    "another-new-post-55e": "447/path---another-new-post-55-e-bff-ZsaO3YBnNrBkPWIdQ5NTxnL0k",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "hello-world-8bc": "936/path---hello-world-8-bc-b62-0ENe8pMHoklUF1KHEed3Em6Mxk",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "welcome-to-the-blog-bfd": "261/path---welcome-to-the-blog-bfd-b21-Z7bwLBV3NCsFIx8TigiRiqH9CM"
+  },
+  "components": {
+    "/Users/shitstorm/Documents/GitHub/devblog/src/templates/index.js": {
+      "query": "",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/index.js"
+    },
+    "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js": {
+      "query": "query BlogPostBySlug(\n  $slug: String!\n) {\n  site {\n    siteMetadata {\n      title\n      author\n    }\n  }\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    id\n    html\n    frontmatter {\n      title\n      date(formatString: \"MMMM DD, YYYY\")\n      featuredImage {\n        childImageSharp {\n          sizes(maxWidth: 850) {\n            ...GatsbyImageSharpSizes\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpSizes on ImageSharpSizes {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js"
+    },
+    "/Users/shitstorm/Documents/GitHub/devblog/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/.cache/dev-404-page.js"
+    },
+    "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js"
+    }
+  },
+  "staticQueryComponents": {}
+}
