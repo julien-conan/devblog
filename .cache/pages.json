@@ -15,19 +15,14 @@
         "path": "/404/"
     },
     {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "another-new-post-55e",
-        "path": "/another-new-post/"
-    },
-    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "hello-world-8bc",
-        "path": "/hello-world/"
+        "jsonName": "road-map-7a4",
+        "path": "/road-map/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",

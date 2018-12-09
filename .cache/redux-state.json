@@ -1407,94 +1407,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "10cba8c5-cfe5-5adf-a990-0357f5f3b47f": {
-      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-manifest",
-      "id": "10cba8c5-cfe5-5adf-a990-0357f5f3b47f",
-      "name": "gatsby-plugin-manifest",
-      "version": "2.0.11",
-      "pluginOptions": {
-        "plugins": [],
-        "name": "Dev Blog",
-        "short_name": "Dev Blog",
-        "start_url": "https://ryanfitzgerald.github.io/devblog/",
-        "background_color": "#fff",
-        "theme_color": "#3498db",
-        "display": "minimal-ui",
-        "icon": "src/main.jpg"
-      },
-      "nodeAPIs": [
-        "onPostBootstrap"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
-      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-manifest",
-      "packageJson": {
-        "name": "gatsby-plugin-manifest",
-        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
-        "version": "2.0.11",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "favicon",
-          "icons",
-          "manifest.webmanifest",
-          "progressive-web-app",
-          "pwa"
-        ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "sharp",
-            "version": "^0.21.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "cd6be3019d5dc7fc054be277f32aea67",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
       "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-offline",
       "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
@@ -1928,20 +1840,20 @@
     "Site": {
       "siteMetadata": {
         "title": "Dev Blog",
-        "author": "Ryan Fitzgerald",
-        "description": "Full-stack Web Developer",
-        "siteUrl": "https://ryanfitzgerald.github.io/devblog/"
+        "author": "Julien Conan",
+        "description": "Full-Stack Web Explorer",
+        "siteUrl": "https://jconan.netlify.com"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "/devblog",
       "polyfill": true,
-      "buildTime": "2018-12-08T10:08:22.109Z",
+      "buildTime": "2018-12-08T11:45:44.280Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4605aa03d022a947f5bc7c750b5e66c2",
+        "contentDigest": "5fac85b35682b443e4858091cb75158e",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1951,7 +1863,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c750d3758cac4caa3fd5490fe8de27b2",
+        "contentDigest": "fd39b0f5cdab5bdb10ba162525f67c2d",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1960,11 +1872,11 @@
       "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages",
       "relativePath": "",
       "extension": "",
-      "size": 192,
-      "prettySize": "192 B",
-      "modifiedTime": "2018-12-08T10:05:07.887Z",
-      "accessTime": "2018-12-08T10:08:27.040Z",
-      "changeTime": "2018-12-08T10:05:07.887Z",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-12-08T11:45:28.975Z",
+      "accessTime": "2018-12-08T11:45:46.721Z",
+      "changeTime": "2018-12-08T11:45:28.975Z",
       "birthTime": "2018-12-08T10:05:07.883Z",
       "root": "/",
       "dir": "/Users/shitstorm/Documents/GitHub/devblog/src",
@@ -1974,153 +1886,21 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 6,
+      "nlink": 7,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 8617741837,
       "blocks": 0,
-      "atimeMs": 1544263707040.0703,
-      "mtimeMs": 1544263507887.243,
-      "ctimeMs": 1544263507887.243,
+      "atimeMs": 1544269546721.4167,
+      "mtimeMs": 1544269528975.496,
+      "ctimeMs": 1544269528975.496,
       "birthtimeMs": 1544263507883.4722,
-      "atime": "2018-12-08T10:08:27.040Z",
-      "mtime": "2018-12-08T10:05:07.887Z",
-      "ctime": "2018-12-08T10:05:07.887Z",
+      "atime": "2018-12-08T11:45:46.721Z",
+      "mtime": "2018-12-08T11:45:28.975Z",
+      "ctime": "2018-12-08T11:45:28.975Z",
       "birthtime": "2018-12-08T10:05:07.883Z"
-    },
-    "b32ca188-476a-55db-9f9f-9c4a5d76202e": {
-      "id": "b32ca188-476a-55db-9f9f-9c4a5d76202e",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "40870365a6be769c739dac59aee348b4",
-        "type": "Directory",
-        "description": "Directory \"src/pages/another-new-post\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/another-new-post",
-      "relativePath": "another-new-post",
-      "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2018-12-08T10:05:07.884Z",
-      "accessTime": "2018-12-08T10:08:27.042Z",
-      "changeTime": "2018-12-08T10:05:07.884Z",
-      "birthTime": "2018-12-08T10:05:07.884Z",
-      "root": "/",
-      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages",
-      "base": "another-new-post",
-      "ext": "",
-      "name": "another-new-post",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 4,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8617741839,
-      "blocks": 0,
-      "atimeMs": 1544263707042.1184,
-      "mtimeMs": 1544263507884.0295,
-      "ctimeMs": 1544263507884.0295,
-      "birthtimeMs": 1544263507883.6995,
-      "atime": "2018-12-08T10:08:27.042Z",
-      "mtime": "2018-12-08T10:05:07.884Z",
-      "ctime": "2018-12-08T10:05:07.884Z",
-      "birthtime": "2018-12-08T10:05:07.884Z"
-    },
-    "b81584ff-ee03-51cb-abee-654839e0e637": {
-      "id": "b81584ff-ee03-51cb-abee-654839e0e637",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "fb3cf6a55c66f8db4841d328a749ee82",
-        "type": "Directory",
-        "description": "Directory \"src/pages/hello-world\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/hello-world",
-      "relativePath": "hello-world",
-      "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2018-12-08T10:05:07.885Z",
-      "accessTime": "2018-12-08T10:08:27.042Z",
-      "changeTime": "2018-12-08T10:05:07.885Z",
-      "birthTime": "2018-12-08T10:05:07.885Z",
-      "root": "/",
-      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages",
-      "base": "hello-world",
-      "ext": "",
-      "name": "hello-world",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 4,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8617741842,
-      "blocks": 0,
-      "atimeMs": 1544263707042.159,
-      "mtimeMs": 1544263507884.8125,
-      "ctimeMs": 1544263507884.8125,
-      "birthtimeMs": 1544263507884.5793,
-      "atime": "2018-12-08T10:08:27.042Z",
-      "mtime": "2018-12-08T10:05:07.885Z",
-      "ctime": "2018-12-08T10:05:07.885Z",
-      "birthtime": "2018-12-08T10:05:07.885Z"
-    },
-    "30befed1-8592-5f57-b826-01817b84e590": {
-      "id": "30befed1-8592-5f57-b826-01817b84e590",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "48c1da2ac19afe2913b05338273dbe2f",
-        "type": "Directory",
-        "description": "Directory \"src/pages/welcome-to-the-blog\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog",
-      "relativePath": "welcome-to-the-blog",
-      "extension": "",
-      "size": 160,
-      "prettySize": "160 B",
-      "modifiedTime": "2018-12-08T10:05:07.888Z",
-      "accessTime": "2018-12-08T10:08:27.042Z",
-      "changeTime": "2018-12-08T10:05:07.888Z",
-      "birthTime": "2018-12-08T10:05:07.887Z",
-      "root": "/",
-      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages",
-      "base": "welcome-to-the-blog",
-      "ext": "",
-      "name": "welcome-to-the-blog",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 5,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8617741845,
-      "blocks": 0,
-      "atimeMs": 1544263707042.1836,
-      "mtimeMs": 1544263507888.0312,
-      "ctimeMs": 1544263507888.0312,
-      "birthtimeMs": 1544263507887.2239,
-      "atime": "2018-12-08T10:08:27.042Z",
-      "mtime": "2018-12-08T10:05:07.888Z",
-      "ctime": "2018-12-08T10:05:07.888Z",
-      "birthtime": "2018-12-08T10:05:07.887Z"
     },
     "ff9bc0cf-2e6c-5445-b3d3-ca2744b81933": {
       "id": "ff9bc0cf-2e6c-5445-b3d3-ca2744b81933",
@@ -2167,82 +1947,167 @@
       "ctime": "2018-12-08T10:05:07.884Z",
       "birthtime": "2018-12-08T10:05:07.884Z"
     },
-    "97dc7b47-1efc-5c72-af46-26d354e0e4fc": {
-      "id": "97dc7b47-1efc-5c72-af46-26d354e0e4fc",
-      "children": [
-        "842c2812-b5ed-5f9b-af05-88f043d8d013"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "22f21e1c8e75ec91b852913fbaba77ee",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/another-new-post/index.md\"",
-        "owner": "gatsby-source-filesystem"
+    "1137e473-e371-554b-a230-34eac6f001cf": {
+      "resolve": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-manifest",
+      "id": "1137e473-e371-554b-a230-34eac6f001cf",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Dev Blog",
+        "short_name": "Dev Blog",
+        "start_url": "https://jconan.netlify.com",
+        "background_color": "#fff",
+        "theme_color": "#3498db",
+        "display": "minimal-ui",
+        "icon": "src/main.jpg"
       },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/another-new-post/index.md",
-      "relativePath": "another-new-post/index.md",
-      "extension": "md",
-      "size": 1031,
-      "prettySize": "1.03 kB",
-      "modifiedTime": "2018-12-08T10:05:07.884Z",
-      "accessTime": "2018-12-08T10:05:09.729Z",
-      "changeTime": "2018-12-08T10:05:07.884Z",
-      "birthTime": "2018-12-08T10:05:07.884Z",
-      "root": "/",
-      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/another-new-post",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "another-new-post",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8617741840,
-      "blocks": 8,
-      "atimeMs": 1544263509728.9275,
-      "mtimeMs": 1544263507883.8875,
-      "ctimeMs": 1544263507883.8875,
-      "birthtimeMs": 1544263507883.7864,
-      "atime": "2018-12-08T10:05:09.729Z",
-      "mtime": "2018-12-08T10:05:07.884Z",
-      "ctime": "2018-12-08T10:05:07.884Z",
-      "birthtime": "2018-12-08T10:05:07.884Z"
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "93a575d8c47ecbac1facf39e013ae75e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
     },
-    "21cf071e-186c-52f6-882e-3041ab2fc69b": {
-      "id": "21cf071e-186c-52f6-882e-3041ab2fc69b",
-      "children": [
-        "1aeb64ff-3b45-51f4-a00c-018432031c95"
-      ],
+    "be053015-596e-5b9b-a5ba-859ae86e3ae9": {
+      "id": "be053015-596e-5b9b-a5ba-859ae86e3ae9",
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "0309496623bf5d8ddb2acc36a4b07aaf",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/hello-world/index.md\"",
+        "contentDigest": "93b4d02297f5715e5205b55bec6ff97b",
+        "type": "Directory",
+        "description": "Directory \"src/pages/road-map\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/hello-world/index.md",
-      "relativePath": "hello-world/index.md",
-      "extension": "md",
-      "size": 2602,
-      "prettySize": "2.6 kB",
-      "modifiedTime": "2018-12-08T10:05:07.885Z",
-      "accessTime": "2018-12-08T10:05:07.885Z",
-      "changeTime": "2018-12-08T10:05:07.885Z",
-      "birthTime": "2018-12-08T10:05:07.885Z",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/road-map",
+      "relativePath": "road-map",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-12-08T11:43:26.401Z",
+      "accessTime": "2018-12-08T11:45:46.724Z",
+      "changeTime": "2018-12-08T11:45:17.428Z",
+      "birthTime": "2018-12-08T11:27:47.315Z",
       "root": "/",
-      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/hello-world",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages",
+      "base": "road-map",
+      "ext": "",
+      "name": "road-map",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8617871244,
+      "blocks": 0,
+      "atimeMs": 1544269546723.678,
+      "mtimeMs": 1544269406401.3313,
+      "ctimeMs": 1544269517427.589,
+      "birthtimeMs": 1544268467315.212,
+      "atime": "2018-12-08T11:45:46.724Z",
+      "mtime": "2018-12-08T11:43:26.401Z",
+      "ctime": "2018-12-08T11:45:17.428Z",
+      "birthtime": "2018-12-08T11:27:47.315Z"
+    },
+    "85d7d9f9-c7f8-5f1e-b195-cbe5c3b0c46c": {
+      "id": "85d7d9f9-c7f8-5f1e-b195-cbe5c3b0c46c",
+      "children": [
+        "ca339aef-a812-5884-98e7-3c4d5f55cf27"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "eb2b48eb26c9ed61537459691c78bcc8",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/road-map/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/road-map/index.md",
+      "relativePath": "road-map/index.md",
+      "extension": "md",
+      "size": 8056,
+      "prettySize": "8.06 kB",
+      "modifiedTime": "2018-12-08T11:55:35.080Z",
+      "accessTime": "2018-12-08T11:55:35.080Z",
+      "changeTime": "2018-12-08T11:55:35.080Z",
+      "birthTime": "2018-12-08T11:27:47.321Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/road-map",
       "base": "index.md",
       "ext": ".md",
       "name": "index",
-      "relativeDirectory": "hello-world",
+      "relativeDirectory": "road-map",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -2250,16 +2115,117 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8617741843,
-      "blocks": 8,
-      "atimeMs": 1544263507884.6416,
-      "mtimeMs": 1544263507884.721,
-      "ctimeMs": 1544263507884.721,
-      "birthtimeMs": 1544263507884.6416,
-      "atime": "2018-12-08T10:05:07.885Z",
-      "mtime": "2018-12-08T10:05:07.885Z",
-      "ctime": "2018-12-08T10:05:07.885Z",
-      "birthtime": "2018-12-08T10:05:07.885Z"
+      "ino": 8617871247,
+      "blocks": 16,
+      "atimeMs": 1544270135079.7737,
+      "mtimeMs": 1544270135080.1934,
+      "ctimeMs": 1544270135080.1934,
+      "birthtimeMs": 1544268467321.1836,
+      "atime": "2018-12-08T11:55:35.080Z",
+      "mtime": "2018-12-08T11:55:35.080Z",
+      "ctime": "2018-12-08T11:55:35.080Z",
+      "birthtime": "2018-12-08T11:27:47.321Z"
+    },
+    "98c28976-de97-5522-8c88-7d8b9d7919a3": {
+      "id": "98c28976-de97-5522-8c88-7d8b9d7919a3",
+      "children": [
+        "1531f187-6496-588d-9fb8-5d313d4f1476"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a36bdd86f732bc910b6582d29adae291",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/pages/road-map/space.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/road-map/space.jpg",
+      "relativePath": "road-map/space.jpg",
+      "extension": "jpg",
+      "size": 44765,
+      "prettySize": "44.8 kB",
+      "modifiedTime": "2018-12-08T11:43:19.783Z",
+      "accessTime": "2018-12-08T11:45:17.428Z",
+      "changeTime": "2018-12-08T11:43:19.784Z",
+      "birthTime": "2018-12-08T10:05:07.888Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/road-map",
+      "base": "space.jpg",
+      "ext": ".jpg",
+      "name": "space",
+      "relativeDirectory": "road-map",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8617741848,
+      "blocks": 88,
+      "atimeMs": 1544269517428.2444,
+      "mtimeMs": 1544269399783,
+      "ctimeMs": 1544269399784.0488,
+      "birthtimeMs": 1544263507888.0247,
+      "atime": "2018-12-08T11:45:17.428Z",
+      "mtime": "2018-12-08T11:43:19.783Z",
+      "ctime": "2018-12-08T11:43:19.784Z",
+      "birthtime": "2018-12-08T10:05:07.888Z"
+    },
+    "1531f187-6496-588d-9fb8-5d313d4f1476": {
+      "id": "1531f187-6496-588d-9fb8-5d313d4f1476",
+      "children": [],
+      "parent": "98c28976-de97-5522-8c88-7d8b9d7919a3",
+      "internal": {
+        "contentDigest": "a36bdd86f732bc910b6582d29adae291",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "30befed1-8592-5f57-b826-01817b84e590": {
+      "id": "30befed1-8592-5f57-b826-01817b84e590",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "878250c40d86b0b429ea0c0ada5ad92f",
+        "type": "Directory",
+        "description": "Directory \"src/pages/welcome-to-the-blog\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog",
+      "relativePath": "welcome-to-the-blog",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-12-08T11:43:19.784Z",
+      "accessTime": "2018-12-08T11:45:46.724Z",
+      "changeTime": "2018-12-08T11:45:28.975Z",
+      "birthTime": "2018-12-08T10:05:07.887Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages",
+      "base": "welcome-to-the-blog",
+      "ext": "",
+      "name": "welcome-to-the-blog",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8617741845,
+      "blocks": 0,
+      "atimeMs": 1544269546723.692,
+      "mtimeMs": 1544269399783.5898,
+      "ctimeMs": 1544269528975.496,
+      "birthtimeMs": 1544263507887.2239,
+      "atime": "2018-12-08T11:45:46.724Z",
+      "mtime": "2018-12-08T11:43:19.784Z",
+      "ctime": "2018-12-08T11:45:28.975Z",
+      "birthtime": "2018-12-08T10:05:07.887Z"
     },
     "29738dd3-aaef-59a1-a3b4-47a7790fe6f8": {
       "id": "29738dd3-aaef-59a1-a3b4-47a7790fe6f8",
@@ -2268,7 +2234,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3aa43cb9435de0a4e8cf8becbc0b0bcc",
+        "contentDigest": "37512bab068235f1a93b5990a19cc4db",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/welcome-to-the-blog/index.md\"",
@@ -2278,11 +2244,11 @@
       "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog/index.md",
       "relativePath": "welcome-to-the-blog/index.md",
       "extension": "md",
-      "size": 4975,
-      "prettySize": "4.97 kB",
-      "modifiedTime": "2018-12-08T10:05:07.888Z",
-      "accessTime": "2018-12-08T10:05:07.888Z",
-      "changeTime": "2018-12-08T10:05:07.888Z",
+      "size": 1004,
+      "prettySize": "1 kB",
+      "modifiedTime": "2018-12-08T11:27:16.174Z",
+      "accessTime": "2018-12-08T11:27:48.372Z",
+      "changeTime": "2018-12-08T11:27:16.174Z",
       "birthTime": "2018-12-08T10:05:07.888Z",
       "root": "/",
       "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog",
@@ -2298,119 +2264,15 @@
       "rdev": 0,
       "blksize": 4096,
       "ino": 8617741847,
-      "blocks": 16,
-      "atimeMs": 1544263507887.8513,
-      "mtimeMs": 1544263507887.9473,
-      "ctimeMs": 1544263507887.9473,
+      "blocks": 8,
+      "atimeMs": 1544268468372.0818,
+      "mtimeMs": 1544268436173.958,
+      "ctimeMs": 1544268436173.958,
       "birthtimeMs": 1544263507887.8513,
-      "atime": "2018-12-08T10:05:07.888Z",
-      "mtime": "2018-12-08T10:05:07.888Z",
-      "ctime": "2018-12-08T10:05:07.888Z",
+      "atime": "2018-12-08T11:27:48.372Z",
+      "mtime": "2018-12-08T11:27:16.174Z",
+      "ctime": "2018-12-08T11:27:16.174Z",
       "birthtime": "2018-12-08T10:05:07.888Z"
-    },
-    "82e0cf6e-1c74-57a7-8002-d2fd6fc759fa": {
-      "id": "82e0cf6e-1c74-57a7-8002-d2fd6fc759fa",
-      "children": [
-        "bb2d71bc-5f47-5b1f-a754-6e9f71cdaf08"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "a36bdd86f732bc910b6582d29adae291",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/pages/welcome-to-the-blog/space.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog/space.jpg",
-      "relativePath": "welcome-to-the-blog/space.jpg",
-      "extension": "jpg",
-      "size": 44765,
-      "prettySize": "44.8 kB",
-      "modifiedTime": "2018-12-08T10:05:07.888Z",
-      "accessTime": "2018-12-08T10:05:09.604Z",
-      "changeTime": "2018-12-08T10:05:07.888Z",
-      "birthTime": "2018-12-08T10:05:07.888Z",
-      "root": "/",
-      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog",
-      "base": "space.jpg",
-      "ext": ".jpg",
-      "name": "space",
-      "relativeDirectory": "welcome-to-the-blog",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8617741848,
-      "blocks": 88,
-      "atimeMs": 1544263509603.763,
-      "mtimeMs": 1544263507888.3254,
-      "ctimeMs": 1544263507888.3254,
-      "birthtimeMs": 1544263507888.0247,
-      "atime": "2018-12-08T10:05:09.604Z",
-      "mtime": "2018-12-08T10:05:07.888Z",
-      "ctime": "2018-12-08T10:05:07.888Z",
-      "birthtime": "2018-12-08T10:05:07.888Z"
-    },
-    "607f35a8-a4a7-5e89-a2ad-e8cb612b8731": {
-      "id": "607f35a8-a4a7-5e89-a2ad-e8cb612b8731",
-      "children": [
-        "22677f3b-0ba9-580b-a897-c7a3e50bd163"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "a6bff11fd84ef0a7e78d1abedda1165c",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/pages/another-new-post/traintrack.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/another-new-post/traintrack.jpg",
-      "relativePath": "another-new-post/traintrack.jpg",
-      "extension": "jpg",
-      "size": 89880,
-      "prettySize": "89.9 kB",
-      "modifiedTime": "2018-12-08T10:05:07.884Z",
-      "accessTime": "2018-12-08T10:05:10.325Z",
-      "changeTime": "2018-12-08T10:05:07.884Z",
-      "birthTime": "2018-12-08T10:05:07.884Z",
-      "root": "/",
-      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/another-new-post",
-      "base": "traintrack.jpg",
-      "ext": ".jpg",
-      "name": "traintrack",
-      "relativeDirectory": "another-new-post",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8617741841,
-      "blocks": 176,
-      "atimeMs": 1544263510324.9746,
-      "mtimeMs": 1544263507884.471,
-      "ctimeMs": 1544263507884.471,
-      "birthtimeMs": 1544263507884.0178,
-      "atime": "2018-12-08T10:05:10.325Z",
-      "mtime": "2018-12-08T10:05:07.884Z",
-      "ctime": "2018-12-08T10:05:07.884Z",
-      "birthtime": "2018-12-08T10:05:07.884Z"
-    },
-    "bb2d71bc-5f47-5b1f-a754-6e9f71cdaf08": {
-      "id": "bb2d71bc-5f47-5b1f-a754-6e9f71cdaf08",
-      "children": [],
-      "parent": "82e0cf6e-1c74-57a7-8002-d2fd6fc759fa",
-      "internal": {
-        "contentDigest": "a36bdd86f732bc910b6582d29adae291",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "2da92841-571e-570b-86b0-6cdda06d260f": {
       "id": "2da92841-571e-570b-86b0-6cdda06d260f",
@@ -2432,7 +2294,7 @@
       "size": 67290,
       "prettySize": "67.3 kB",
       "modifiedTime": "2018-12-08T10:05:07.888Z",
-      "accessTime": "2018-12-08T10:05:09.603Z",
+      "accessTime": "2018-12-08T11:45:28.976Z",
       "changeTime": "2018-12-08T10:05:07.888Z",
       "birthTime": "2018-12-08T10:05:07.887Z",
       "root": "/",
@@ -2450,24 +2312,14 @@
       "blksize": 4096,
       "ino": 8617741846,
       "blocks": 136,
-      "atimeMs": 1544263509603.2688,
+      "atimeMs": 1544269528976.1165,
       "mtimeMs": 1544263507887.7146,
       "ctimeMs": 1544263507887.7146,
       "birthtimeMs": 1544263507887.295,
-      "atime": "2018-12-08T10:05:09.603Z",
+      "atime": "2018-12-08T11:45:28.976Z",
       "mtime": "2018-12-08T10:05:07.888Z",
       "ctime": "2018-12-08T10:05:07.888Z",
       "birthtime": "2018-12-08T10:05:07.887Z"
-    },
-    "22677f3b-0ba9-580b-a897-c7a3e50bd163": {
-      "id": "22677f3b-0ba9-580b-a897-c7a3e50bd163",
-      "children": [],
-      "parent": "607f35a8-a4a7-5e89-a2ad-e8cb612b8731",
-      "internal": {
-        "contentDigest": "a6bff11fd84ef0a7e78d1abedda1165c",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "aa7fac81-037e-5f7c-ace1-eafda226228a": {
       "id": "aa7fac81-037e-5f7c-ace1-eafda226228a",
@@ -2479,111 +2331,61 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "842c2812-b5ed-5f9b-af05-88f043d8d013": {
-      "id": "842c2812-b5ed-5f9b-af05-88f043d8d013",
-      "children": [],
-      "parent": "97dc7b47-1efc-5c72-af46-26d354e0e4fc",
-      "internal": {
-        "content": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. Fusce at pharetra diam. Sed eget erat nibh. Nulla condimentum eros a nisi placerat, nec ultrices arcu dictum. Vestibulum nec elementum mi, id tempor ligula. \n\nEtiam ut lectus ac quam facilisis sodales. Donec laoreet justo id diam aliquet aliquet. Vivamus arcu est, varius in erat non, pharetra pulvinar magna. Fusce quis elementum nulla.\n\n![Train Tracks](./traintrack.jpg)\n\nNullam tristique ante quis gravida aliquet. Donec elementum, leo eu interdum mattis, erat quam vestibulum nunc, nec convallis eros risus ut enim. Sed maximus odio tincidunt velit congue molestie. Nunc in pharetra eros, id pulvinar justo. Pellentesque quis accumsan leo. Praesent efficitur magna a posuere viverra. Morbi sit amet tincidunt mauris. Vestibulum sed maximus felis.\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "6089a4c31b1a0eec8a877171cae16a03",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "My Second Post!",
-        "date": "2018-06-29",
-        "_PARENT": "97dc7b47-1efc-5c72-af46-26d354e0e4fc"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. Fusce at pharetra diam. Sed eget erat nibh. Nulla condimentum eros a nisi placerat, nec ultrices arcu dictum. Vestibulum nec elementum mi, id tempor ligula. \n\nEtiam ut lectus ac quam facilisis sodales. Donec laoreet justo id diam aliquet aliquet. Vivamus arcu est, varius in erat non, pharetra pulvinar magna. Fusce quis elementum nulla.\n\n![Train Tracks](./traintrack.jpg)\n\nNullam tristique ante quis gravida aliquet. Donec elementum, leo eu interdum mattis, erat quam vestibulum nunc, nec convallis eros risus ut enim. Sed maximus odio tincidunt velit congue molestie. Nunc in pharetra eros, id pulvinar justo. Pellentesque quis accumsan leo. Praesent efficitur magna a posuere viverra. Morbi sit amet tincidunt mauris. Vestibulum sed maximus felis.\n",
-      "fileAbsolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/another-new-post/index.md",
-      "fields": {
-        "slug": "/another-new-post/"
-      }
-    },
-    "1aeb64ff-3b45-51f4-a00c-018432031c95": {
-      "id": "1aeb64ff-3b45-51f4-a00c-018432031c95",
-      "children": [],
-      "parent": "21cf071e-186c-52f6-882e-3041ab2fc69b",
-      "internal": {
-        "content": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. \n\n<!-- end -->\n\nFusce at pharetra diam. Sed eget erat nibh. Nulla condimentum eros a nisi placerat, nec ultrices arcu dictum. Vestibulum nec elementum mi, id tempor ligula. Etiam ut lectus ac quam facilisis sodales. Donec laoreet justo id diam aliquet aliquet. Vivamus arcu est, varius in erat non, pharetra pulvinar magna. Fusce quis elementum nulla.\n\nNullam tristique ante quis gravida aliquet. Donec elementum, leo eu interdum mattis, erat quam vestibulum nunc, nec convallis eros risus ut enim. Sed maximus odio tincidunt velit congue molestie. Nunc in pharetra eros, id pulvinar justo. Pellentesque quis accumsan leo. Praesent efficitur magna a posuere viverra. Morbi sit amet tincidunt mauris. Vestibulum sed maximus felis. Proin in tellus eu nisi dictum posuere eu id felis. Donec eget mi sit amet neque efficitur suscipit ut ut neque. Vivamus egestas, augue vitae vestibulum feugiat, lorem elit lobortis nulla, eget ornare arcu ipsum ac lacus. Proin a suscipit ligula, non facilisis nibh. Nunc et eros magna.\n\n>Aenean quis nisi eros. Praesent a libero et ante sagittis dictum eget id ipsum. Duis sit amet bibendum justo. Morbi faucibus vehicula bibendum. Praesent ornare hendrerit commodo. Praesent sit amet nisi mauris. Aenean maximus pharetra lacinia. Praesent efficitur erat id dolor laoreet rhoncus. Cras eu efficitur arcu. Nunc pretium, nunc sit amet rutrum molestie, arcu nisi tempus ligula, eu dapibus leo tortor in quam.\n\nVivamus viverra id ipsum nec hendrerit. Fusce mollis enim et ultricies varius. Nam at dictum augue, id dictum augue. Fusce laoreet purus id iaculis cursus. Donec non velit est. Integer pellentesque viverra sapien, id rhoncus ipsum dictum ac. Aliquam vel maximus tortor, vitae interdum turpis. Etiam egestas elementum massa, id dictum magna suscipit vel. Curabitur mi tellus, pharetra eget nisi vitae, blandit vulputate nibh. Aenean tincidunt purus eu feugiat pulvinar. Maecenas quis laoreet lorem, a molestie urna. Cras iaculis justo elit, nec venenatis ante sollicitudin a. Cras eu pellentesque arcu, sit amet auctor felis.\n\n```javascript\n$(document).ready(function() {\n    console.log('Welcome!');\n})\n```\n\nCurabitur non blandit dui. Maecenas in ipsum nec leo pellentesque sodales et nec quam. Ut ut facilisis metus, sit amet aliquam nibh. Quisque blandit dui quis augue dictum vehicula.",
-        "type": "MarkdownRemark",
-        "contentDigest": "db615842307f02e0dfe4250dd63e2739",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Hello World",
-        "date": "2018-06-30",
-        "_PARENT": "21cf071e-186c-52f6-882e-3041ab2fc69b"
-      },
-      "excerpt": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. \n\n",
-      "rawMarkdownBody": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. \n\n<!-- end -->\n\nFusce at pharetra diam. Sed eget erat nibh. Nulla condimentum eros a nisi placerat, nec ultrices arcu dictum. Vestibulum nec elementum mi, id tempor ligula. Etiam ut lectus ac quam facilisis sodales. Donec laoreet justo id diam aliquet aliquet. Vivamus arcu est, varius in erat non, pharetra pulvinar magna. Fusce quis elementum nulla.\n\nNullam tristique ante quis gravida aliquet. Donec elementum, leo eu interdum mattis, erat quam vestibulum nunc, nec convallis eros risus ut enim. Sed maximus odio tincidunt velit congue molestie. Nunc in pharetra eros, id pulvinar justo. Pellentesque quis accumsan leo. Praesent efficitur magna a posuere viverra. Morbi sit amet tincidunt mauris. Vestibulum sed maximus felis. Proin in tellus eu nisi dictum posuere eu id felis. Donec eget mi sit amet neque efficitur suscipit ut ut neque. Vivamus egestas, augue vitae vestibulum feugiat, lorem elit lobortis nulla, eget ornare arcu ipsum ac lacus. Proin a suscipit ligula, non facilisis nibh. Nunc et eros magna.\n\n>Aenean quis nisi eros. Praesent a libero et ante sagittis dictum eget id ipsum. Duis sit amet bibendum justo. Morbi faucibus vehicula bibendum. Praesent ornare hendrerit commodo. Praesent sit amet nisi mauris. Aenean maximus pharetra lacinia. Praesent efficitur erat id dolor laoreet rhoncus. Cras eu efficitur arcu. Nunc pretium, nunc sit amet rutrum molestie, arcu nisi tempus ligula, eu dapibus leo tortor in quam.\n\nVivamus viverra id ipsum nec hendrerit. Fusce mollis enim et ultricies varius. Nam at dictum augue, id dictum augue. Fusce laoreet purus id iaculis cursus. Donec non velit est. Integer pellentesque viverra sapien, id rhoncus ipsum dictum ac. Aliquam vel maximus tortor, vitae interdum turpis. Etiam egestas elementum massa, id dictum magna suscipit vel. Curabitur mi tellus, pharetra eget nisi vitae, blandit vulputate nibh. Aenean tincidunt purus eu feugiat pulvinar. Maecenas quis laoreet lorem, a molestie urna. Cras iaculis justo elit, nec venenatis ante sollicitudin a. Cras eu pellentesque arcu, sit amet auctor felis.\n\n```javascript\n$(document).ready(function() {\n    console.log('Welcome!');\n})\n```\n\nCurabitur non blandit dui. Maecenas in ipsum nec leo pellentesque sodales et nec quam. Ut ut facilisis metus, sit amet aliquam nibh. Quisque blandit dui quis augue dictum vehicula.",
-      "fileAbsolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/hello-world/index.md",
-      "fields": {
-        "slug": "/hello-world/"
-      }
-    },
     "7a837e08-f30c-5480-968f-a2a27ae121d4": {
       "id": "7a837e08-f30c-5480-968f-a2a27ae121d4",
       "children": [],
       "parent": "29738dd3-aaef-59a1-a3b4-47a7790fe6f8",
       "internal": {
-        "content": "\nWelcome to the new blog, I hope you enjoy your stay! This is an example of how you can control what excerpt shows up.\n\n<!-- end -->\n\n## Lorem ipsum dolor sit amet, consectetur adipiscing elit\n\nSed urna justo, scelerisque consectetur pharetra vitae, facilisis vel diam. Maecenas auctor enim a volutpat mattis. Morbi sit amet turpis a purus ornare pellentesque sit amet et ipsum. Suspendisse imperdiet mi at felis aliquet, nec consectetur arcu dignissim. Sed vitae diam maximus, maximus diam ac, scelerisque mi.\n\n*   Morbi sit amet turpis a purus\n*   Etiam tempor ultricies mi\n    *   Maecenas auctor enim a volutpat mattis\n*   Sed urna justo, scelerisque consectetur pharetra vitae\n\nNam nec augue vel nisl placerat faucibus. Donec congue **nulla quis nunc** sagittis placerat. Pellentesque non tincidunt velit, cursus porttitor tellus. Suspendisse pulvinar tortor at _augue aliquam sagittis_. Duis non pulvinar augue. Ut tristique dignissim ligula, eget tempus diam molestie non. Nulla ultrices eleifend rutrum. Mauris convallis sollicitudin dui, pulvinar suscipit velit. Maecenas viverra finibus metus vitae blandit.\n\n### Pellentesque consectetur facilisis venenatis\n\nNam ullamcorper, orci nec tempor hendrerit, lorem nunc laoreet diam, vel gravida sem mi quis augue. Nunc odio velit, facilisis quis dictum non, facilisis quis felis. Vivamus [elementum dapibus nibh](https://google.com), eget aliquet nunc luctus maximus. Sed finibus risus eget ultrices maximus. Aliquam commodo consectetur diam eget tristique. Nunc quis erat quis felis fringilla tempus. Cras tempor nibh dolor, ac lacinia lacus ultrices eu.\n\n> Quisque tempor nulla turpis, ut placerat arcu lobortis nec. Aenean sed vehicula nisi. Nullam vitae placerat enim. Etiam hendrerit enim vel tempor fermentum. Morbi rutrum euismod ipsum a luctus.\n\nMorbi et libero id metus tempor imperdiet eget non mi. Mauris pulvinar quis enim at placerat. Vestibulum vitae dapibus lectus, ut elementum est.\n\n### Pellentesque facilisis venenatis mi, sit amet molestie nisl ornare et\n\nMorbi posuere facilisis eros vel euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam malesuada dapibus dolor non cursus. Sed in turpis justo. Cras sed hendrerit nulla. Sed ornare, leo et suscipit tincidunt, justo diam sollicitudin risus, vitae vulputate nulla augue et lacus.\n\n1.  Morbi posuere facilisis\n2.  Pellentesque habitant morbi tristique\n3.  Etiam malesuada dapibus\n\nUt vel ligula ante. Proin quis metus magna. Nulla nec dui vulputate, semper orci in, sagittis dolor. Mauris dictum neque non fermentum consectetur. Integer vel pellentesque ex, ut tincidunt quam.\n\n#### Sed ac orci a dolor venenatis vulputate\n\nSed sollicitudin, turpis ac malesuada dapibus, magna dui semper orci, in congue justo felis quis ante. Phasellus consequat et dolor fringilla accumsan. Pellentesque ullamcorper porttitor dolor et imperdiet.\n\n![Space](./space.jpg)\n\nPellentesque consectetur facilisis venenatis. Nam ullamcorper, orci nec tempor hendrerit, lorem nunc laoreet diam, vel gravida sem mi quis augue. Nunc odio velit, facilisis quis dictum non, facilisis quis felis. Vivamus elementum dapibus nibh, eget aliquet nunc luctus maximus. Sed finibus risus eget ultrices maximus. Aliquam commodo consectetur diam eget tristique. Nunc quis erat quis felis fringilla tempus. Cras tempor nibh dolor, ac lacinia lacus ultrices eu.\n\n##### Nulla nec dui vulputate, semper orci in, sagittis dolor\n\nMauris dictum neque non fermentum consectetur. Integer vel pellentesque ex, ut tincidunt quam. Sed ac orci a dolor venenatis vulputate. Sed sollicitudin, turpis ac malesuada dapibus, magna dui semper orci, in congue justo felis quis ante. Phasellus consequat et dolor fringilla accumsan. Pellentesque ullamcorper porttitor dolor et imperdiet.\n\n```javascript\n$(document).ready(function() {\n    console.log('More jQuery, wow!')\n})\n```\n\n###### ras aliquet ipsum ut enim pellentesque, id varius quam placerat\n\nMaecenas non scelerisque leo. Sed id purus fringilla, consequat magna non, faucibus neque. Cras ornare nisi a lectus ultricies convallis. Integer tristique dictum eros, et elementum ante consectetur eget. Phasellus sollicitudin est vestibulum suscipit pellentesque. Duis in eros cursus magna laoreet aliquam vel a lectus. Nulla ut nisi vitae ipsum sollicitudin vestibulum. Aenean sit amet mattis odio. Vestibulum ultrices sed ipsum nec pretium. Integer non turpis nunc. Praesent tincidunt tincidunt alique\n\nInteger mollis dolor non libero placerat, ut efficitur nisi ultricies. Etiam ac lacinia urna, eget ornare nunc. Suspendisse eget eros id turpis gravida semper. Duis ornare lorem et est pellentesque, quis rhoncus leo vestibulum. Nullam eu nulla ut elit rutrum iaculis. Cras a laoreet elit, in aliquet erat. Sed interdum varius posuere. Pellentesque eget luctus erat. Nam quis sem in ligula efficitur bibendum.",
+        "content": "\nWelcome to my new blog, I hope you enjoy your stay! Fasten your seatbelts, decrease ambient lights, and follow me.\n\n<!-- end -->\n\n## Who am I ?\n\nFrench generalist engineer, dedicated to software programming since 2012. I started professional coding in a research laboratory environement, where aeronautics or military customers where focus on system ergonomics analysis, and developing innovative features through off-the-shelves methods or absolutely new devices. Among others, I also worked in more creative environment like dance performances, and kids workshop around virtual and augmented reality too.\n\n```javascript\n        Unlearn. Observe and do things with Intention.\n```\n\nCuriosity drives my cravings, unknown territories are my fields of actions, and I really like that!\nComments sections will be added soon. Meanwhile, you can contact me at this adress : jconan@outlook.fr\n\n![alt text](./B51.jpg \"J-Conan\")",
         "type": "MarkdownRemark",
-        "contentDigest": "bc9f8a41adbc0ca0fb76319ba6821d73",
+        "contentDigest": "0e715d379bdfc8004e4e93df395378ea",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "Welcome to the Blog!",
-        "date": "2018-07-01",
+        "title": "Welcome, Stranger!",
+        "date": "2018-12-08",
         "featuredImage": "./featured.jpg",
         "_PARENT": "29738dd3-aaef-59a1-a3b4-47a7790fe6f8"
       },
-      "excerpt": "\nWelcome to the new blog, I hope you enjoy your stay! This is an example of how you can control what excerpt shows up.\n\n",
-      "rawMarkdownBody": "\nWelcome to the new blog, I hope you enjoy your stay! This is an example of how you can control what excerpt shows up.\n\n<!-- end -->\n\n## Lorem ipsum dolor sit amet, consectetur adipiscing elit\n\nSed urna justo, scelerisque consectetur pharetra vitae, facilisis vel diam. Maecenas auctor enim a volutpat mattis. Morbi sit amet turpis a purus ornare pellentesque sit amet et ipsum. Suspendisse imperdiet mi at felis aliquet, nec consectetur arcu dignissim. Sed vitae diam maximus, maximus diam ac, scelerisque mi.\n\n*   Morbi sit amet turpis a purus\n*   Etiam tempor ultricies mi\n    *   Maecenas auctor enim a volutpat mattis\n*   Sed urna justo, scelerisque consectetur pharetra vitae\n\nNam nec augue vel nisl placerat faucibus. Donec congue **nulla quis nunc** sagittis placerat. Pellentesque non tincidunt velit, cursus porttitor tellus. Suspendisse pulvinar tortor at _augue aliquam sagittis_. Duis non pulvinar augue. Ut tristique dignissim ligula, eget tempus diam molestie non. Nulla ultrices eleifend rutrum. Mauris convallis sollicitudin dui, pulvinar suscipit velit. Maecenas viverra finibus metus vitae blandit.\n\n### Pellentesque consectetur facilisis venenatis\n\nNam ullamcorper, orci nec tempor hendrerit, lorem nunc laoreet diam, vel gravida sem mi quis augue. Nunc odio velit, facilisis quis dictum non, facilisis quis felis. Vivamus [elementum dapibus nibh](https://google.com), eget aliquet nunc luctus maximus. Sed finibus risus eget ultrices maximus. Aliquam commodo consectetur diam eget tristique. Nunc quis erat quis felis fringilla tempus. Cras tempor nibh dolor, ac lacinia lacus ultrices eu.\n\n> Quisque tempor nulla turpis, ut placerat arcu lobortis nec. Aenean sed vehicula nisi. Nullam vitae placerat enim. Etiam hendrerit enim vel tempor fermentum. Morbi rutrum euismod ipsum a luctus.\n\nMorbi et libero id metus tempor imperdiet eget non mi. Mauris pulvinar quis enim at placerat. Vestibulum vitae dapibus lectus, ut elementum est.\n\n### Pellentesque facilisis venenatis mi, sit amet molestie nisl ornare et\n\nMorbi posuere facilisis eros vel euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam malesuada dapibus dolor non cursus. Sed in turpis justo. Cras sed hendrerit nulla. Sed ornare, leo et suscipit tincidunt, justo diam sollicitudin risus, vitae vulputate nulla augue et lacus.\n\n1.  Morbi posuere facilisis\n2.  Pellentesque habitant morbi tristique\n3.  Etiam malesuada dapibus\n\nUt vel ligula ante. Proin quis metus magna. Nulla nec dui vulputate, semper orci in, sagittis dolor. Mauris dictum neque non fermentum consectetur. Integer vel pellentesque ex, ut tincidunt quam.\n\n#### Sed ac orci a dolor venenatis vulputate\n\nSed sollicitudin, turpis ac malesuada dapibus, magna dui semper orci, in congue justo felis quis ante. Phasellus consequat et dolor fringilla accumsan. Pellentesque ullamcorper porttitor dolor et imperdiet.\n\n![Space](./space.jpg)\n\nPellentesque consectetur facilisis venenatis. Nam ullamcorper, orci nec tempor hendrerit, lorem nunc laoreet diam, vel gravida sem mi quis augue. Nunc odio velit, facilisis quis dictum non, facilisis quis felis. Vivamus elementum dapibus nibh, eget aliquet nunc luctus maximus. Sed finibus risus eget ultrices maximus. Aliquam commodo consectetur diam eget tristique. Nunc quis erat quis felis fringilla tempus. Cras tempor nibh dolor, ac lacinia lacus ultrices eu.\n\n##### Nulla nec dui vulputate, semper orci in, sagittis dolor\n\nMauris dictum neque non fermentum consectetur. Integer vel pellentesque ex, ut tincidunt quam. Sed ac orci a dolor venenatis vulputate. Sed sollicitudin, turpis ac malesuada dapibus, magna dui semper orci, in congue justo felis quis ante. Phasellus consequat et dolor fringilla accumsan. Pellentesque ullamcorper porttitor dolor et imperdiet.\n\n```javascript\n$(document).ready(function() {\n    console.log('More jQuery, wow!')\n})\n```\n\n###### ras aliquet ipsum ut enim pellentesque, id varius quam placerat\n\nMaecenas non scelerisque leo. Sed id purus fringilla, consequat magna non, faucibus neque. Cras ornare nisi a lectus ultricies convallis. Integer tristique dictum eros, et elementum ante consectetur eget. Phasellus sollicitudin est vestibulum suscipit pellentesque. Duis in eros cursus magna laoreet aliquam vel a lectus. Nulla ut nisi vitae ipsum sollicitudin vestibulum. Aenean sit amet mattis odio. Vestibulum ultrices sed ipsum nec pretium. Integer non turpis nunc. Praesent tincidunt tincidunt alique\n\nInteger mollis dolor non libero placerat, ut efficitur nisi ultricies. Etiam ac lacinia urna, eget ornare nunc. Suspendisse eget eros id turpis gravida semper. Duis ornare lorem et est pellentesque, quis rhoncus leo vestibulum. Nullam eu nulla ut elit rutrum iaculis. Cras a laoreet elit, in aliquet erat. Sed interdum varius posuere. Pellentesque eget luctus erat. Nam quis sem in ligula efficitur bibendum.",
+      "excerpt": "\nWelcome to my new blog, I hope you enjoy your stay! Fasten your seatbelts, decrease ambient lights, and follow me.\n\n",
+      "rawMarkdownBody": "\nWelcome to my new blog, I hope you enjoy your stay! Fasten your seatbelts, decrease ambient lights, and follow me.\n\n<!-- end -->\n\n## Who am I ?\n\nFrench generalist engineer, dedicated to software programming since 2012. I started professional coding in a research laboratory environement, where aeronautics or military customers where focus on system ergonomics analysis, and developing innovative features through off-the-shelves methods or absolutely new devices. Among others, I also worked in more creative environment like dance performances, and kids workshop around virtual and augmented reality too.\n\n```javascript\n        Unlearn. Observe and do things with Intention.\n```\n\nCuriosity drives my cravings, unknown territories are my fields of actions, and I really like that!\nComments sections will be added soon. Meanwhile, you can contact me at this adress : jconan@outlook.fr\n\n![alt text](./B51.jpg \"J-Conan\")",
       "fileAbsolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog/index.md",
       "fields": {
         "slug": "/welcome-to-the-blog/"
       }
     },
-    "b157c9d2-eee9-53b6-a85b-f5c704a10288": {
-      "id": "b157c9d2-eee9-53b6-a85b-f5c704a10288",
+    "fdbfc158-cdc0-5eea-b894-75a9b3f68d4a": {
+      "id": "fdbfc158-cdc0-5eea-b894-75a9b3f68d4a",
       "children": [
-        "4845ab5b-d4ae-5309-8604-d4083feab0da"
+        "50dafe8e-a98b-5b5a-b416-ca427ed40d5e"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "contentDigest": "6966c0fbed2cdc23eb4ad12a62b40821",
         "type": "File",
         "mediaType": "image/jpeg",
-        "description": "File \"src/pages/hello-world/salty_egg.jpg\"",
+        "description": "File \"src/pages/welcome-to-the-blog/B51.jpg\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/hello-world/salty_egg.jpg",
-      "relativePath": "hello-world/salty_egg.jpg",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog/B51.jpg",
+      "relativePath": "welcome-to-the-blog/B51.jpg",
       "extension": "jpg",
-      "size": 684322,
-      "prettySize": "684 kB",
-      "modifiedTime": "2018-12-08T10:05:07.886Z",
-      "accessTime": "2018-12-08T10:05:10.325Z",
-      "changeTime": "2018-12-08T10:05:07.886Z",
-      "birthTime": "2018-12-08T10:05:07.885Z",
+      "size": 927415,
+      "prettySize": "927 kB",
+      "modifiedTime": "2018-10-31T11:29:08.841Z",
+      "accessTime": "2018-12-08T11:27:48.374Z",
+      "changeTime": "2018-12-08T11:08:04.821Z",
+      "birthTime": "2018-10-31T11:29:08.617Z",
       "root": "/",
-      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/hello-world",
-      "base": "salty_egg.jpg",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog",
+      "base": "B51.jpg",
       "ext": ".jpg",
-      "name": "salty_egg",
-      "relativeDirectory": "hello-world",
+      "name": "B51",
+      "relativeDirectory": "welcome-to-the-blog",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -2591,23 +2393,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8617741844,
-      "blocks": 1344,
-      "atimeMs": 1544263510324.8994,
-      "mtimeMs": 1544263507886.3994,
-      "ctimeMs": 1544263507886.3994,
-      "birthtimeMs": 1544263507884.8054,
-      "atime": "2018-12-08T10:05:10.325Z",
-      "mtime": "2018-12-08T10:05:07.886Z",
-      "ctime": "2018-12-08T10:05:07.886Z",
-      "birthtime": "2018-12-08T10:05:07.885Z"
+      "ino": 8614797750,
+      "blocks": 1816,
+      "atimeMs": 1544268468374.0122,
+      "mtimeMs": 1540985348840.8938,
+      "ctimeMs": 1544267284821.2603,
+      "birthtimeMs": 1540985348617.1746,
+      "atime": "2018-12-08T11:27:48.374Z",
+      "mtime": "2018-10-31T11:29:08.841Z",
+      "ctime": "2018-12-08T11:08:04.821Z",
+      "birthtime": "2018-10-31T11:29:08.617Z"
     },
-    "4845ab5b-d4ae-5309-8604-d4083feab0da": {
-      "id": "4845ab5b-d4ae-5309-8604-d4083feab0da",
+    "50dafe8e-a98b-5b5a-b416-ca427ed40d5e": {
+      "id": "50dafe8e-a98b-5b5a-b416-ca427ed40d5e",
       "children": [],
-      "parent": "b157c9d2-eee9-53b6-a85b-f5c704a10288",
+      "parent": "fdbfc158-cdc0-5eea-b894-75a9b3f68d4a",
       "internal": {
-        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "contentDigest": "6966c0fbed2cdc23eb4ad12a62b40821",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -2623,12 +2425,35 @@
           {
             "node": {
               "fields": {
+                "slug": "/road-map/"
+              },
+              "excerpt": "\nThis page aims at showing at a glance my research path, founds, and gems. Topics are presented in the Map section, you can also have a look at my bookmarks in order to have an idea about the current harvest.\n\n",
+              "frontmatter": {
+                "title": "The Long Road",
+                "date": "December 9, 2018",
+                "featuredImage": {
+                  "childImageSharp": {
+                    "sizes": {
+                      "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAPoAAAD6AG1e1JrAAACqklEQVQozwGfAmD9AI+Xp2ZifT4vWEQ1dl9YroF2xnBpxYZv2HB4yTpdxDVTsoTE64Sf3yszkSUzayw6bCcuVCQoNx8jKBcdIQBie3l/mbOKmL5ub65pY8SEe92WjeKVh+eKiOJqgt9gjNyOxO1/hNdcWK9EPKYwOYkkMUwfLDYcJCofJCwAMj1PMk6GcJrOstTovMjmqKvpqLDspKDqj4/na4nme5zsX3/iaHPcdXHXREOmIy9oKjhIJzI7HycrICcrAD87Qz88XjxEkT12y5nR6eLz7d7q7c7b75it62KW6niu7oCe7XCI6mNs2jk9ryQucSErPhgiJhwlLzA+VAAXHSgdIzkdMVgmSpA6bM17suKp0ei43urV6e7E3++X0PBdoOlnh+Bre+JBUsoqOH8oOGo9THVmcIxzeY4AGCEvKCw9Hy9YQ0+CR123TYLdc7fljsroltXr3env2OvwVajnGUu0NUCCSFGIY2iieHzHjpfei5DOfH2mABkhLiIoPh4zaDhVtXWY3I6j11eP22Kl5Fq36MXm7+ns8dDm80d70A4ibBggOB4kMiotSTY7aUBGiD5IiAAVHyscJEMoNXc7U7RNZrpufspvms04ccU8keKv3O/h6vHT5e7K2/JIXKISGz4bIy4ZHSEaGRkbGx0dKDAAHiEzLytRODJnKy9gOUGWXGzOUVmeK0WYJ23TsdDs0OXxp9LvyePxxtbuQ1F6ExcjHSInGR8kFx0hFRodACIhLSMjMSIiLyArUSlAgC40cBojThovbSVFl8bW7L3e8Z/R76XQ7sTf8azG6EFOaBYbIB4jIxkeIBQbHwAdHSEaHiMeIzciLE0hKEgZITQeJjwZJVIxQnnM3u2x1++az+6Vyu6r0+uwyPCRqskYJCoZICAXHSEWHCC/RiqjDK4n7gAAAABJRU5ErkJggg==",
+                      "aspectRatio": 1.7777777777777777,
+                      "src": "/static/71ba86bd02577b2f55942bc40491db9e/bbe9c/data-storm.png",
+                      "srcSet": "/static/71ba86bd02577b2f55942bc40491db9e/6cad3/data-storm.png 213w,\n/static/71ba86bd02577b2f55942bc40491db9e/10cb6/data-storm.png 425w,\n/static/71ba86bd02577b2f55942bc40491db9e/bbe9c/data-storm.png 850w,\n/static/71ba86bd02577b2f55942bc40491db9e/889a0/data-storm.png 1275w,\n/static/71ba86bd02577b2f55942bc40491db9e/6d56f/data-storm.png 1700w,\n/static/71ba86bd02577b2f55942bc40491db9e/7705a/data-storm.png 2550w,\n/static/71ba86bd02577b2f55942bc40491db9e/6f454/data-storm.png 3840w",
+                      "sizes": "(max-width: 850px) 100vw, 850px"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "fields": {
                 "slug": "/welcome-to-the-blog/"
               },
-              "excerpt": "\nWelcome to the new blog, I hope you enjoy your stay! This is an example of how you can control what excerpt shows up.\n\n",
+              "excerpt": "\nWelcome to my new blog, I hope you enjoy your stay! Fasten your seatbelts, decrease ambient lights, and follow me.\n\n",
               "frontmatter": {
-                "title": "Welcome to the Blog!",
-                "date": "July 1, 2018",
+                "title": "Welcome, Stranger!",
+                "date": "December 8, 2018",
                 "featuredImage": {
                   "childImageSharp": {
                     "sizes": {
@@ -2640,32 +2465,6 @@
                     }
                   }
                 }
-              }
-            }
-          },
-          {
-            "node": {
-              "fields": {
-                "slug": "/hello-world/"
-              },
-              "excerpt": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. \n\n",
-              "frontmatter": {
-                "title": "Hello World",
-                "date": "June 30, 2018",
-                "featuredImage": null
-              }
-            }
-          },
-          {
-            "node": {
-              "fields": {
-                "slug": "/another-new-post/"
-              },
-              "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi…",
-              "frontmatter": {
-                "title": "My Second Post!",
-                "date": "June 29, 2018",
-                "featuredImage": null
               }
             }
           }
@@ -2685,72 +2484,27 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c190135708ec478a71d5d82e9de75510",
+        "contentDigest": "a6270ce17fe83fd9bf17802795790fd1",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /welcome-to-the-blog/": {
-      "jsonName": "welcome-to-the-blog-bfd",
-      "internalComponentName": "ComponentWelcomeToTheBlog",
-      "path": "/welcome-to-the-blog/",
+    "SitePage /road-map/": {
+      "jsonName": "road-map-7a4",
+      "internalComponentName": "ComponentRoadMap",
+      "path": "/road-map/",
       "component": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
       "componentChunkName": "component---src-templates-blog-post-js",
       "context": {
-        "slug": "/welcome-to-the-blog/",
+        "slug": "/road-map/",
         "previous": {
-          "fields": {
-            "slug": "/hello-world/"
-          },
-          "excerpt": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. \n\n",
-          "frontmatter": {
-            "title": "Hello World",
-            "date": "June 30, 2018",
-            "featuredImage": null
-          }
-        },
-        "next": null
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
-      "id": "SitePage /welcome-to-the-blog/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "ffb6e5002987ba6c6c42afb1458bfc6c",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /hello-world/": {
-      "jsonName": "hello-world-8bc",
-      "internalComponentName": "ComponentHelloWorld",
-      "path": "/hello-world/",
-      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "/hello-world/",
-        "previous": {
-          "fields": {
-            "slug": "/another-new-post/"
-          },
-          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi…",
-          "frontmatter": {
-            "title": "My Second Post!",
-            "date": "June 29, 2018",
-            "featuredImage": null
-          }
-        },
-        "next": {
           "fields": {
             "slug": "/welcome-to-the-blog/"
           },
-          "excerpt": "\nWelcome to the new blog, I hope you enjoy your stay! This is an example of how you can control what excerpt shows up.\n\n",
+          "excerpt": "\nWelcome to my new blog, I hope you enjoy your stay! Fasten your seatbelts, decrease ambient lights, and follow me.\n\n",
           "frontmatter": {
-            "title": "Welcome to the Blog!",
-            "date": "July 1, 2018",
+            "title": "Welcome, Stranger!",
+            "date": "December 8, 2018",
             "featuredImage": {
               "childImageSharp": {
                 "sizes": {
@@ -2763,51 +2517,62 @@
               }
             }
           }
-        }
+        },
+        "next": null
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
-      "id": "SitePage /hello-world/",
+      "id": "SitePage /road-map/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "99a3dd89f5f29eb74fa6a3f5ca9c184a",
+        "contentDigest": "8437a22be89efeb0a3be72cdbf5363f4",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /another-new-post/": {
-      "jsonName": "another-new-post-55e",
-      "internalComponentName": "ComponentAnotherNewPost",
-      "path": "/another-new-post/",
+    "SitePage /welcome-to-the-blog/": {
+      "jsonName": "welcome-to-the-blog-bfd",
+      "internalComponentName": "ComponentWelcomeToTheBlog",
+      "path": "/welcome-to-the-blog/",
       "component": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
       "componentChunkName": "component---src-templates-blog-post-js",
       "context": {
-        "slug": "/another-new-post/",
+        "slug": "/welcome-to-the-blog/",
         "previous": null,
         "next": {
           "fields": {
-            "slug": "/hello-world/"
+            "slug": "/road-map/"
           },
-          "excerpt": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur dolor metus, in semper purus tempus nec. Nunc porta maximus nisi eget tempus. Maecenas tellus ligula, porttitor ut ligula vitae, porta malesuada libero. \n\n",
+          "excerpt": "\nThis page aims at showing at a glance my research path, founds, and gems. Topics are presented in the Map section, you can also have a look at my bookmarks in order to have an idea about the current harvest.\n\n",
           "frontmatter": {
-            "title": "Hello World",
-            "date": "June 30, 2018",
-            "featuredImage": null
+            "title": "The Long Road",
+            "date": "December 9, 2018",
+            "featuredImage": {
+              "childImageSharp": {
+                "sizes": {
+                  "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAPoAAAD6AG1e1JrAAACqklEQVQozwGfAmD9AI+Xp2ZifT4vWEQ1dl9YroF2xnBpxYZv2HB4yTpdxDVTsoTE64Sf3yszkSUzayw6bCcuVCQoNx8jKBcdIQBie3l/mbOKmL5ub65pY8SEe92WjeKVh+eKiOJqgt9gjNyOxO1/hNdcWK9EPKYwOYkkMUwfLDYcJCofJCwAMj1PMk6GcJrOstTovMjmqKvpqLDspKDqj4/na4nme5zsX3/iaHPcdXHXREOmIy9oKjhIJzI7HycrICcrAD87Qz88XjxEkT12y5nR6eLz7d7q7c7b75it62KW6niu7oCe7XCI6mNs2jk9ryQucSErPhgiJhwlLzA+VAAXHSgdIzkdMVgmSpA6bM17suKp0ei43urV6e7E3++X0PBdoOlnh+Bre+JBUsoqOH8oOGo9THVmcIxzeY4AGCEvKCw9Hy9YQ0+CR123TYLdc7fljsroltXr3env2OvwVajnGUu0NUCCSFGIY2iieHzHjpfei5DOfH2mABkhLiIoPh4zaDhVtXWY3I6j11eP22Kl5Fq36MXm7+ns8dDm80d70A4ibBggOB4kMiotSTY7aUBGiD5IiAAVHyscJEMoNXc7U7RNZrpufspvms04ccU8keKv3O/h6vHT5e7K2/JIXKISGz4bIy4ZHSEaGRkbGx0dKDAAHiEzLytRODJnKy9gOUGWXGzOUVmeK0WYJ23TsdDs0OXxp9LvyePxxtbuQ1F6ExcjHSInGR8kFx0hFRodACIhLSMjMSIiLyArUSlAgC40cBojThovbSVFl8bW7L3e8Z/R76XQ7sTf8azG6EFOaBYbIB4jIxkeIBQbHwAdHSEaHiMeIzciLE0hKEgZITQeJjwZJVIxQnnM3u2x1++az+6Vyu6r0+uwyPCRqskYJCoZICAXHSEWHCC/RiqjDK4n7gAAAABJRU5ErkJggg==",
+                  "aspectRatio": 1.7777777777777777,
+                  "src": "/static/71ba86bd02577b2f55942bc40491db9e/bbe9c/data-storm.png",
+                  "srcSet": "/static/71ba86bd02577b2f55942bc40491db9e/6cad3/data-storm.png 213w,\n/static/71ba86bd02577b2f55942bc40491db9e/10cb6/data-storm.png 425w,\n/static/71ba86bd02577b2f55942bc40491db9e/bbe9c/data-storm.png 850w,\n/static/71ba86bd02577b2f55942bc40491db9e/889a0/data-storm.png 1275w,\n/static/71ba86bd02577b2f55942bc40491db9e/6d56f/data-storm.png 1700w,\n/static/71ba86bd02577b2f55942bc40491db9e/7705a/data-storm.png 2550w,\n/static/71ba86bd02577b2f55942bc40491db9e/6f454/data-storm.png 3840w",
+                  "sizes": "(max-width: 850px) 100vw, 850px"
+                }
+              }
+            }
           }
         }
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
-      "id": "SitePage /another-new-post/",
+      "id": "SitePage /welcome-to-the-blog/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a4605fd61309c541135fa0350f90f1fe",
+        "contentDigest": "1b7fa4bda436fda6fb2b8f04b501a079",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2851,6 +2616,89 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "fb790f11-55d5-5218-9e28-602204e5674b": {
+      "id": "fb790f11-55d5-5218-9e28-602204e5674b",
+      "children": [
+        "7915cfde-c169-5404-8323-f7471d133844"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "71ba86bd02577b2f55942bc40491db9e",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/pages/road-map/data-storm.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/road-map/data-storm.png",
+      "relativePath": "road-map/data-storm.png",
+      "extension": "png",
+      "size": 7707071,
+      "prettySize": "7.71 MB",
+      "modifiedTime": "2018-12-08T11:53:06.046Z",
+      "accessTime": "2018-12-08T11:53:06.057Z",
+      "changeTime": "2018-12-08T11:53:06.047Z",
+      "birthTime": "2018-12-08T11:44:30.009Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/road-map",
+      "base": "data-storm.png",
+      "ext": ".png",
+      "name": "data-storm",
+      "relativeDirectory": "road-map",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8617874335,
+      "blocks": 15056,
+      "atimeMs": 1544269986056.8494,
+      "mtimeMs": 1544269986046,
+      "ctimeMs": 1544269986046.791,
+      "birthtimeMs": 1544269470008.8572,
+      "atime": "2018-12-08T11:53:06.057Z",
+      "mtime": "2018-12-08T11:53:06.046Z",
+      "ctime": "2018-12-08T11:53:06.047Z",
+      "birthtime": "2018-12-08T11:44:30.009Z"
+    },
+    "7915cfde-c169-5404-8323-f7471d133844": {
+      "id": "7915cfde-c169-5404-8323-f7471d133844",
+      "children": [],
+      "parent": "fb790f11-55d5-5218-9e28-602204e5674b",
+      "internal": {
+        "contentDigest": "71ba86bd02577b2f55942bc40491db9e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "ca339aef-a812-5884-98e7-3c4d5f55cf27": {
+      "id": "ca339aef-a812-5884-98e7-3c4d5f55cf27",
+      "children": [],
+      "parent": "85d7d9f9-c7f8-5f1e-b195-cbe5c3b0c46c",
+      "internal": {
+        "content": "\nThis page aims at showing at a glance my research path, founds, and gems. Topics are presented in the Map section, you can also have a look at my bookmarks in order to have an idea about the current harvest.\n\n<!-- end -->\n\n## Map\n\n![map](./data-storm.png \"XMind\")\n\n## Bookmarks\n\n<DT><H3 FOLDED></H3>\n\t\t<DL><p>\n\t\t\t<DT><H3 FOLDED>Novembre</H3>\n\t\t\t<DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/25</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://www.creativebloq.com/html5/build-tile-based-html5-game-31410992\">Build a tile-based HTML5 game | Creative Bloq</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/26</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/\">Understanding RequireJS for Effective JavaScript Module Loading</A>\n\t\t\t\t\t<DT><A HREF=\"https://medium.freecodecamp.org/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8\">Requiring modules in Node.js: Everything you need to know</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/27</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Microsoft/vscode/issues/14896\">how to hide sidebar · Issue #14896 · Microsoft/vscode</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/28</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Microsoft/vscode-ios-web-debug\">Microsoft/vscode-ios-web-debug: Debug your JavaScript code running in Safari on iOS devices from VS Code.</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/RemoteDebug/remotedebug-ios-webkit-adapter#getting-started\">RemoteDebug/remotedebug-ios-webkit-adapter: Debug Safari and WebViews on iOS from tools like VS Code, Chrome DevTools, Mozilla Debugger.html</A>\n\t\t\t\t\t<DT><A HREF=\"https://medium.com/@auchenberg/hello-remotedebug-ios-webkit-adapter-debug-safari-and-ios-webviews-from-anywhere-2a8553df7465\">Hello RemoteDebug iOS WebKit Adapter: Debug Safari and iOS WebViews from anywhere 📡📱</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/HOWTO-exportFBX.html#Max\">Unity - Manual: Exporting from other applications</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/29</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://medium.com/@mfosullivan/a-beginners-guide-to-setting-up-a-modern-web-development-environment-on-windows-10-4d75cd94cde8\">A beginners guide to setting up a modern web development environment on Windows 10</A>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/getstarted/settings\">Visual Studio Code User and Workspace Settings</A>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/editor/integrated-terminal\">Integrated Terminal in Visual Studio Code</A>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/editor/multi-root-workspaces#_settings\">Multi-root Workspaces in Visual Studio Code</A>\n\t\t\t\t\t<DT><A HREF=\"https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/\">How to install Yarn on Ubuntu 18.04 | Linuxize</A>\n\t\t\t\t\t<DT><A HREF=\"https://askubuntu.com/questions/334994/which-one-is-better-using-or-to-execute-multiple-commands-in-one-line\">bash - Which one is better: using ; or &amp;&amp; to execute multiple commands in one line? - Ask Ubuntu</A>\n\t\t\t\t\t<DT><A HREF=\"https://support.google.com/chrome/answer/157179?hl=en\">Chrome keyboard shortcuts - Google Chrome Help</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/30</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file\">Include another HTML file in a HTML file - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.html5rocks.com/en/tutorials/webcomponents/imports/\">HTML Imports: #include for the web - HTML5 Rocks</A>\n\t\t\t\t\t<DT><A HREF=\"https://jekyllrb.com/docs/themes/\">Themes | Jekyll • Simple, blog-aware, static sites</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site-with-the-jekyll-theme-chooser/\">Adding a Jekyll theme to your GitHub Pages site with the Jekyll Theme Chooser - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://git-scm.com/docs/git-clone\">Git - git-clone Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes\">Git - Working with Remotes</A>\n\t\t\t\t\t<DT><A HREF=\"http://jekyllthemes.org/themes/airspace/\">Airspace</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/\">Adding an existing project to GitHub using the command line - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/setting-your-commit-email-address-in-git/\">Setting your commit email address in Git - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/error-permission-denied-publickey/\">Error: Permission denied (publickey) - User Documentation</A>\n\t\t\t\t</DL><p>\n\t\t\t</DL><p>\n\t\t\t<DT><H3 FOLDED>Décembre</H3>\n\t\t\t<DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/01</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/themefisher/airspace-free-html5-agency-template\">themefisher/airspace-free-html5-agency-template</A>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/33201630/install-gem-gives-failed-to-build-gem-native-extension\">ruby - Install gem gives \"Failed to build gem native extension.\" - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://rubygems.org/gems/jekyll-airspace/versions/0.1.0\">jekyll-airspace | RubyGems.org | votre communauté d'hébergement des gems</A>\n\t\t\t\t\t<DT><A HREF=\"https://webdesign.tutsplus.com/tutorials/how-to-set-up-a-jekyll-theme--cms-26332\">How to Set Up a Jekyll Theme</A>\n\t\t\t\t\t<DT><A HREF=\"https://jekyllrb.com/docs/usage/\">Command Line Usage | Jekyll • Simple, blog-aware, static sites</A>\n\t\t\t\t\t<DT><A HREF=\"https://jekyllrb.com/docs/\">Quickstart | Jekyll • Simple, blog-aware, static sites</A>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/20559255/error-while-installing-json-gem-mkmf-rb-cant-find-header-files-for-ruby\">Error while installing json gem 'mkmf.rb can't find header files for ruby' - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/24423067/missing-folder-in-repository-after-git-add\">missing folder in repository after git add - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.html5rocks.com/en/tutorials/speed/parallax/\">Parallaxin' - HTML5 Rocks</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/02</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://codepen.io/#\">CodePen</A>\n\t\t\t\t\t<DT><A HREF=\"http://www.brainbell.com/tutors/C_Sharp/Instantiation.htm\">Instantiation : C Sharp</A>\n\t\t\t\t\t<DT><A HREF=\"https://philippe.developpez.com/articles/SOLIDdotNet/#LVI%20-%20C\">Bonnes pratiques objet en .net : Introduction aux principes SOLID</A>\n\t\t\t\t\t<DT><A HREF=\"https://philippe.developpez.com/articles/dotnet/injectiondedependances/\">Injection de dépendances en .NET, pattern, intérêt et outils</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/03</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/python/python-tutorial\">Get Started Tutorial for Python in Visual Studio Code</A>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/python/environments\">Using Python Environments in Visual Studio Code</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/toxtli/futuristic-3d-spherical-news-visualization-three-js\">toxtli/futuristic-3d-spherical-news-visualization-three-js: This is a 3D visualization in javascript that enables spherical, helix, grid and table views using a data-driven approach with three.js</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.w3schools.com/css/css_image_transparency.asp\">CSS Image Opacity / Transparency</A>\n\t\t\t\t\t<DT><A HREF=\"http://simplefocus.com/flowtype/\">FlowType.JS — Responsive web typography at its finest: font-size and line-height based on element width. | Simple Focus</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/04</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"http://excamera.com/articles/26/doc/intro.html\">Introduction and Cookbook — Python OpenEXR v1.2 documentation</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/08</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/\">Sourcing from Netlify CMS | GatsbyJS</A>\n\t\t\t\t</DL><p>\n\t\t\t</DL><p>\n\t\t</DL><p>",
+        "type": "MarkdownRemark",
+        "contentDigest": "fab861a9fd184ae1019bc6c65d196f73",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "The Long Road",
+        "date": "2018-12-09",
+        "featuredImage": "./data-storm.png",
+        "_PARENT": "85d7d9f9-c7f8-5f1e-b195-cbe5c3b0c46c"
+      },
+      "excerpt": "\nThis page aims at showing at a glance my research path, founds, and gems. Topics are presented in the Map section, you can also have a look at my bookmarks in order to have an idea about the current harvest.\n\n",
+      "rawMarkdownBody": "\nThis page aims at showing at a glance my research path, founds, and gems. Topics are presented in the Map section, you can also have a look at my bookmarks in order to have an idea about the current harvest.\n\n<!-- end -->\n\n## Map\n\n![map](./data-storm.png \"XMind\")\n\n## Bookmarks\n\n<DT><H3 FOLDED></H3>\n\t\t<DL><p>\n\t\t\t<DT><H3 FOLDED>Novembre</H3>\n\t\t\t<DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/25</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://www.creativebloq.com/html5/build-tile-based-html5-game-31410992\">Build a tile-based HTML5 game | Creative Bloq</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/26</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/\">Understanding RequireJS for Effective JavaScript Module Loading</A>\n\t\t\t\t\t<DT><A HREF=\"https://medium.freecodecamp.org/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8\">Requiring modules in Node.js: Everything you need to know</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/27</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Microsoft/vscode/issues/14896\">how to hide sidebar · Issue #14896 · Microsoft/vscode</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/28</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Microsoft/vscode-ios-web-debug\">Microsoft/vscode-ios-web-debug: Debug your JavaScript code running in Safari on iOS devices from VS Code.</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/RemoteDebug/remotedebug-ios-webkit-adapter#getting-started\">RemoteDebug/remotedebug-ios-webkit-adapter: Debug Safari and WebViews on iOS from tools like VS Code, Chrome DevTools, Mozilla Debugger.html</A>\n\t\t\t\t\t<DT><A HREF=\"https://medium.com/@auchenberg/hello-remotedebug-ios-webkit-adapter-debug-safari-and-ios-webviews-from-anywhere-2a8553df7465\">Hello RemoteDebug iOS WebKit Adapter: Debug Safari and iOS WebViews from anywhere 📡📱</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/HOWTO-exportFBX.html#Max\">Unity - Manual: Exporting from other applications</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/29</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://medium.com/@mfosullivan/a-beginners-guide-to-setting-up-a-modern-web-development-environment-on-windows-10-4d75cd94cde8\">A beginners guide to setting up a modern web development environment on Windows 10</A>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/getstarted/settings\">Visual Studio Code User and Workspace Settings</A>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/editor/integrated-terminal\">Integrated Terminal in Visual Studio Code</A>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/editor/multi-root-workspaces#_settings\">Multi-root Workspaces in Visual Studio Code</A>\n\t\t\t\t\t<DT><A HREF=\"https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/\">How to install Yarn on Ubuntu 18.04 | Linuxize</A>\n\t\t\t\t\t<DT><A HREF=\"https://askubuntu.com/questions/334994/which-one-is-better-using-or-to-execute-multiple-commands-in-one-line\">bash - Which one is better: using ; or &amp;&amp; to execute multiple commands in one line? - Ask Ubuntu</A>\n\t\t\t\t\t<DT><A HREF=\"https://support.google.com/chrome/answer/157179?hl=en\">Chrome keyboard shortcuts - Google Chrome Help</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/30</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file\">Include another HTML file in a HTML file - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.html5rocks.com/en/tutorials/webcomponents/imports/\">HTML Imports: #include for the web - HTML5 Rocks</A>\n\t\t\t\t\t<DT><A HREF=\"https://jekyllrb.com/docs/themes/\">Themes | Jekyll • Simple, blog-aware, static sites</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site-with-the-jekyll-theme-chooser/\">Adding a Jekyll theme to your GitHub Pages site with the Jekyll Theme Chooser - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://git-scm.com/docs/git-clone\">Git - git-clone Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes\">Git - Working with Remotes</A>\n\t\t\t\t\t<DT><A HREF=\"http://jekyllthemes.org/themes/airspace/\">Airspace</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/\">Adding an existing project to GitHub using the command line - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/setting-your-commit-email-address-in-git/\">Setting your commit email address in Git - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/error-permission-denied-publickey/\">Error: Permission denied (publickey) - User Documentation</A>\n\t\t\t\t</DL><p>\n\t\t\t</DL><p>\n\t\t\t<DT><H3 FOLDED>Décembre</H3>\n\t\t\t<DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/01</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/themefisher/airspace-free-html5-agency-template\">themefisher/airspace-free-html5-agency-template</A>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/33201630/install-gem-gives-failed-to-build-gem-native-extension\">ruby - Install gem gives \"Failed to build gem native extension.\" - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://rubygems.org/gems/jekyll-airspace/versions/0.1.0\">jekyll-airspace | RubyGems.org | votre communauté d'hébergement des gems</A>\n\t\t\t\t\t<DT><A HREF=\"https://webdesign.tutsplus.com/tutorials/how-to-set-up-a-jekyll-theme--cms-26332\">How to Set Up a Jekyll Theme</A>\n\t\t\t\t\t<DT><A HREF=\"https://jekyllrb.com/docs/usage/\">Command Line Usage | Jekyll • Simple, blog-aware, static sites</A>\n\t\t\t\t\t<DT><A HREF=\"https://jekyllrb.com/docs/\">Quickstart | Jekyll • Simple, blog-aware, static sites</A>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/20559255/error-while-installing-json-gem-mkmf-rb-cant-find-header-files-for-ruby\">Error while installing json gem 'mkmf.rb can't find header files for ruby' - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/24423067/missing-folder-in-repository-after-git-add\">missing folder in repository after git add - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.html5rocks.com/en/tutorials/speed/parallax/\">Parallaxin' - HTML5 Rocks</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/02</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://codepen.io/#\">CodePen</A>\n\t\t\t\t\t<DT><A HREF=\"http://www.brainbell.com/tutors/C_Sharp/Instantiation.htm\">Instantiation : C Sharp</A>\n\t\t\t\t\t<DT><A HREF=\"https://philippe.developpez.com/articles/SOLIDdotNet/#LVI%20-%20C\">Bonnes pratiques objet en .net : Introduction aux principes SOLID</A>\n\t\t\t\t\t<DT><A HREF=\"https://philippe.developpez.com/articles/dotnet/injectiondedependances/\">Injection de dépendances en .NET, pattern, intérêt et outils</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/03</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/python/python-tutorial\">Get Started Tutorial for Python in Visual Studio Code</A>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/python/environments\">Using Python Environments in Visual Studio Code</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/toxtli/futuristic-3d-spherical-news-visualization-three-js\">toxtli/futuristic-3d-spherical-news-visualization-three-js: This is a 3D visualization in javascript that enables spherical, helix, grid and table views using a data-driven approach with three.js</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.w3schools.com/css/css_image_transparency.asp\">CSS Image Opacity / Transparency</A>\n\t\t\t\t\t<DT><A HREF=\"http://simplefocus.com/flowtype/\">FlowType.JS — Responsive web typography at its finest: font-size and line-height based on element width. | Simple Focus</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/04</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"http://excamera.com/articles/26/doc/intro.html\">Introduction and Cookbook — Python OpenEXR v1.2 documentation</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/08</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/\">Sourcing from Netlify CMS | GatsbyJS</A>\n\t\t\t\t</DL><p>\n\t\t\t</DL><p>\n\t\t</DL><p>",
+      "fileAbsolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/road-map/index.md",
+      "fields": {
+        "slug": "/road-map/"
+      }
     }
   },
   "status": {
@@ -2861,12 +2709,19 @@
     "nodes": {
       "2da92841-571e-570b-86b0-6cdda06d260f": [
         null,
-        "/welcome-to-the-blog/"
+        "/welcome-to-the-blog/",
+        null
       ],
       "Site": [
         "/welcome-to-the-blog/",
         "/hello-world/",
-        "/another-new-post/"
+        "/another-new-post/",
+        "/18-12/welcome-to-the-blog/",
+        "/18-12/welcome-to-the-blog.1/",
+        "/18-12/web-links/",
+        "/18-12/bookmarks/",
+        "/18-12/road-map/",
+        "/road-map/"
       ],
       "7a837e08-f30c-5480-968f-a2a27ae121d4": [
         "/welcome-to-the-blog/"
@@ -2879,22 +2734,105 @@
       ],
       "aa7fac81-037e-5f7c-ace1-eafda226228a": [
         "/welcome-to-the-blog/"
+      ],
+      "ee805d6e-3e6c-54d7-9b05-c49dfd57c5e5": [
+        null,
+        "/18-12/welcome-to-the-blog/",
+        null
+      ],
+      "73f5862b-b631-5023-91fe-587f4d29a23d": [
+        "/18-12/welcome-to-the-blog/"
+      ],
+      "6c356471-bc9f-57b9-a474-6395c16e7836": [
+        "/18-12/welcome-to-the-blog/"
+      ],
+      "a666f6f9-3a33-5a1e-a1d4-7401cc3ef3a0": [
+        null,
+        "/18-12/welcome-to-the-blog.1/"
+      ],
+      "d75323a6-332d-5e80-acad-83e427b9248b": [
+        "/18-12/welcome-to-the-blog.1/"
+      ],
+      "faa9eb3c-c5d0-562d-9b86-8b585a678502": [
+        "/18-12/welcome-to-the-blog.1/"
+      ],
+      "afedbc4d-fe9c-50c4-94ab-d49f3c3c89f6": [
+        null,
+        "/18-12/web-links/"
+      ],
+      "4622a318-aca0-52c2-9272-7250bfd42b3c": [
+        "/18-12/web-links/"
+      ],
+      "4867a93a-2c79-50b7-a44b-98f4b1a23f83": [
+        "/18-12/web-links/"
+      ],
+      "b6abe699-1b09-580f-8906-3a11520a4248": [
+        null,
+        "/18-12/bookmarks/"
+      ],
+      "edf6b6a2-161c-5c56-8f87-22f0983bc124": [
+        "/18-12/bookmarks/"
+      ],
+      "ba29b163-fc72-5211-8606-9dd520568e6c": [
+        "/18-12/bookmarks/"
+      ],
+      "c3da4352-8c77-5866-bba9-76c679d8ece4": [
+        null,
+        "/18-12/road-map/"
+      ],
+      "ef246a3d-0baa-51d0-bca8-cb04cac11852": [
+        "/18-12/road-map/"
+      ],
+      "27541ec3-07c9-5683-b534-2322e095bc8c": [
+        "/18-12/road-map/"
+      ],
+      "a9e6792e-d689-5855-81f2-e118e62260e2": [
+        null,
+        "/18-12/road-map/"
+      ],
+      "a0eefaea-31ec-5fc4-97d1-53ec518ee4e5": [
+        "/18-12/road-map/"
+      ],
+      "98c28976-de97-5522-8c88-7d8b9d7919a3": [
+        null,
+        "/road-map/",
+        null
+      ],
+      "ca339aef-a812-5884-98e7-3c4d5f55cf27": [
+        "/road-map/"
+      ],
+      "1531f187-6496-588d-9fb8-5d313d4f1476": [
+        "/road-map/"
+      ],
+      "fb790f11-55d5-5218-9e28-602204e5674b": [
+        null,
+        "/road-map/"
+      ],
+      "7915cfde-c169-5404-8323-f7471d133844": [
+        "/road-map/"
       ]
     },
     "connections": {
       "MarkdownRemark": [
+        null,
         null
       ]
     }
   },
   "jsonDataPaths": {
-    "index": "289/path---index-6a9-y65uUhyvVYsHZWAogRFLMIAzUbs",
-    "another-new-post-55e": "447/path---another-new-post-55-e-bff-ZsaO3YBnNrBkPWIdQ5NTxnL0k",
+    "index": "330/path---index-6a9-W18CzTfUzKB3yjtwN0J5DFP33A",
+    "another-new-post-55e": "745/path---another-new-post-55-e-bff-yC0JWt6o64yj5Td6QYpoVudgpo",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "hello-world-8bc": "936/path---hello-world-8-bc-b62-0ENe8pMHoklUF1KHEed3Em6Mxk",
+    "hello-world-8bc": "422/path---hello-world-8-bc-b62-hIVMkra5Z8Kvzl5nLTLbB74D3W8",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "welcome-to-the-blog-bfd": "261/path---welcome-to-the-blog-bfd-b21-Z7bwLBV3NCsFIx8TigiRiqH9CM"
+    "welcome-to-the-blog-bfd": "875/path---welcome-to-the-blog-bfd-b21-4KW1MZ3G2tpWsHycMtRsxDYe7o",
+    "18-12-welcome-to-the-blog-cee": "626/path---18-12-welcome-to-the-blog-cee-577-5zXpZ9J94kTgKwt0v4LQrfYBlc",
+    "18-12-welcome-to-the-blog-1-515": "454/path---18-12-welcome-to-the-blog-1-515-c1e-fEIefZiCxDLdGTt6sA7a4ICxXTQ",
+    "18-12-web-links-f11": "536/path---18-12-web-links-f-11-975-QsPJw3KQWF8NRg9Br1fmNEgM",
+    "18-12-bookmarks-cec": "98/path---18-12-bookmarks-cec-14a-NggC49IUGYAE5Yw81DEcBQidno",
+    "18-12-road-map-bcb": "590/path---18-12-road-map-bcb-734-BR3IyzM04ysupJ6olM1sgyuuX7A",
+    "road-map-7a4": "473/path---road-map-7-a-4-4e2-tQdXesg0l8lWnonfWLyhexMgtI"
   },
   "components": {
     "/Users/shitstorm/Documents/GitHub/devblog/src/templates/index.js": {
