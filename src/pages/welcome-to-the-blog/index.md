@@ -4,7 +4,7 @@ date: "2018-12-08"
 featuredImage: './featured.jpg'
 ---
 
-Welcome to my new blog, I hope you enjoy your stay! Fasten your seatbelts, decrease ambient lights, and follow me.
+Welcome to my blog, I hope you will enjoy your stay! Decrease ambient lights, fasten your seatbelts, and follow me inside front and back-end various programming.
 
 <!-- end -->
 
