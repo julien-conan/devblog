@@ -1,6 +1,6 @@
 ---
 title: The Long Road
-date: "2018-12-09"
+date: "2018-12-08"
 featuredImage: './space.jpg'
 ---
 
@@ -12,13 +12,13 @@ Main frameworks I am using today are presented in the section below, you can als
 
 ## IDE
 
-My development environment is based on mutualizing projects between MacOS and Windows. Configuring Windows to execute Linux command in Visual Studio Code makes the bridge between those two.
+My development environment is based on shared projects between MacOS and Windows, Back/Front-End development and 3D environments. Configuring Windows to execute Linux command, and merging frames in Visual Studio Code makes the bridge between those two. Thank you Microsoft for your last actions towards community developers. Open-source softwares will win, at the very end.
 
 ## Frameworks
 
 ![map](./road-map-2018-12-09-12.43.51.png "XMind")
 
-I currently enjoy front development libraries based on Javascript like Jekyll and Gatsby :)
+I currently enjoy front development libraries based on Javascript like [Jekyll](https://jekyllrb.com/) and [Gatsby](https://www.gatsbyjs.org/). Deployment from [Npm](https://www.npmjs.com/) is like having a terminal copilot which does the main part of the job for you. It takes a few time to obtain a stable environment but it really worth the time !
 
 ## Bookmarks
 

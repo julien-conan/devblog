@@ -1848,12 +1848,12 @@
       "host": "localhost",
       "pathPrefix": "/devblog",
       "polyfill": true,
-      "buildTime": "2018-12-08T11:45:44.280Z",
+      "buildTime": "2018-12-19T18:27:46.328Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5fac85b35682b443e4858091cb75158e",
+        "contentDigest": "b705dd1c29cd14f95cea95f5af2e915f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1863,7 +1863,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "fd39b0f5cdab5bdb10ba162525f67c2d",
+        "contentDigest": "5c56815c94f0454714389ec7242c517a",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1872,12 +1872,12 @@
       "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages",
       "relativePath": "",
       "extension": "",
-      "size": 224,
-      "prettySize": "224 B",
-      "modifiedTime": "2018-12-08T11:45:28.975Z",
-      "accessTime": "2018-12-08T11:45:46.721Z",
-      "changeTime": "2018-12-08T11:45:28.975Z",
-      "birthTime": "2018-12-08T10:05:07.883Z",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-12-09T12:39:02.000Z",
+      "accessTime": "2018-12-19T18:27:49.614Z",
+      "changeTime": "2018-12-18T16:12:04.793Z",
+      "birthTime": "2018-12-08T10:05:07.000Z",
       "root": "/",
       "dir": "/Users/shitstorm/Documents/GitHub/devblog/src",
       "base": "pages",
@@ -1886,21 +1886,21 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 7,
+      "nlink": 6,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8617741837,
+      "ino": 3257352,
       "blocks": 0,
-      "atimeMs": 1544269546721.4167,
-      "mtimeMs": 1544269528975.496,
-      "ctimeMs": 1544269528975.496,
-      "birthtimeMs": 1544263507883.4722,
-      "atime": "2018-12-08T11:45:46.721Z",
-      "mtime": "2018-12-08T11:45:28.975Z",
-      "ctime": "2018-12-08T11:45:28.975Z",
-      "birthtime": "2018-12-08T10:05:07.883Z"
+      "atimeMs": 1545244069613.5989,
+      "mtimeMs": 1544359142000,
+      "ctimeMs": 1545149524792.9746,
+      "birthtimeMs": 1544263507000,
+      "atime": "2018-12-19T18:27:49.614Z",
+      "mtime": "2018-12-09T12:39:02.000Z",
+      "ctime": "2018-12-18T16:12:04.793Z",
+      "birthtime": "2018-12-08T10:05:07.000Z"
     },
     "ff9bc0cf-2e6c-5445-b3d3-ca2744b81933": {
       "id": "ff9bc0cf-2e6c-5445-b3d3-ca2744b81933",
@@ -2040,7 +2040,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "93b4d02297f5715e5205b55bec6ff97b",
+        "contentDigest": "d9522cff925ee585990acc49f94ba621",
         "type": "Directory",
         "description": "Directory \"src/pages/road-map\"",
         "owner": "gatsby-source-filesystem"
@@ -2049,12 +2049,12 @@
       "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/road-map",
       "relativePath": "road-map",
       "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2018-12-08T11:43:26.401Z",
-      "accessTime": "2018-12-08T11:45:46.724Z",
-      "changeTime": "2018-12-08T11:45:17.428Z",
-      "birthTime": "2018-12-08T11:27:47.315Z",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-12-09T12:39:02.000Z",
+      "accessTime": "2018-12-19T18:27:49.616Z",
+      "changeTime": "2018-12-18T16:12:04.756Z",
+      "birthTime": "2018-12-09T12:39:02.000Z",
       "root": "/",
       "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages",
       "base": "road-map",
@@ -2063,21 +2063,21 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 4,
+      "nlink": 7,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8617871244,
+      "ino": 3257355,
       "blocks": 0,
-      "atimeMs": 1544269546723.678,
-      "mtimeMs": 1544269406401.3313,
-      "ctimeMs": 1544269517427.589,
-      "birthtimeMs": 1544268467315.212,
-      "atime": "2018-12-08T11:45:46.724Z",
-      "mtime": "2018-12-08T11:43:26.401Z",
-      "ctime": "2018-12-08T11:45:17.428Z",
-      "birthtime": "2018-12-08T11:27:47.315Z"
+      "atimeMs": 1545244069615.5237,
+      "mtimeMs": 1544359142000,
+      "ctimeMs": 1545149524755.5813,
+      "birthtimeMs": 1544359142000,
+      "atime": "2018-12-19T18:27:49.616Z",
+      "mtime": "2018-12-09T12:39:02.000Z",
+      "ctime": "2018-12-18T16:12:04.756Z",
+      "birthtime": "2018-12-09T12:39:02.000Z"
     },
     "85d7d9f9-c7f8-5f1e-b195-cbe5c3b0c46c": {
       "id": "85d7d9f9-c7f8-5f1e-b195-cbe5c3b0c46c",
@@ -2086,7 +2086,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c11893debc1f72efa280c5fea278bad0",
+        "contentDigest": "7ad0ff1ea0373796e897d9c6d80b7757",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/road-map/index.md\"",
@@ -2096,12 +2096,12 @@
       "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/road-map/index.md",
       "relativePath": "road-map/index.md",
       "extension": "md",
-      "size": 9534,
-      "prettySize": "9.53 kB",
-      "modifiedTime": "2018-12-08T12:06:05.993Z",
-      "accessTime": "2018-12-08T12:06:05.993Z",
-      "changeTime": "2018-12-08T12:06:05.993Z",
-      "birthTime": "2018-12-08T11:27:47.321Z",
+      "size": 26193,
+      "prettySize": "26.2 kB",
+      "modifiedTime": "2018-12-19T18:35:06.928Z",
+      "accessTime": "2018-12-19T18:35:06.926Z",
+      "changeTime": "2018-12-19T18:35:06.928Z",
+      "birthTime": "2018-12-09T12:39:02.000Z",
       "root": "/",
       "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/road-map",
       "base": "index.md",
@@ -2115,16 +2115,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8617871247,
-      "blocks": 24,
-      "atimeMs": 1544270765992.6345,
-      "mtimeMs": 1544270765993.361,
-      "ctimeMs": 1544270765993.361,
-      "birthtimeMs": 1544268467321.1836,
-      "atime": "2018-12-08T12:06:05.993Z",
-      "mtime": "2018-12-08T12:06:05.993Z",
-      "ctime": "2018-12-08T12:06:05.993Z",
-      "birthtime": "2018-12-08T11:27:47.321Z"
+      "ino": 3257357,
+      "blocks": 56,
+      "atimeMs": 1545244506926.094,
+      "mtimeMs": 1545244506928.143,
+      "ctimeMs": 1545244506928.143,
+      "birthtimeMs": 1544359142000,
+      "atime": "2018-12-19T18:35:06.926Z",
+      "mtime": "2018-12-19T18:35:06.928Z",
+      "ctime": "2018-12-19T18:35:06.928Z",
+      "birthtime": "2018-12-09T12:39:02.000Z"
     },
     "98c28976-de97-5522-8c88-7d8b9d7919a3": {
       "id": "98c28976-de97-5522-8c88-7d8b9d7919a3",
@@ -2188,7 +2188,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "878250c40d86b0b429ea0c0ada5ad92f",
+        "contentDigest": "6b15602ca9b5f38f2e03cb09b1bd501d",
         "type": "Directory",
         "description": "Directory \"src/pages/welcome-to-the-blog\"",
         "owner": "gatsby-source-filesystem"
@@ -2199,10 +2199,10 @@
       "extension": "",
       "size": 160,
       "prettySize": "160 B",
-      "modifiedTime": "2018-12-08T11:43:19.784Z",
-      "accessTime": "2018-12-08T11:45:46.724Z",
-      "changeTime": "2018-12-08T11:45:28.975Z",
-      "birthTime": "2018-12-08T10:05:07.887Z",
+      "modifiedTime": "2018-12-09T12:39:02.000Z",
+      "accessTime": "2018-12-19T18:27:49.616Z",
+      "changeTime": "2018-12-18T16:12:04.793Z",
+      "birthTime": "2018-12-09T12:39:02.000Z",
       "root": "/",
       "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages",
       "base": "welcome-to-the-blog",
@@ -2216,16 +2216,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8617741845,
+      "ino": 3257361,
       "blocks": 0,
-      "atimeMs": 1544269546723.692,
-      "mtimeMs": 1544269399783.5898,
-      "ctimeMs": 1544269528975.496,
-      "birthtimeMs": 1544263507887.2239,
-      "atime": "2018-12-08T11:45:46.724Z",
-      "mtime": "2018-12-08T11:43:19.784Z",
-      "ctime": "2018-12-08T11:45:28.975Z",
-      "birthtime": "2018-12-08T10:05:07.887Z"
+      "atimeMs": 1545244069615.5635,
+      "mtimeMs": 1544359142000,
+      "ctimeMs": 1545149524792.8687,
+      "birthtimeMs": 1544359142000,
+      "atime": "2018-12-19T18:27:49.616Z",
+      "mtime": "2018-12-09T12:39:02.000Z",
+      "ctime": "2018-12-18T16:12:04.793Z",
+      "birthtime": "2018-12-09T12:39:02.000Z"
     },
     "29738dd3-aaef-59a1-a3b4-47a7790fe6f8": {
       "id": "29738dd3-aaef-59a1-a3b4-47a7790fe6f8",
@@ -2234,7 +2234,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "37512bab068235f1a93b5990a19cc4db",
+        "contentDigest": "bdc1f525ab76ccbf1029a1a9d7f1ffe8",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/welcome-to-the-blog/index.md\"",
@@ -2244,12 +2244,12 @@
       "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog/index.md",
       "relativePath": "welcome-to-the-blog/index.md",
       "extension": "md",
-      "size": 1004,
-      "prettySize": "1 kB",
-      "modifiedTime": "2018-12-08T11:27:16.174Z",
-      "accessTime": "2018-12-08T11:27:48.372Z",
-      "changeTime": "2018-12-08T11:27:16.174Z",
-      "birthTime": "2018-12-08T10:05:07.888Z",
+      "size": 1023,
+      "prettySize": "1.02 kB",
+      "modifiedTime": "2018-12-19T18:28:44.163Z",
+      "accessTime": "2018-12-19T18:28:44.162Z",
+      "changeTime": "2018-12-19T18:28:44.163Z",
+      "birthTime": "2018-12-09T12:39:02.000Z",
       "root": "/",
       "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog",
       "base": "index.md",
@@ -2263,16 +2263,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8617741847,
+      "ino": 3257364,
       "blocks": 8,
-      "atimeMs": 1544268468372.0818,
-      "mtimeMs": 1544268436173.958,
-      "ctimeMs": 1544268436173.958,
-      "birthtimeMs": 1544263507887.8513,
-      "atime": "2018-12-08T11:27:48.372Z",
-      "mtime": "2018-12-08T11:27:16.174Z",
-      "ctime": "2018-12-08T11:27:16.174Z",
-      "birthtime": "2018-12-08T10:05:07.888Z"
+      "atimeMs": 1545244124162.2808,
+      "mtimeMs": 1545244124162.6506,
+      "ctimeMs": 1545244124162.6506,
+      "birthtimeMs": 1544359142000,
+      "atime": "2018-12-19T18:28:44.162Z",
+      "mtime": "2018-12-19T18:28:44.163Z",
+      "ctime": "2018-12-19T18:28:44.163Z",
+      "birthtime": "2018-12-09T12:39:02.000Z"
     },
     "2da92841-571e-570b-86b0-6cdda06d260f": {
       "id": "2da92841-571e-570b-86b0-6cdda06d260f",
@@ -2331,32 +2331,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "7a837e08-f30c-5480-968f-a2a27ae121d4": {
-      "id": "7a837e08-f30c-5480-968f-a2a27ae121d4",
-      "children": [],
-      "parent": "29738dd3-aaef-59a1-a3b4-47a7790fe6f8",
-      "internal": {
-        "content": "\nWelcome to my new blog, I hope you enjoy your stay! Fasten your seatbelts, decrease ambient lights, and follow me.\n\n<!-- end -->\n\n## Who am I ?\n\nFrench generalist engineer, dedicated to software programming since 2012. I started professional coding in a research laboratory environement, where aeronautics or military customers where focus on system ergonomics analysis, and developing innovative features through off-the-shelves methods or absolutely new devices. Among others, I also worked in more creative environment like dance performances, and kids workshop around virtual and augmented reality too.\n\n```javascript\n        Unlearn. Observe and do things with Intention.\n```\n\nCuriosity drives my cravings, unknown territories are my fields of actions, and I really like that!\nComments sections will be added soon. Meanwhile, you can contact me at this adress : jconan@outlook.fr\n\n![alt text](./B51.jpg \"J-Conan\")",
-        "type": "MarkdownRemark",
-        "contentDigest": "0e715d379bdfc8004e4e93df395378ea",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Welcome, Stranger!",
-        "date": "2018-12-08",
-        "featuredImage": "./featured.jpg",
-        "_PARENT": "29738dd3-aaef-59a1-a3b4-47a7790fe6f8"
-      },
-      "excerpt": "\nWelcome to my new blog, I hope you enjoy your stay! Fasten your seatbelts, decrease ambient lights, and follow me.\n\n",
-      "rawMarkdownBody": "\nWelcome to my new blog, I hope you enjoy your stay! Fasten your seatbelts, decrease ambient lights, and follow me.\n\n<!-- end -->\n\n## Who am I ?\n\nFrench generalist engineer, dedicated to software programming since 2012. I started professional coding in a research laboratory environement, where aeronautics or military customers where focus on system ergonomics analysis, and developing innovative features through off-the-shelves methods or absolutely new devices. Among others, I also worked in more creative environment like dance performances, and kids workshop around virtual and augmented reality too.\n\n```javascript\n        Unlearn. Observe and do things with Intention.\n```\n\nCuriosity drives my cravings, unknown territories are my fields of actions, and I really like that!\nComments sections will be added soon. Meanwhile, you can contact me at this adress : jconan@outlook.fr\n\n![alt text](./B51.jpg \"J-Conan\")",
-      "fileAbsolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog/index.md",
-      "fields": {
-        "slug": "/welcome-to-the-blog/"
-      }
-    },
     "fdbfc158-cdc0-5eea-b894-75a9b3f68d4a": {
       "id": "fdbfc158-cdc0-5eea-b894-75a9b3f68d4a",
       "children": [
@@ -2412,209 +2386,6 @@
         "contentDigest": "6966c0fbed2cdc23eb4ad12a62b40821",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "SitePage /": {
-      "jsonName": "index",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/index.js",
-      "componentChunkName": "component---src-templates-index-js",
-      "context": {
-        "group": [
-          {
-            "node": {
-              "fields": {
-                "slug": "/road-map/"
-              },
-              "excerpt": "\nThis page aims at showing at a glance my research path, founds, and gems. Topics are presented in the Map section, you can also have a look at my Bookmarks if you want, they might tell you what has been, is, and will be.\n\n",
-              "frontmatter": {
-                "title": "The Long Road",
-                "date": "December 9, 2018",
-                "featuredImage": {
-                  "childImageSharp": {
-                    "sizes": {
-                      "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAPoAAAD6AG1e1JrAAACqklEQVQozwGfAmD9AI+Xp2ZifT4vWEQ1dl9YroF2xnBpxYZv2HB4yTpdxDVTsoTE64Sf3yszkSUzayw6bCcuVCQoNx8jKBcdIQBie3l/mbOKmL5ub65pY8SEe92WjeKVh+eKiOJqgt9gjNyOxO1/hNdcWK9EPKYwOYkkMUwfLDYcJCofJCwAMj1PMk6GcJrOstTovMjmqKvpqLDspKDqj4/na4nme5zsX3/iaHPcdXHXREOmIy9oKjhIJzI7HycrICcrAD87Qz88XjxEkT12y5nR6eLz7d7q7c7b75it62KW6niu7oCe7XCI6mNs2jk9ryQucSErPhgiJhwlLzA+VAAXHSgdIzkdMVgmSpA6bM17suKp0ei43urV6e7E3++X0PBdoOlnh+Bre+JBUsoqOH8oOGo9THVmcIxzeY4AGCEvKCw9Hy9YQ0+CR123TYLdc7fljsroltXr3env2OvwVajnGUu0NUCCSFGIY2iieHzHjpfei5DOfH2mABkhLiIoPh4zaDhVtXWY3I6j11eP22Kl5Fq36MXm7+ns8dDm80d70A4ibBggOB4kMiotSTY7aUBGiD5IiAAVHyscJEMoNXc7U7RNZrpufspvms04ccU8keKv3O/h6vHT5e7K2/JIXKISGz4bIy4ZHSEaGRkbGx0dKDAAHiEzLytRODJnKy9gOUGWXGzOUVmeK0WYJ23TsdDs0OXxp9LvyePxxtbuQ1F6ExcjHSInGR8kFx0hFRodACIhLSMjMSIiLyArUSlAgC40cBojThovbSVFl8bW7L3e8Z/R76XQ7sTf8azG6EFOaBYbIB4jIxkeIBQbHwAdHSEaHiMeIzciLE0hKEgZITQeJjwZJVIxQnnM3u2x1++az+6Vyu6r0+uwyPCRqskYJCoZICAXHSEWHCC/RiqjDK4n7gAAAABJRU5ErkJggg==",
-                      "aspectRatio": 1.7777777777777777,
-                      "src": "/static/71ba86bd02577b2f55942bc40491db9e/bbe9c/data-storm.png",
-                      "srcSet": "/static/71ba86bd02577b2f55942bc40491db9e/6cad3/data-storm.png 213w,\n/static/71ba86bd02577b2f55942bc40491db9e/10cb6/data-storm.png 425w,\n/static/71ba86bd02577b2f55942bc40491db9e/bbe9c/data-storm.png 850w,\n/static/71ba86bd02577b2f55942bc40491db9e/889a0/data-storm.png 1275w,\n/static/71ba86bd02577b2f55942bc40491db9e/6d56f/data-storm.png 1700w,\n/static/71ba86bd02577b2f55942bc40491db9e/7705a/data-storm.png 2550w,\n/static/71ba86bd02577b2f55942bc40491db9e/6f454/data-storm.png 3840w",
-                      "sizes": "(max-width: 850px) 100vw, 850px"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          {
-            "node": {
-              "fields": {
-                "slug": "/welcome-to-the-blog/"
-              },
-              "excerpt": "\nWelcome to my new blog, I hope you enjoy your stay! Fasten your seatbelts, decrease ambient lights, and follow me.\n\n",
-              "frontmatter": {
-                "title": "Welcome, Stranger!",
-                "date": "December 8, 2018",
-                "featuredImage": {
-                  "childImageSharp": {
-                    "sizes": {
-                      "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGQAAAQUAAAAAAAAAAAAAAAAAAAECAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAB/9oADAMBAAIQAxAAAAHKtownhAs//8QAFxABAQEBAAAAAAAAAAAAAAAAAAIyA//aAAgBAQABBQKIVhxTp//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ASf/xAAWEQADAAAAAAAAAAAAAAAAAAABEEH/2gAIAQIBAT8BNX//xAAZEAEAAgMAAAAAAAAAAAAAAAABABAxQXH/2gAIAQEABj8CgbM08jX/xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhMUFRof/aAAgBAQABPyGR9LoObhCdmZec0f/aAAwDAQACAAMAAAAQiy//xAAYEQACAwAAAAAAAAAAAAAAAAAAAREhYf/aAAgBAwEBPxBIS0o//8QAFxEAAwEAAAAAAAAAAAAAAAAAARARkf/aAAgBAgEBPxAsRf/EAB0QAAIBBAMAAAAAAAAAAAAAAAABETFRgaEhscH/2gAIAQEAAT8QRxOS0RSk2BUVEsWHFuRvTd+Coz2z/9k=",
-                      "aspectRatio": 2.2,
-                      "src": "/static/09591b6c0ecf431ce8117c089d40cc3a/6b3a1/featured.jpg",
-                      "srcSet": "/static/09591b6c0ecf431ce8117c089d40cc3a/182ff/featured.jpg 213w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/7f5c7/featured.jpg 425w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/6b3a1/featured.jpg 850w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/838e8/featured.jpg 1100w",
-                      "sizes": "(max-width: 850px) 100vw, 850px"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "pathPrefix": "",
-        "first": true,
-        "last": true,
-        "index": 1,
-        "pageCount": 1,
-        "additionalContext": {}
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "f5318d3a236f87616c648f3a7844ef26",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /road-map/": {
-      "jsonName": "road-map-7a4",
-      "internalComponentName": "ComponentRoadMap",
-      "path": "/road-map/",
-      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "/road-map/",
-        "previous": {
-          "fields": {
-            "slug": "/welcome-to-the-blog/"
-          },
-          "excerpt": "\nWelcome to my new blog, I hope you enjoy your stay! Fasten your seatbelts, decrease ambient lights, and follow me.\n\n",
-          "frontmatter": {
-            "title": "Welcome, Stranger!",
-            "date": "December 8, 2018",
-            "featuredImage": {
-              "childImageSharp": {
-                "sizes": {
-                  "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGQAAAQUAAAAAAAAAAAAAAAAAAAECAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAB/9oADAMBAAIQAxAAAAHKtownhAs//8QAFxABAQEBAAAAAAAAAAAAAAAAAAIyA//aAAgBAQABBQKIVhxTp//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ASf/xAAWEQADAAAAAAAAAAAAAAAAAAABEEH/2gAIAQIBAT8BNX//xAAZEAEAAgMAAAAAAAAAAAAAAAABABAxQXH/2gAIAQEABj8CgbM08jX/xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhMUFRof/aAAgBAQABPyGR9LoObhCdmZec0f/aAAwDAQACAAMAAAAQiy//xAAYEQACAwAAAAAAAAAAAAAAAAAAAREhYf/aAAgBAwEBPxBIS0o//8QAFxEAAwEAAAAAAAAAAAAAAAAAARARkf/aAAgBAgEBPxAsRf/EAB0QAAIBBAMAAAAAAAAAAAAAAAABETFRgaEhscH/2gAIAQEAAT8QRxOS0RSk2BUVEsWHFuRvTd+Coz2z/9k=",
-                  "aspectRatio": 2.2,
-                  "src": "/static/09591b6c0ecf431ce8117c089d40cc3a/6b3a1/featured.jpg",
-                  "srcSet": "/static/09591b6c0ecf431ce8117c089d40cc3a/182ff/featured.jpg 213w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/7f5c7/featured.jpg 425w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/6b3a1/featured.jpg 850w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/838e8/featured.jpg 1100w",
-                  "sizes": "(max-width: 850px) 100vw, 850px"
-                }
-              }
-            }
-          }
-        },
-        "next": null
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
-      "id": "SitePage /road-map/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "8437a22be89efeb0a3be72cdbf5363f4",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /welcome-to-the-blog/": {
-      "jsonName": "welcome-to-the-blog-bfd",
-      "internalComponentName": "ComponentWelcomeToTheBlog",
-      "path": "/welcome-to-the-blog/",
-      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "/welcome-to-the-blog/",
-        "previous": null,
-        "next": {
-          "fields": {
-            "slug": "/road-map/"
-          },
-          "excerpt": "\nThis page aims at showing at a glance my research path, founds, and gems. Topics are presented in the Map section, you can also have a look at my Bookmarks if you want, they might tell you what has been, is, and will be.\n\n",
-          "frontmatter": {
-            "title": "The Long Road",
-            "date": "December 9, 2018",
-            "featuredImage": {
-              "childImageSharp": {
-                "sizes": {
-                  "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAPoAAAD6AG1e1JrAAACqklEQVQozwGfAmD9AI+Xp2ZifT4vWEQ1dl9YroF2xnBpxYZv2HB4yTpdxDVTsoTE64Sf3yszkSUzayw6bCcuVCQoNx8jKBcdIQBie3l/mbOKmL5ub65pY8SEe92WjeKVh+eKiOJqgt9gjNyOxO1/hNdcWK9EPKYwOYkkMUwfLDYcJCofJCwAMj1PMk6GcJrOstTovMjmqKvpqLDspKDqj4/na4nme5zsX3/iaHPcdXHXREOmIy9oKjhIJzI7HycrICcrAD87Qz88XjxEkT12y5nR6eLz7d7q7c7b75it62KW6niu7oCe7XCI6mNs2jk9ryQucSErPhgiJhwlLzA+VAAXHSgdIzkdMVgmSpA6bM17suKp0ei43urV6e7E3++X0PBdoOlnh+Bre+JBUsoqOH8oOGo9THVmcIxzeY4AGCEvKCw9Hy9YQ0+CR123TYLdc7fljsroltXr3env2OvwVajnGUu0NUCCSFGIY2iieHzHjpfei5DOfH2mABkhLiIoPh4zaDhVtXWY3I6j11eP22Kl5Fq36MXm7+ns8dDm80d70A4ibBggOB4kMiotSTY7aUBGiD5IiAAVHyscJEMoNXc7U7RNZrpufspvms04ccU8keKv3O/h6vHT5e7K2/JIXKISGz4bIy4ZHSEaGRkbGx0dKDAAHiEzLytRODJnKy9gOUGWXGzOUVmeK0WYJ23TsdDs0OXxp9LvyePxxtbuQ1F6ExcjHSInGR8kFx0hFRodACIhLSMjMSIiLyArUSlAgC40cBojThovbSVFl8bW7L3e8Z/R76XQ7sTf8azG6EFOaBYbIB4jIxkeIBQbHwAdHSEaHiMeIzciLE0hKEgZITQeJjwZJVIxQnnM3u2x1++az+6Vyu6r0+uwyPCRqskYJCoZICAXHSEWHCC/RiqjDK4n7gAAAABJRU5ErkJggg==",
-                  "aspectRatio": 1.7777777777777777,
-                  "src": "/static/71ba86bd02577b2f55942bc40491db9e/bbe9c/data-storm.png",
-                  "srcSet": "/static/71ba86bd02577b2f55942bc40491db9e/6cad3/data-storm.png 213w,\n/static/71ba86bd02577b2f55942bc40491db9e/10cb6/data-storm.png 425w,\n/static/71ba86bd02577b2f55942bc40491db9e/bbe9c/data-storm.png 850w,\n/static/71ba86bd02577b2f55942bc40491db9e/889a0/data-storm.png 1275w,\n/static/71ba86bd02577b2f55942bc40491db9e/6d56f/data-storm.png 1700w,\n/static/71ba86bd02577b2f55942bc40491db9e/7705a/data-storm.png 2550w,\n/static/71ba86bd02577b2f55942bc40491db9e/6f454/data-storm.png 3840w",
-                  "sizes": "(max-width: 850px) 100vw, 850px"
-                }
-              }
-            }
-          }
-        }
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
-      "id": "SitePage /welcome-to-the-blog/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "15bb70db6dc2d4c0226a9ae80d044c0b",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404/": {
-      "jsonName": "404-22d",
-      "internalComponentName": "Component404",
-      "path": "/404/",
-      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "8f4de126-1fe2-5322-8c6f-8ddda25dee9c",
-      "pluginCreatorId": "8f4de126-1fe2-5322-8c6f-8ddda25dee9c",
-      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js",
-      "id": "SitePage /404/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "897c132632fe944ce4045d5640f9dc37",
-        "description": "8f4de126-1fe2-5322-8c6f-8ddda25dee9c",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "jsonName": "404-html-516",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "685cebb405484669b14f082d6d3626c7",
-        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-        "owner": "internal-data-bridge"
       }
     },
     "fb790f11-55d5-5218-9e28-602204e5674b": {
@@ -2679,7 +2450,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1d5ce82dd82bac133b5f5dbf1a848863",
+        "contentDigest": "97607e53e9be50c9ca5a12e95e459209",
         "type": "File",
         "mediaType": "application/octet-stream",
         "description": "File \"src/pages/road-map/road-map.xmind\"",
@@ -2689,12 +2460,12 @@
       "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/road-map/road-map.xmind",
       "relativePath": "road-map/road-map.xmind",
       "extension": "xmind",
-      "size": 46877,
-      "prettySize": "46.9 kB",
-      "modifiedTime": "2018-12-08T12:39:01.840Z",
-      "accessTime": "2018-12-08T12:39:01.871Z",
-      "changeTime": "2018-12-08T12:39:01.840Z",
-      "birthTime": "2018-12-08T12:01:23.900Z",
+      "size": 42145,
+      "prettySize": "42.1 kB",
+      "modifiedTime": "2018-12-09T12:39:02.000Z",
+      "accessTime": "2018-12-19T18:26:40.728Z",
+      "changeTime": "2018-12-18T16:12:04.754Z",
+      "birthTime": "2018-12-09T12:39:02.000Z",
       "root": "/",
       "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/road-map",
       "base": "road-map.xmind",
@@ -2708,25 +2479,311 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8617876679,
-      "blocks": 96,
-      "atimeMs": 1544272741870.6785,
-      "mtimeMs": 1544272741840.026,
-      "ctimeMs": 1544272741840.026,
-      "birthtimeMs": 1544270483900.2603,
-      "atime": "2018-12-08T12:39:01.871Z",
-      "mtime": "2018-12-08T12:39:01.840Z",
-      "ctime": "2018-12-08T12:39:01.840Z",
-      "birthtime": "2018-12-08T12:01:23.900Z"
+      "ino": 3257359,
+      "blocks": 88,
+      "atimeMs": 1545244000727.99,
+      "mtimeMs": 1544359142000,
+      "ctimeMs": 1545149524754.3845,
+      "birthtimeMs": 1544359142000,
+      "atime": "2018-12-19T18:26:40.728Z",
+      "mtime": "2018-12-09T12:39:02.000Z",
+      "ctime": "2018-12-18T16:12:04.754Z",
+      "birthtime": "2018-12-09T12:39:02.000Z"
+    },
+    "0f011646-34d3-5e62-b3bb-34d93531d21c": {
+      "id": "0f011646-34d3-5e62-b3bb-34d93531d21c",
+      "children": [
+        "f8b71ca2-ed1e-590f-ae6d-20f1ee310915"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e0741e3ec2439b1013ded5ce3f0cca08",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/pages/road-map/road-map-2018-12-09-12.43.51.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/road-map/road-map-2018-12-09-12.43.51.png",
+      "relativePath": "road-map/road-map-2018-12-09-12.43.51.png",
+      "extension": "png",
+      "size": 105387,
+      "prettySize": "105 kB",
+      "modifiedTime": "2018-12-09T12:39:02.000Z",
+      "accessTime": "2018-12-19T18:26:40.728Z",
+      "changeTime": "2018-12-18T16:12:04.754Z",
+      "birthTime": "2018-12-09T12:39:02.000Z",
+      "root": "/",
+      "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/road-map",
+      "base": "road-map-2018-12-09-12.43.51.png",
+      "ext": ".png",
+      "name": "road-map-2018-12-09-12.43.51",
+      "relativeDirectory": "road-map",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3257358,
+      "blocks": 208,
+      "atimeMs": 1545244000728.121,
+      "mtimeMs": 1544359142000,
+      "ctimeMs": 1545149524754.0671,
+      "birthtimeMs": 1544359142000,
+      "atime": "2018-12-19T18:26:40.728Z",
+      "mtime": "2018-12-09T12:39:02.000Z",
+      "ctime": "2018-12-18T16:12:04.754Z",
+      "birthtime": "2018-12-09T12:39:02.000Z"
+    },
+    "f8b71ca2-ed1e-590f-ae6d-20f1ee310915": {
+      "id": "f8b71ca2-ed1e-590f-ae6d-20f1ee310915",
+      "children": [],
+      "parent": "0f011646-34d3-5e62-b3bb-34d93531d21c",
+      "internal": {
+        "contentDigest": "e0741e3ec2439b1013ded5ce3f0cca08",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/index.js",
+      "componentChunkName": "component---src-templates-index-js",
+      "context": {
+        "group": [
+          {
+            "node": {
+              "fields": {
+                "slug": "/road-map/"
+              },
+              "excerpt": "\nThis page aims at showing at a glance my research path, founds, and gems. \nThere is a lot of burning topics nowadays ! \nMain frameworks I am using today are presented in the section below, you can also have a look at my Bookmarks if you want, I will do my best to keep this list updated regularly.\n\n",
+              "frontmatter": {
+                "title": "The Long Road",
+                "date": "December 8, 2018",
+                "featuredImage": {
+                  "childImageSharp": {
+                    "sizes": {
+                      "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgb/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAbqy6xnR8NP/xAAaEAEAAwADAAAAAAAAAAAAAAABAAIDEiEx/9oACAEBAAEFAq1z0NcGs7mK8nywL//EABgRAAIDAAAAAAAAAAAAAAAAAAABERJR/9oACAEDAQE/AbaQj//EABURAQEAAAAAAAAAAAAAAAAAABAS/9oACAECAQE/AaP/xAAbEAACAQUAAAAAAAAAAAAAAAAAEQECICEycf/aAAgBAQAGPwLRcHTLsyf/xAAbEAADAAIDAAAAAAAAAAAAAAAAAREhMUFh4f/aAAgBAQABPyHbjdj3EHDjOc2O3TKpMn//2gAMAwEAAgADAAAAEFTv/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPxBQ5oof/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EG1Kf//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFhMUFRof/aAAgBAQABPxBm7Gg+x9VTDWAebjcjZ6Qgz6OyGUtRzEJVcvE//9k=",
+                      "aspectRatio": 1.8823529411764706,
+                      "src": "/static/a36bdd86f732bc910b6582d29adae291/0868d/space.jpg",
+                      "srcSet": "/static/a36bdd86f732bc910b6582d29adae291/7dfb1/space.jpg 213w,\n/static/a36bdd86f732bc910b6582d29adae291/61f0d/space.jpg 425w,\n/static/a36bdd86f732bc910b6582d29adae291/0868d/space.jpg 800w",
+                      "sizes": "(max-width: 800px) 100vw, 800px"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "fields": {
+                "slug": "/welcome-to-the-blog/"
+              },
+              "excerpt": "\nWelcome to my blog, I hope you will enjoy your stay! Decrease ambient lights, fasten your seatbelts, and follow me inside front and back-end various programming.\n\n",
+              "frontmatter": {
+                "title": "Welcome, Stranger!",
+                "date": "December 1, 2018",
+                "featuredImage": {
+                  "childImageSharp": {
+                    "sizes": {
+                      "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGQAAAQUAAAAAAAAAAAAAAAAAAAECAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAB/9oADAMBAAIQAxAAAAHKtownhAs//8QAFxABAQEBAAAAAAAAAAAAAAAAAAIyA//aAAgBAQABBQKIVhxTp//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ASf/xAAWEQADAAAAAAAAAAAAAAAAAAABEEH/2gAIAQIBAT8BNX//xAAZEAEAAgMAAAAAAAAAAAAAAAABABAxQXH/2gAIAQEABj8CgbM08jX/xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhMUFRof/aAAgBAQABPyGR9LoObhCdmZec0f/aAAwDAQACAAMAAAAQiy//xAAYEQACAwAAAAAAAAAAAAAAAAAAAREhYf/aAAgBAwEBPxBIS0o//8QAFxEAAwEAAAAAAAAAAAAAAAAAARARkf/aAAgBAgEBPxAsRf/EAB0QAAIBBAMAAAAAAAAAAAAAAAABETFRgaEhscH/2gAIAQEAAT8QRxOS0RSk2BUVEsWHFuRvTd+Coz2z/9k=",
+                      "aspectRatio": 2.2,
+                      "src": "/static/09591b6c0ecf431ce8117c089d40cc3a/6b3a1/featured.jpg",
+                      "srcSet": "/static/09591b6c0ecf431ce8117c089d40cc3a/182ff/featured.jpg 213w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/7f5c7/featured.jpg 425w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/6b3a1/featured.jpg 850w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/838e8/featured.jpg 1100w",
+                      "sizes": "(max-width: 850px) 100vw, 850px"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "pathPrefix": "",
+        "first": true,
+        "last": true,
+        "index": 1,
+        "pageCount": 1,
+        "additionalContext": {}
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "dab454de231099b8cace691d207fec15",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /road-map/": {
+      "jsonName": "road-map-7a4",
+      "internalComponentName": "ComponentRoadMap",
+      "path": "/road-map/",
+      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/road-map/",
+        "previous": {
+          "fields": {
+            "slug": "/welcome-to-the-blog/"
+          },
+          "excerpt": "\nWelcome to my blog, I hope you will enjoy your stay! Decrease ambient lights, fasten your seatbelts, and follow me inside front and back-end various programming.\n\n",
+          "frontmatter": {
+            "title": "Welcome, Stranger!",
+            "date": "December 1, 2018",
+            "featuredImage": {
+              "childImageSharp": {
+                "sizes": {
+                  "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGQAAAQUAAAAAAAAAAAAAAAAAAAECAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAB/9oADAMBAAIQAxAAAAHKtownhAs//8QAFxABAQEBAAAAAAAAAAAAAAAAAAIyA//aAAgBAQABBQKIVhxTp//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ASf/xAAWEQADAAAAAAAAAAAAAAAAAAABEEH/2gAIAQIBAT8BNX//xAAZEAEAAgMAAAAAAAAAAAAAAAABABAxQXH/2gAIAQEABj8CgbM08jX/xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhMUFRof/aAAgBAQABPyGR9LoObhCdmZec0f/aAAwDAQACAAMAAAAQiy//xAAYEQACAwAAAAAAAAAAAAAAAAAAAREhYf/aAAgBAwEBPxBIS0o//8QAFxEAAwEAAAAAAAAAAAAAAAAAARARkf/aAAgBAgEBPxAsRf/EAB0QAAIBBAMAAAAAAAAAAAAAAAABETFRgaEhscH/2gAIAQEAAT8QRxOS0RSk2BUVEsWHFuRvTd+Coz2z/9k=",
+                  "aspectRatio": 2.2,
+                  "src": "/static/09591b6c0ecf431ce8117c089d40cc3a/6b3a1/featured.jpg",
+                  "srcSet": "/static/09591b6c0ecf431ce8117c089d40cc3a/182ff/featured.jpg 213w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/7f5c7/featured.jpg 425w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/6b3a1/featured.jpg 850w,\n/static/09591b6c0ecf431ce8117c089d40cc3a/838e8/featured.jpg 1100w",
+                  "sizes": "(max-width: 850px) 100vw, 850px"
+                }
+              }
+            }
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
+      "id": "SitePage /road-map/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4c78c5223e16c6969578387c5527cd0b",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /welcome-to-the-blog/": {
+      "jsonName": "welcome-to-the-blog-bfd",
+      "internalComponentName": "ComponentWelcomeToTheBlog",
+      "path": "/welcome-to-the-blog/",
+      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/welcome-to-the-blog/",
+        "previous": null,
+        "next": {
+          "fields": {
+            "slug": "/road-map/"
+          },
+          "excerpt": "\nThis page aims at showing at a glance my research path, founds, and gems. \nThere is a lot of burning topics nowadays ! \nMain frameworks I am using today are presented in the section below, you can also have a look at my Bookmarks if you want, I will do my best to keep this list updated regularly.\n\n",
+          "frontmatter": {
+            "title": "The Long Road",
+            "date": "December 8, 2018",
+            "featuredImage": {
+              "childImageSharp": {
+                "sizes": {
+                  "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgb/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAbqy6xnR8NP/xAAaEAEAAwADAAAAAAAAAAAAAAABAAIDEiEx/9oACAEBAAEFAq1z0NcGs7mK8nywL//EABgRAAIDAAAAAAAAAAAAAAAAAAABERJR/9oACAEDAQE/AbaQj//EABURAQEAAAAAAAAAAAAAAAAAABAS/9oACAECAQE/AaP/xAAbEAACAQUAAAAAAAAAAAAAAAAAEQECICEycf/aAAgBAQAGPwLRcHTLsyf/xAAbEAADAAIDAAAAAAAAAAAAAAAAAREhMUFh4f/aAAgBAQABPyHbjdj3EHDjOc2O3TKpMn//2gAMAwEAAgADAAAAEFTv/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPxBQ5oof/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EG1Kf//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFhMUFRof/aAAgBAQABPxBm7Gg+x9VTDWAebjcjZ6Qgz6OyGUtRzEJVcvE//9k=",
+                  "aspectRatio": 1.8823529411764706,
+                  "src": "/static/a36bdd86f732bc910b6582d29adae291/0868d/space.jpg",
+                  "srcSet": "/static/a36bdd86f732bc910b6582d29adae291/7dfb1/space.jpg 213w,\n/static/a36bdd86f732bc910b6582d29adae291/61f0d/space.jpg 425w,\n/static/a36bdd86f732bc910b6582d29adae291/0868d/space.jpg 800w",
+                  "sizes": "(max-width: 800px) 100vw, 800px"
+                }
+              }
+            }
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/blog-post.js",
+      "id": "SitePage /welcome-to-the-blog/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "143510c8bfb6317f41dfffedaf2b3fab",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "8f4de126-1fe2-5322-8c6f-8ddda25dee9c",
+      "pluginCreatorId": "8f4de126-1fe2-5322-8c6f-8ddda25dee9c",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "897c132632fe944ce4045d5640f9dc37",
+        "description": "8f4de126-1fe2-5322-8c6f-8ddda25dee9c",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "685cebb405484669b14f082d6d3626c7",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7a837e08-f30c-5480-968f-a2a27ae121d4": {
+      "id": "7a837e08-f30c-5480-968f-a2a27ae121d4",
+      "children": [],
+      "parent": "29738dd3-aaef-59a1-a3b4-47a7790fe6f8",
+      "internal": {
+        "content": "\nWelcome to my blog, I hope you will enjoy your stay! Decrease ambient lights, fasten your seatbelts, and follow me inside front and back-end various programming.\n\n<!-- end -->\n\n## Who am I ?\n\nFrench generalist engineer, dedicated to software programming since 2012. I started professional coding in a research laboratory environement, where aeronautics or military customers where focus on system ergonomics analysis, and developing innovative features through off-the-shelves methods or absolutely new devices. Among others, I also worked in more creative environment like dance performances, and kids workshop around virtual and augmented reality too.\n\n```javascript\n        Learn. Observe and do things with Intention.\n```\n\nComments sections will be added soon. Meanwhile, you can contact me at this adress : jconan@outlook.fr\n\nThank You Stranger, wondering to see you for another coffee (blog) time.\n\n![alt text](./B51.jpg \"J-Conan\")",
+        "type": "MarkdownRemark",
+        "contentDigest": "98f6c2b675bcd702648606294073e02d",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Welcome, Stranger!",
+        "date": "2018-12-01",
+        "featuredImage": "./featured.jpg",
+        "_PARENT": "29738dd3-aaef-59a1-a3b4-47a7790fe6f8"
+      },
+      "excerpt": "\nWelcome to my blog, I hope you will enjoy your stay! Decrease ambient lights, fasten your seatbelts, and follow me inside front and back-end various programming.\n\n",
+      "rawMarkdownBody": "\nWelcome to my blog, I hope you will enjoy your stay! Decrease ambient lights, fasten your seatbelts, and follow me inside front and back-end various programming.\n\n<!-- end -->\n\n## Who am I ?\n\nFrench generalist engineer, dedicated to software programming since 2012. I started professional coding in a research laboratory environement, where aeronautics or military customers where focus on system ergonomics analysis, and developing innovative features through off-the-shelves methods or absolutely new devices. Among others, I also worked in more creative environment like dance performances, and kids workshop around virtual and augmented reality too.\n\n```javascript\n        Learn. Observe and do things with Intention.\n```\n\nComments sections will be added soon. Meanwhile, you can contact me at this adress : jconan@outlook.fr\n\nThank You Stranger, wondering to see you for another coffee (blog) time.\n\n![alt text](./B51.jpg \"J-Conan\")",
+      "fileAbsolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/welcome-to-the-blog/index.md",
+      "fields": {
+        "slug": "/welcome-to-the-blog/"
+      }
     },
     "ca339aef-a812-5884-98e7-3c4d5f55cf27": {
       "id": "ca339aef-a812-5884-98e7-3c4d5f55cf27",
       "children": [],
       "parent": "85d7d9f9-c7f8-5f1e-b195-cbe5c3b0c46c",
       "internal": {
-        "content": "\nThis page aims at showing at a glance my research path, founds, and gems. Topics are presented in the Map section, you can also have a look at my Bookmarks if you want, they might tell you what has been, is, and will be.\n\n<!-- end -->\n\n## Map\n\n![map](./data-storm.png \"XMind\")\n\nHere is my own definition of the \"Full-stack developer\" path. I will be very grateful to discuss about those topics and expand this map with you, don't hesitate to leave a comment below.\n\n## Bookmarks\n\n<DT><H3 FOLDED></H3>\n<DL><p>\n        <DT><H3 FOLDED>Novembre</H3>\n        <DL><p>\n                <DT><H3 FOLDED>18/11/25</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://www.creativebloq.com/html5/build-tile-based-html5-game-31410992\">Build a tile-based HTML5 game | Creative Bloq</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/11/26</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/\">Understanding RequireJS for Effective JavaScript Module Loading</A>\n                        <DT><A HREF=\"https://medium.freecodecamp.org/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8\">Requiring modules in Node.js: Everything you need to know</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/11/27</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://github.com/Microsoft/vscode/issues/14896\">how to hide sidebar · Issue #14896 · Microsoft/vscode</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/11/28</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://github.com/Microsoft/vscode-ios-web-debug\">Microsoft/vscode-ios-web-debug: Debug your JavaScript code running in Safari on iOS devices from VS Code.</A>\n                        <DT><A HREF=\"https://github.com/RemoteDebug/remotedebug-ios-webkit-adapter#getting-started\">RemoteDebug/remotedebug-ios-webkit-adapter: Debug Safari and WebViews on iOS from tools like VS Code, Chrome DevTools, Mozilla Debugger.html</A>\n                        <DT><A HREF=\"https://medium.com/@auchenberg/hello-remotedebug-ios-webkit-adapter-debug-safari-and-ios-webviews-from-anywhere-2a8553df7465\">Hello RemoteDebug iOS WebKit Adapter: Debug Safari and iOS WebViews from anywhere 📡📱</A>\n                        <DT><A HREF=\"https://docs.unity3d.com/Manual/HOWTO-exportFBX.html#Max\">Unity - Manual: Exporting from other applications</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/11/29</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://medium.com/@mfosullivan/a-beginners-guide-to-setting-up-a-modern-web-development-environment-on-windows-10-4d75cd94cde8\">A beginners guide to setting up a modern web development environment on Windows 10</A>\n                        <DT><A HREF=\"https://code.visualstudio.com/docs/getstarted/settings\">Visual Studio Code User and Workspace Settings</A>\n                        <DT><A HREF=\"https://code.visualstudio.com/docs/editor/integrated-terminal\">Integrated Terminal in Visual Studio Code</A>\n                        <DT><A HREF=\"https://code.visualstudio.com/docs/editor/multi-root-workspaces#_settings\">Multi-root Workspaces in Visual Studio Code</A>\n                        <DT><A HREF=\"https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/\">How to install Yarn on Ubuntu 18.04 | Linuxize</A>\n                        <DT><A HREF=\"https://askubuntu.com/questions/334994/which-one-is-better-using-or-to-execute-multiple-commands-in-one-line\">bash - Which one is better: using ; or &amp;&amp; to execute multiple commands in one line? - Ask Ubuntu</A>\n                        <DT><A HREF=\"https://support.google.com/chrome/answer/157179?hl=en\">Chrome keyboard shortcuts - Google Chrome Help</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/11/30</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file\">Include another HTML file in a HTML file - Stack Overflow</A>\n                        <DT><A HREF=\"https://www.html5rocks.com/en/tutorials/webcomponents/imports/\">HTML Imports: #include for the web - HTML5 Rocks</A>\n                        <DT><A HREF=\"https://jekyllrb.com/docs/themes/\">Themes | Jekyll • Simple, blog-aware, static sites</A>\n                        <DT><A HREF=\"https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site-with-the-jekyll-theme-chooser/\">Adding a Jekyll theme to your GitHub Pages site with the Jekyll Theme Chooser - User Documentation</A>\n                        <DT><A HREF=\"https://git-scm.com/docs/git-clone\">Git - git-clone Documentation</A>\n                        <DT><A HREF=\"https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes\">Git - Working with Remotes</A>\n                        <DT><A HREF=\"http://jekyllthemes.org/themes/airspace/\">Airspace</A>\n                        <DT><A HREF=\"https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/\">Adding an existing project to GitHub using the command line - User Documentation</A>\n                        <DT><A HREF=\"https://help.github.com/articles/setting-your-commit-email-address-in-git/\">Setting your commit email address in Git - User Documentation</A>\n                        <DT><A HREF=\"https://help.github.com/articles/error-permission-denied-publickey/\">Error: Permission denied (publickey) - User Documentation</A>\n                </DL><p>\n        </DL><p>\n        <DT><H3 FOLDED>Décembre</H3>\n        <DL><p>\n                <DT><H3 FOLDED>18/12/01</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://github.com/themefisher/airspace-free-html5-agency-template\">themefisher/airspace-free-html5-agency-template</A>\n                        <DT><A HREF=\"https://stackoverflow.com/questions/33201630/install-gem-gives-failed-to-build-gem-native-extension\">ruby - Install gem gives \"Failed to build gem native extension.\" - Stack Overflow</A>\n                        <DT><A HREF=\"https://rubygems.org/gems/jekyll-airspace/versions/0.1.0\">jekyll-airspace | RubyGems.org | votre communauté d'hébergement des gems</A>\n                        <DT><A HREF=\"https://webdesign.tutsplus.com/tutorials/how-to-set-up-a-jekyll-theme--cms-26332\">How to Set Up a Jekyll Theme</A>\n                        <DT><A HREF=\"https://jekyllrb.com/docs/usage/\">Command Line Usage | Jekyll • Simple, blog-aware, static sites</A>\n                        <DT><A HREF=\"https://jekyllrb.com/docs/\">Quickstart | Jekyll • Simple, blog-aware, static sites</A>\n                        <DT><A HREF=\"https://stackoverflow.com/questions/20559255/error-while-installing-json-gem-mkmf-rb-cant-find-header-files-for-ruby\">Error while installing json gem 'mkmf.rb can't find header files for ruby' - Stack Overflow</A>\n                        <DT><A HREF=\"https://stackoverflow.com/questions/24423067/missing-folder-in-repository-after-git-add\">missing folder in repository after git add - Stack Overflow</A>\n                        <DT><A HREF=\"https://www.html5rocks.com/en/tutorials/speed/parallax/\">Parallaxin' - HTML5 Rocks</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/12/02</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://codepen.io/#\">CodePen</A>\n                        <DT><A HREF=\"http://www.brainbell.com/tutors/C_Sharp/Instantiation.htm\">Instantiation : C Sharp</A>\n                        <DT><A HREF=\"https://philippe.developpez.com/articles/SOLIDdotNet/#LVI%20-%20C\">Bonnes pratiques objet en .net : Introduction aux principes SOLID</A>\n                        <DT><A HREF=\"https://philippe.developpez.com/articles/dotnet/injectiondedependances/\">Injection de dépendances en .NET, pattern, intérêt et outils</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/12/03</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://code.visualstudio.com/docs/python/python-tutorial\">Get Started Tutorial for Python in Visual Studio Code</A>\n                        <DT><A HREF=\"https://code.visualstudio.com/docs/python/environments\">Using Python Environments in Visual Studio Code</A>\n                        <DT><A HREF=\"https://github.com/toxtli/futuristic-3d-spherical-news-visualization-three-js\">toxtli/futuristic-3d-spherical-news-visualization-three-js: This is a 3D visualization in javascript that enables spherical, helix, grid and table views using a data-driven approach with three.js</A>\n                        <DT><A HREF=\"https://www.w3schools.com/css/css_image_transparency.asp\">CSS Image Opacity / Transparency</A>\n                        <DT><A HREF=\"http://simplefocus.com/flowtype/\">FlowType.JS — Responsive web typography at its finest: font-size and line-height based on element width. | Simple Focus</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/12/04</H3>\n                <DL><p>\n                        <DT><A HREF=\"http://excamera.com/articles/26/doc/intro.html\">Introduction and Cookbook — Python OpenEXR v1.2 documentation</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/12/08</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/\">Sourcing from Netlify CMS | GatsbyJS</A>\n                </DL><p>\n        </DL><p>\n</DL><p>",
+        "content": "\nThis page aims at showing at a glance my research path, founds, and gems. \nThere is a lot of burning topics nowadays ! \nMain frameworks I am using today are presented in the section below, you can also have a look at my Bookmarks if you want, I will do my best to keep this list updated regularly.\n\n<!-- end -->\n\n## IDE\n\nMy development environment is based on shared projects between MacOS and Windows, Back/Front-End development and 3D environments. Configuring Windows to execute Linux command, and merging frames in Visual Studio Code makes the bridge between those two. Thank you Microsoft for your last actions towards community developers. Open-source softwares will win, at the very end.\n\n## Frameworks\n\n![map](./road-map-2018-12-09-12.43.51.png \"XMind\")\n\nI currently enjoy front development libraries based on Javascript like [Jekyll](https://jekyllrb.com/) and [Gatsby](https://www.gatsbyjs.org/). Deployment from [Npm](https://www.npmjs.com/) is like having a terminal copilot which does the main part of the job for you. It takes a few time to obtain a stable environment but it really worth the time !\n\n## Bookmarks\n\n<DT><H3 FOLDED>Novembre</H3>\n\t\t\t<DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/25</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://www.creativebloq.com/html5/build-tile-based-html5-game-31410992\">Build a tile-based HTML5 game | Creative Bloq</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/26</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/\">Understanding RequireJS for Effective JavaScript Module Loading</A>\n\t\t\t\t\t<DT><A HREF=\"https://medium.freecodecamp.org/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8\">Requiring modules in Node.js: Everything you need to know</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/27</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Microsoft/vscode/issues/14896\">how to hide sidebar · Issue #14896 · Microsoft/vscode</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/28</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Microsoft/vscode-ios-web-debug\">Microsoft/vscode-ios-web-debug: Debug your JavaScript code running in Safari on iOS devices from VS Code.</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/RemoteDebug/remotedebug-ios-webkit-adapter#getting-started\">RemoteDebug/remotedebug-ios-webkit-adapter: Debug Safari and WebViews on iOS from tools like VS Code, Chrome DevTools, Mozilla Debugger.html</A>\n\t\t\t\t\t<DT><A HREF=\"https://medium.com/@auchenberg/hello-remotedebug-ios-webkit-adapter-debug-safari-and-ios-webviews-from-anywhere-2a8553df7465\">Hello RemoteDebug iOS WebKit Adapter: Debug Safari and iOS WebViews from anywhere 📡📱</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/HOWTO-exportFBX.html#Max\">Unity - Manual: Exporting from other applications</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/29</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://medium.com/@mfosullivan/a-beginners-guide-to-setting-up-a-modern-web-development-environment-on-windows-10-4d75cd94cde8\">A beginners guide to setting up a modern web development environment on Windows 10</A>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/getstarted/settings\">Visual Studio Code User and Workspace Settings</A>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/editor/integrated-terminal\">Integrated Terminal in Visual Studio Code</A>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/editor/multi-root-workspaces#_settings\">Multi-root Workspaces in Visual Studio Code</A>\n\t\t\t\t\t<DT><A HREF=\"https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/\">How to install Yarn on Ubuntu 18.04 | Linuxize</A>\n\t\t\t\t\t<DT><A HREF=\"https://askubuntu.com/questions/334994/which-one-is-better-using-or-to-execute-multiple-commands-in-one-line\">bash - Which one is better: using ; or &amp;&amp; to execute multiple commands in one line? - Ask Ubuntu</A>\n\t\t\t\t\t<DT><A HREF=\"https://support.google.com/chrome/answer/157179?hl=en\">Chrome keyboard shortcuts - Google Chrome Help</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/30</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file\">Include another HTML file in a HTML file - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.html5rocks.com/en/tutorials/webcomponents/imports/\">HTML Imports: #include for the web - HTML5 Rocks</A>\n\t\t\t\t\t<DT><A HREF=\"https://jekyllrb.com/docs/themes/\">Themes | Jekyll • Simple, blog-aware, static sites</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site-with-the-jekyll-theme-chooser/\">Adding a Jekyll theme to your GitHub Pages site with the Jekyll Theme Chooser - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://git-scm.com/docs/git-clone\">Git - git-clone Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes\">Git - Working with Remotes</A>\n\t\t\t\t\t<DT><A HREF=\"http://jekyllthemes.org/themes/airspace/\">Airspace</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/\">Adding an existing project to GitHub using the command line - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/setting-your-commit-email-address-in-git/\">Setting your commit email address in Git - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/error-permission-denied-publickey/\">Error: Permission denied (publickey) - User Documentation</A>\n\t\t\t\t</DL><p>\n\t\t\t</DL><p>\n\t\t\t<DT><H3 FOLDED>Décembre</H3>\n\t\t\t<DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/01</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/themefisher/airspace-free-html5-agency-template\">themefisher/airspace-free-html5-agency-template</A>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/33201630/install-gem-gives-failed-to-build-gem-native-extension\">ruby - Install gem gives \"Failed to build gem native extension.\" - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://rubygems.org/gems/jekyll-airspace/versions/0.1.0\">jekyll-airspace | RubyGems.org | votre communauté d'hébergement des gems</A>\n\t\t\t\t\t<DT><A HREF=\"https://webdesign.tutsplus.com/tutorials/how-to-set-up-a-jekyll-theme--cms-26332\">How to Set Up a Jekyll Theme</A>\n\t\t\t\t\t<DT><A HREF=\"https://jekyllrb.com/docs/usage/\">Command Line Usage | Jekyll • Simple, blog-aware, static sites</A>\n\t\t\t\t\t<DT><A HREF=\"https://jekyllrb.com/docs/\">Quickstart | Jekyll • Simple, blog-aware, static sites</A>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/20559255/error-while-installing-json-gem-mkmf-rb-cant-find-header-files-for-ruby\">Error while installing json gem 'mkmf.rb can't find header files for ruby' - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/24423067/missing-folder-in-repository-after-git-add\">missing folder in repository after git add - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.html5rocks.com/en/tutorials/speed/parallax/\">Parallaxin' - HTML5 Rocks</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/02</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://codepen.io/#\">CodePen</A>\n\t\t\t\t\t<DT><A HREF=\"http://www.brainbell.com/tutors/C_Sharp/Instantiation.htm\">Instantiation : C Sharp</A>\n\t\t\t\t\t<DT><A HREF=\"https://philippe.developpez.com/articles/SOLIDdotNet/#LVI%20-%20C\">Bonnes pratiques objet en .net : Introduction aux principes SOLID</A>\n\t\t\t\t\t<DT><A HREF=\"https://philippe.developpez.com/articles/dotnet/injectiondedependances/\">Injection de dépendances en .NET, pattern, intérêt et outils</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/03</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/python/python-tutorial\">Get Started Tutorial for Python in Visual Studio Code</A>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/python/environments\">Using Python Environments in Visual Studio Code</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/toxtli/futuristic-3d-spherical-news-visualization-three-js\">toxtli/futuristic-3d-spherical-news-visualization-three-js: This is a 3D visualization in javascript that enables spherical, helix, grid and table views using a data-driven approach with three.js</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.w3schools.com/css/css_image_transparency.asp\">CSS Image Opacity / Transparency</A>\n\t\t\t\t\t<DT><A HREF=\"http://simplefocus.com/flowtype/\">FlowType.JS — Responsive web typography at its finest: font-size and line-height based on element width. | Simple Focus</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/04</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"http://excamera.com/articles/26/doc/intro.html\">Introduction and Cookbook — Python OpenEXR v1.2 documentation</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/08</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/\">Sourcing from Netlify CMS | GatsbyJS</A>\n\t\t\t\t\t<DT><A HREF=\"https://guides.github.com/features/mastering-markdown/\">Mastering Markdown · GitHub Guides</A>\n\t\t\t\t\t<DT><A HREF=\"http://chriseppstein.github.io/blog/2010/08/02/sass-extend-challenge/\">Sass Challenge: Use selector inheritance this week</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.codeproject.com/script/Membership/LogOn.aspx?rp=https%3a%2f%2fwww.codeproject.com%2f&download=true\">Sign in - CodeProject</A>\n\t\t\t\t\t<DT><A HREF=\"https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance\">Cascade and inheritance | MDN</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/09</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://reactjs.org/docs/dom-elements.html\">DOM Elements – React</A>\n\t\t\t\t\t<DT><A HREF=\"https://zhenyong.github.io/react/tips/dangerously-set-inner-html.html\">Dangerously Set innerHTML | React</A>\n\t\t\t\t\t<DT><A HREF=\"https://devhints.io/jekyll\">Jekyll cheatsheet</A>\n\t\t\t\t\t<DT><A HREF=\"https://imsun.github.io/gitment/\">Gitment Demo Page</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.gatsbycentral.com/tutorial-comments-with-staticman-in-gatsby\">Tutorial: Comments with StaticMan in Gatsby | Gatsby Central</A>\n\t\t\t\t\t<DT><A HREF=\"https://shopify.github.io/liquid/\">Liquid template language</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.shopify.com/en/themes/liquid/basics\">Liquid basics · Shopify Help Center</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.sitepoint.com/setting-up-a-living-styleguide-in-jekyll/\">Setting up a Living Styleguide in Jekyll — SitePoint</A>\n\t\t\t\t\t<DT><A HREF=\"https://haacked.com/archive/2018/06/24/comments-for-jekyll-blogs/\">Comments for Jekyll Blogs | You’ve Been Haacked</A>\n\t\t\t\t\t<DT><A HREF=\"https://darekkay.com/blog/static-site-comments/\">Various ways to include comments on your static site</A>\n\t\t\t\t\t<DT><A HREF=\"http://donw.io/post/github-comments/\">Replacing Disqus with Github Comments · Gazoo.vrv</A>\n\t\t\t\t\t<DT><A HREF=\"https://news.ycombinator.com/item?id=14170041\">Replacing Disqus with GitHub Comments | Hacker News</A>\n\t\t\t\t\t<DT><A HREF=\"https://guides.github.com/activities/hello-world/\">Hello World · GitHub Guides</A>\n\t\t\t\t\t<DT><A HREF=\"https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/\">Authorizing OAuth Apps | GitHub Developer Guide</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Shopify/liquid\">Shopify/liquid: Liquid markup language. Safe, customer facing template language for flexible web apps.</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/imsun/gitment\">imsun/gitment: A comment system based on GitHub Issues.</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/\">Setting up your GitHub Pages site locally with Jekyll - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"http://frontendcollisionblog.com/jekyll/snippet/2015/03/23/how-to-show-a-summary-of-your-post-with-jekyll.html\">How to show a summary of your post with Jekyll</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/18</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://medium.com/@jimkang/complete-uninstall-remove-vscode-mac-5e48bef3bdec\">Complete uninstall / remove vscode (Mac) – Jim Kang – Medium</A>\n\t\t\t\t\t<DT><A HREF=\"http://osxdaily.com/2009/11/30/open-current-folder-in-finder-from-the-terminal/\">Open Current Folder in Finder from Terminal of Mac OS X</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/changing-a-remote-s-url/\">Changing a remote's URL - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/error-permission-denied-publickey/\">Error: Permission denied (publickey) - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://gist.github.com/adamjohnson/5682757\">Fix \"Permission denied (publickey)\" error when pushing with Git</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/\">Adding a new SSH key to your GitHub account - User Documentation</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/19</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://www.gatsbyjs.org/docs/centralizing-your-sites-navigation/\">Centralizing your site's navigation | GatsbyJS</A>\n\t\t\t\t</DL><p>\n\t\t\t</DL><p>\n\t\t</DL><p>\n\t\t<DT><H3 FOLDED>Unity</H3>\n\t\t<DL><p>\n\t\t\t<DT><H3 FOLDED>Novembre</H3>\n\t\t\t<DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/26</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://topps.diku.dk/torbenm/maps.msp\">Planet Map Generator</A>\n\t\t\t\t\t<DT><A HREF=\"http://wiki.polycount.com/wiki/Cube_map#Reflect.2FRefract_Map\">Cube map - polycount</A>\n\t\t\t\t\t<DT><A HREF=\"http://www.pixelsonic.com/2011/04/360%C2%B0-in-3ds-max-with-vray-2/\">360° in 3Ds Max with VRay – Pixelsonic – CGI, Visualization and Animation</A>\n\t\t\t\t\t<DT><A HREF=\"https://judegodin.wordpress.com/2011/12/06/how-the-hell-do-i-make-a-cubemap/\">How the Hell do I make a cubemap with my own art? | The Art of Jude Godin</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Gamgaroo/Esmeralda\">GitHub - Gamgaroo/Esmeralda: ASP.NET Core Web App for hosting Unity3D WebGL builds with support of Continuous Delivery via Unity Cloud Webhooks.</A>\n\t\t\t\t\t<DT><A HREF=\"https://forum.unity.com/threads/enable-fullscreen-webgl.441174/\">Enable fullScreen WebGl - Unity Forum</A>\n\t\t\t\t\t<DT><A HREF=\"https://forum.unity.com/threads/tutorial-best-way-to-import-3ds-max-models.470733/\">Tutorial: Best way to import 3ds max models - Unity Forum</A>\n\t\t\t\t\t<DT><A HREF=\"https://store.unity.com/products/unity-pro?_ga=2.37608992.1802608666.1543247316-1732892576.1543247316\">Unity Pro - Unity Store</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/ScriptReference/Screen-fullScreen.html\">Unity - Scripting API: Screen.fullScreen</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/class-Cubemap.html\">Unity - Manual: Cubemap</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/webgl-interactingwithbrowserscripting.html\">Unity - Manual: WebGL: Interacting with browser scripting</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/ScriptReference/Transform.Rotate.html\">Unity - Scripting API: Transform.Rotate</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/webgl-cursorfullscreen.html\">Unity - Manual: Cursor locking and full-screen mode in WebGL</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/webgl-performance.html\">Unity - Manual: WebGL performance considerations</A>\n\t\t\t\t\t<DT><A HREF=\"https://dev.rbcafe.com/unity/unity-5.3.3/en/Manual/webgl-building.html\">Unity - Manual: Building and Running a WebGL Project</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/27</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://catlikecoding.com/unity/tutorials/\">Catlike Coding - Unity C# and Shader Tutorials</A>\n\t\t\t\t\t<DT><A HREF=\"http://wiki.unity3d.com/index.php/SmoothMouseLook\">SmoothMouseLook - Unify Community Wiki</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/ScriptReference/Transform.RotateAround.html\">Unity - Scripting API: Transform.RotateAround</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Packages/com.unity.postprocessing@2.1/manual/Quick-start.html\">Quick-start | Package Manager UI website</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/HOWTO-Water.html\">Unity - Manual: Water in Unity</A>\n\t\t\t\t\t<DT><A HREF=\"https://unity3d.com/fr/learn/tutorials/topics/graphics/gentle-introduction-shaders\">A Gentle Introduction to Shaders - Unity</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/julien-conan/ShaderForge\">julien-conan/ShaderForge</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Centribo/Unity-Shader-Basics-Tutorial\">Centribo/Unity-Shader-Basics-Tutorial: A introduction into creating shaders for Unity</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Unity-Technologies/PostProcessing\">Unity-Technologies/PostProcessing: Post Processing Stack</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/28</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/HOWTO-exportFBX.html#Max\">Unity - Manual: Exporting from other applications</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/AnimationsImport.html\">Unity - Manual: Animation from external sources</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/29</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://assetstore.unity.com/packages/vfx/particles/detonator-explosion-framework-1\">Detonator Explosion Framework - Asset Store</A>\n\t\t\t\t\t<DT><A HREF=\"https://assetstore.unity.com/packages/2d/textures-materials/milky-way-skybox-94001\">Milky Way Skybox - Asset Store</A>\n\t\t\t\t\t<DT><A HREF=\"https://assetstore.unity.com/packages/2d/textures-materials/star-creation-tools-80595\">Star Creation Tools - Asset Store</A>\n\t\t\t\t\t<DT><A HREF=\"https://assetstore.unity.com/packages/2d/textures-materials/sky/spaceskies-free-80503\">SpaceSkies Free - Asset Store</A>\n\t\t\t\t\t<DT><A HREF=\"https://medium.com/@mheavers/implementing-a-stereo-skybox-into-unity-for-virtual-reality-e427cf338b06\">Implementing a Stereoscopic Skybox into Unity for Virtual Reality</A>\n\t\t\t\t\t<DT><A HREF=\"https://assetstore.unity.com/packages/tools/the-lab-renderer-63141\">The Lab Renderer - Asset Store</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.google.com/document/d/1e2jkr_-v5iaZRuHdnMrSv978LuJKYZhsIYnrDkNAuvQ/edit\">Scriptable Render Loops &amp; new HDRenderLoop overview - Google Docs</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/PostProcessing-Stack.html\">Unity - Manual: Post-processing stack</A>\n\t\t\t\t\t<DT><A HREF=\"https://medium.com/aol-alpha/how-to-design-vr-skyboxes-d460e9eb5a75\">How to Design VR Skyboxes – AOL Alpha – Medium</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/30</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://blogs.unity3d.com/2017/10/04/neon/\">Neon – Unity Blog</A>\n\t\t\t\t\t<DT><A HREF=\"https://assetstore.unity.com/packages/tools/audio/radio-pro-32034\">Radio PRO - Asset Store</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/webgl-templates.html\">Unity - Manual: Using WebGL Templates</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/PostProcessing-Stack-SetUp.html\">Unity - Manual: Setting up the post-processing stack</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Unity-Technologies/VolumetricLighting\">Unity-Technologies/VolumetricLighting: Lighting effects implemented for the Adam demo: volumetric fog, area lights and tube lights</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/greggman/better-unity-webgl-template\">greggman/better-unity-webgl-template: A better default template for Unity WebGL</A>\n\t\t\t\t</DL><p>\n\t\t\t</DL><p>\n\t\t\t<DT><H3 FOLDED>Décembre</H3>\n\t\t\t<DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/01</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/webgl-deploying.html\">Manual: WebGL: Deploying compressed builds</A>\n\t\t\t\t\t<DT><A HREF=\"https://answers.unity.com/questions/1213905/enable-scrolling-the-page-in-webgl.html\">Enable scrolling the page in WebGL - Unity Answers</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/02</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://answers.unity.com/questions/328059/making-a-jetpack.html\">Making a Jetpack - Unity Answers</A>\n\t\t\t\t\t<DT><A HREF=\"https://gamedev.stackexchange.com/questions/132548/how-do-i-make-a-jetpack-in-unity\">StackExchangeGameDevelopment : How do I make a jetpack in Unity?</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/ScriptReference/Input.GetAxis.html\">Scripting API: Input.GetAxis</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/class-CharacterController.html\">Manual: Character Controller</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/03</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Unity-Technologies/PostProcessing/tree/v2\">Unity-Technologies/PostProcessing: Post Processing Stack</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Unity-Technologies/PostProcessing/wiki\">Home · Unity-Technologies/PostProcessing Wiki</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Unity-Technologies/PostProcessing/wiki/Installation\">Installation · Unity-Technologies/PostProcessing Wiki</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Unity-Technologies/PostProcessing/wiki/Quick-start\">Quick start · Unity-Technologies/PostProcessing Wiki</A>\n\t\t\t\t\t<DT><A HREF=\"https://stopsecretdesign.wordpress.com/2011/09/19/unity-spaceship-tutorial/\">Unity Spaceship Tutorial – Stopsecret Design</A>\n\t\t\t\t\t<DT><A HREF=\"https://unity3d.com/fr/learn/tutorials/s/space-shooter-tutorial\">Space Shooter tutorial - Unity</A>\n\t\t\t\t\t<DT><A HREF=\"https://answers.unity.com/questions/1491301/cant-find-post-processing-behavior-script-in-post.html\">Can't find post processing behavior script in post processing stack import from asset store - Unity Answers</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/04</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Packages/com.unity.textmeshpro@1.3/manual/index.html\">TextMesh Pro User Guide | Package Manager UI website</A>\n\t\t\t\t\t<DT><A HREF=\"https://answers.unity.com/questions/1491301/cant-find-post-processing-behavior-script-in-post.html?childToView=1577599#answer-1577599\">Can't find post processing behavior script in post processing stack import from asset store - Unity Answers</A>\n\t\t\t\t\t<DT><A HREF=\"http://www.41post.com/4726/programming/unity-animated-texture-from-image-sequence-part-1\">Unity: Animated texture from image sequence - Part 1 | 41 Post</A>\n\t\t\t\t\t<DT><A HREF=\"https://answers.unity.com/questions/1350258/how-to-make-a-png-image-sequence-into-an-animated.html\">How to make a PNG Image Sequence into an Animated Texture? - Unity Answers</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/07</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022\">Oculus Integration - Asset Store</A>\n\t\t\t\t\t<DT><A HREF=\"https://blogs.unity3d.com/2018/01/26/stereo-360-image-and-video-capture/\">Stereo 360 Image and Video Capture – Unity Blog</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.youtube.com/watch?v=sxvKGVDmYfY\">Unity Tutorial : VR, Oculus Avatar and Grabbing Object setup IN 5 MINUTES - YouTube</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.gravitysketch.com/\">Gravity Sketch - Bringing Virtual Reality Into Your Design Workflow</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/11</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/webgl-graphics.html\">Unity - Manual: WebGL Graphics</A>\n\t\t\t\t\t<DT><A HREF=\"https://answers.unity.com/questions/1232366/webgl-antialiasing.html\">WebGL antialiasing - Unity Answers</A>\n\t\t\t\t\t<DT><A HREF=\"https://forum.unity.com/threads/anti-aliasing-not-working.522715/\">Anti-aliasing not working - Unity Forum</A>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/23501703/can-i-programmatically-enable-webgl-antialiasing-on-firefox\">javascript - Can I programmatically enable WebGL antialiasing on Firefox? - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.reddit.com/r/Unity3D/comments/4nquy5/anti_aliasing_comparison_ssaa_msaa_smaa_fxaa/\">Anti Aliasing comparison (SSAA, MSAA, SMAA, FXAA) : Unity3D</A>\n\t\t\t\t\t<DT><A HREF=\"https://sapphirenation.net/anti-aliasing-comparison-performance-quality/\">Anti-aliasing techniques comparison - SAPPHIRE Nation - Community blog by SAPPHIRE Technology</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.gamingscan.com/what-is-anti-aliasing/\">What is Anti-Aliasing? [Simple Explanation] - GamingScan</A>\n\t\t\t\t\t<DT><A HREF=\"https://vr.arvilab.com/blog/anti-aliasing\">Anti-Aliasing: What Is It and Why Do We Need It? — ARVI VR</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/12</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://forum.unity.com/threads/tutorial-best-way-to-import-3ds-max-models.470733/\">Tutorial: Best way to import 3ds max models - Unity Forum</A>\n\t\t\t\t\t<DT><A HREF=\"https://virtualscapelab.com/vr-tutorials/2017/prepare-3d-model-for-unity\">Prepare 3D Model for Unity — Virtualscape Lab | A Virtual Reality 3D Modeling Blog for Architectural Visualization</A>\n\t\t\t\t\t<DT><A HREF=\"https://virtualscapelab.com/vr-tutorials/2017/11/21/how-to-import-3d-model-into-unity\">How to import 3D model into Unity — Virtualscape Lab | A Virtual Reality 3D Modeling Blog for Architectural Visualization</A>\n\t\t\t\t\t<DT><A HREF=\"https://virtualscapelab.com/vr-tutorials/2017/11/21/uv-mapping-3ds-max\">UV Mapping in 3ds Max — Virtualscape Lab | A Virtual Reality 3D Modeling Blog for Architectural Visualization</A>\n\t\t\t\t\t<DT><A HREF=\"https://virtualscapelab.com/vr-tutorials/2017/11/21/optimize-textures-for-vr-3d-models\">Optimize Textures for VR 3D Models — Virtualscape Lab | A Virtual Reality 3D Modeling Blog for Architectural Visualization</A>\n\t\t\t\t\t<DT><A HREF=\"https://hackernoon.com/making-your-pixel-art-game-look-pixel-perfect-in-unity3d-3534963cad1d\">Making your Pixel Art Game look Pixel Perfect in Unity3D</A>\n\t\t\t\t\t<DT><A HREF=\"http://wiki.polycount.com/wiki/Texture_atlas\">Texture atlas - polycount</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.reddit.com/r/Unity3D/comments/3gdbyv/antialiasing_in_unity3d/\">Anti-aliasing in Unity3D : Unity3D</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Chman/SMAA\">Chman/SMAA: A highly customizable implementation of Subpixel Morphological Antialiasing for Unity</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/530/Documentation/Manual/SpritePacker.html\">Unity - Manual: Sprite Packer</A>\n\t\t\t\t\t<DT><A HREF=\"https://gamedevelopment.tutsplus.com/articles/using-texture-atlas-in-order-to-optimize-your-game--cms-26783\">Using a Texture Atlas to Optimize Your Game</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.codeandweb.com/texturepacker\">TexturePacker - Create Sprite Sheets for your game!</A>\n\t\t\t\t\t<DT><A HREF=\"http://www.scriptspot.com/3ds-max/scripts/texture-atlas-generator\">Texture Atlas Generator | ScriptSpot</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/18</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://developer.oculus.com/blog/distance-grab-sample-now-available-in-oculus-unity-sample-framework/\">Distance Grab Sample Now Available in Oculus Unity Sample Framework | Oculus</A>\n\t\t\t\t</DL><p>\n\t\t\t</DL><p>\n\t\t</DL><p>",
         "type": "MarkdownRemark",
-        "contentDigest": "da8ac3a7576b63a75f700007cccdbf81",
+        "contentDigest": "8ea6b102c380d443651f8cd546535619",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -2734,12 +2791,12 @@
       },
       "frontmatter": {
         "title": "The Long Road",
-        "date": "2018-12-09",
-        "featuredImage": "./data-storm.png",
+        "date": "2018-12-08",
+        "featuredImage": "./space.jpg",
         "_PARENT": "85d7d9f9-c7f8-5f1e-b195-cbe5c3b0c46c"
       },
-      "excerpt": "\nThis page aims at showing at a glance my research path, founds, and gems. Topics are presented in the Map section, you can also have a look at my Bookmarks if you want, they might tell you what has been, is, and will be.\n\n",
-      "rawMarkdownBody": "\nThis page aims at showing at a glance my research path, founds, and gems. Topics are presented in the Map section, you can also have a look at my Bookmarks if you want, they might tell you what has been, is, and will be.\n\n<!-- end -->\n\n## Map\n\n![map](./data-storm.png \"XMind\")\n\nHere is my own definition of the \"Full-stack developer\" path. I will be very grateful to discuss about those topics and expand this map with you, don't hesitate to leave a comment below.\n\n## Bookmarks\n\n<DT><H3 FOLDED></H3>\n<DL><p>\n        <DT><H3 FOLDED>Novembre</H3>\n        <DL><p>\n                <DT><H3 FOLDED>18/11/25</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://www.creativebloq.com/html5/build-tile-based-html5-game-31410992\">Build a tile-based HTML5 game | Creative Bloq</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/11/26</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/\">Understanding RequireJS for Effective JavaScript Module Loading</A>\n                        <DT><A HREF=\"https://medium.freecodecamp.org/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8\">Requiring modules in Node.js: Everything you need to know</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/11/27</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://github.com/Microsoft/vscode/issues/14896\">how to hide sidebar · Issue #14896 · Microsoft/vscode</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/11/28</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://github.com/Microsoft/vscode-ios-web-debug\">Microsoft/vscode-ios-web-debug: Debug your JavaScript code running in Safari on iOS devices from VS Code.</A>\n                        <DT><A HREF=\"https://github.com/RemoteDebug/remotedebug-ios-webkit-adapter#getting-started\">RemoteDebug/remotedebug-ios-webkit-adapter: Debug Safari and WebViews on iOS from tools like VS Code, Chrome DevTools, Mozilla Debugger.html</A>\n                        <DT><A HREF=\"https://medium.com/@auchenberg/hello-remotedebug-ios-webkit-adapter-debug-safari-and-ios-webviews-from-anywhere-2a8553df7465\">Hello RemoteDebug iOS WebKit Adapter: Debug Safari and iOS WebViews from anywhere 📡📱</A>\n                        <DT><A HREF=\"https://docs.unity3d.com/Manual/HOWTO-exportFBX.html#Max\">Unity - Manual: Exporting from other applications</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/11/29</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://medium.com/@mfosullivan/a-beginners-guide-to-setting-up-a-modern-web-development-environment-on-windows-10-4d75cd94cde8\">A beginners guide to setting up a modern web development environment on Windows 10</A>\n                        <DT><A HREF=\"https://code.visualstudio.com/docs/getstarted/settings\">Visual Studio Code User and Workspace Settings</A>\n                        <DT><A HREF=\"https://code.visualstudio.com/docs/editor/integrated-terminal\">Integrated Terminal in Visual Studio Code</A>\n                        <DT><A HREF=\"https://code.visualstudio.com/docs/editor/multi-root-workspaces#_settings\">Multi-root Workspaces in Visual Studio Code</A>\n                        <DT><A HREF=\"https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/\">How to install Yarn on Ubuntu 18.04 | Linuxize</A>\n                        <DT><A HREF=\"https://askubuntu.com/questions/334994/which-one-is-better-using-or-to-execute-multiple-commands-in-one-line\">bash - Which one is better: using ; or &amp;&amp; to execute multiple commands in one line? - Ask Ubuntu</A>\n                        <DT><A HREF=\"https://support.google.com/chrome/answer/157179?hl=en\">Chrome keyboard shortcuts - Google Chrome Help</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/11/30</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file\">Include another HTML file in a HTML file - Stack Overflow</A>\n                        <DT><A HREF=\"https://www.html5rocks.com/en/tutorials/webcomponents/imports/\">HTML Imports: #include for the web - HTML5 Rocks</A>\n                        <DT><A HREF=\"https://jekyllrb.com/docs/themes/\">Themes | Jekyll • Simple, blog-aware, static sites</A>\n                        <DT><A HREF=\"https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site-with-the-jekyll-theme-chooser/\">Adding a Jekyll theme to your GitHub Pages site with the Jekyll Theme Chooser - User Documentation</A>\n                        <DT><A HREF=\"https://git-scm.com/docs/git-clone\">Git - git-clone Documentation</A>\n                        <DT><A HREF=\"https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes\">Git - Working with Remotes</A>\n                        <DT><A HREF=\"http://jekyllthemes.org/themes/airspace/\">Airspace</A>\n                        <DT><A HREF=\"https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/\">Adding an existing project to GitHub using the command line - User Documentation</A>\n                        <DT><A HREF=\"https://help.github.com/articles/setting-your-commit-email-address-in-git/\">Setting your commit email address in Git - User Documentation</A>\n                        <DT><A HREF=\"https://help.github.com/articles/error-permission-denied-publickey/\">Error: Permission denied (publickey) - User Documentation</A>\n                </DL><p>\n        </DL><p>\n        <DT><H3 FOLDED>Décembre</H3>\n        <DL><p>\n                <DT><H3 FOLDED>18/12/01</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://github.com/themefisher/airspace-free-html5-agency-template\">themefisher/airspace-free-html5-agency-template</A>\n                        <DT><A HREF=\"https://stackoverflow.com/questions/33201630/install-gem-gives-failed-to-build-gem-native-extension\">ruby - Install gem gives \"Failed to build gem native extension.\" - Stack Overflow</A>\n                        <DT><A HREF=\"https://rubygems.org/gems/jekyll-airspace/versions/0.1.0\">jekyll-airspace | RubyGems.org | votre communauté d'hébergement des gems</A>\n                        <DT><A HREF=\"https://webdesign.tutsplus.com/tutorials/how-to-set-up-a-jekyll-theme--cms-26332\">How to Set Up a Jekyll Theme</A>\n                        <DT><A HREF=\"https://jekyllrb.com/docs/usage/\">Command Line Usage | Jekyll • Simple, blog-aware, static sites</A>\n                        <DT><A HREF=\"https://jekyllrb.com/docs/\">Quickstart | Jekyll • Simple, blog-aware, static sites</A>\n                        <DT><A HREF=\"https://stackoverflow.com/questions/20559255/error-while-installing-json-gem-mkmf-rb-cant-find-header-files-for-ruby\">Error while installing json gem 'mkmf.rb can't find header files for ruby' - Stack Overflow</A>\n                        <DT><A HREF=\"https://stackoverflow.com/questions/24423067/missing-folder-in-repository-after-git-add\">missing folder in repository after git add - Stack Overflow</A>\n                        <DT><A HREF=\"https://www.html5rocks.com/en/tutorials/speed/parallax/\">Parallaxin' - HTML5 Rocks</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/12/02</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://codepen.io/#\">CodePen</A>\n                        <DT><A HREF=\"http://www.brainbell.com/tutors/C_Sharp/Instantiation.htm\">Instantiation : C Sharp</A>\n                        <DT><A HREF=\"https://philippe.developpez.com/articles/SOLIDdotNet/#LVI%20-%20C\">Bonnes pratiques objet en .net : Introduction aux principes SOLID</A>\n                        <DT><A HREF=\"https://philippe.developpez.com/articles/dotnet/injectiondedependances/\">Injection de dépendances en .NET, pattern, intérêt et outils</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/12/03</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://code.visualstudio.com/docs/python/python-tutorial\">Get Started Tutorial for Python in Visual Studio Code</A>\n                        <DT><A HREF=\"https://code.visualstudio.com/docs/python/environments\">Using Python Environments in Visual Studio Code</A>\n                        <DT><A HREF=\"https://github.com/toxtli/futuristic-3d-spherical-news-visualization-three-js\">toxtli/futuristic-3d-spherical-news-visualization-three-js: This is a 3D visualization in javascript that enables spherical, helix, grid and table views using a data-driven approach with three.js</A>\n                        <DT><A HREF=\"https://www.w3schools.com/css/css_image_transparency.asp\">CSS Image Opacity / Transparency</A>\n                        <DT><A HREF=\"http://simplefocus.com/flowtype/\">FlowType.JS — Responsive web typography at its finest: font-size and line-height based on element width. | Simple Focus</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/12/04</H3>\n                <DL><p>\n                        <DT><A HREF=\"http://excamera.com/articles/26/doc/intro.html\">Introduction and Cookbook — Python OpenEXR v1.2 documentation</A>\n                </DL><p>\n                <DT><H3 FOLDED>18/12/08</H3>\n                <DL><p>\n                        <DT><A HREF=\"https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/\">Sourcing from Netlify CMS | GatsbyJS</A>\n                </DL><p>\n        </DL><p>\n</DL><p>",
+      "excerpt": "\nThis page aims at showing at a glance my research path, founds, and gems. \nThere is a lot of burning topics nowadays ! \nMain frameworks I am using today are presented in the section below, you can also have a look at my Bookmarks if you want, I will do my best to keep this list updated regularly.\n\n",
+      "rawMarkdownBody": "\nThis page aims at showing at a glance my research path, founds, and gems. \nThere is a lot of burning topics nowadays ! \nMain frameworks I am using today are presented in the section below, you can also have a look at my Bookmarks if you want, I will do my best to keep this list updated regularly.\n\n<!-- end -->\n\n## IDE\n\nMy development environment is based on shared projects between MacOS and Windows, Back/Front-End development and 3D environments. Configuring Windows to execute Linux command, and merging frames in Visual Studio Code makes the bridge between those two. Thank you Microsoft for your last actions towards community developers. Open-source softwares will win, at the very end.\n\n## Frameworks\n\n![map](./road-map-2018-12-09-12.43.51.png \"XMind\")\n\nI currently enjoy front development libraries based on Javascript like [Jekyll](https://jekyllrb.com/) and [Gatsby](https://www.gatsbyjs.org/). Deployment from [Npm](https://www.npmjs.com/) is like having a terminal copilot which does the main part of the job for you. It takes a few time to obtain a stable environment but it really worth the time !\n\n## Bookmarks\n\n<DT><H3 FOLDED>Novembre</H3>\n\t\t\t<DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/25</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://www.creativebloq.com/html5/build-tile-based-html5-game-31410992\">Build a tile-based HTML5 game | Creative Bloq</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/26</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/\">Understanding RequireJS for Effective JavaScript Module Loading</A>\n\t\t\t\t\t<DT><A HREF=\"https://medium.freecodecamp.org/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8\">Requiring modules in Node.js: Everything you need to know</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/27</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Microsoft/vscode/issues/14896\">how to hide sidebar · Issue #14896 · Microsoft/vscode</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/28</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Microsoft/vscode-ios-web-debug\">Microsoft/vscode-ios-web-debug: Debug your JavaScript code running in Safari on iOS devices from VS Code.</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/RemoteDebug/remotedebug-ios-webkit-adapter#getting-started\">RemoteDebug/remotedebug-ios-webkit-adapter: Debug Safari and WebViews on iOS from tools like VS Code, Chrome DevTools, Mozilla Debugger.html</A>\n\t\t\t\t\t<DT><A HREF=\"https://medium.com/@auchenberg/hello-remotedebug-ios-webkit-adapter-debug-safari-and-ios-webviews-from-anywhere-2a8553df7465\">Hello RemoteDebug iOS WebKit Adapter: Debug Safari and iOS WebViews from anywhere 📡📱</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/HOWTO-exportFBX.html#Max\">Unity - Manual: Exporting from other applications</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/29</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://medium.com/@mfosullivan/a-beginners-guide-to-setting-up-a-modern-web-development-environment-on-windows-10-4d75cd94cde8\">A beginners guide to setting up a modern web development environment on Windows 10</A>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/getstarted/settings\">Visual Studio Code User and Workspace Settings</A>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/editor/integrated-terminal\">Integrated Terminal in Visual Studio Code</A>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/editor/multi-root-workspaces#_settings\">Multi-root Workspaces in Visual Studio Code</A>\n\t\t\t\t\t<DT><A HREF=\"https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/\">How to install Yarn on Ubuntu 18.04 | Linuxize</A>\n\t\t\t\t\t<DT><A HREF=\"https://askubuntu.com/questions/334994/which-one-is-better-using-or-to-execute-multiple-commands-in-one-line\">bash - Which one is better: using ; or &amp;&amp; to execute multiple commands in one line? - Ask Ubuntu</A>\n\t\t\t\t\t<DT><A HREF=\"https://support.google.com/chrome/answer/157179?hl=en\">Chrome keyboard shortcuts - Google Chrome Help</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/30</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file\">Include another HTML file in a HTML file - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.html5rocks.com/en/tutorials/webcomponents/imports/\">HTML Imports: #include for the web - HTML5 Rocks</A>\n\t\t\t\t\t<DT><A HREF=\"https://jekyllrb.com/docs/themes/\">Themes | Jekyll • Simple, blog-aware, static sites</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site-with-the-jekyll-theme-chooser/\">Adding a Jekyll theme to your GitHub Pages site with the Jekyll Theme Chooser - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://git-scm.com/docs/git-clone\">Git - git-clone Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes\">Git - Working with Remotes</A>\n\t\t\t\t\t<DT><A HREF=\"http://jekyllthemes.org/themes/airspace/\">Airspace</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/\">Adding an existing project to GitHub using the command line - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/setting-your-commit-email-address-in-git/\">Setting your commit email address in Git - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/error-permission-denied-publickey/\">Error: Permission denied (publickey) - User Documentation</A>\n\t\t\t\t</DL><p>\n\t\t\t</DL><p>\n\t\t\t<DT><H3 FOLDED>Décembre</H3>\n\t\t\t<DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/01</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/themefisher/airspace-free-html5-agency-template\">themefisher/airspace-free-html5-agency-template</A>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/33201630/install-gem-gives-failed-to-build-gem-native-extension\">ruby - Install gem gives \"Failed to build gem native extension.\" - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://rubygems.org/gems/jekyll-airspace/versions/0.1.0\">jekyll-airspace | RubyGems.org | votre communauté d'hébergement des gems</A>\n\t\t\t\t\t<DT><A HREF=\"https://webdesign.tutsplus.com/tutorials/how-to-set-up-a-jekyll-theme--cms-26332\">How to Set Up a Jekyll Theme</A>\n\t\t\t\t\t<DT><A HREF=\"https://jekyllrb.com/docs/usage/\">Command Line Usage | Jekyll • Simple, blog-aware, static sites</A>\n\t\t\t\t\t<DT><A HREF=\"https://jekyllrb.com/docs/\">Quickstart | Jekyll • Simple, blog-aware, static sites</A>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/20559255/error-while-installing-json-gem-mkmf-rb-cant-find-header-files-for-ruby\">Error while installing json gem 'mkmf.rb can't find header files for ruby' - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/24423067/missing-folder-in-repository-after-git-add\">missing folder in repository after git add - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.html5rocks.com/en/tutorials/speed/parallax/\">Parallaxin' - HTML5 Rocks</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/02</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://codepen.io/#\">CodePen</A>\n\t\t\t\t\t<DT><A HREF=\"http://www.brainbell.com/tutors/C_Sharp/Instantiation.htm\">Instantiation : C Sharp</A>\n\t\t\t\t\t<DT><A HREF=\"https://philippe.developpez.com/articles/SOLIDdotNet/#LVI%20-%20C\">Bonnes pratiques objet en .net : Introduction aux principes SOLID</A>\n\t\t\t\t\t<DT><A HREF=\"https://philippe.developpez.com/articles/dotnet/injectiondedependances/\">Injection de dépendances en .NET, pattern, intérêt et outils</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/03</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/python/python-tutorial\">Get Started Tutorial for Python in Visual Studio Code</A>\n\t\t\t\t\t<DT><A HREF=\"https://code.visualstudio.com/docs/python/environments\">Using Python Environments in Visual Studio Code</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/toxtli/futuristic-3d-spherical-news-visualization-three-js\">toxtli/futuristic-3d-spherical-news-visualization-three-js: This is a 3D visualization in javascript that enables spherical, helix, grid and table views using a data-driven approach with three.js</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.w3schools.com/css/css_image_transparency.asp\">CSS Image Opacity / Transparency</A>\n\t\t\t\t\t<DT><A HREF=\"http://simplefocus.com/flowtype/\">FlowType.JS — Responsive web typography at its finest: font-size and line-height based on element width. | Simple Focus</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/04</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"http://excamera.com/articles/26/doc/intro.html\">Introduction and Cookbook — Python OpenEXR v1.2 documentation</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/08</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/\">Sourcing from Netlify CMS | GatsbyJS</A>\n\t\t\t\t\t<DT><A HREF=\"https://guides.github.com/features/mastering-markdown/\">Mastering Markdown · GitHub Guides</A>\n\t\t\t\t\t<DT><A HREF=\"http://chriseppstein.github.io/blog/2010/08/02/sass-extend-challenge/\">Sass Challenge: Use selector inheritance this week</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.codeproject.com/script/Membership/LogOn.aspx?rp=https%3a%2f%2fwww.codeproject.com%2f&download=true\">Sign in - CodeProject</A>\n\t\t\t\t\t<DT><A HREF=\"https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance\">Cascade and inheritance | MDN</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/09</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://reactjs.org/docs/dom-elements.html\">DOM Elements – React</A>\n\t\t\t\t\t<DT><A HREF=\"https://zhenyong.github.io/react/tips/dangerously-set-inner-html.html\">Dangerously Set innerHTML | React</A>\n\t\t\t\t\t<DT><A HREF=\"https://devhints.io/jekyll\">Jekyll cheatsheet</A>\n\t\t\t\t\t<DT><A HREF=\"https://imsun.github.io/gitment/\">Gitment Demo Page</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.gatsbycentral.com/tutorial-comments-with-staticman-in-gatsby\">Tutorial: Comments with StaticMan in Gatsby | Gatsby Central</A>\n\t\t\t\t\t<DT><A HREF=\"https://shopify.github.io/liquid/\">Liquid template language</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.shopify.com/en/themes/liquid/basics\">Liquid basics · Shopify Help Center</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.sitepoint.com/setting-up-a-living-styleguide-in-jekyll/\">Setting up a Living Styleguide in Jekyll — SitePoint</A>\n\t\t\t\t\t<DT><A HREF=\"https://haacked.com/archive/2018/06/24/comments-for-jekyll-blogs/\">Comments for Jekyll Blogs | You’ve Been Haacked</A>\n\t\t\t\t\t<DT><A HREF=\"https://darekkay.com/blog/static-site-comments/\">Various ways to include comments on your static site</A>\n\t\t\t\t\t<DT><A HREF=\"http://donw.io/post/github-comments/\">Replacing Disqus with Github Comments · Gazoo.vrv</A>\n\t\t\t\t\t<DT><A HREF=\"https://news.ycombinator.com/item?id=14170041\">Replacing Disqus with GitHub Comments | Hacker News</A>\n\t\t\t\t\t<DT><A HREF=\"https://guides.github.com/activities/hello-world/\">Hello World · GitHub Guides</A>\n\t\t\t\t\t<DT><A HREF=\"https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/\">Authorizing OAuth Apps | GitHub Developer Guide</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Shopify/liquid\">Shopify/liquid: Liquid markup language. Safe, customer facing template language for flexible web apps.</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/imsun/gitment\">imsun/gitment: A comment system based on GitHub Issues.</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/\">Setting up your GitHub Pages site locally with Jekyll - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"http://frontendcollisionblog.com/jekyll/snippet/2015/03/23/how-to-show-a-summary-of-your-post-with-jekyll.html\">How to show a summary of your post with Jekyll</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/18</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://medium.com/@jimkang/complete-uninstall-remove-vscode-mac-5e48bef3bdec\">Complete uninstall / remove vscode (Mac) – Jim Kang – Medium</A>\n\t\t\t\t\t<DT><A HREF=\"http://osxdaily.com/2009/11/30/open-current-folder-in-finder-from-the-terminal/\">Open Current Folder in Finder from Terminal of Mac OS X</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/changing-a-remote-s-url/\">Changing a remote's URL - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/error-permission-denied-publickey/\">Error: Permission denied (publickey) - User Documentation</A>\n\t\t\t\t\t<DT><A HREF=\"https://gist.github.com/adamjohnson/5682757\">Fix \"Permission denied (publickey)\" error when pushing with Git</A>\n\t\t\t\t\t<DT><A HREF=\"https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/\">Adding a new SSH key to your GitHub account - User Documentation</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/19</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://www.gatsbyjs.org/docs/centralizing-your-sites-navigation/\">Centralizing your site's navigation | GatsbyJS</A>\n\t\t\t\t</DL><p>\n\t\t\t</DL><p>\n\t\t</DL><p>\n\t\t<DT><H3 FOLDED>Unity</H3>\n\t\t<DL><p>\n\t\t\t<DT><H3 FOLDED>Novembre</H3>\n\t\t\t<DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/26</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://topps.diku.dk/torbenm/maps.msp\">Planet Map Generator</A>\n\t\t\t\t\t<DT><A HREF=\"http://wiki.polycount.com/wiki/Cube_map#Reflect.2FRefract_Map\">Cube map - polycount</A>\n\t\t\t\t\t<DT><A HREF=\"http://www.pixelsonic.com/2011/04/360%C2%B0-in-3ds-max-with-vray-2/\">360° in 3Ds Max with VRay – Pixelsonic – CGI, Visualization and Animation</A>\n\t\t\t\t\t<DT><A HREF=\"https://judegodin.wordpress.com/2011/12/06/how-the-hell-do-i-make-a-cubemap/\">How the Hell do I make a cubemap with my own art? | The Art of Jude Godin</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Gamgaroo/Esmeralda\">GitHub - Gamgaroo/Esmeralda: ASP.NET Core Web App for hosting Unity3D WebGL builds with support of Continuous Delivery via Unity Cloud Webhooks.</A>\n\t\t\t\t\t<DT><A HREF=\"https://forum.unity.com/threads/enable-fullscreen-webgl.441174/\">Enable fullScreen WebGl - Unity Forum</A>\n\t\t\t\t\t<DT><A HREF=\"https://forum.unity.com/threads/tutorial-best-way-to-import-3ds-max-models.470733/\">Tutorial: Best way to import 3ds max models - Unity Forum</A>\n\t\t\t\t\t<DT><A HREF=\"https://store.unity.com/products/unity-pro?_ga=2.37608992.1802608666.1543247316-1732892576.1543247316\">Unity Pro - Unity Store</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/ScriptReference/Screen-fullScreen.html\">Unity - Scripting API: Screen.fullScreen</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/class-Cubemap.html\">Unity - Manual: Cubemap</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/webgl-interactingwithbrowserscripting.html\">Unity - Manual: WebGL: Interacting with browser scripting</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/ScriptReference/Transform.Rotate.html\">Unity - Scripting API: Transform.Rotate</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/webgl-cursorfullscreen.html\">Unity - Manual: Cursor locking and full-screen mode in WebGL</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/webgl-performance.html\">Unity - Manual: WebGL performance considerations</A>\n\t\t\t\t\t<DT><A HREF=\"https://dev.rbcafe.com/unity/unity-5.3.3/en/Manual/webgl-building.html\">Unity - Manual: Building and Running a WebGL Project</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/27</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://catlikecoding.com/unity/tutorials/\">Catlike Coding - Unity C# and Shader Tutorials</A>\n\t\t\t\t\t<DT><A HREF=\"http://wiki.unity3d.com/index.php/SmoothMouseLook\">SmoothMouseLook - Unify Community Wiki</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/ScriptReference/Transform.RotateAround.html\">Unity - Scripting API: Transform.RotateAround</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Packages/com.unity.postprocessing@2.1/manual/Quick-start.html\">Quick-start | Package Manager UI website</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/HOWTO-Water.html\">Unity - Manual: Water in Unity</A>\n\t\t\t\t\t<DT><A HREF=\"https://unity3d.com/fr/learn/tutorials/topics/graphics/gentle-introduction-shaders\">A Gentle Introduction to Shaders - Unity</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/julien-conan/ShaderForge\">julien-conan/ShaderForge</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Centribo/Unity-Shader-Basics-Tutorial\">Centribo/Unity-Shader-Basics-Tutorial: A introduction into creating shaders for Unity</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Unity-Technologies/PostProcessing\">Unity-Technologies/PostProcessing: Post Processing Stack</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/28</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/HOWTO-exportFBX.html#Max\">Unity - Manual: Exporting from other applications</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/AnimationsImport.html\">Unity - Manual: Animation from external sources</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/29</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://assetstore.unity.com/packages/vfx/particles/detonator-explosion-framework-1\">Detonator Explosion Framework - Asset Store</A>\n\t\t\t\t\t<DT><A HREF=\"https://assetstore.unity.com/packages/2d/textures-materials/milky-way-skybox-94001\">Milky Way Skybox - Asset Store</A>\n\t\t\t\t\t<DT><A HREF=\"https://assetstore.unity.com/packages/2d/textures-materials/star-creation-tools-80595\">Star Creation Tools - Asset Store</A>\n\t\t\t\t\t<DT><A HREF=\"https://assetstore.unity.com/packages/2d/textures-materials/sky/spaceskies-free-80503\">SpaceSkies Free - Asset Store</A>\n\t\t\t\t\t<DT><A HREF=\"https://medium.com/@mheavers/implementing-a-stereo-skybox-into-unity-for-virtual-reality-e427cf338b06\">Implementing a Stereoscopic Skybox into Unity for Virtual Reality</A>\n\t\t\t\t\t<DT><A HREF=\"https://assetstore.unity.com/packages/tools/the-lab-renderer-63141\">The Lab Renderer - Asset Store</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.google.com/document/d/1e2jkr_-v5iaZRuHdnMrSv978LuJKYZhsIYnrDkNAuvQ/edit\">Scriptable Render Loops &amp; new HDRenderLoop overview - Google Docs</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/PostProcessing-Stack.html\">Unity - Manual: Post-processing stack</A>\n\t\t\t\t\t<DT><A HREF=\"https://medium.com/aol-alpha/how-to-design-vr-skyboxes-d460e9eb5a75\">How to Design VR Skyboxes – AOL Alpha – Medium</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/30</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://blogs.unity3d.com/2017/10/04/neon/\">Neon – Unity Blog</A>\n\t\t\t\t\t<DT><A HREF=\"https://assetstore.unity.com/packages/tools/audio/radio-pro-32034\">Radio PRO - Asset Store</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/webgl-templates.html\">Unity - Manual: Using WebGL Templates</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/PostProcessing-Stack-SetUp.html\">Unity - Manual: Setting up the post-processing stack</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Unity-Technologies/VolumetricLighting\">Unity-Technologies/VolumetricLighting: Lighting effects implemented for the Adam demo: volumetric fog, area lights and tube lights</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/greggman/better-unity-webgl-template\">greggman/better-unity-webgl-template: A better default template for Unity WebGL</A>\n\t\t\t\t</DL><p>\n\t\t\t</DL><p>\n\t\t\t<DT><H3 FOLDED>Décembre</H3>\n\t\t\t<DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/01</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/webgl-deploying.html\">Manual: WebGL: Deploying compressed builds</A>\n\t\t\t\t\t<DT><A HREF=\"https://answers.unity.com/questions/1213905/enable-scrolling-the-page-in-webgl.html\">Enable scrolling the page in WebGL - Unity Answers</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/02</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://answers.unity.com/questions/328059/making-a-jetpack.html\">Making a Jetpack - Unity Answers</A>\n\t\t\t\t\t<DT><A HREF=\"https://gamedev.stackexchange.com/questions/132548/how-do-i-make-a-jetpack-in-unity\">StackExchangeGameDevelopment : How do I make a jetpack in Unity?</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/ScriptReference/Input.GetAxis.html\">Scripting API: Input.GetAxis</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/class-CharacterController.html\">Manual: Character Controller</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/11/03</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Unity-Technologies/PostProcessing/tree/v2\">Unity-Technologies/PostProcessing: Post Processing Stack</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Unity-Technologies/PostProcessing/wiki\">Home · Unity-Technologies/PostProcessing Wiki</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Unity-Technologies/PostProcessing/wiki/Installation\">Installation · Unity-Technologies/PostProcessing Wiki</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Unity-Technologies/PostProcessing/wiki/Quick-start\">Quick start · Unity-Technologies/PostProcessing Wiki</A>\n\t\t\t\t\t<DT><A HREF=\"https://stopsecretdesign.wordpress.com/2011/09/19/unity-spaceship-tutorial/\">Unity Spaceship Tutorial – Stopsecret Design</A>\n\t\t\t\t\t<DT><A HREF=\"https://unity3d.com/fr/learn/tutorials/s/space-shooter-tutorial\">Space Shooter tutorial - Unity</A>\n\t\t\t\t\t<DT><A HREF=\"https://answers.unity.com/questions/1491301/cant-find-post-processing-behavior-script-in-post.html\">Can't find post processing behavior script in post processing stack import from asset store - Unity Answers</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/04</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Packages/com.unity.textmeshpro@1.3/manual/index.html\">TextMesh Pro User Guide | Package Manager UI website</A>\n\t\t\t\t\t<DT><A HREF=\"https://answers.unity.com/questions/1491301/cant-find-post-processing-behavior-script-in-post.html?childToView=1577599#answer-1577599\">Can't find post processing behavior script in post processing stack import from asset store - Unity Answers</A>\n\t\t\t\t\t<DT><A HREF=\"http://www.41post.com/4726/programming/unity-animated-texture-from-image-sequence-part-1\">Unity: Animated texture from image sequence - Part 1 | 41 Post</A>\n\t\t\t\t\t<DT><A HREF=\"https://answers.unity.com/questions/1350258/how-to-make-a-png-image-sequence-into-an-animated.html\">How to make a PNG Image Sequence into an Animated Texture? - Unity Answers</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/07</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022\">Oculus Integration - Asset Store</A>\n\t\t\t\t\t<DT><A HREF=\"https://blogs.unity3d.com/2018/01/26/stereo-360-image-and-video-capture/\">Stereo 360 Image and Video Capture – Unity Blog</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.youtube.com/watch?v=sxvKGVDmYfY\">Unity Tutorial : VR, Oculus Avatar and Grabbing Object setup IN 5 MINUTES - YouTube</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.gravitysketch.com/\">Gravity Sketch - Bringing Virtual Reality Into Your Design Workflow</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/11</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/Manual/webgl-graphics.html\">Unity - Manual: WebGL Graphics</A>\n\t\t\t\t\t<DT><A HREF=\"https://answers.unity.com/questions/1232366/webgl-antialiasing.html\">WebGL antialiasing - Unity Answers</A>\n\t\t\t\t\t<DT><A HREF=\"https://forum.unity.com/threads/anti-aliasing-not-working.522715/\">Anti-aliasing not working - Unity Forum</A>\n\t\t\t\t\t<DT><A HREF=\"https://stackoverflow.com/questions/23501703/can-i-programmatically-enable-webgl-antialiasing-on-firefox\">javascript - Can I programmatically enable WebGL antialiasing on Firefox? - Stack Overflow</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.reddit.com/r/Unity3D/comments/4nquy5/anti_aliasing_comparison_ssaa_msaa_smaa_fxaa/\">Anti Aliasing comparison (SSAA, MSAA, SMAA, FXAA) : Unity3D</A>\n\t\t\t\t\t<DT><A HREF=\"https://sapphirenation.net/anti-aliasing-comparison-performance-quality/\">Anti-aliasing techniques comparison - SAPPHIRE Nation - Community blog by SAPPHIRE Technology</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.gamingscan.com/what-is-anti-aliasing/\">What is Anti-Aliasing? [Simple Explanation] - GamingScan</A>\n\t\t\t\t\t<DT><A HREF=\"https://vr.arvilab.com/blog/anti-aliasing\">Anti-Aliasing: What Is It and Why Do We Need It? — ARVI VR</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/12</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://forum.unity.com/threads/tutorial-best-way-to-import-3ds-max-models.470733/\">Tutorial: Best way to import 3ds max models - Unity Forum</A>\n\t\t\t\t\t<DT><A HREF=\"https://virtualscapelab.com/vr-tutorials/2017/prepare-3d-model-for-unity\">Prepare 3D Model for Unity — Virtualscape Lab | A Virtual Reality 3D Modeling Blog for Architectural Visualization</A>\n\t\t\t\t\t<DT><A HREF=\"https://virtualscapelab.com/vr-tutorials/2017/11/21/how-to-import-3d-model-into-unity\">How to import 3D model into Unity — Virtualscape Lab | A Virtual Reality 3D Modeling Blog for Architectural Visualization</A>\n\t\t\t\t\t<DT><A HREF=\"https://virtualscapelab.com/vr-tutorials/2017/11/21/uv-mapping-3ds-max\">UV Mapping in 3ds Max — Virtualscape Lab | A Virtual Reality 3D Modeling Blog for Architectural Visualization</A>\n\t\t\t\t\t<DT><A HREF=\"https://virtualscapelab.com/vr-tutorials/2017/11/21/optimize-textures-for-vr-3d-models\">Optimize Textures for VR 3D Models — Virtualscape Lab | A Virtual Reality 3D Modeling Blog for Architectural Visualization</A>\n\t\t\t\t\t<DT><A HREF=\"https://hackernoon.com/making-your-pixel-art-game-look-pixel-perfect-in-unity3d-3534963cad1d\">Making your Pixel Art Game look Pixel Perfect in Unity3D</A>\n\t\t\t\t\t<DT><A HREF=\"http://wiki.polycount.com/wiki/Texture_atlas\">Texture atlas - polycount</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.reddit.com/r/Unity3D/comments/3gdbyv/antialiasing_in_unity3d/\">Anti-aliasing in Unity3D : Unity3D</A>\n\t\t\t\t\t<DT><A HREF=\"https://github.com/Chman/SMAA\">Chman/SMAA: A highly customizable implementation of Subpixel Morphological Antialiasing for Unity</A>\n\t\t\t\t\t<DT><A HREF=\"https://docs.unity3d.com/530/Documentation/Manual/SpritePacker.html\">Unity - Manual: Sprite Packer</A>\n\t\t\t\t\t<DT><A HREF=\"https://gamedevelopment.tutsplus.com/articles/using-texture-atlas-in-order-to-optimize-your-game--cms-26783\">Using a Texture Atlas to Optimize Your Game</A>\n\t\t\t\t\t<DT><A HREF=\"https://www.codeandweb.com/texturepacker\">TexturePacker - Create Sprite Sheets for your game!</A>\n\t\t\t\t\t<DT><A HREF=\"http://www.scriptspot.com/3ds-max/scripts/texture-atlas-generator\">Texture Atlas Generator | ScriptSpot</A>\n\t\t\t\t</DL><p>\n\t\t\t\t<DT><H3 FOLDED>18/12/18</H3>\n\t\t\t\t<DL><p>\n\t\t\t\t\t<DT><A HREF=\"https://developer.oculus.com/blog/distance-grab-sample-now-available-in-oculus-unity-sample-framework/\">Distance Grab Sample Now Available in Oculus Unity Sample Framework | Oculus</A>\n\t\t\t\t</DL><p>\n\t\t\t</DL><p>\n\t\t</DL><p>",
       "fileAbsolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/road-map/index.md",
       "fields": {
         "slug": "/road-map/"
@@ -2865,19 +2922,19 @@
     }
   },
   "jsonDataPaths": {
-    "index": "330/path---index-6a9-W18CzTfUzKB3yjtwN0J5DFP33A",
+    "index": "629/path---index-6a9-hvGBX8iJrQqUC7bf1Xb1gj2GCdw",
     "another-new-post-55e": "745/path---another-new-post-55-e-bff-yC0JWt6o64yj5Td6QYpoVudgpo",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "hello-world-8bc": "422/path---hello-world-8-bc-b62-hIVMkra5Z8Kvzl5nLTLbB74D3W8",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "welcome-to-the-blog-bfd": "875/path---welcome-to-the-blog-bfd-b21-4KW1MZ3G2tpWsHycMtRsxDYe7o",
+    "welcome-to-the-blog-bfd": "699/path---welcome-to-the-blog-bfd-b21-ict6L0AeZ98gcYHzuDhzfxPnqtw",
     "18-12-welcome-to-the-blog-cee": "626/path---18-12-welcome-to-the-blog-cee-577-5zXpZ9J94kTgKwt0v4LQrfYBlc",
     "18-12-welcome-to-the-blog-1-515": "454/path---18-12-welcome-to-the-blog-1-515-c1e-fEIefZiCxDLdGTt6sA7a4ICxXTQ",
     "18-12-web-links-f11": "536/path---18-12-web-links-f-11-975-QsPJw3KQWF8NRg9Br1fmNEgM",
     "18-12-bookmarks-cec": "98/path---18-12-bookmarks-cec-14a-NggC49IUGYAE5Yw81DEcBQidno",
     "18-12-road-map-bcb": "590/path---18-12-road-map-bcb-734-BR3IyzM04ysupJ6olM1sgyuuX7A",
-    "road-map-7a4": "520/path---road-map-7-a-4-4e2-wqX2f1fW3Z1OF5XXM9Rq1z45aMY"
+    "road-map-7a4": "479/path---road-map-7-a-4-4e2-9T1Und6eUyRMASV0wwQY8XuoM"
   },
   "components": {
     "/Users/shitstorm/Documents/GitHub/devblog/src/templates/index.js": {

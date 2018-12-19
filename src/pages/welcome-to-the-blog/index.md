@@ -1,6 +1,6 @@
 ---
 title: Welcome, Stranger!
-date: "2018-12-08"
+date: "2018-12-01"
 featuredImage: './featured.jpg'
 ---
 
