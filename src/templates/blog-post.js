@@ -57,7 +57,6 @@ class BlogPostTemplate extends React.Component {
               <Share url={url} title={post.frontmatter.title} />
             )}
           </Card>
-
           <PageNav>
             {previous && (
               <Button to={previous.fields.slug} rel="prev">

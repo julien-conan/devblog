@@ -1,7 +1,7 @@
 ---
 title: The Long Road
 date: "2018-12-09"
-featuredImage: './data-storm.png'
+featuredImage: './space.jpg'
 ---
 
 This page aims at showing at a glance my research path, founds, and gems. 
