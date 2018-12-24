@@ -1,2 +1,4 @@
 /.cache/
+/.cache/caches/
+/node_modules/.cache/
 /public/static/
