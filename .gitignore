@@ -1,4 +1,5 @@
 /.cache/
 /.cache/caches/
+/.cache/caches/gatsby-transformer-remark/
 /node_modules/.cache/
 /public/static/
