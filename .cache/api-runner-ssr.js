@@ -1,15 +1,15 @@
 var plugins = [{
-      plugin: require('/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       plugin: require('/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-feed/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      plugin: require('/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-131377558-1"},
+    },{
       plugin: require('/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Dev Blog","short_name":"Dev Blog","start_url":"https://jconan.netlify.com","background_color":"#fff","theme_color":"#3498db","display":"minimal-ui","icon":"src/main.jpg"},
-    },{
-      plugin: require('/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
-      options: {"plugins":[]},
     },{
       plugin: require('/Users/shitstorm/Documents/GitHub/devblog/gatsby-ssr'),
       options: {"plugins":[]},

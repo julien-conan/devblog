@@ -21,6 +21,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "getting-solid-018",
+        "path": "/getting-solid/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "road-map-7a4",
         "path": "/road-map/"
     },
