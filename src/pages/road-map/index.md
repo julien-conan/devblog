@@ -1,5 +1,5 @@
 ---
-title: The Long Road
+title: Road Map
 date: "2018-12-08"
 featuredImage: './space.jpg'
 ---
@@ -16,7 +16,9 @@ My development environment is based on shared projects between MacOS and Windows
 
 ## Frameworks
 
-![map](./road-map-2018-12-26-10.19.52.png "XMind")
+<div class="custom-images" style="width: 400px; margin: auto;">
+	<img src="road-map-2018-12-26 10.19.52.png">
+</div>
 
 I currently enjoy front development libraries based on Javascript like [Jekyll](https://jekyllrb.com/) and [Gatsby](https://www.gatsbyjs.org/). Deployment from [Npm](https://www.npmjs.com/) is like having a terminal copilot which does the main part of the job for you. It takes a few time to obtain a stable environment but it really worth the time !
 

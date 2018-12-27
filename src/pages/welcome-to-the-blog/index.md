@@ -1,6 +1,6 @@
 ---
 title: Welcome, Stranger!
-date: "2018-12-01"
+date: "2018-11-30"
 featuredImage: './featured.jpg'
 ---
 
@@ -18,6 +18,6 @@ French generalist engineer, dedicated to software programming since 2012. I star
 
 Comments sections will be added soon. Meanwhile, you can contact me at this adress : <jconan@outlook.fr>(jconan@outlook.fr)
 
-![alt text](./B51.jpg "J-Conan")
-
-Thank You Stranger, wondering to see you for another coffee (blog) time.
+<div class="custom-images" style="width: 150px; margin: 40px auto;">
+	<img src="B51.jpg">
+</div>

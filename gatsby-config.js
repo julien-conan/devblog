@@ -9,17 +9,24 @@ module.exports = {
   },
   pathPrefix: userConfig.pathPrefix,
   plugins: [
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-feed`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages',
       },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `img`,
+        path: `${__dirname}/src/images/`
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,
