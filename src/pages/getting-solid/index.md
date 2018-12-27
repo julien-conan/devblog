@@ -4,7 +4,7 @@ date: "2018-12-27"
 featuredImage: './yojimbo.jpg'
 ---
 
-In [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming), SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. 
+In _Object-oriented programming_, SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. 
 
 <!-- end -->
 
@@ -22,7 +22,7 @@ In [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming), SOLID is a 
 
 Meaning that a class should only have one job. The [Factory Pattern](https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)) determine an interesting way to handle repetitive task pattern. Objects factory **parameters definition** quick-start production with minimal constraints. 
 
-<div class="custom-images" style="width: 400px; margin: 40px auto;">
+<div class="custom-images" style="max-width: 400px; margin: 40px auto;">
 	<img src="factory.png">
 </div>
 
@@ -48,7 +48,7 @@ Derived classes must be substitutable for their base classes. What is wanted her
 
 Each method should have preconditions and posconditions defined. Preconditions must hold true in order for a method to execute, and postconditions must hold true after the execution of a method. It's what [Robert C. Martin](https://twitter.com/unclebobmartin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) suggests as : [Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract).
 
-<div class="custom-images" style="width: 300px; margin: 30px auto -30px auto;">
+<div class="custom-images" style="max-width: 280px; margin: 30px auto -30px auto;">
 	<img src="design_by_contract.png">
 </div>
 
@@ -76,16 +76,14 @@ By breaking down interfaces, we favor Composition instead of Inheritance, and De
 
 ![Loosely Coupled](loosely_coupled.png "J-CONAN")
 
-''' javascript 
-	//Intermediary Class that keeps track of game events
+```javascript 
 	public class Game { 
-	...
-	if (Pac-Man.eats(Power_Pellet)) {
-		Ghosts.changeState();
+		if (Pac-Man.eats(Power_Pellet)) {
+			Ghosts.changeState();
+		}
 	}
-	...
-	}
-'''
+```
+
 
 ### Dependency Inversion
 

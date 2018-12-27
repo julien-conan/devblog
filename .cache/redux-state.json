@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/shitstorm/Documents/GitHub/devblog/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "1b7cce15f517607ec9b251d9d5703b00",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -2044,14 +2053,16 @@
         "description": "Full-Stack Web Explorer",
         "siteUrl": "https://jconan.netlify.com"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "/devblog",
       "polyfill": true,
-      "buildTime": "2018-12-27T18:58:05.146Z",
+      "buildTime": "2018-12-27T19:34:13.057Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c0d8a4086cdbc47be50984d0a68e6298",
+        "contentDigest": "29aecc38a48e7436536f2fb97ac0ee6d",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2061,7 +2072,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "30edf49a168fcba13e93244f16c7b8a2",
+        "contentDigest": "7e53d08e5e9853c333a2d156468aa944",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -2073,7 +2084,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-12-19T18:37:00.275Z",
-      "accessTime": "2018-12-27T18:58:07.723Z",
+      "accessTime": "2018-12-27T19:34:17.402Z",
       "changeTime": "2018-12-19T18:37:00.275Z",
       "birthTime": "2018-12-08T10:05:07.000Z",
       "root": "/",
@@ -2091,11 +2102,11 @@
       "blksize": 4096,
       "ino": 3257352,
       "blocks": 0,
-      "atimeMs": 1545937087722.8262,
+      "atimeMs": 1545939257401.8235,
       "mtimeMs": 1545244620274.5022,
       "ctimeMs": 1545244620274.5022,
       "birthtimeMs": 1544263507000,
-      "atime": "2018-12-27T18:58:07.723Z",
+      "atime": "2018-12-27T19:34:17.402Z",
       "mtime": "2018-12-19T18:37:00.275Z",
       "ctime": "2018-12-19T18:37:00.275Z",
       "birthtime": "2018-12-08T10:05:07.000Z"
@@ -2105,7 +2116,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ef106a959b9c209ee2af974f8795452c",
+        "contentDigest": "2c3704267ffc906b28e0981466949f2c",
         "type": "Directory",
         "description": "Directory \"src/pages/getting-solid\"",
         "owner": "gatsby-source-filesystem"
@@ -2117,7 +2128,7 @@
       "size": 448,
       "prettySize": "448 B",
       "modifiedTime": "2018-12-27T18:33:15.984Z",
-      "accessTime": "2018-12-27T18:58:07.725Z",
+      "accessTime": "2018-12-27T19:34:17.405Z",
       "changeTime": "2018-12-27T18:33:15.984Z",
       "birthTime": "2018-12-19T18:36:48.865Z",
       "root": "/",
@@ -2135,11 +2146,11 @@
       "blksize": 4096,
       "ino": 3482025,
       "blocks": 0,
-      "atimeMs": 1545937087724.8335,
+      "atimeMs": 1545939257404.703,
       "mtimeMs": 1545935595983.6248,
       "ctimeMs": 1545935595983.6248,
       "birthtimeMs": 1545244608864.9155,
-      "atime": "2018-12-27T18:58:07.725Z",
+      "atime": "2018-12-27T19:34:17.405Z",
       "mtime": "2018-12-27T18:33:15.984Z",
       "ctime": "2018-12-27T18:33:15.984Z",
       "birthtime": "2018-12-19T18:36:48.865Z"
@@ -2149,7 +2160,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "210739acab605bb143b1c7fd5946e4d3",
+        "contentDigest": "1699a01c80d11e178f992cdd767a06d1",
         "type": "Directory",
         "description": "Directory \"src/pages/road-map\"",
         "owner": "gatsby-source-filesystem"
@@ -2161,7 +2172,7 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2018-12-27T18:33:15.986Z",
-      "accessTime": "2018-12-27T18:58:07.725Z",
+      "accessTime": "2018-12-27T19:34:17.405Z",
       "changeTime": "2018-12-27T18:33:15.986Z",
       "birthTime": "2018-12-09T12:39:02.000Z",
       "root": "/",
@@ -2179,11 +2190,11 @@
       "blksize": 4096,
       "ino": 3257355,
       "blocks": 0,
-      "atimeMs": 1545937087724.803,
+      "atimeMs": 1545939257404.763,
       "mtimeMs": 1545935595986.106,
       "ctimeMs": 1545935595986.106,
       "birthtimeMs": 1544359142000,
-      "atime": "2018-12-27T18:58:07.725Z",
+      "atime": "2018-12-27T19:34:17.405Z",
       "mtime": "2018-12-27T18:33:15.986Z",
       "ctime": "2018-12-27T18:33:15.986Z",
       "birthtime": "2018-12-09T12:39:02.000Z"
@@ -2193,7 +2204,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a4723d8379d5c625d62d913f005711cc",
+        "contentDigest": "74fe03a5423042f1f79e81835df1d42a",
         "type": "Directory",
         "description": "Directory \"src/pages/welcome-to-the-blog\"",
         "owner": "gatsby-source-filesystem"
@@ -2205,7 +2216,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-12-27T18:33:15.987Z",
-      "accessTime": "2018-12-27T18:58:07.725Z",
+      "accessTime": "2018-12-27T19:34:17.405Z",
       "changeTime": "2018-12-27T18:33:15.987Z",
       "birthTime": "2018-12-09T12:39:02.000Z",
       "root": "/",
@@ -2223,11 +2234,11 @@
       "blksize": 4096,
       "ino": 3257361,
       "blocks": 0,
-      "atimeMs": 1545937087724.7927,
+      "atimeMs": 1545939257404.741,
       "mtimeMs": 1545935595986.763,
       "ctimeMs": 1545935595986.763,
       "birthtimeMs": 1544359142000,
-      "atime": "2018-12-27T18:58:07.725Z",
+      "atime": "2018-12-27T19:34:17.405Z",
       "mtime": "2018-12-27T18:33:15.987Z",
       "ctime": "2018-12-27T18:33:15.987Z",
       "birthtime": "2018-12-09T12:39:02.000Z"
@@ -2517,7 +2528,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "065d35114f65462b33627a3a819ddd17",
+        "contentDigest": "4841253221f201fce9b18ff2f33ca9e0",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/getting-solid/index.md\"",
@@ -2527,11 +2538,11 @@
       "absolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/getting-solid/index.md",
       "relativePath": "getting-solid/index.md",
       "extension": "md",
-      "size": 8403,
-      "prettySize": "8.4 kB",
-      "modifiedTime": "2018-12-27T18:33:15.981Z",
-      "accessTime": "2018-12-27T18:51:53.929Z",
-      "changeTime": "2018-12-27T18:33:15.981Z",
+      "size": 8315,
+      "prettySize": "8.31 kB",
+      "modifiedTime": "2018-12-27T20:06:57.343Z",
+      "accessTime": "2018-12-27T20:06:57.343Z",
+      "changeTime": "2018-12-27T20:06:57.343Z",
       "birthTime": "2018-12-27T18:33:15.981Z",
       "root": "/",
       "dir": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/getting-solid",
@@ -2548,13 +2559,13 @@
       "blksize": 4096,
       "ino": 3805869,
       "blocks": 24,
-      "atimeMs": 1545936713929.172,
-      "mtimeMs": 1545935595981.494,
-      "ctimeMs": 1545935595981.494,
+      "atimeMs": 1545941217342.9915,
+      "mtimeMs": 1545941217343.4395,
+      "ctimeMs": 1545941217343.4395,
       "birthtimeMs": 1545935595981.3125,
-      "atime": "2018-12-27T18:51:53.929Z",
-      "mtime": "2018-12-27T18:33:15.981Z",
-      "ctime": "2018-12-27T18:33:15.981Z",
+      "atime": "2018-12-27T20:06:57.343Z",
+      "mtime": "2018-12-27T20:06:57.343Z",
+      "ctime": "2018-12-27T20:06:57.343Z",
       "birthtime": "2018-12-27T18:33:15.981Z"
     },
     "5eeded5a-4fac-5ede-8496-ae79d7f8f3f9": {
@@ -3287,32 +3298,6 @@
         "slug": "/welcome-to-the-blog/"
       }
     },
-    "be1d0344-ea05-5ed0-8244-0f85aec6ebd8": {
-      "id": "be1d0344-ea05-5ed0-8244-0f85aec6ebd8",
-      "children": [],
-      "parent": "057d8fe6-8d4f-5bfe-b257-04006b1118cd",
-      "internal": {
-        "content": "\nIn [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming), SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. \n\n<!-- end -->\n\n## Design Principles\n\n- S--_Single Responsibility_\n- O--_Open/Closed_\n- L--_Liskov Substitution_\n- I--_Interface Segregation_\n- D--_Dependency Inversion_\n\n### Single Responsibility\n\n> \"A class should have one and only one reason to change.\"\n\nMeaning that a class should only have one job. The [Factory Pattern](https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)) determine an interesting way to handle repetitive task pattern. Objects factory **parameters definition** quick-start production with minimal constraints. \n\n<div class=\"custom-images\" style=\"width: 400px; margin: 40px auto;\">\n\t<img src=\"factory.png\">\n</div>\n\n### Open / Closed\n\nObjects or entities should be open for extension but closed for modification. Open for extension means that we should be able to add new features or components to the application without breaking existing code.\n\n> \"Closed for modification means that we should not introduce breaking changes to existing functionality, because that would force you to refactor a lot of existing code.\" [Eric Elliott](https://medium.com/@_ericelliott)\n\nIn simpler words, means that a class or factory function in our case, it should be easily extendable without modifying the class or function itself.\n\nCoding to an interface is an integral part of S.O.L.I.D. Every shape must implements interfaces. You can also use abstract classes, and refer to [RosettaCode](https://rosettacode.org/wiki/Function_composition) to identify the shape corresponding to the langage your are using **function composition** i.e. : **one argument**, only.\n\n<div class=\"custom-images\" style=\"width: 100px; margin: 30px auto;\">\n\t<img src=\"rosetta_stoneb.png\">\n</div>\n\n### Liskov Substitution\n\nDerived classes must be substitutable for their base classes. What is wanted here is something like the following substitution property: \n\n> \"If, for each object A of type S there is an object B of type T, such that for all programs P defined in terms of T, the behavior of P is unchanged when A is substituted for B then S is a subtype of T.\" [Barbara Liskov](http://www.pmg.csail.mit.edu/~liskov/)\n\nEach method should have preconditions and posconditions defined. Preconditions must hold true in order for a method to execute, and postconditions must hold true after the execution of a method. It's what [Robert C. Martin](https://twitter.com/unclebobmartin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) suggests as : [Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract).\n\n<div class=\"custom-images\" style=\"width: 300px; margin: 30px auto -30px auto;\">\n\t<img src=\"design_by_contract.png\">\n</div>\n\n> \"When redefining a routine (in a derivative for example), you may only replace its precondition by a weaker one, and its postcondition by a stronger one.\" [Bertrand Meyer](https://bertrandmeyer.com/)\n\nRobert C. Martin also suggests that it is helpful to document (comments) the preconditions and postconditions for each method. From my point of view, **YAGNI** principle is right in that context too: \"[You aren't gonna need it](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)\". Forget about comments, it's systems most common weakness. If your code isn't strong enough to be read without comments, REWRITE !! before saving anything else.\n\n### Interface Segregation\n\nThe _Interface Segregation Principle_ was defined by Robert C. Martin while consulting for Xerox to help them build the software for their new printer systems. He defined it as:\n\n> “Clients should not be forced to depend upon interfaces that they do not use.”\n\nThe goal of this is to reduce the side (ripple) effects and frequency of required changes by splitting the software into multiple and independent parts.\n\nFor example, let’s say we had an interface called Animal, which would have eat, sleep and walk methods. This would mean that we have a monolithic interface called Animal, which would not be the perfect abstraction, because some animals can fly. Breaking this monolithic interface into smaller interfaced based by role, we would get CanEat, CanSleep and CanWalk interfaces. This would then make it possible for a species to eat, sleep and for example fly. A species would be a combination of roles, instead of being characterized as an animal, which would not necessarily be the best description. At a larger scale, microservices are a very similar case, they are pieces of a system separated by responsibilities, instead of being a great monolith.\n\n<div class=\"custom-images\" style=\"width: 200px; margin: 0 auto;\">\n\t<img src=\"multiple_inheritance.jpg\">\n</div>\n\nBy breaking down interfaces, we favor Composition instead of Inheritance, and Decoupling over Coupling. [Coupling](https://gamedevelopment.tutsplus.com/tutorials/quick-tip-the-oop-principle-of-coupling--gamedev-1935) is the principle of reducing how objects directly affect the states and behaviors of other objects. Coupling helps to create code that is easier to read as well as easier to change. It is the principle behind : **Separation of Concerns**.\n\n> \"One object doesn't directly change or modify the state or behavior pf another object.\"\n\n![Loosely Coupled](loosely_coupled.png \"J-CONAN\")\n\n''' javascript \n\t//Intermediary Class that keeps track of game events\n\tpublic class Game { \n\t...\n\tif (Pac-Man.eats(Power_Pellet)) {\n\t\tGhosts.changeState();\n\t}\n\t...\n\t}\n'''\n\n### Dependency Inversion\n\nDepend on abstractions, not on concretions.\n\n> \"Abstractions should not depend upon details. Details should depend upon abstractions.\"\n\nHigh level modules should not depend upon low level modules. Both should depend upon abstractions. Let’s say we have a system that handles authentication through external services such as Google, GitHub, etc. We would have a class for each service: \n\n- GoogleAuthenticationService\n- GitHubAuthenticationService \n- etc. \n\nNow, let’s say that some place in our system, we need to authenticate our user. We have two possibilities: \n\n1) Adapt each service to the authentication process \n2) Define an abstraction of the authentication services.\n\nThe first possibility is a dirty solution that will potentially introduce technical debt in the future; in case a new authentication service is to be integrated to the system, we will need to change the code, which as a result violates the OCP. \n\nThe second possibility is much cleaner, it allows for future addition of services, and changes can be done to each service without changing the integration logic. By defining a AuthenticationService interface and implementing it in each service, we would then be able to use [Dependency Injection](https://philippe.developpez.com/articles/dotnet/injectiondedependances/) in our authentication logic and have our authentication method signature look something like this: authenticate(AuthenticationService authenticationService). \n\n![Dependencty Injection {w:50px}](dependency-injection-short.png)\n\nThen, we could authenticate by a specific service like this: authenticate(new GoogleAuthenticationService). This helps us generalize the authentication logic without having to integrate each service separately. By depending on higher-level abstractions, we can easily change one instance with another instance in order to change the behavior. Dependency Inversion increases the reusability and flexibility of our code.\n\nFurther reading -> [Don't blame the dependency injection framework](https://www.continuousimprover.com/2018/05/dont-blame-dependency-injection.html)\n\n## Benefits\n\nFollowing principles always has benefits. It is no different in software engineering. Following the SOLID Principles gives us many benefits, they make our system :\n\n- _reusable_\n- _maintainable_\n- _scalable_\n- _testable_\n- _..._\n\nFor more about the benefits of each of these principles, make sure to read Uncle Bob’s articles, and communicate about your own experiences.\n\nThank you _Stranger_, see you next time, for another coffee-programming session.\n\n_Going further: **DRY Principle, Encapsulation, Premature Optimization, Refactoring, Software Craftmanship, Clean Code and Style Guides**._",
-        "type": "MarkdownRemark",
-        "contentDigest": "4724ebb91da0aa8f60c51c7b0e47f9da",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Getting S.O.L.I.D",
-        "date": "2018-12-27",
-        "featuredImage": "./yojimbo.jpg",
-        "_PARENT": "057d8fe6-8d4f-5bfe-b257-04006b1118cd"
-      },
-      "excerpt": "\nIn [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming), SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. \n\n",
-      "rawMarkdownBody": "\nIn [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming), SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. \n\n<!-- end -->\n\n## Design Principles\n\n- S--_Single Responsibility_\n- O--_Open/Closed_\n- L--_Liskov Substitution_\n- I--_Interface Segregation_\n- D--_Dependency Inversion_\n\n### Single Responsibility\n\n> \"A class should have one and only one reason to change.\"\n\nMeaning that a class should only have one job. The [Factory Pattern](https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)) determine an interesting way to handle repetitive task pattern. Objects factory **parameters definition** quick-start production with minimal constraints. \n\n<div class=\"custom-images\" style=\"width: 400px; margin: 40px auto;\">\n\t<img src=\"factory.png\">\n</div>\n\n### Open / Closed\n\nObjects or entities should be open for extension but closed for modification. Open for extension means that we should be able to add new features or components to the application without breaking existing code.\n\n> \"Closed for modification means that we should not introduce breaking changes to existing functionality, because that would force you to refactor a lot of existing code.\" [Eric Elliott](https://medium.com/@_ericelliott)\n\nIn simpler words, means that a class or factory function in our case, it should be easily extendable without modifying the class or function itself.\n\nCoding to an interface is an integral part of S.O.L.I.D. Every shape must implements interfaces. You can also use abstract classes, and refer to [RosettaCode](https://rosettacode.org/wiki/Function_composition) to identify the shape corresponding to the langage your are using **function composition** i.e. : **one argument**, only.\n\n<div class=\"custom-images\" style=\"width: 100px; margin: 30px auto;\">\n\t<img src=\"rosetta_stoneb.png\">\n</div>\n\n### Liskov Substitution\n\nDerived classes must be substitutable for their base classes. What is wanted here is something like the following substitution property: \n\n> \"If, for each object A of type S there is an object B of type T, such that for all programs P defined in terms of T, the behavior of P is unchanged when A is substituted for B then S is a subtype of T.\" [Barbara Liskov](http://www.pmg.csail.mit.edu/~liskov/)\n\nEach method should have preconditions and posconditions defined. Preconditions must hold true in order for a method to execute, and postconditions must hold true after the execution of a method. It's what [Robert C. Martin](https://twitter.com/unclebobmartin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) suggests as : [Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract).\n\n<div class=\"custom-images\" style=\"width: 300px; margin: 30px auto -30px auto;\">\n\t<img src=\"design_by_contract.png\">\n</div>\n\n> \"When redefining a routine (in a derivative for example), you may only replace its precondition by a weaker one, and its postcondition by a stronger one.\" [Bertrand Meyer](https://bertrandmeyer.com/)\n\nRobert C. Martin also suggests that it is helpful to document (comments) the preconditions and postconditions for each method. From my point of view, **YAGNI** principle is right in that context too: \"[You aren't gonna need it](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)\". Forget about comments, it's systems most common weakness. If your code isn't strong enough to be read without comments, REWRITE !! before saving anything else.\n\n### Interface Segregation\n\nThe _Interface Segregation Principle_ was defined by Robert C. Martin while consulting for Xerox to help them build the software for their new printer systems. He defined it as:\n\n> “Clients should not be forced to depend upon interfaces that they do not use.”\n\nThe goal of this is to reduce the side (ripple) effects and frequency of required changes by splitting the software into multiple and independent parts.\n\nFor example, let’s say we had an interface called Animal, which would have eat, sleep and walk methods. This would mean that we have a monolithic interface called Animal, which would not be the perfect abstraction, because some animals can fly. Breaking this monolithic interface into smaller interfaced based by role, we would get CanEat, CanSleep and CanWalk interfaces. This would then make it possible for a species to eat, sleep and for example fly. A species would be a combination of roles, instead of being characterized as an animal, which would not necessarily be the best description. At a larger scale, microservices are a very similar case, they are pieces of a system separated by responsibilities, instead of being a great monolith.\n\n<div class=\"custom-images\" style=\"width: 200px; margin: 0 auto;\">\n\t<img src=\"multiple_inheritance.jpg\">\n</div>\n\nBy breaking down interfaces, we favor Composition instead of Inheritance, and Decoupling over Coupling. [Coupling](https://gamedevelopment.tutsplus.com/tutorials/quick-tip-the-oop-principle-of-coupling--gamedev-1935) is the principle of reducing how objects directly affect the states and behaviors of other objects. Coupling helps to create code that is easier to read as well as easier to change. It is the principle behind : **Separation of Concerns**.\n\n> \"One object doesn't directly change or modify the state or behavior pf another object.\"\n\n![Loosely Coupled](loosely_coupled.png \"J-CONAN\")\n\n''' javascript \n\t//Intermediary Class that keeps track of game events\n\tpublic class Game { \n\t...\n\tif (Pac-Man.eats(Power_Pellet)) {\n\t\tGhosts.changeState();\n\t}\n\t...\n\t}\n'''\n\n### Dependency Inversion\n\nDepend on abstractions, not on concretions.\n\n> \"Abstractions should not depend upon details. Details should depend upon abstractions.\"\n\nHigh level modules should not depend upon low level modules. Both should depend upon abstractions. Let’s say we have a system that handles authentication through external services such as Google, GitHub, etc. We would have a class for each service: \n\n- GoogleAuthenticationService\n- GitHubAuthenticationService \n- etc. \n\nNow, let’s say that some place in our system, we need to authenticate our user. We have two possibilities: \n\n1) Adapt each service to the authentication process \n2) Define an abstraction of the authentication services.\n\nThe first possibility is a dirty solution that will potentially introduce technical debt in the future; in case a new authentication service is to be integrated to the system, we will need to change the code, which as a result violates the OCP. \n\nThe second possibility is much cleaner, it allows for future addition of services, and changes can be done to each service without changing the integration logic. By defining a AuthenticationService interface and implementing it in each service, we would then be able to use [Dependency Injection](https://philippe.developpez.com/articles/dotnet/injectiondedependances/) in our authentication logic and have our authentication method signature look something like this: authenticate(AuthenticationService authenticationService). \n\n![Dependencty Injection {w:50px}](dependency-injection-short.png)\n\nThen, we could authenticate by a specific service like this: authenticate(new GoogleAuthenticationService). This helps us generalize the authentication logic without having to integrate each service separately. By depending on higher-level abstractions, we can easily change one instance with another instance in order to change the behavior. Dependency Inversion increases the reusability and flexibility of our code.\n\nFurther reading -> [Don't blame the dependency injection framework](https://www.continuousimprover.com/2018/05/dont-blame-dependency-injection.html)\n\n## Benefits\n\nFollowing principles always has benefits. It is no different in software engineering. Following the SOLID Principles gives us many benefits, they make our system :\n\n- _reusable_\n- _maintainable_\n- _scalable_\n- _testable_\n- _..._\n\nFor more about the benefits of each of these principles, make sure to read Uncle Bob’s articles, and communicate about your own experiences.\n\nThank you _Stranger_, see you next time, for another coffee-programming session.\n\n_Going further: **DRY Principle, Encapsulation, Premature Optimization, Refactoring, Software Craftmanship, Clean Code and Style Guides**._",
-      "fileAbsolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/getting-solid/index.md",
-      "fields": {
-        "slug": "/getting-solid/"
-      }
-    },
     "ca339aef-a812-5884-98e7-3c4d5f55cf27": {
       "id": "ca339aef-a812-5884-98e7-3c4d5f55cf27",
       "children": [],
@@ -3458,7 +3443,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "832b18841ff29eef258630ea34c5f6e9",
+        "contentDigest": "5240db58bc9a91fe0c9e48966e29e5fa",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -3470,7 +3455,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-12-27T18:33:15.971Z",
-      "accessTime": "2018-12-27T18:58:07.814Z",
+      "accessTime": "2018-12-27T19:34:17.469Z",
       "changeTime": "2018-12-27T18:33:15.971Z",
       "birthTime": "2018-12-24T15:55:09.904Z",
       "root": "/",
@@ -3488,11 +3473,11 @@
       "blksize": 4096,
       "ino": 3642665,
       "blocks": 0,
-      "atimeMs": 1545937087813.5486,
+      "atimeMs": 1545939257469.0356,
       "mtimeMs": 1545935595970.8562,
       "ctimeMs": 1545935595970.8562,
       "birthtimeMs": 1545666909904.028,
-      "atime": "2018-12-27T18:58:07.814Z",
+      "atime": "2018-12-27T19:34:17.469Z",
       "mtime": "2018-12-27T18:33:15.971Z",
       "ctime": "2018-12-27T18:33:15.971Z",
       "birthtime": "2018-12-24T15:55:09.904Z"
@@ -3554,26 +3539,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /offline-plugin-app-shell-fallback/": {
-      "jsonName": "offline-plugin-app-shell-fallback-a30",
-      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
-      "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-offline/app-shell.js",
-      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-      "context": {},
-      "pluginCreator___NODE": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-      "pluginCreatorId": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-offline/app-shell.js",
-      "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "edd123c6225220a75aaf1157128712dd",
-        "description": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /": {
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
@@ -3587,7 +3552,7 @@
               "fields": {
                 "slug": "/getting-solid/"
               },
-              "excerpt": "\nIn [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming), SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. \n\n",
+              "excerpt": "\nIn _Object-oriented programming_, SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. \n\n",
               "frontmatter": {
                 "title": "Getting S.O.L.I.D",
                 "date": "December 27, 2018",
@@ -3667,7 +3632,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7a695fdaad769f00df4aa28c37b10785",
+        "contentDigest": "414bd3e7729dc139b26d1d778d7b455b",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -3749,7 +3714,7 @@
           "fields": {
             "slug": "/getting-solid/"
           },
-          "excerpt": "\nIn [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming), SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. \n\n",
+          "excerpt": "\nIn _Object-oriented programming_, SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. \n\n",
           "frontmatter": {
             "title": "Getting S.O.L.I.D",
             "date": "December 27, 2018",
@@ -3775,7 +3740,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2a6e67e5cc1467e5a3f30217b6145aac",
+        "contentDigest": "420544758576e60606d6a13e2bd9a0ea",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -3863,6 +3828,32 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "be1d0344-ea05-5ed0-8244-0f85aec6ebd8": {
+      "id": "be1d0344-ea05-5ed0-8244-0f85aec6ebd8",
+      "children": [],
+      "parent": "057d8fe6-8d4f-5bfe-b257-04006b1118cd",
+      "internal": {
+        "content": "\nIn _Object-oriented programming_, SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. \n\n<!-- end -->\n\n## Design Principles\n\n- S--_Single Responsibility_\n- O--_Open/Closed_\n- L--_Liskov Substitution_\n- I--_Interface Segregation_\n- D--_Dependency Inversion_\n\n### Single Responsibility\n\n> \"A class should have one and only one reason to change.\"\n\nMeaning that a class should only have one job. The [Factory Pattern](https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)) determine an interesting way to handle repetitive task pattern. Objects factory **parameters definition** quick-start production with minimal constraints. \n\n<div class=\"custom-images\" style=\"max-width: 400px; margin: 40px auto;\">\n\t<img src=\"factory.png\">\n</div>\n\n### Open / Closed\n\nObjects or entities should be open for extension but closed for modification. Open for extension means that we should be able to add new features or components to the application without breaking existing code.\n\n> \"Closed for modification means that we should not introduce breaking changes to existing functionality, because that would force you to refactor a lot of existing code.\" [Eric Elliott](https://medium.com/@_ericelliott)\n\nIn simpler words, means that a class or factory function in our case, it should be easily extendable without modifying the class or function itself.\n\nCoding to an interface is an integral part of S.O.L.I.D. Every shape must implements interfaces. You can also use abstract classes, and refer to [RosettaCode](https://rosettacode.org/wiki/Function_composition) to identify the shape corresponding to the langage your are using **function composition** i.e. : **one argument**, only.\n\n<div class=\"custom-images\" style=\"width: 100px; margin: 30px auto;\">\n\t<img src=\"rosetta_stoneb.png\">\n</div>\n\n### Liskov Substitution\n\nDerived classes must be substitutable for their base classes. What is wanted here is something like the following substitution property: \n\n> \"If, for each object A of type S there is an object B of type T, such that for all programs P defined in terms of T, the behavior of P is unchanged when A is substituted for B then S is a subtype of T.\" [Barbara Liskov](http://www.pmg.csail.mit.edu/~liskov/)\n\nEach method should have preconditions and posconditions defined. Preconditions must hold true in order for a method to execute, and postconditions must hold true after the execution of a method. It's what [Robert C. Martin](https://twitter.com/unclebobmartin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) suggests as : [Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract).\n\n<div class=\"custom-images\" style=\"max-width: 280px; margin: 30px auto -30px auto;\">\n\t<img src=\"design_by_contract.png\">\n</div>\n\n> \"When redefining a routine (in a derivative for example), you may only replace its precondition by a weaker one, and its postcondition by a stronger one.\" [Bertrand Meyer](https://bertrandmeyer.com/)\n\nRobert C. Martin also suggests that it is helpful to document (comments) the preconditions and postconditions for each method. From my point of view, **YAGNI** principle is right in that context too: \"[You aren't gonna need it](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)\". Forget about comments, it's systems most common weakness. If your code isn't strong enough to be read without comments, REWRITE !! before saving anything else.\n\n### Interface Segregation\n\nThe _Interface Segregation Principle_ was defined by Robert C. Martin while consulting for Xerox to help them build the software for their new printer systems. He defined it as:\n\n> “Clients should not be forced to depend upon interfaces that they do not use.”\n\nThe goal of this is to reduce the side (ripple) effects and frequency of required changes by splitting the software into multiple and independent parts.\n\nFor example, let’s say we had an interface called Animal, which would have eat, sleep and walk methods. This would mean that we have a monolithic interface called Animal, which would not be the perfect abstraction, because some animals can fly. Breaking this monolithic interface into smaller interfaced based by role, we would get CanEat, CanSleep and CanWalk interfaces. This would then make it possible for a species to eat, sleep and for example fly. A species would be a combination of roles, instead of being characterized as an animal, which would not necessarily be the best description. At a larger scale, microservices are a very similar case, they are pieces of a system separated by responsibilities, instead of being a great monolith.\n\n<div class=\"custom-images\" style=\"width: 200px; margin: 0 auto;\">\n\t<img src=\"multiple_inheritance.jpg\">\n</div>\n\nBy breaking down interfaces, we favor Composition instead of Inheritance, and Decoupling over Coupling. [Coupling](https://gamedevelopment.tutsplus.com/tutorials/quick-tip-the-oop-principle-of-coupling--gamedev-1935) is the principle of reducing how objects directly affect the states and behaviors of other objects. Coupling helps to create code that is easier to read as well as easier to change. It is the principle behind : **Separation of Concerns**.\n\n> \"One object doesn't directly change or modify the state or behavior pf another object.\"\n\n![Loosely Coupled](loosely_coupled.png \"J-CONAN\")\n\n```javascript \n\tpublic class Game { \n\t\tif (Pac-Man.eats(Power_Pellet)) {\n\t\t\tGhosts.changeState();\n\t\t}\n\t}\n```\n\n\n### Dependency Inversion\n\nDepend on abstractions, not on concretions.\n\n> \"Abstractions should not depend upon details. Details should depend upon abstractions.\"\n\nHigh level modules should not depend upon low level modules. Both should depend upon abstractions. Let’s say we have a system that handles authentication through external services such as Google, GitHub, etc. We would have a class for each service: \n\n- GoogleAuthenticationService\n- GitHubAuthenticationService \n- etc. \n\nNow, let’s say that some place in our system, we need to authenticate our user. We have two possibilities: \n\n1) Adapt each service to the authentication process \n2) Define an abstraction of the authentication services.\n\nThe first possibility is a dirty solution that will potentially introduce technical debt in the future; in case a new authentication service is to be integrated to the system, we will need to change the code, which as a result violates the OCP. \n\nThe second possibility is much cleaner, it allows for future addition of services, and changes can be done to each service without changing the integration logic. By defining a AuthenticationService interface and implementing it in each service, we would then be able to use [Dependency Injection](https://philippe.developpez.com/articles/dotnet/injectiondedependances/) in our authentication logic and have our authentication method signature look something like this: authenticate(AuthenticationService authenticationService). \n\n![Dependencty Injection {w:50px}](dependency-injection-short.png)\n\nThen, we could authenticate by a specific service like this: authenticate(new GoogleAuthenticationService). This helps us generalize the authentication logic without having to integrate each service separately. By depending on higher-level abstractions, we can easily change one instance with another instance in order to change the behavior. Dependency Inversion increases the reusability and flexibility of our code.\n\nFurther reading -> [Don't blame the dependency injection framework](https://www.continuousimprover.com/2018/05/dont-blame-dependency-injection.html)\n\n## Benefits\n\nFollowing principles always has benefits. It is no different in software engineering. Following the SOLID Principles gives us many benefits, they make our system :\n\n- _reusable_\n- _maintainable_\n- _scalable_\n- _testable_\n- _..._\n\nFor more about the benefits of each of these principles, make sure to read Uncle Bob’s articles, and communicate about your own experiences.\n\nThank you _Stranger_, see you next time, for another coffee-programming session.\n\n_Going further: **DRY Principle, Encapsulation, Premature Optimization, Refactoring, Software Craftmanship, Clean Code and Style Guides**._",
+        "type": "MarkdownRemark",
+        "contentDigest": "ce50ec318de354a4851bcef06516eb6c",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Getting S.O.L.I.D",
+        "date": "2018-12-27",
+        "featuredImage": "./yojimbo.jpg",
+        "_PARENT": "057d8fe6-8d4f-5bfe-b257-04006b1118cd"
+      },
+      "excerpt": "\nIn _Object-oriented programming_, SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. \n\n",
+      "rawMarkdownBody": "\nIn _Object-oriented programming_, SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. \n\n<!-- end -->\n\n## Design Principles\n\n- S--_Single Responsibility_\n- O--_Open/Closed_\n- L--_Liskov Substitution_\n- I--_Interface Segregation_\n- D--_Dependency Inversion_\n\n### Single Responsibility\n\n> \"A class should have one and only one reason to change.\"\n\nMeaning that a class should only have one job. The [Factory Pattern](https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)) determine an interesting way to handle repetitive task pattern. Objects factory **parameters definition** quick-start production with minimal constraints. \n\n<div class=\"custom-images\" style=\"max-width: 400px; margin: 40px auto;\">\n\t<img src=\"factory.png\">\n</div>\n\n### Open / Closed\n\nObjects or entities should be open for extension but closed for modification. Open for extension means that we should be able to add new features or components to the application without breaking existing code.\n\n> \"Closed for modification means that we should not introduce breaking changes to existing functionality, because that would force you to refactor a lot of existing code.\" [Eric Elliott](https://medium.com/@_ericelliott)\n\nIn simpler words, means that a class or factory function in our case, it should be easily extendable without modifying the class or function itself.\n\nCoding to an interface is an integral part of S.O.L.I.D. Every shape must implements interfaces. You can also use abstract classes, and refer to [RosettaCode](https://rosettacode.org/wiki/Function_composition) to identify the shape corresponding to the langage your are using **function composition** i.e. : **one argument**, only.\n\n<div class=\"custom-images\" style=\"width: 100px; margin: 30px auto;\">\n\t<img src=\"rosetta_stoneb.png\">\n</div>\n\n### Liskov Substitution\n\nDerived classes must be substitutable for their base classes. What is wanted here is something like the following substitution property: \n\n> \"If, for each object A of type S there is an object B of type T, such that for all programs P defined in terms of T, the behavior of P is unchanged when A is substituted for B then S is a subtype of T.\" [Barbara Liskov](http://www.pmg.csail.mit.edu/~liskov/)\n\nEach method should have preconditions and posconditions defined. Preconditions must hold true in order for a method to execute, and postconditions must hold true after the execution of a method. It's what [Robert C. Martin](https://twitter.com/unclebobmartin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) suggests as : [Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract).\n\n<div class=\"custom-images\" style=\"max-width: 280px; margin: 30px auto -30px auto;\">\n\t<img src=\"design_by_contract.png\">\n</div>\n\n> \"When redefining a routine (in a derivative for example), you may only replace its precondition by a weaker one, and its postcondition by a stronger one.\" [Bertrand Meyer](https://bertrandmeyer.com/)\n\nRobert C. Martin also suggests that it is helpful to document (comments) the preconditions and postconditions for each method. From my point of view, **YAGNI** principle is right in that context too: \"[You aren't gonna need it](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)\". Forget about comments, it's systems most common weakness. If your code isn't strong enough to be read without comments, REWRITE !! before saving anything else.\n\n### Interface Segregation\n\nThe _Interface Segregation Principle_ was defined by Robert C. Martin while consulting for Xerox to help them build the software for their new printer systems. He defined it as:\n\n> “Clients should not be forced to depend upon interfaces that they do not use.”\n\nThe goal of this is to reduce the side (ripple) effects and frequency of required changes by splitting the software into multiple and independent parts.\n\nFor example, let’s say we had an interface called Animal, which would have eat, sleep and walk methods. This would mean that we have a monolithic interface called Animal, which would not be the perfect abstraction, because some animals can fly. Breaking this monolithic interface into smaller interfaced based by role, we would get CanEat, CanSleep and CanWalk interfaces. This would then make it possible for a species to eat, sleep and for example fly. A species would be a combination of roles, instead of being characterized as an animal, which would not necessarily be the best description. At a larger scale, microservices are a very similar case, they are pieces of a system separated by responsibilities, instead of being a great monolith.\n\n<div class=\"custom-images\" style=\"width: 200px; margin: 0 auto;\">\n\t<img src=\"multiple_inheritance.jpg\">\n</div>\n\nBy breaking down interfaces, we favor Composition instead of Inheritance, and Decoupling over Coupling. [Coupling](https://gamedevelopment.tutsplus.com/tutorials/quick-tip-the-oop-principle-of-coupling--gamedev-1935) is the principle of reducing how objects directly affect the states and behaviors of other objects. Coupling helps to create code that is easier to read as well as easier to change. It is the principle behind : **Separation of Concerns**.\n\n> \"One object doesn't directly change or modify the state or behavior pf another object.\"\n\n![Loosely Coupled](loosely_coupled.png \"J-CONAN\")\n\n```javascript \n\tpublic class Game { \n\t\tif (Pac-Man.eats(Power_Pellet)) {\n\t\t\tGhosts.changeState();\n\t\t}\n\t}\n```\n\n\n### Dependency Inversion\n\nDepend on abstractions, not on concretions.\n\n> \"Abstractions should not depend upon details. Details should depend upon abstractions.\"\n\nHigh level modules should not depend upon low level modules. Both should depend upon abstractions. Let’s say we have a system that handles authentication through external services such as Google, GitHub, etc. We would have a class for each service: \n\n- GoogleAuthenticationService\n- GitHubAuthenticationService \n- etc. \n\nNow, let’s say that some place in our system, we need to authenticate our user. We have two possibilities: \n\n1) Adapt each service to the authentication process \n2) Define an abstraction of the authentication services.\n\nThe first possibility is a dirty solution that will potentially introduce technical debt in the future; in case a new authentication service is to be integrated to the system, we will need to change the code, which as a result violates the OCP. \n\nThe second possibility is much cleaner, it allows for future addition of services, and changes can be done to each service without changing the integration logic. By defining a AuthenticationService interface and implementing it in each service, we would then be able to use [Dependency Injection](https://philippe.developpez.com/articles/dotnet/injectiondedependances/) in our authentication logic and have our authentication method signature look something like this: authenticate(AuthenticationService authenticationService). \n\n![Dependencty Injection {w:50px}](dependency-injection-short.png)\n\nThen, we could authenticate by a specific service like this: authenticate(new GoogleAuthenticationService). This helps us generalize the authentication logic without having to integrate each service separately. By depending on higher-level abstractions, we can easily change one instance with another instance in order to change the behavior. Dependency Inversion increases the reusability and flexibility of our code.\n\nFurther reading -> [Don't blame the dependency injection framework](https://www.continuousimprover.com/2018/05/dont-blame-dependency-injection.html)\n\n## Benefits\n\nFollowing principles always has benefits. It is no different in software engineering. Following the SOLID Principles gives us many benefits, they make our system :\n\n- _reusable_\n- _maintainable_\n- _scalable_\n- _testable_\n- _..._\n\nFor more about the benefits of each of these principles, make sure to read Uncle Bob’s articles, and communicate about your own experiences.\n\nThank you _Stranger_, see you next time, for another coffee-programming session.\n\n_Going further: **DRY Principle, Encapsulation, Premature Optimization, Refactoring, Software Craftmanship, Clean Code and Style Guides**._",
+      "fileAbsolutePath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/getting-solid/index.md",
+      "fields": {
+        "slug": "/getting-solid/"
+      }
     }
   },
   "status": {
@@ -3873,15 +3864,18 @@
     "nodes": {
       "ddb58f12-3fff-5ea8-84aa-8e44e1386d7f": [
         null,
-        "/getting-solid/"
+        "/getting-solid/",
+        null
       ],
       "98c28976-de97-5522-8c88-7d8b9d7919a3": [
         null,
-        "/road-map/"
+        "/road-map/",
+        null
       ],
       "2da92841-571e-570b-86b0-6cdda06d260f": [
         null,
-        "/welcome-to-the-blog/"
+        "/welcome-to-the-blog/",
+        null
       ],
       "Site": [
         "/getting-solid/",
@@ -3909,24 +3903,22 @@
     },
     "connections": {
       "MarkdownRemark": [
+        null,
         null
       ]
     }
   },
   "jsonDataPaths": {
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "220/path---index-6a9-YtlIjdoW9SiBoChRSWw21gINVg",
+    "index": "50/path---index-6a9-3CScZlM0bysa0otDSOVeaQmy1Do",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
     "welcome-to-the-blog-bfd": "807/path---welcome-to-the-blog-bfd-b21-MfRQQcfgvKPWO0JVf0e5HGUZ1PE",
-    "road-map-7a4": "765/path---road-map-7-a-4-4e2-OQxNqlE1RyuIDc3bC7GLsRW0Cs",
-    "getting-solid-018": "284/path---getting-solid-018-abd-g8Vr1v88rUw2vvYb8xIfWumImjE"
+    "road-map-7a4": "885/path---road-map-7-a-4-4e2-OaOhY8WGEw3MaWHddOm7LaxImdw",
+    "getting-solid-018": "636/path---getting-solid-018-abd-ZyVXuAz8DewwO0Ox8M8wGXu8KFw",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-offline/app-shell.js": {
-      "query": "",
-      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-offline/app-shell.js"
-    },
     "/Users/shitstorm/Documents/GitHub/devblog/src/templates/index.js": {
       "query": "",
       "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/templates/index.js"
@@ -3938,6 +3930,10 @@
     "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/src/pages/404.js"
+    },
+    "/Users/shitstorm/Documents/GitHub/devblog/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/shitstorm/Documents/GitHub/devblog/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {}
