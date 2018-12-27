@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev Blog]]></title><description><![CDATA[Full-Stack Web Explorer]]></description><link>https://jconan.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 27 Dec 2018 18:58:12 GMT</lastBuildDate><item><title><![CDATA[Getting S.O.L.I.D]]></title><description><![CDATA[
-In [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming), SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev Blog]]></title><description><![CDATA[Full-Stack Web Explorer]]></description><link>https://jconan.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 27 Dec 2018 20:08:07 GMT</lastBuildDate><item><title><![CDATA[Getting S.O.L.I.D]]></title><description><![CDATA[
+In _Object-oriented programming_, SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. 
 
-]]></description><link>https://jconan.netlify.com/getting-solid/</link><guid isPermaLink="false">https://jconan.netlify.com/getting-solid/</guid><pubDate>Thu, 27 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In &lt;a href=&quot;https://en.wikipedia.org/wiki/Object-oriented_programming&quot;&gt;OOP&lt;/a&gt;, SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. &lt;/p&gt;
+]]></description><link>https://jconan.netlify.com/getting-solid/</link><guid isPermaLink="false">https://jconan.netlify.com/getting-solid/</guid><pubDate>Thu, 27 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In &lt;em&gt;Object-oriented programming&lt;/em&gt;, SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. &lt;/p&gt;
 &lt;!-- end --&gt;
 &lt;h2&gt;Design Principles&lt;/h2&gt;
 &lt;ul&gt;
@@ -16,7 +16,7 @@ In [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming), SOLID is a 
 &lt;p&gt;“A class should have one and only one reason to change.”&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Meaning that a class should only have one job. The &lt;a href=&quot;https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)&quot;&gt;Factory Pattern&lt;/a&gt; determine an interesting way to handle repetitive task pattern. Objects factory &lt;strong&gt;parameters definition&lt;/strong&gt; quick-start production with minimal constraints. &lt;/p&gt;
-&lt;div class=&quot;custom-images&quot; style=&quot;width: 400px; margin: 40px auto;&quot;&gt;
+&lt;div class=&quot;custom-images&quot; style=&quot;max-width: 400px; margin: 40px auto;&quot;&gt;
 	
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin: 15px -30px !important max-width: 300px; margin-left: auto; margin-right: auto;&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 37.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAARlAAAEZQAGA43XUAAAA9klEQVQoz22R2aqEQAxE/f+PkxF90QcR3EVxX1EznEBz9TIFsdNpU6kk1n3fAq7rkqIoZNs2vZs4p/Gf8eM4JMsyOc/zFbeMM8+zWtu2r+RfBvq+l33f9XwR8uEhSRIlbJpGSZ+q/mNZFpmmSf1hGF5dWbRKEPm2bYvrupLnuSZgcRxLmqYaW9dVqqpSe6Lruj+FqOIHgo7jyOfz0Xtd16q2LEuJokiN9oIg0LdxHPVuCsOjhBAxYFTiY/i0jfonuKOSEYVhKL7vq5EPOQuy+AFwMgszD5LNggyxKf4LFEGIZciYn+d5arQEaIsFAAqRYAo87bn5L2iIa2M7UIkCAAAAAElFTkSuQmCC&amp;apos;); background-size: cover; display: block;&quot;&gt;
@@ -49,7 +49,7 @@ In [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming), SOLID is a 
 &lt;p&gt;“If, for each object A of type S there is an object B of type T, such that for all programs P defined in terms of T, the behavior of P is unchanged when A is substituted for B then S is a subtype of T.” &lt;a href=&quot;http://www.pmg.csail.mit.edu/~liskov/&quot;&gt;Barbara Liskov&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Each method should have preconditions and posconditions defined. Preconditions must hold true in order for a method to execute, and postconditions must hold true after the execution of a method. It’s what &lt;a href=&quot;https://twitter.com/unclebobmartin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor&quot;&gt;Robert C. Martin&lt;/a&gt; suggests as : &lt;a href=&quot;https://en.wikipedia.org/wiki/Design_by_contract&quot;&gt;Design by Contract&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&quot;custom-images&quot; style=&quot;width: 300px; margin: 30px auto -30px auto;&quot;&gt;
+&lt;div class=&quot;custom-images&quot; style=&quot;max-width: 280px; margin: 30px auto -30px auto;&quot;&gt;
 	
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin: 15px -30px !important max-width: 700px; margin-left: auto; margin-right: auto;&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 98.07291666666667%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAEmklEQVQ4y41Ua0ybZRQ+BYYkJhvOiJtmy1BoubrIj7kYk0nIZtQsc4aYON004m1bdGwjBrMRssRy2+TmxMEg417areVaWsqt5Q4rLaUXBr0w5Nob5VIKhfY7fv0I1ewH7vx5nvec93ly3nO+fAC7REi31MeDb4i63ouYsS2GT5nNdKXOzFBPmukKrTmkV0ZhmG5uIdJo36KP6rJ284PQYQ1l+KZkKPYtJ2LE/AqG9I8gmcfQQSWG9AwjaYqkIb6N6MF7uxoeKmVtYxl775E6YWRwY2tIpHUjKPyp6XoMaRC17GKHGRYOhko1wcFNbWHBgs5DlCCGwfDiDuexL8BrCd9Q/BjAnvA2yZdR+tk8RkdPMqNfzo62E8gYVg/S65uvRulmMiOko7+E/vTDARDk5FKipHPnwNgs8EGj+T89JoIAtdu00vxqkGoh50DrIB7WzGCofHzr8IAKX5cZ8KB8UgKSmXe9svdjYgBtS7Sd83wTH/yPAKCDSZ17JJePWjWXP8KBuOPlyrtJ52cVxuhNxI+XjS6mlldm74uPRc1XcfKhK+/A2RMnANed1PAbb9+JVVVX7yPHQyOG2/d4ckV5n+9fttwyIWaT6Ry0z91wycXfOotEKSiW/Oxam0pa365l48YKcwXQvubrEWo5D7+fbWyaeHYxKfmhgc5V5jq6biM6M9yTumTUqK6hVnGJGBu9gmpVEroc6W5P3b2esUaJDFzeBVSMItHXv2jvFGfZOzqzzEJhenfB/YSqjOSEjZU0B2KGR0gYlKmEdohJqLqZqJemEXpFKrFpJw0x01NfhUke7zursAVHyivc+kdcHKtho4U8b3Z3o5bD7W3KzWA77Uzn8mQuGvgVhFnER5OQj5YWIRoFfJzl15L5SmJJl4eujTQ7jLM5Zxf4zW5yEWgWCN0kR1trGzrEYtRUsbvqfmeythxpTuNwEcqLOYSqlIvKB1xUl/NQdp+NjwurPUgYH5cgbmbYqSerqlknsX8At3p6LSaB8OKiqPXSXFPjxY68v05XZSbHL1lSHFbbNTRN33BbxrMIiyqfsIzeRas6n7BO3CFMf990W2xXcWUpZRVQpfbzmGpYNWem6xtGnl3KgqR735P5M84BBGycB6JUAVimBCyWAlE4SPJRMj8HRA9Zf2L9wEGJUCanNl2RmhrdW1i0F23LNH1TJfXZ6CvlgVLdh08la35Yp/cnWIoA5On9kL8ABFfrhxz1C9g4FYBty4Dy6ZMmbyfuvn6fHU4uhkJx72cUlpSdotc2fHqqveP8ccPAnwyxZX/hNNmR2PJygVJ4j97R/vUxLi8+jsU5fRQ4TKbXdKC4hKau3v4hrBWswieJ3pL/AwUkcnQgZHKh6o92kLVYAQskMHSLDaXVY8AvV8F1zz3qNo1G8+IOf8j6gsIc0bZj7cSLL5VKab9WKcHZuQYoWgTscwPWjJFzlNF+qzcEBMHzRm7Lv7x8BAJblyC3ywmrIhsUVSjAa1Tc/z9GNx8ANMxs88w6gEd68N2p/ZgGr+zw+mnwzW6G54/MWgCyIyqK+oA2i0At0IlAK5MBNSMTAqRzAf4Bz9jVuFlRRnIAAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
@@ -111,16 +111,11 @@ In [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming), SOLID is a 
     &lt;/span&gt;
   &lt;/span&gt;
   &lt;/p&gt;
-&lt;p&gt;&apos;&apos;&apos; javascript
-//Intermediary Class that keeps track of game events
-public class Game {
-…
-if (Pac-Man.eats(Power_Pellet)) {
-Ghosts.changeState();
-}
-…
-}
-&apos;&apos;&apos;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;	&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Game&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; 
+		&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Pac&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;Man&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;eats&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Power_Pellet&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+			Ghosts&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;changeState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;Dependency Inversion&lt;/h3&gt;
 &lt;p&gt;Depend on abstractions, not on concretions.&lt;/p&gt;
 &lt;blockquote&gt;
