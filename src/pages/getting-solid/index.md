@@ -4,7 +4,7 @@ date: "2018-12-27"
 featuredImage: './yojimbo.jpg'
 ---
 
-In _Object-oriented programming_, SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. 
+In Object-oriented programming, SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. 
 
 <!-- end -->
 
