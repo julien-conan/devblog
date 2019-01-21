@@ -1,6 +1,6 @@
 # DevBlog
 
-Programming roadmap, techniques and feedback about incoming technologies.
+Programming roadmap, techniques and feedback about ASP.NET and Core frameworks.
 
 Demo [click here](https://jconan.netlify.com).
 
