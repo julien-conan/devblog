@@ -20,7 +20,7 @@ class PageRenderer extends React.Component {
       replacementElement ||
       createElement(this.props.pageResources.component, {
         ...props,
-        key: this.props.pageResources.page.path,
+        key: this.props.location.pathname,
       })
 
     const wrappedPage = apiRunner(

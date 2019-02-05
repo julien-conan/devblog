@@ -1,5 +1,7 @@
 "use strict";
 
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 
 exports.__esModule = true;
@@ -11,7 +13,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-var _loader = _interopRequireDefault(require("./loader"));
+var _loader = _interopRequireWildcard(require("./loader"));
 
 var _redirects = _interopRequireDefault(require("./redirects.json"));
 
@@ -22,6 +24,8 @@ var _emitter = _interopRequireDefault(require("./emitter"));
 var _router = require("@reach/router");
 
 var _parsePath2 = _interopRequireDefault(require("./parse-path"));
+
+var _loadDirectlyOr = _interopRequireDefault(require("./load-directly-or-404"));
 
 // Convert to a map for faster lookup in maybeRedirect()
 const redirectMap = _redirects.default.reduce((map, redirect) => {
@@ -82,15 +86,10 @@ const navigate = (to, options = {}) => {
   if (redirect) {
     to = redirect.toPath;
     pathname = (0, _parsePath2.default)(to).pathname;
-  } // If we had a service worker update, no matter the path, reload window and
-  // reset the pathname whitelist
+  } // If we had a service worker update, no matter the path, reload window
 
 
   if (window.GATSBY_SW_UPDATED) {
-    const controller = navigator.serviceWorker.controller;
-    controller.postMessage({
-      gatsbyApi: `resetWhitelist`
-    });
     window.location = pathname;
     return;
   } // Start a timer to wait for a second before transitioning and showing a
@@ -108,8 +107,13 @@ const navigate = (to, options = {}) => {
   }, 1000);
 
   _loader.default.getResourcesForPathname(pathname).then(pageResources => {
-    (0, _router.navigate)(to, options);
-    clearTimeout(timeoutId);
+    if ((!pageResources || pageResources.page.path === `/404.html`) && process.env.NODE_ENV === `production`) {
+      clearTimeout(timeoutId);
+      (0, _loadDirectlyOr.default)(pageResources, to).then(() => (0, _router.navigate)(to, options));
+    } else {
+      (0, _router.navigate)(to, options);
+      clearTimeout(timeoutId);
+    }
   });
 };
 

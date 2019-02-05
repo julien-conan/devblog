@@ -29,23 +29,29 @@ var _jsonStore = _interopRequireDefault(require("./json-store"));
 
 var _ensureResources = _interopRequireDefault(require("./ensure-resources"));
 
-var _errorOverlayHandler = require("./error-overlay-handler");
+var ErrorOverlay = _interopRequireWildcard(require("react-error-overlay"));
+
+// Report runtime errors
+ErrorOverlay.startReportingRuntimeErrors({
+  onError: () => {},
+  filename: `/commons.js`
+});
+ErrorOverlay.setEditorHandler(errorLocation => window.fetch(`/__open-stack-frame-in-editor?fileName=` + window.encodeURIComponent(errorLocation.fileName) + `&lineNumber=` + window.encodeURIComponent(errorLocation.lineNumber || 1)));
 
 if (window.__webpack_hot_middleware_reporter__ !== undefined) {
-  const overlayErrorID = `webpack`; // Report build errors
-
+  // Report build errors
   window.__webpack_hot_middleware_reporter__.useCustomOverlay({
     showProblems(type, obj) {
       if (type !== `errors`) {
-        (0, _errorOverlayHandler.clearError)(overlayErrorID);
+        ErrorOverlay.dismissBuildError();
         return;
       }
 
-      (0, _errorOverlayHandler.reportError)(overlayErrorID, obj[0]);
+      ErrorOverlay.reportBuildError(obj[0]);
     },
 
     clear() {
-      (0, _errorOverlayHandler.clearError)(overlayErrorID);
+      ErrorOverlay.dismissBuildError();
     }
 
   });

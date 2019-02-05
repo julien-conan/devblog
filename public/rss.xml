@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev Blog]]></title><description><![CDATA[Full-Stack Web Explorer]]></description><link>https://jconan.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 28 Dec 2018 09:57:55 GMT</lastBuildDate><item><title><![CDATA[Getting S.O.L.I.D]]></title><description><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev Blog]]></title><description><![CDATA[Full-Stack Web Explorer]]></description><link>https://jconan.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 05 Feb 2019 21:02:48 GMT</lastBuildDate><item><title><![CDATA[Speaking Cosmic (JS)]]></title><description><![CDATA[
+Looking at this blog (made with [Gatbsy.js](https://www.gatsbyjs.org)) and towards Javascript "New Era", I have been very impressed by how far this language, its frameworks and community had evolved to cover all requirements historically made with PHP on server side. This blog gives you a taste of what can be achieved today with those technologies, and its purpose is also to give you the key in order to build your own tools set. Let's have a look at cons, benefits, and new philosophies emerging from this interesting era.
+
+]]></description><link>https://jconan.netlify.com/speaking-cosmic-js/</link><guid isPermaLink="false">https://jconan.netlify.com/speaking-cosmic-js/</guid><pubDate>Fri, 25 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Looking at this blog (made with &lt;a href=&quot;https://www.gatsbyjs.org&quot;&gt;Gatbsy.js&lt;/a&gt;) and towards Javascript “New Era”, I have been very impressed by how far this language, its frameworks and community had evolved to cover all requirements historically made with PHP on server side. This blog gives you a taste of what can be achieved today with those technologies, and its purpose is also to give you the key in order to build your own tools set. Let’s have a look at cons, benefits, and new philosophies emerging from this interesting era.&lt;/p&gt;
+&lt;!-- end --&gt;
+&lt;h2&gt;Performances first&lt;/h2&gt;
+&lt;p&gt;As a SEO for example, you might had faced difficulties trying to improve website performances through technical achievements. The main reason is, most of the time, performances have not been considered at the beginning of your development process, during the foundations of your project. In the same way that &lt;a href=&quot;https://blog.devart.com/entity-framework-code-first-support-for-oracle-mysql-postgresql-and-sqlite.html&quot;&gt;code-first approach&lt;/a&gt;, performances-first approach will clean the path to better SEO website performances, keeping architecture clean and sticking to project first intentions.&lt;/p&gt;
+&lt;div class=&quot;custom-images&quot; style=&quot;width: 500px; margin: auto;&quot;&gt;
+	
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin: 15px -30px !important max-width: 700px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 25.524475524475527%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA6UlEQVQY04WP3WrCQBCF8w7JfRI2O7M7mhSN5gdEsWDQQBARlJa+/2uc7m6wlN704rB8Z4aP2SjPc2RZFpKmKZIkQRLPieM45D9+df6NiAjEhEIKsGForaEKFViTnln/YVJQVs1cuIjrRMG7IjKEw3DA8/OJZb2EZo3LdMF0m2AqAxbGaTxhvI6OLUgI5+mM+8cdvGCQJQzTgMfXA3rhhMyMVb9C/97Dlhaet/stmn0DIyZcvdltQveb22MLthy43tXojl3gIFzXazRdAxGZhY0Ttk5oDMTKD/s5aUJZlajeqvBFv+9nr/1vXA2VTmXhYhgAAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;chrome website audit&quot; title=&quot;&quot; src=&quot;/static/chrome_website_audit-5a43a9e3e721be02cce4dff8a48bd034-bc3ba.png&quot; srcset=&quot;/static/chrome_website_audit-5a43a9e3e721be02cce4dff8a48bd034-367a5.png 175w,
+/static/chrome_website_audit-5a43a9e3e721be02cce4dff8a48bd034-cfecb.png 350w,
+/static/chrome_website_audit-5a43a9e3e721be02cce4dff8a48bd034-bc3ba.png 700w,
+/static/chrome_website_audit-5a43a9e3e721be02cce4dff8a48bd034-1b41b.png 1050w,
+/static/chrome_website_audit-5a43a9e3e721be02cce4dff8a48bd034-bf2f4.png 1144w&quot; sizes=&quot;(max-width: 700px) 100vw, 700px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+	&lt;p&gt;Google Chrome Website Audit&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Performances described here from Google Chrome Audit shows the potential of such approach. It stands as the best performances I have seen so far without the efforts. Each element is saved and pushed through actual web development best practices, which guarantee optimal balance during deployment.&lt;/p&gt;
+&lt;h2&gt;Key Performance Indicators (KPI’s)&lt;/h2&gt;
+&lt;p&gt;According to today’s web requirements, essential points are being covered natively with Gatbsy framework, numbers gathered by the official team refers to : &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;30% faster load&lt;/li&gt;
+&lt;li&gt;10% longer average session&lt;/li&gt;
+&lt;li&gt;40% lower boucing rate&lt;/li&gt;
+&lt;li&gt;38% more conversions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All of this because their creators think about performances first, efficient routing and deep SEO integrations in every website component. Static publishing for modern web apps, 3rds party CMS integrations and as I said before, performances baked-in (images, code-splitting, etc.).&lt;/p&gt;
+&lt;h2&gt;Optimization&lt;/h2&gt;
+&lt;p&gt;Because performance is key, you might want to tweak your project with those frameworks in order to achieve better user experience which, in a digital era, is the key to reach more visitors and to make them stay, also making them buying more of your products. Here is the prioritized list you must pay attention to : &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;fast initial page load time&lt;/li&gt;
+&lt;li&gt;fast subsequent page interaction (pre-fetching)&lt;/li&gt;
+&lt;li&gt;image optimization&lt;/li&gt;
+&lt;li&gt;route-based code splitting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As pre-fetching, Server Side Rendering (SSR) is also a dramatic issue being tackled. &lt;/p&gt;
+&lt;h2&gt;User Location in Mind&lt;/h2&gt;
+&lt;p&gt;Make your content accessible from anywhere in the world with publishers which will allows CDN &lt;a href=&quot;https://www.netlify.com/blog/2016/04/15/make-your-site-faster-with-netlifys-intelligent-cdn/&quot;&gt;Content Delivery Network&lt;/a&gt;, making your content available faster from the user location.&lt;/p&gt;
+&lt;div class=&quot;custom-images&quot; style=&quot;width: 500px; margin: auto;&quot;&gt;
+	
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin: 15px -30px !important max-width: 700px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 37.16923076923077%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA0UlEQVQY021R0Y7CMAzr/38dL9wjICEdjBfotmZNk3S4Gex2iEjtmsr2YjfMXrVWMRNVNavvmv9XEelTamDH4xCwAOfGMtzhA5VFrkLIqnqhu8d47rrCvMq9yCBMIlwKWpzNhbGb06qP067NoH4j+r1ccs4hqRzHAdDEfO97IgKvqM2b4T8sZJVEJKIhDsPuZ78g/JewICyyMG0Twdr+jf2I8XA6sZTqScDug+jadcmz4ZxpmsxTwD7lzMwrP4jIOCa4hbnS0tIWW4vvS+wfL/AEZrSck93kxDoAAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;netlify content delivery network&quot; title=&quot;&quot; src=&quot;/static/netlify_content_delivery_network-f05c0cdce2a967b8282253958efb0611-bc3ba.png&quot; srcset=&quot;/static/netlify_content_delivery_network-f05c0cdce2a967b8282253958efb0611-367a5.png 175w,
+/static/netlify_content_delivery_network-f05c0cdce2a967b8282253958efb0611-cfecb.png 350w,
+/static/netlify_content_delivery_network-f05c0cdce2a967b8282253958efb0611-bc3ba.png 700w,
+/static/netlify_content_delivery_network-f05c0cdce2a967b8282253958efb0611-1b41b.png 1050w,
+/static/netlify_content_delivery_network-f05c0cdce2a967b8282253958efb0611-50f8d.png 1400w,
+/static/netlify_content_delivery_network-f05c0cdce2a967b8282253958efb0611-69e6a.png 2100w,
+/static/netlify_content_delivery_network-f05c0cdce2a967b8282253958efb0611-9326a.png 3250w&quot; sizes=&quot;(max-width: 700px) 100vw, 700px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+	&lt;p&gt;Netlify Content Delivery Network&lt;/p&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Getting S.O.L.I.D]]></title><description><![CDATA[
 In Object-oriented programming, SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. 
 
 ]]></description><link>https://jconan.netlify.com/getting-solid/</link><guid isPermaLink="false">https://jconan.netlify.com/getting-solid/</guid><pubDate>Thu, 27 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In Object-oriented programming, SOLID is a mnemonic acronym for 5 design principles intended to make software designs more understandable, flexible and maintainable. &lt;/p&gt;
@@ -20,8 +77,8 @@ In Object-oriented programming, SOLID is a mnemonic acronym for 5 design princip
 	
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin: 15px -30px !important max-width: 300px; margin-left: auto; margin-right: auto;&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 37.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAARlAAAEZQAGA43XUAAAA9klEQVQoz22R2aqEQAxE/f+PkxF90QcR3EVxX1EznEBz9TIFsdNpU6kk1n3fAq7rkqIoZNs2vZs4p/Gf8eM4JMsyOc/zFbeMM8+zWtu2r+RfBvq+l33f9XwR8uEhSRIlbJpGSZ+q/mNZFpmmSf1hGF5dWbRKEPm2bYvrupLnuSZgcRxLmqYaW9dVqqpSe6Lruj+FqOIHgo7jyOfz0Xtd16q2LEuJokiN9oIg0LdxHPVuCsOjhBAxYFTiY/i0jfonuKOSEYVhKL7vq5EPOQuy+AFwMgszD5LNggyxKf4LFEGIZciYn+d5arQEaIsFAAqRYAo87bn5L2iIa2M7UIkCAAAAAElFTkSuQmCC&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;factory&quot; title=&quot;&quot; src=&quot;/static/c807aa031179ca043ffa41bb86e07cfa/e7458/factory.png&quot; srcset=&quot;/static/c807aa031179ca043ffa41bb86e07cfa/25c25/factory.png 175w,
-/static/c807aa031179ca043ffa41bb86e07cfa/e7458/factory.png 300w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;factory&quot; title=&quot;&quot; src=&quot;/static/factory-c807aa031179ca043ffa41bb86e07cfa-e7458.png&quot; srcset=&quot;/static/factory-c807aa031179ca043ffa41bb86e07cfa-25c25.png 175w,
+/static/factory-c807aa031179ca043ffa41bb86e07cfa-e7458.png 300w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot;&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
@@ -37,8 +94,8 @@ In Object-oriented programming, SOLID is a mnemonic acronym for 5 design princip
 	
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin: 15px -30px !important max-width: 224px; margin-left: auto; margin-right: auto;&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 125%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAAACXBIWXMAABYlAAAWJQFJUiTwAAAEWElEQVQ4y3VVS1CbVRjNTu3QFi2Vdx5AXpAQCCEJhEcChARSinTUuvABg7SMtR2n47LjDt866sI6dqeO3bbAjLixLWDBqSsGtkwFN7BghgEWPI/f+SB/QmvvzJ0//597zz3fOefea8IT7eDgQHv69/7+Pvb29vCslj2WzfQsIIKk39kIvLy8jJmHDzF2dxT3/7iHra2tp0BN/weU3ebm5nDz+5t4+823EArUw1pqht9XgxqvD0OD7xrj0zimJ8tj29nZwcRvExi+NIx4exxt0TYFcFbY4SgrR6w1hmRnEnb5/dfsrM5JA5uyKbNNTU6h/51++Gv88HmqEQ6GEG1pRaXTBWd5BcotVoTrQ+g51wNPZRW+++Zbnbe7u3ucIdutH28hJmyaI81ol2fAX4dqmRSqD8Jld6DCaoNNSm5qjCDRmRAJghgcGDhmkClN9favtxGPd6LvlT4pMabMqlxuuAWoOdJkgFqLSxBpaER7rE2ZBmXRpaUlwzjD5ctDl2VQu4IFav3wuCu1RLuwIkAk3Ai7rRyWI8DW5laRpVYZj4+OGToq4ObmJt54/SK6u1Lo67ug5VQ6nGoAtaOr1VUelJktCtgQDKNNGJJ10cv5+OjGjeOAGxsb6O05j86OTvSe70VKgKucbjWgxntoDMEJaC0pFXYtIs0FdCW6dKFUMqmmGC4TsKc7pRMDtXVaMrUjAMv2ebz6TTUUwFhrVF1OJpKaAC76z+PHxwG75U+CNYYbVCMOIiCZETQooWYOqVl9XQARcZpPt0jjku8LCwsZwPX1dXSIJi1SSrQliqAM9LqrUC6GsOx0Bu22MmVIM+h8Qyis0piLijE9NZ0B/Ff2KEuqk4HUhJ27gJNrq33KmgYQmAwpB+WhWR6J1pnTubh7504GcHZmRt2Lt3dodAjCyWXCjuFmaXx3CEubLMISKYujrEL76ZyT+OKzzzOAv/z0MwrO5KnITY1NyoILUD+dKEB853fqykixXB91lkVzc07hg2vXMoCfjnyMsy++hKaGiJTtF11ch4wEkHpVHGlHMHYC00COsch3MmSODcAPr19HnujA7RQRvaghtx1NaBbG3LvVlQy2VcE0k8LMfvTMPXlKU2IADg9dQr6UXO8PKBAn8CAgG8aHgI4jk0oLizQqaY1LxeE8qY5Etre3DwGvvndFAWlKIp7QsHLfHpZpVXbWErNOLi4ohFfe6TClYD/x3PMY7B/IMPxBTmQCdrR1qDHsdJKAnMBIsTyyK8ovUHbpnZPzwgm0SCZXVlYygH8/eqTlsTRmkV0jInqxM0Z01CZjyJAnEVmWFBTh4quvYXV19fjhsLa2pruDLFgKQ0ztCMY7RHeKMM7PO6sGFMoJw/+//vIr4+g3roD0PTI1OYmrV95HT+qchpnbzizZs5QQ1KLx8Mrp3Z3swicjI1hcXDRO6uyL6qk7hdtw8sEDjI2OYnxsHL9PTODP6WnMz88bOmUDZV9y7P8Bus+ZOXIgmZQAAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;rosetta stoneb&quot; title=&quot;&quot; src=&quot;/static/bd8859b23bd5d9c1f15e8d5de362bb0c/5b34c/rosetta_stoneb.png&quot; srcset=&quot;/static/bd8859b23bd5d9c1f15e8d5de362bb0c/cbab7/rosetta_stoneb.png 175w,
-/static/bd8859b23bd5d9c1f15e8d5de362bb0c/5b34c/rosetta_stoneb.png 224w&quot; sizes=&quot;(max-width: 224px) 100vw, 224px&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;rosetta stoneb&quot; title=&quot;&quot; src=&quot;/static/rosetta_stoneb-bd8859b23bd5d9c1f15e8d5de362bb0c-5b34c.png&quot; srcset=&quot;/static/rosetta_stoneb-bd8859b23bd5d9c1f15e8d5de362bb0c-cbab7.png 175w,
+/static/rosetta_stoneb-bd8859b23bd5d9c1f15e8d5de362bb0c-5b34c.png 224w&quot; sizes=&quot;(max-width: 224px) 100vw, 224px&quot;&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
@@ -53,12 +110,12 @@ In Object-oriented programming, SOLID is a mnemonic acronym for 5 design princip
 	
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin: 15px -30px !important max-width: 700px; margin-left: auto; margin-right: auto;&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 98.07291666666667%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAEmklEQVQ4y41Ua0ybZRQ+BYYkJhvOiJtmy1BoubrIj7kYk0nIZtQsc4aYON004m1bdGwjBrMRssRy2+TmxMEg417areVaWsqt5Q4rLaUXBr0w5Nob5VIKhfY7fv0I1ewH7vx5nvec93ly3nO+fAC7REi31MeDb4i63ouYsS2GT5nNdKXOzFBPmukKrTmkV0ZhmG5uIdJo36KP6rJ284PQYQ1l+KZkKPYtJ2LE/AqG9I8gmcfQQSWG9AwjaYqkIb6N6MF7uxoeKmVtYxl775E6YWRwY2tIpHUjKPyp6XoMaRC17GKHGRYOhko1wcFNbWHBgs5DlCCGwfDiDuexL8BrCd9Q/BjAnvA2yZdR+tk8RkdPMqNfzo62E8gYVg/S65uvRulmMiOko7+E/vTDARDk5FKipHPnwNgs8EGj+T89JoIAtdu00vxqkGoh50DrIB7WzGCofHzr8IAKX5cZ8KB8UgKSmXe9svdjYgBtS7Sd83wTH/yPAKCDSZ17JJePWjWXP8KBuOPlyrtJ52cVxuhNxI+XjS6mlldm74uPRc1XcfKhK+/A2RMnANed1PAbb9+JVVVX7yPHQyOG2/d4ckV5n+9fttwyIWaT6Ry0z91wycXfOotEKSiW/Oxam0pa365l48YKcwXQvubrEWo5D7+fbWyaeHYxKfmhgc5V5jq6biM6M9yTumTUqK6hVnGJGBu9gmpVEroc6W5P3b2esUaJDFzeBVSMItHXv2jvFGfZOzqzzEJhenfB/YSqjOSEjZU0B2KGR0gYlKmEdohJqLqZqJemEXpFKrFpJw0x01NfhUke7zursAVHyivc+kdcHKtho4U8b3Z3o5bD7W3KzWA77Uzn8mQuGvgVhFnER5OQj5YWIRoFfJzl15L5SmJJl4eujTQ7jLM5Zxf4zW5yEWgWCN0kR1trGzrEYtRUsbvqfmeythxpTuNwEcqLOYSqlIvKB1xUl/NQdp+NjwurPUgYH5cgbmbYqSerqlknsX8At3p6LSaB8OKiqPXSXFPjxY68v05XZSbHL1lSHFbbNTRN33BbxrMIiyqfsIzeRas6n7BO3CFMf990W2xXcWUpZRVQpfbzmGpYNWem6xtGnl3KgqR735P5M84BBGycB6JUAVimBCyWAlE4SPJRMj8HRA9Zf2L9wEGJUCanNl2RmhrdW1i0F23LNH1TJfXZ6CvlgVLdh08la35Yp/cnWIoA5On9kL8ABFfrhxz1C9g4FYBty4Dy6ZMmbyfuvn6fHU4uhkJx72cUlpSdotc2fHqqveP8ccPAnwyxZX/hNNmR2PJygVJ4j97R/vUxLi8+jsU5fRQ4TKbXdKC4hKau3v4hrBWswieJ3pL/AwUkcnQgZHKh6o92kLVYAQskMHSLDaXVY8AvV8F1zz3qNo1G8+IOf8j6gsIc0bZj7cSLL5VKab9WKcHZuQYoWgTscwPWjJFzlNF+qzcEBMHzRm7Lv7x8BAJblyC3ywmrIhsUVSjAa1Tc/z9GNx8ANMxs88w6gEd68N2p/ZgGr+zw+mnwzW6G54/MWgCyIyqK+oA2i0At0IlAK5MBNSMTAqRzAf4Bz9jVuFlRRnIAAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;design by contract&quot; title=&quot;&quot; src=&quot;/static/0692d72bb626dbcb8a0b7507021b491f/bc3ba/design_by_contract.png&quot; srcset=&quot;/static/0692d72bb626dbcb8a0b7507021b491f/367a5/design_by_contract.png 175w,
-/static/0692d72bb626dbcb8a0b7507021b491f/cfecb/design_by_contract.png 350w,
-/static/0692d72bb626dbcb8a0b7507021b491f/bc3ba/design_by_contract.png 700w,
-/static/0692d72bb626dbcb8a0b7507021b491f/1b41b/design_by_contract.png 1050w,
-/static/0692d72bb626dbcb8a0b7507021b491f/50f8d/design_by_contract.png 1400w,
-/static/0692d72bb626dbcb8a0b7507021b491f/ff04c/design_by_contract.png 1920w&quot; sizes=&quot;(max-width: 700px) 100vw, 700px&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;design by contract&quot; title=&quot;&quot; src=&quot;/static/design_by_contract-0692d72bb626dbcb8a0b7507021b491f-bc3ba.png&quot; srcset=&quot;/static/design_by_contract-0692d72bb626dbcb8a0b7507021b491f-367a5.png 175w,
+/static/design_by_contract-0692d72bb626dbcb8a0b7507021b491f-cfecb.png 350w,
+/static/design_by_contract-0692d72bb626dbcb8a0b7507021b491f-bc3ba.png 700w,
+/static/design_by_contract-0692d72bb626dbcb8a0b7507021b491f-1b41b.png 1050w,
+/static/design_by_contract-0692d72bb626dbcb8a0b7507021b491f-50f8d.png 1400w,
+/static/design_by_contract-0692d72bb626dbcb8a0b7507021b491f-ff04c.png 1920w&quot; sizes=&quot;(max-width: 700px) 100vw, 700px&quot;&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
@@ -78,8 +135,8 @@ In Object-oriented programming, SOLID is a mnemonic acronym for 5 design princip
 	
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin: 15px -30px !important max-width: 300px; margin-left: auto; margin-right: auto;&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH2u3mWoRIaA//EABkQAAIDAQAAAAAAAAAAAAAAAAECEBESAP/aAAgBAQABBQIFtPeVuuU6gz//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAZEAABBQAAAAAAAAAAAAAAAAAAICEiMWH/2gAIAQEABj8CwjY6/wD/xAAcEAACAgIDAAAAAAAAAAAAAAAAARExQYEQIVH/2gAIAQEAAT8hmU0GV9BIuQ/TK4lNlPpxoVH/2gAMAwEAAgADAAAAEHAAPP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EAB8QAQACAgICAwAAAAAAAAAAAAEAESExQWEQUXHR8P/aAAgBAQABPxBCKl5r91GGvcXEljzxUAXkfEvINGr3x4ZdMMYogKbHofUum22p/9k=&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;multiple inheritance&quot; title=&quot;&quot; src=&quot;/static/fc1c420a0c26c90aa8be1e980eb3a74e/566e5/multiple_inheritance.jpg&quot; srcset=&quot;/static/fc1c420a0c26c90aa8be1e980eb3a74e/aa8e3/multiple_inheritance.jpg 175w,
-/static/fc1c420a0c26c90aa8be1e980eb3a74e/566e5/multiple_inheritance.jpg 300w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;multiple inheritance&quot; title=&quot;&quot; src=&quot;/static/multiple_inheritance-fc1c420a0c26c90aa8be1e980eb3a74e-566e5.jpg&quot; srcset=&quot;/static/multiple_inheritance-fc1c420a0c26c90aa8be1e980eb3a74e-aa8e3.jpg 175w,
+/static/multiple_inheritance-fc1c420a0c26c90aa8be1e980eb3a74e-566e5.jpg 300w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot;&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
@@ -102,10 +159,10 @@ In Object-oriented programming, SOLID is a mnemonic acronym for 5 design princip
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Loosely Coupled&quot;
         title=&quot;J-CONAN&quot;
-        src=&quot;/static/e382e3dbc3ccfa60cbbd778583a81701/c3cee/loosely_coupled.png&quot;
-        srcset=&quot;/static/e382e3dbc3ccfa60cbbd778583a81701/45bf4/loosely_coupled.png 175w,
-/static/e382e3dbc3ccfa60cbbd778583a81701/fc706/loosely_coupled.png 350w,
-/static/e382e3dbc3ccfa60cbbd778583a81701/c3cee/loosely_coupled.png 436w&quot;
+        src=&quot;/static/loosely_coupled-e382e3dbc3ccfa60cbbd778583a81701-c3cee.png&quot;
+        srcset=&quot;/static/loosely_coupled-e382e3dbc3ccfa60cbbd778583a81701-45bf4.png 175w,
+/static/loosely_coupled-e382e3dbc3ccfa60cbbd778583a81701-fc706.png 350w,
+/static/loosely_coupled-e382e3dbc3ccfa60cbbd778583a81701-c3cee.png 436w&quot;
         sizes=&quot;(max-width: 436px) 100vw, 436px&quot;
       /&gt;
     &lt;/span&gt;
@@ -148,11 +205,11 @@ In Object-oriented programming, SOLID is a mnemonic acronym for 5 design princip
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Dependencty Injection {w:50px}&quot;
         title=&quot;&quot;
-        src=&quot;/static/a59f30316e4f298ad9cd2cd5f1c4b88d/bc3ba/dependency-injection-short.png&quot;
-        srcset=&quot;/static/a59f30316e4f298ad9cd2cd5f1c4b88d/367a5/dependency-injection-short.png 175w,
-/static/a59f30316e4f298ad9cd2cd5f1c4b88d/cfecb/dependency-injection-short.png 350w,
-/static/a59f30316e4f298ad9cd2cd5f1c4b88d/bc3ba/dependency-injection-short.png 700w,
-/static/a59f30316e4f298ad9cd2cd5f1c4b88d/7ded0/dependency-injection-short.png 1040w&quot;
+        src=&quot;/static/dependency-injection-short-a59f30316e4f298ad9cd2cd5f1c4b88d-bc3ba.png&quot;
+        srcset=&quot;/static/dependency-injection-short-a59f30316e4f298ad9cd2cd5f1c4b88d-367a5.png 175w,
+/static/dependency-injection-short-a59f30316e4f298ad9cd2cd5f1c4b88d-cfecb.png 350w,
+/static/dependency-injection-short-a59f30316e4f298ad9cd2cd5f1c4b88d-bc3ba.png 700w,
+/static/dependency-injection-short-a59f30316e4f298ad9cd2cd5f1c4b88d-7ded0.png 1040w&quot;
         sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
       /&gt;
     &lt;/span&gt;
@@ -171,7 +228,7 @@ In Object-oriented programming, SOLID is a mnemonic acronym for 5 design princip
 &lt;/ul&gt;
 &lt;p&gt;For more about the benefits of each of these principles, make sure to read Uncle Bob’s articles, and communicate about your own experiences.&lt;/p&gt;
 &lt;p&gt;Thank you &lt;em&gt;Stranger&lt;/em&gt;, see you next time, for another coffee-programming session.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Going further: &lt;strong&gt;DRY Principle, Encapsulation, Premature Optimization, Refactoring, Software Craftmanship, Clean Code and Style Guides&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Road Map]]></title><description><![CDATA[
+&lt;p&gt;&lt;em&gt;Going further: &lt;strong&gt;DRY Principle, Encapsulation, Premature Optimization, Refactoring, Software Craftmanship, Clean Code and Style Guides&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Road-Map]]></title><description><![CDATA[
 This page aims at showing at a glance my research path, founds, and gems. 
 There is a lot of burning topics nowadays ! 
 Main frameworks I am using today are presented in the section below, you can also have a look at my Bookmarks if you want, I will do my best to keep this list updated regularly.
@@ -187,272 +244,30 @@ Main frameworks I am using today are presented in the section below, you can als
 	
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin: 15px -30px !important max-width: 700px; margin-left: auto; margin-right: auto;&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 82.20757825370676%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAACmUlEQVQ4y21U2XKjMBDk/z9sH7aSSjZbcSqJ7fjgECB0cQiQRO+A4yPJUtVmEKKnp0fjCHQ5FwgT3Dgt8fmapul6/xbPT7c4r0UhTKjKFptNjN0uA0vN8vyD9POj84eYKHEIl/v5fTR/0LUjtGphCHaOpcX7S/lF4RdiNyJoCV3kC7wSl33RvM+OAaYb0ViHpj+VnMUam1e+xHMVF8I8BUQBLwUkyyHzmVBeCT1tVo1DnJaEAtw4JNWAlpL8+R1j6N2ia/GKJZiSw0mlt7RA1gSC768lz5utc0TgUQ8jeucXWzalw2rFcdhUp+zjCLw+U0AJbAxfb5DG7yjzHTDkF1uiPnQQDUchcwjDoQcJR5lF2+PXU4XVQ7oQOpbCfbzBm3sioCS+IWECYVCUxF6aGA2hpzI5kpI6TN6oQaBoGbgWYIXC/kCxUKSkhOQFKsFgg4MZa6hOw/Q1CZJ0VyTEzU2Z226Im7yYasIAT/71tkOlNV7X79jtD3h5e4OQCqYlAlui6nLE7IicMyTkLTcFZnHRbGqn9kiPaxQZGd5sEZo1Gl1Ar7fINgwDHZP4KLD94Niyeilt8CNaakb3iSFYBBIXzSaHURHMgsmZkxk8g7l7RPz35CFLDJ7uSUkbcOQ9+T2ClRo5QeiByD49XH5tDyslrNJUeYeJzhjYHvkqRcvri+FPdym6ZlhiURMhV8grDUlrPpyGMFpGqdEokphKzoiMOliTwYNH8rD/Mn4z2fMjg3ezx44mzC+w1t1MyjwJpBCdXdSF/qSgeCF1VfNj9OYxLVhDZ1DR/B9xOGTgRXND6AONkERGU1IWFVrRQMeCyOov6r7HLamtTY+mJrtobK+EVLspFfWAo2IVOtki+PDj7+t/8e11XvsHQ7DWWZ9j2CgAAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;road map 2018 12 26 10 19 52&quot; title=&quot;&quot; src=&quot;/static/094774f01d28efd1a1721059726898f4/bc3ba/road-map-2018-12-26 10.19.52.png&quot; srcset=&quot;/static/094774f01d28efd1a1721059726898f4/367a5/road-map-2018-12-26 10.19.52.png 175w,
-/static/094774f01d28efd1a1721059726898f4/cfecb/road-map-2018-12-26 10.19.52.png 350w,
-/static/094774f01d28efd1a1721059726898f4/bc3ba/road-map-2018-12-26 10.19.52.png 700w,
-/static/094774f01d28efd1a1721059726898f4/1b41b/road-map-2018-12-26 10.19.52.png 1050w,
-/static/094774f01d28efd1a1721059726898f4/a5570/road-map-2018-12-26 10.19.52.png 1214w&quot; sizes=&quot;(max-width: 700px) 100vw, 700px&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;road map 2018 12 26 10 19 52&quot; title=&quot;&quot; src=&quot;/static/road-map-2018-12-26 10.19.52-094774f01d28efd1a1721059726898f4-bc3ba.png&quot; srcset=&quot;/static/road-map-2018-12-26 10.19.52-094774f01d28efd1a1721059726898f4-367a5.png 175w,
+/static/road-map-2018-12-26 10.19.52-094774f01d28efd1a1721059726898f4-cfecb.png 350w,
+/static/road-map-2018-12-26 10.19.52-094774f01d28efd1a1721059726898f4-bc3ba.png 700w,
+/static/road-map-2018-12-26 10.19.52-094774f01d28efd1a1721059726898f4-1b41b.png 1050w,
+/static/road-map-2018-12-26 10.19.52-094774f01d28efd1a1721059726898f4-a5570.png 1214w&quot; sizes=&quot;(max-width: 700px) 100vw, 700px&quot;&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
 &lt;/div&gt;
 &lt;p&gt;I currently enjoy front development libraries based on Javascript like &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;Gatsby&lt;/a&gt;. Deployment from &lt;a href=&quot;https://www.npmjs.com/&quot;&gt;Npm&lt;/a&gt; is like having a terminal copilot which does the main part of the job for you. It takes a few time to obtain a stable environment but it really worth the time !&lt;/p&gt;
-&lt;h2&gt;Bookmarks&lt;/h2&gt;
-&lt;DT&gt;&lt;H3 FOLDED&gt;Novembre&lt;/H3&gt;
-			&lt;DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/11/25&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://www.creativebloq.com/html5/build-tile-based-html5-game-31410992&quot;&gt;Build a tile-based HTML5 game | Creative Bloq&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/11/26&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/&quot;&gt;Understanding RequireJS for Effective JavaScript Module Loading&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://medium.freecodecamp.org/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8&quot;&gt;Requiring modules in Node.js: Everything you need to know&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/11/27&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/Microsoft/vscode/issues/14896&quot;&gt;how to hide sidebar · Issue #14896 · Microsoft/vscode&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/11/28&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/Microsoft/vscode-ios-web-debug&quot;&gt;Microsoft/vscode-ios-web-debug: Debug your JavaScript code running in Safari on iOS devices from VS Code.&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/RemoteDebug/remotedebug-ios-webkit-adapter#getting-started&quot;&gt;RemoteDebug/remotedebug-ios-webkit-adapter: Debug Safari and WebViews on iOS from tools like VS Code, Chrome DevTools, Mozilla Debugger.html&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://medium.com/@auchenberg/hello-remotedebug-ios-webkit-adapter-debug-safari-and-ios-webviews-from-anywhere-2a8553df7465&quot;&gt;Hello RemoteDebug iOS WebKit Adapter: Debug Safari and iOS WebViews from anywhere 📡📱&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/Manual/HOWTO-exportFBX.html#Max&quot;&gt;Unity - Manual: Exporting from other applications&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/11/29&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://medium.com/@mfosullivan/a-beginners-guide-to-setting-up-a-modern-web-development-environment-on-windows-10-4d75cd94cde8&quot;&gt;A beginners guide to setting up a modern web development environment on Windows 10&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://code.visualstudio.com/docs/getstarted/settings&quot;&gt;Visual Studio Code User and Workspace Settings&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://code.visualstudio.com/docs/editor/integrated-terminal&quot;&gt;Integrated Terminal in Visual Studio Code&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://code.visualstudio.com/docs/editor/multi-root-workspaces#_settings&quot;&gt;Multi-root Workspaces in Visual Studio Code&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/&quot;&gt;How to install Yarn on Ubuntu 18.04 | Linuxize&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://askubuntu.com/questions/334994/which-one-is-better-using-or-to-execute-multiple-commands-in-one-line&quot;&gt;bash - Which one is better: using ; or &amp;amp;&amp;amp; to execute multiple commands in one line? - Ask Ubuntu&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://support.google.com/chrome/answer/157179?hl=en&quot;&gt;Chrome keyboard shortcuts - Google Chrome Help&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/11/30&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file&quot;&gt;Include another HTML file in a HTML file - Stack Overflow&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://www.html5rocks.com/en/tutorials/webcomponents/imports/&quot;&gt;HTML Imports: #include for the web - HTML5 Rocks&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://jekyllrb.com/docs/themes/&quot;&gt;Themes | Jekyll • Simple, blog-aware, static sites&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site-with-the-jekyll-theme-chooser/&quot;&gt;Adding a Jekyll theme to your GitHub Pages site with the Jekyll Theme Chooser - User Documentation&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://git-scm.com/docs/git-clone&quot;&gt;Git - git-clone Documentation&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes&quot;&gt;Git - Working with Remotes&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;http://jekyllthemes.org/themes/airspace/&quot;&gt;Airspace&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/&quot;&gt;Adding an existing project to GitHub using the command line - User Documentation&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://help.github.com/articles/setting-your-commit-email-address-in-git/&quot;&gt;Setting your commit email address in Git - User Documentation&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://help.github.com/articles/error-permission-denied-publickey/&quot;&gt;Error: Permission denied (publickey) - User Documentation&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-			&lt;/DL&gt;&lt;p&gt;
-			&lt;DT&gt;&lt;H3 FOLDED&gt;Décembre&lt;/H3&gt;
-			&lt;DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/12/01&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/themefisher/airspace-free-html5-agency-template&quot;&gt;themefisher/airspace-free-html5-agency-template&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://stackoverflow.com/questions/33201630/install-gem-gives-failed-to-build-gem-native-extension&quot;&gt;ruby - Install gem gives &quot;Failed to build gem native extension.&quot; - Stack Overflow&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://rubygems.org/gems/jekyll-airspace/versions/0.1.0&quot;&gt;jekyll-airspace | RubyGems.org | votre communauté d&apos;hébergement des gems&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://webdesign.tutsplus.com/tutorials/how-to-set-up-a-jekyll-theme--cms-26332&quot;&gt;How to Set Up a Jekyll Theme&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://jekyllrb.com/docs/usage/&quot;&gt;Command Line Usage | Jekyll • Simple, blog-aware, static sites&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://jekyllrb.com/docs/&quot;&gt;Quickstart | Jekyll • Simple, blog-aware, static sites&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://stackoverflow.com/questions/20559255/error-while-installing-json-gem-mkmf-rb-cant-find-header-files-for-ruby&quot;&gt;Error while installing json gem &apos;mkmf.rb can&apos;t find header files for ruby&apos; - Stack Overflow&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://stackoverflow.com/questions/24423067/missing-folder-in-repository-after-git-add&quot;&gt;missing folder in repository after git add - Stack Overflow&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://www.html5rocks.com/en/tutorials/speed/parallax/&quot;&gt;Parallaxin&apos; - HTML5 Rocks&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/12/02&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://codepen.io/#&quot;&gt;CodePen&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;http://www.brainbell.com/tutors/C_Sharp/Instantiation.htm&quot;&gt;Instantiation : C Sharp&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://philippe.developpez.com/articles/SOLIDdotNet/#LVI%20-%20C&quot;&gt;Bonnes pratiques objet en .net : Introduction aux principes SOLID&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://philippe.developpez.com/articles/dotnet/injectiondedependances/&quot;&gt;Injection de dépendances en .NET, pattern, intérêt et outils&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/12/03&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://code.visualstudio.com/docs/python/python-tutorial&quot;&gt;Get Started Tutorial for Python in Visual Studio Code&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://code.visualstudio.com/docs/python/environments&quot;&gt;Using Python Environments in Visual Studio Code&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/toxtli/futuristic-3d-spherical-news-visualization-three-js&quot;&gt;toxtli/futuristic-3d-spherical-news-visualization-three-js: This is a 3D visualization in javascript that enables spherical, helix, grid and table views using a data-driven approach with three.js&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://www.w3schools.com/css/css_image_transparency.asp&quot;&gt;CSS Image Opacity / Transparency&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;http://simplefocus.com/flowtype/&quot;&gt;FlowType.JS — Responsive web typography at its finest: font-size and line-height based on element width. | Simple Focus&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/12/04&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;http://excamera.com/articles/26/doc/intro.html&quot;&gt;Introduction and Cookbook — Python OpenEXR v1.2 documentation&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/12/08&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/&quot;&gt;Sourcing from Netlify CMS | GatsbyJS&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;Mastering Markdown · GitHub Guides&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;http://chriseppstein.github.io/blog/2010/08/02/sass-extend-challenge/&quot;&gt;Sass Challenge: Use selector inheritance this week&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://www.codeproject.com/script/Membership/LogOn.aspx?rp=https%3a%2f%2fwww.codeproject.com%2f&amp;download=true&quot;&gt;Sign in - CodeProject&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance&quot;&gt;Cascade and inheritance | MDN&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/12/09&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://reactjs.org/docs/dom-elements.html&quot;&gt;DOM Elements – React&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://zhenyong.github.io/react/tips/dangerously-set-inner-html.html&quot;&gt;Dangerously Set innerHTML | React&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://devhints.io/jekyll&quot;&gt;Jekyll cheatsheet&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://imsun.github.io/gitment/&quot;&gt;Gitment Demo Page&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://www.gatsbycentral.com/tutorial-comments-with-staticman-in-gatsby&quot;&gt;Tutorial: Comments with StaticMan in Gatsby | Gatsby Central&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://shopify.github.io/liquid/&quot;&gt;Liquid template language&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://help.shopify.com/en/themes/liquid/basics&quot;&gt;Liquid basics · Shopify Help Center&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://www.sitepoint.com/setting-up-a-living-styleguide-in-jekyll/&quot;&gt;Setting up a Living Styleguide in Jekyll — SitePoint&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://haacked.com/archive/2018/06/24/comments-for-jekyll-blogs/&quot;&gt;Comments for Jekyll Blogs | You’ve Been Haacked&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://darekkay.com/blog/static-site-comments/&quot;&gt;Various ways to include comments on your static site&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;http://donw.io/post/github-comments/&quot;&gt;Replacing Disqus with Github Comments · Gazoo.vrv&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://news.ycombinator.com/item?id=14170041&quot;&gt;Replacing Disqus with GitHub Comments | Hacker News&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://guides.github.com/activities/hello-world/&quot;&gt;Hello World · GitHub Guides&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/&quot;&gt;Authorizing OAuth Apps | GitHub Developer Guide&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/Shopify/liquid&quot;&gt;Shopify/liquid: Liquid markup language. Safe, customer facing template language for flexible web apps.&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/imsun/gitment&quot;&gt;imsun/gitment: A comment system based on GitHub Issues.&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/&quot;&gt;Setting up your GitHub Pages site locally with Jekyll - User Documentation&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;http://frontendcollisionblog.com/jekyll/snippet/2015/03/23/how-to-show-a-summary-of-your-post-with-jekyll.html&quot;&gt;How to show a summary of your post with Jekyll&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/12/18&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://medium.com/@jimkang/complete-uninstall-remove-vscode-mac-5e48bef3bdec&quot;&gt;Complete uninstall / remove vscode (Mac) – Jim Kang – Medium&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;http://osxdaily.com/2009/11/30/open-current-folder-in-finder-from-the-terminal/&quot;&gt;Open Current Folder in Finder from Terminal of Mac OS X&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://help.github.com/articles/changing-a-remote-s-url/&quot;&gt;Changing a remote&apos;s URL - User Documentation&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://help.github.com/articles/error-permission-denied-publickey/&quot;&gt;Error: Permission denied (publickey) - User Documentation&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://gist.github.com/adamjohnson/5682757&quot;&gt;Fix &quot;Permission denied (publickey)&quot; error when pushing with Git&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/&quot;&gt;Adding a new SSH key to your GitHub account - User Documentation&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/12/19&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://www.gatsbyjs.org/docs/centralizing-your-sites-navigation/&quot;&gt;Centralizing your site&apos;s navigation | GatsbyJS&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-			&lt;/DL&gt;&lt;p&gt;
-		&lt;/DL&gt;&lt;p&gt;
-		&lt;DT&gt;&lt;H3 FOLDED&gt;Unity&lt;/H3&gt;
-		&lt;DL&gt;&lt;p&gt;
-			&lt;DT&gt;&lt;H3 FOLDED&gt;Novembre&lt;/H3&gt;
-			&lt;DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/11/26&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://topps.diku.dk/torbenm/maps.msp&quot;&gt;Planet Map Generator&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;http://wiki.polycount.com/wiki/Cube_map#Reflect.2FRefract_Map&quot;&gt;Cube map - polycount&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;http://www.pixelsonic.com/2011/04/360%C2%B0-in-3ds-max-with-vray-2/&quot;&gt;360° in 3Ds Max with VRay – Pixelsonic – CGI, Visualization and Animation&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://judegodin.wordpress.com/2011/12/06/how-the-hell-do-i-make-a-cubemap/&quot;&gt;How the Hell do I make a cubemap with my own art? | The Art of Jude Godin&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/Gamgaroo/Esmeralda&quot;&gt;GitHub - Gamgaroo/Esmeralda: ASP.NET Core Web App for hosting Unity3D WebGL builds with support of Continuous Delivery via Unity Cloud Webhooks.&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://forum.unity.com/threads/enable-fullscreen-webgl.441174/&quot;&gt;Enable fullScreen WebGl - Unity Forum&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://forum.unity.com/threads/tutorial-best-way-to-import-3ds-max-models.470733/&quot;&gt;Tutorial: Best way to import 3ds max models - Unity Forum&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://store.unity.com/products/unity-pro?_ga=2.37608992.1802608666.1543247316-1732892576.1543247316&quot;&gt;Unity Pro - Unity Store&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/ScriptReference/Screen-fullScreen.html&quot;&gt;Unity - Scripting API: Screen.fullScreen&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/Manual/class-Cubemap.html&quot;&gt;Unity - Manual: Cubemap&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/Manual/webgl-interactingwithbrowserscripting.html&quot;&gt;Unity - Manual: WebGL: Interacting with browser scripting&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/ScriptReference/Transform.Rotate.html&quot;&gt;Unity - Scripting API: Transform.Rotate&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/Manual/webgl-cursorfullscreen.html&quot;&gt;Unity - Manual: Cursor locking and full-screen mode in WebGL&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/Manual/webgl-performance.html&quot;&gt;Unity - Manual: WebGL performance considerations&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://dev.rbcafe.com/unity/unity-5.3.3/en/Manual/webgl-building.html&quot;&gt;Unity - Manual: Building and Running a WebGL Project&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/11/27&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://catlikecoding.com/unity/tutorials/&quot;&gt;Catlike Coding - Unity C# and Shader Tutorials&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;http://wiki.unity3d.com/index.php/SmoothMouseLook&quot;&gt;SmoothMouseLook - Unify Community Wiki&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/ScriptReference/Transform.RotateAround.html&quot;&gt;Unity - Scripting API: Transform.RotateAround&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/Packages/com.unity.postprocessing@2.1/manual/Quick-start.html&quot;&gt;Quick-start | Package Manager UI website&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/Manual/HOWTO-Water.html&quot;&gt;Unity - Manual: Water in Unity&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://unity3d.com/fr/learn/tutorials/topics/graphics/gentle-introduction-shaders&quot;&gt;A Gentle Introduction to Shaders - Unity&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/julien-conan/ShaderForge&quot;&gt;julien-conan/ShaderForge&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/Centribo/Unity-Shader-Basics-Tutorial&quot;&gt;Centribo/Unity-Shader-Basics-Tutorial: A introduction into creating shaders for Unity&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/Unity-Technologies/PostProcessing&quot;&gt;Unity-Technologies/PostProcessing: Post Processing Stack&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/11/28&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/Manual/HOWTO-exportFBX.html#Max&quot;&gt;Unity - Manual: Exporting from other applications&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/Manual/AnimationsImport.html&quot;&gt;Unity - Manual: Animation from external sources&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/11/29&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://assetstore.unity.com/packages/vfx/particles/detonator-explosion-framework-1&quot;&gt;Detonator Explosion Framework - Asset Store&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://assetstore.unity.com/packages/2d/textures-materials/milky-way-skybox-94001&quot;&gt;Milky Way Skybox - Asset Store&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://assetstore.unity.com/packages/2d/textures-materials/star-creation-tools-80595&quot;&gt;Star Creation Tools - Asset Store&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://assetstore.unity.com/packages/2d/textures-materials/sky/spaceskies-free-80503&quot;&gt;SpaceSkies Free - Asset Store&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://medium.com/@mheavers/implementing-a-stereo-skybox-into-unity-for-virtual-reality-e427cf338b06&quot;&gt;Implementing a Stereoscopic Skybox into Unity for Virtual Reality&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://assetstore.unity.com/packages/tools/the-lab-renderer-63141&quot;&gt;The Lab Renderer - Asset Store&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.google.com/document/d/1e2jkr_-v5iaZRuHdnMrSv978LuJKYZhsIYnrDkNAuvQ/edit&quot;&gt;Scriptable Render Loops &amp;amp; new HDRenderLoop overview - Google Docs&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/Manual/PostProcessing-Stack.html&quot;&gt;Unity - Manual: Post-processing stack&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://medium.com/aol-alpha/how-to-design-vr-skyboxes-d460e9eb5a75&quot;&gt;How to Design VR Skyboxes – AOL Alpha – Medium&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/11/30&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://blogs.unity3d.com/2017/10/04/neon/&quot;&gt;Neon – Unity Blog&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://assetstore.unity.com/packages/tools/audio/radio-pro-32034&quot;&gt;Radio PRO - Asset Store&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/Manual/webgl-templates.html&quot;&gt;Unity - Manual: Using WebGL Templates&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/Manual/PostProcessing-Stack-SetUp.html&quot;&gt;Unity - Manual: Setting up the post-processing stack&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/Unity-Technologies/VolumetricLighting&quot;&gt;Unity-Technologies/VolumetricLighting: Lighting effects implemented for the Adam demo: volumetric fog, area lights and tube lights&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/greggman/better-unity-webgl-template&quot;&gt;greggman/better-unity-webgl-template: A better default template for Unity WebGL&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-			&lt;/DL&gt;&lt;p&gt;
-			&lt;DT&gt;&lt;H3 FOLDED&gt;Décembre&lt;/H3&gt;
-			&lt;DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/12/01&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/Manual/webgl-deploying.html&quot;&gt;Manual: WebGL: Deploying compressed builds&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://answers.unity.com/questions/1213905/enable-scrolling-the-page-in-webgl.html&quot;&gt;Enable scrolling the page in WebGL - Unity Answers&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/12/02&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://answers.unity.com/questions/328059/making-a-jetpack.html&quot;&gt;Making a Jetpack - Unity Answers&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://gamedev.stackexchange.com/questions/132548/how-do-i-make-a-jetpack-in-unity&quot;&gt;StackExchangeGameDevelopment : How do I make a jetpack in Unity?&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/ScriptReference/Input.GetAxis.html&quot;&gt;Scripting API: Input.GetAxis&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/Manual/class-CharacterController.html&quot;&gt;Manual: Character Controller&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/11/03&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/Unity-Technologies/PostProcessing/tree/v2&quot;&gt;Unity-Technologies/PostProcessing: Post Processing Stack&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/Unity-Technologies/PostProcessing/wiki&quot;&gt;Home · Unity-Technologies/PostProcessing Wiki&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/Unity-Technologies/PostProcessing/wiki/Installation&quot;&gt;Installation · Unity-Technologies/PostProcessing Wiki&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/Unity-Technologies/PostProcessing/wiki/Quick-start&quot;&gt;Quick start · Unity-Technologies/PostProcessing Wiki&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://stopsecretdesign.wordpress.com/2011/09/19/unity-spaceship-tutorial/&quot;&gt;Unity Spaceship Tutorial – Stopsecret Design&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://unity3d.com/fr/learn/tutorials/s/space-shooter-tutorial&quot;&gt;Space Shooter tutorial - Unity&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://answers.unity.com/questions/1491301/cant-find-post-processing-behavior-script-in-post.html&quot;&gt;Can&apos;t find post processing behavior script in post processing stack import from asset store - Unity Answers&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/12/04&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/Packages/com.unity.textmeshpro@1.3/manual/index.html&quot;&gt;TextMesh Pro User Guide | Package Manager UI website&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://answers.unity.com/questions/1491301/cant-find-post-processing-behavior-script-in-post.html?childToView=1577599#answer-1577599&quot;&gt;Can&apos;t find post processing behavior script in post processing stack import from asset store - Unity Answers&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;http://www.41post.com/4726/programming/unity-animated-texture-from-image-sequence-part-1&quot;&gt;Unity: Animated texture from image sequence - Part 1 | 41 Post&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://answers.unity.com/questions/1350258/how-to-make-a-png-image-sequence-into-an-animated.html&quot;&gt;How to make a PNG Image Sequence into an Animated Texture? - Unity Answers&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/12/07&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022&quot;&gt;Oculus Integration - Asset Store&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://blogs.unity3d.com/2018/01/26/stereo-360-image-and-video-capture/&quot;&gt;Stereo 360 Image and Video Capture – Unity Blog&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://www.youtube.com/watch?v=sxvKGVDmYfY&quot;&gt;Unity Tutorial : VR, Oculus Avatar and Grabbing Object setup IN 5 MINUTES - YouTube&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://www.gravitysketch.com/&quot;&gt;Gravity Sketch - Bringing Virtual Reality Into Your Design Workflow&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/12/11&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/Manual/webgl-graphics.html&quot;&gt;Unity - Manual: WebGL Graphics&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://answers.unity.com/questions/1232366/webgl-antialiasing.html&quot;&gt;WebGL antialiasing - Unity Answers&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://forum.unity.com/threads/anti-aliasing-not-working.522715/&quot;&gt;Anti-aliasing not working - Unity Forum&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://stackoverflow.com/questions/23501703/can-i-programmatically-enable-webgl-antialiasing-on-firefox&quot;&gt;javascript - Can I programmatically enable WebGL antialiasing on Firefox? - Stack Overflow&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://www.reddit.com/r/Unity3D/comments/4nquy5/anti_aliasing_comparison_ssaa_msaa_smaa_fxaa/&quot;&gt;Anti Aliasing comparison (SSAA, MSAA, SMAA, FXAA) : Unity3D&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://sapphirenation.net/anti-aliasing-comparison-performance-quality/&quot;&gt;Anti-aliasing techniques comparison - SAPPHIRE Nation - Community blog by SAPPHIRE Technology&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://www.gamingscan.com/what-is-anti-aliasing/&quot;&gt;What is Anti-Aliasing? [Simple Explanation] - GamingScan&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://vr.arvilab.com/blog/anti-aliasing&quot;&gt;Anti-Aliasing: What Is It and Why Do We Need It? — ARVI VR&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/12/12&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://forum.unity.com/threads/tutorial-best-way-to-import-3ds-max-models.470733/&quot;&gt;Tutorial: Best way to import 3ds max models - Unity Forum&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://virtualscapelab.com/vr-tutorials/2017/prepare-3d-model-for-unity&quot;&gt;Prepare 3D Model for Unity — Virtualscape Lab | A Virtual Reality 3D Modeling Blog for Architectural Visualization&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://virtualscapelab.com/vr-tutorials/2017/11/21/how-to-import-3d-model-into-unity&quot;&gt;How to import 3D model into Unity — Virtualscape Lab | A Virtual Reality 3D Modeling Blog for Architectural Visualization&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://virtualscapelab.com/vr-tutorials/2017/11/21/uv-mapping-3ds-max&quot;&gt;UV Mapping in 3ds Max — Virtualscape Lab | A Virtual Reality 3D Modeling Blog for Architectural Visualization&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://virtualscapelab.com/vr-tutorials/2017/11/21/optimize-textures-for-vr-3d-models&quot;&gt;Optimize Textures for VR 3D Models — Virtualscape Lab | A Virtual Reality 3D Modeling Blog for Architectural Visualization&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://hackernoon.com/making-your-pixel-art-game-look-pixel-perfect-in-unity3d-3534963cad1d&quot;&gt;Making your Pixel Art Game look Pixel Perfect in Unity3D&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;http://wiki.polycount.com/wiki/Texture_atlas&quot;&gt;Texture atlas - polycount&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://www.reddit.com/r/Unity3D/comments/3gdbyv/antialiasing_in_unity3d/&quot;&gt;Anti-aliasing in Unity3D : Unity3D&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://github.com/Chman/SMAA&quot;&gt;Chman/SMAA: A highly customizable implementation of Subpixel Morphological Antialiasing for Unity&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://docs.unity3d.com/530/Documentation/Manual/SpritePacker.html&quot;&gt;Unity - Manual: Sprite Packer&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://gamedevelopment.tutsplus.com/articles/using-texture-atlas-in-order-to-optimize-your-game--cms-26783&quot;&gt;Using a Texture Atlas to Optimize Your Game&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://www.codeandweb.com/texturepacker&quot;&gt;TexturePacker - Create Sprite Sheets for your game!&lt;/A&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;http://www.scriptspot.com/3ds-max/scripts/texture-atlas-generator&quot;&gt;Texture Atlas Generator | ScriptSpot&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-				&lt;DT&gt;&lt;H3 FOLDED&gt;18/12/18&lt;/H3&gt;
-				&lt;DL&gt;&lt;p&gt;
-					&lt;DT&gt;&lt;A HREF=&quot;https://developer.oculus.com/blog/distance-grab-sample-now-available-in-oculus-unity-sample-framework/&quot;&gt;Distance Grab Sample Now Available in Oculus Unity Sample Framework | Oculus&lt;/A&gt;
-				&lt;/DL&gt;&lt;p&gt;
-			&lt;/DL&gt;&lt;p&gt;
-		&lt;/DL&gt;&lt;p&gt;</content:encoded></item><item><title><![CDATA[Welcome, Stranger!]]></title><description><![CDATA[
+&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;div class=&quot;custom-images&quot; style=&quot;width: 500px; margin: auto;&quot;&gt;
+	
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin: 15px -30px !important max-width: 700px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 28.0561122244489%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA50lEQVQY052RTU/DMAyG+/9/DxdOu4MYAiR2YCraZVuSQdrmO2n6YkdIqJN2wdKj13Yix3Y6KRXOQkAICa0HCCkhlUIpBWzLgpu20OFyFXchRkyTgTEGzjnCNz/GhJxLK8yklFqO/ZwzxRG1zJgL+TkhkdZa0fFFS0WsCys1lnG/6jEZ1+AcKz/+ctiiVztoe8K7ekWdqUPvA/Ro/hjMOr5mmDCMFhd9wf3HHbanDZ6PD+i/9uD5O24z0CghpLXewIdI4xbIUeDp8Ahlz9ipN2gj2767tth/wFbp31IO+NQ91PBNI1f8ALWMz9/6bX8sAAAAAElFTkSuQmCC&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;personal contributions&quot; title=&quot;&quot; src=&quot;/static/personal_contributions-86fa6031b56ce6398f094a54156afd08-bc3ba.png&quot; srcset=&quot;/static/personal_contributions-86fa6031b56ce6398f094a54156afd08-367a5.png 175w,
+/static/personal_contributions-86fa6031b56ce6398f094a54156afd08-cfecb.png 350w,
+/static/personal_contributions-86fa6031b56ce6398f094a54156afd08-bc3ba.png 700w,
+/static/personal_contributions-86fa6031b56ce6398f094a54156afd08-b0d3e.png 998w&quot; sizes=&quot;(max-width: 700px) 100vw, 700px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+&lt;/div&gt;
+&lt;p&gt;This end of the year has been an exciting field of research around web technologies. My personal main target looking at my contributions is to reach the most linear production as possible, that is to say to enhance predictibility and velocity over incoming year and to improve techniques acquisitions through code writing of course, but also through professional meetings and events where developers and managers shares tips and good practices in order to build faster and better softwares.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Welcome, Stranger!]]></title><description><![CDATA[
 Welcome to my blog, I hope you will enjoy your stay! Decrease ambient lights, fasten your seatbelts, and follow me inside front and back-end various programming.
 
 ]]></description><link>https://jconan.netlify.com/welcome-to-the-blog/</link><guid isPermaLink="false">https://jconan.netlify.com/welcome-to-the-blog/</guid><pubDate>Fri, 30 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Welcome to my blog, I hope you will enjoy your stay! Decrease ambient lights, fasten your seatbelts, and follow me inside front and back-end various programming.&lt;/p&gt;
@@ -465,13 +280,13 @@ Welcome to my blog, I hope you will enjoy your stay! Decrease ambient lights, fa
 	
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin: 15px -30px !important max-width: 700px; margin-left: auto; margin-right: auto;&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAQFAQIDBv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAbON1ilq2HjMhfg//8QAHBAAAgICAwAAAAAAAAAAAAAAAgMAAQQSESEy/9oACAEBAAEFAsi7paCvbiPcFLTkBtL7EfCiIl//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAgEAABAgUFAAAAAAAAAAAAAAABAAIDEBEhIhMxQVFh/9oACAEBAAY/AsTS+6pqmID3xI5Aoe2m5AlxX//EABsQAQADAAMBAAAAAAAAAAAAAAEAESExUXGB/9oACAEBAAE/IbLrA9CUJAX2i0TlRwXNoutVwy5gWZEXEfsWDfZ//9oADAMBAAIAAwAAABDTzwD/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAfEAEBAAIBBAMAAAAAAAAAAAABEQBBIRAxUWFxofH/2gAIAQEAAT8Q5cIOVZ5T3l3gImGkd+JjTFwEJlVv7jLOoRBix9dC3qDlCABjp2ftx7Rtfln/2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;B51&quot; title=&quot;&quot; src=&quot;/static/6966c0fbed2cdc23eb4ad12a62b40821/177e4/B51.jpg&quot; srcset=&quot;/static/6966c0fbed2cdc23eb4ad12a62b40821/6c2d5/B51.jpg 175w,
-/static/6966c0fbed2cdc23eb4ad12a62b40821/3d17c/B51.jpg 350w,
-/static/6966c0fbed2cdc23eb4ad12a62b40821/177e4/B51.jpg 700w,
-/static/6966c0fbed2cdc23eb4ad12a62b40821/40bb7/B51.jpg 1050w,
-/static/6966c0fbed2cdc23eb4ad12a62b40821/562d0/B51.jpg 1400w,
-/static/6966c0fbed2cdc23eb4ad12a62b40821/04c8e/B51.jpg 2100w,
-/static/6966c0fbed2cdc23eb4ad12a62b40821/691c6/B51.jpg 2500w&quot; sizes=&quot;(max-width: 700px) 100vw, 700px&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;B51&quot; title=&quot;&quot; src=&quot;/static/B51-6966c0fbed2cdc23eb4ad12a62b40821-177e4.jpg&quot; srcset=&quot;/static/B51-6966c0fbed2cdc23eb4ad12a62b40821-6c2d5.jpg 175w,
+/static/B51-6966c0fbed2cdc23eb4ad12a62b40821-3d17c.jpg 350w,
+/static/B51-6966c0fbed2cdc23eb4ad12a62b40821-177e4.jpg 700w,
+/static/B51-6966c0fbed2cdc23eb4ad12a62b40821-40bb7.jpg 1050w,
+/static/B51-6966c0fbed2cdc23eb4ad12a62b40821-562d0.jpg 1400w,
+/static/B51-6966c0fbed2cdc23eb4ad12a62b40821-04c8e.jpg 2100w,
+/static/B51-6966c0fbed2cdc23eb4ad12a62b40821-691c6.jpg 2500w&quot; sizes=&quot;(max-width: 700px) 100vw, 700px&quot;&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   

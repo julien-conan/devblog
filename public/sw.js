@@ -26,23 +26,40 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-3c48c80f9e921dab5841.js"
+    "url": "webpack-runtime-eaacc94a8aca09426951.js"
   },
   {
-    "url": "app-d973966fd399dc60fe87.js"
+    "url": "app-3125c983490299cbcd7e.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-0d0a529deb4700809c6b.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-2ab347e8ce9c31b0f61b.js"
+  },
+  {
+    "url": "index.html",
+    "revision": "b5a5b0c749a507b9174bfe1ee5c8a69c"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "eca0c72f795239dd361b10545d8d3048"
+    "revision": "20364bc9baeb59f6289f4615748280bb"
   },
   {
-    "url": "0-5df7d0557700049fe3bf.js"
+    "url": "1.714e789c58edc4d97d4f.css"
   },
   {
-    "url": "component---src-pages-404-js-82393398029b4118c022.js"
+    "url": "0-cb55d21372734f4924a6.js"
+  },
+  {
+    "url": "1-641f6ede229a1d6eee74.js"
+  },
+  {
+    "url": "component---src-templates-index-js-d30b8c9d4d37e3dc0c40.js"
+  },
+  {
+    "url": "static/d/160/path---index-6a9-n0cWZXvbAXH4dOIGtlZrqnJAdk8.json",
+    "revision": "1850cb9d557eb13cd361434bda08fdc4"
+  },
+  {
+    "url": "component---src-pages-404-js-9d6c2d6e8cfca47bfdcd.js"
   },
   {
     "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json",
@@ -60,114 +77,30 @@ self.__precacheManifest = [
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerRoute(/(\.js$|\.css$|\/static\/)/, workbox.strategies.cacheFirst(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, workbox.strategies.staleWhileRevalidate(), 'GET');
-workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, workbox.strategies.staleWhileRevalidate(), 'GET');
+workbox.routing.registerNavigationRoute("/offline-plugin-app-shell-fallback/index.html", {
+  whitelist: [/^[^?]*([^.?]{5}|\.html)(\?.*)?$/],
+  blacklist: [/\?(.+&)?no-cache=1$/],
+});
+
+workbox.routing.registerRoute(/\.(?:png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, workbox.strategies.staleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https:/, workbox.strategies.networkFirst(), 'GET');
 "use strict";
 
-/* global importScripts, workbox, idbKeyval */
-importScripts("idb-keyval-iife.min.js");
-var WHITELIST_KEY = "custom-navigation-whitelist";
-var navigationRoute = new workbox.routing.NavigationRoute(function (_ref) {
-  var event = _ref.event;
-
-  var _ref2 = new URL(event.request.url),
-      pathname = _ref2.pathname;
-
-  return idbKeyval.get(WHITELIST_KEY).then(function (customWhitelist) {
-    if (customWhitelist === void 0) {
-      customWhitelist = [];
-    }
-
-    // Respond with the offline shell if we match the custom whitelist
-    if (customWhitelist.includes(pathname)) {
-      var offlineShell = "/offline-plugin-app-shell-fallback/index.html";
-      var cacheName = workbox.core.cacheNames.precache;
-      return caches.match(offlineShell, {
-        cacheName: cacheName
-      }).then(function (cachedResponse) {
-        if (!cachedResponse) {
-          return fetch(offlineShell).then(function (response) {
-            if (response.ok) {
-              return caches.open(cacheName).then(function (cache) {
-                return (// Clone is needed because put() consumes the response body.
-                  cache.put(offlineShell, response.clone()).then(function () {
-                    return response;
-                  })
-                );
-              });
-            } else {
-              return fetch(event.request);
-            }
-          });
-        }
-
-        return cachedResponse;
-      });
-    }
-
-    return fetch(event.request);
-  });
-});
-workbox.routing.registerRoute(navigationRoute);
-var updatingWhitelist = null;
-
-function rawWhitelistPathnames(pathnames) {
-  if (updatingWhitelist !== null) {
-    // Prevent the whitelist from being updated twice at the same time
-    return updatingWhitelist.then(function () {
-      return rawWhitelistPathnames(pathnames);
-    });
-  }
-
-  updatingWhitelist = idbKeyval.get(WHITELIST_KEY).then(function (customWhitelist) {
-    if (customWhitelist === void 0) {
-      customWhitelist = [];
-    }
-
-    pathnames.forEach(function (pathname) {
-      if (!customWhitelist.includes(pathname)) customWhitelist.push(pathname);
-    });
-    return idbKeyval.set(WHITELIST_KEY, customWhitelist);
-  }).then(function () {
-    updatingWhitelist = null;
-  });
-  return updatingWhitelist;
-}
-
-function rawResetWhitelist() {
-  if (updatingWhitelist !== null) {
-    return updatingWhitelist.then(function () {
-      return rawResetWhitelist();
-    });
-  }
-
-  updatingWhitelist = idbKeyval.set(WHITELIST_KEY, []).then(function () {
-    updatingWhitelist = null;
-  });
-  return updatingWhitelist;
-}
-
-var messageApi = {
-  whitelistPathnames: function whitelistPathnames(event) {
-    var pathnames = event.data.pathnames;
-    pathnames = pathnames.map(function (_ref3) {
-      var pathname = _ref3.pathname,
-          includesPrefix = _ref3.includesPrefix;
-
-      if (!includesPrefix) {
-        return "" + pathname;
-      } else {
-        return pathname;
-      }
-    });
-    event.waitUntil(rawWhitelistPathnames(pathnames));
-  },
-  resetWhitelist: function resetWhitelist(event) {
-    event.waitUntil(rawResetWhitelist());
-  }
-};
+/* global workbox */
 self.addEventListener("message", function (event) {
-  var gatsbyApi = event.data.gatsbyApi;
-  if (gatsbyApi) messageApi[gatsbyApi](event);
+  var api = event.data.api;
+
+  if (api === "gatsby-runtime-cache") {
+    var resources = event.data.resources;
+    var cacheName = workbox.core.cacheNames.runtime;
+    event.waitUntil(caches.open(cacheName).then(function (cache) {
+      return Promise.all(resources.map(function (resource) {
+        return cache.add(resource).catch(function (e) {
+          // ignore TypeErrors - these are usually due to
+          // external resources which don't allow CORS
+          if (!(e instanceof TypeError)) throw e;
+        });
+      }));
+    }));
+  }
 });

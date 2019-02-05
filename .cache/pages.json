@@ -31,6 +31,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "speaking-cosmic-js-2c9",
+        "path": "/speaking-cosmic-js/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "welcome-to-the-blog-bfd",
         "path": "/welcome-to-the-blog/"
     }
