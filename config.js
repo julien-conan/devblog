@@ -9,7 +9,7 @@ module.exports = {
   social: {
     website: 'https://jconan.netlify.com',
     github: 'https://github.com/julien-conan',
-    twitter: 'https://twitter.com/fallzard',
+    twitter: 'https://twitter.com/f0und4710n5',
     linkedin: 'https://www.linkedin.com/in/julien-conan/',
   },
   pathPrefix: '/devblog',

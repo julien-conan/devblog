@@ -3,7 +3,7 @@
 exports.__esModule = true;
 exports.default = void 0;
 
-const support = function support(feature) {
+const support = function (feature) {
   if (typeof document === `undefined`) {
     return false;
   }
@@ -21,7 +21,7 @@ const support = function support(feature) {
   return false;
 };
 
-const linkPrefetchStrategy = function linkPrefetchStrategy(url) {
+const linkPrefetchStrategy = function (url) {
   return new Promise((resolve, reject) => {
     if (typeof document === `undefined`) {
       reject();
@@ -38,7 +38,7 @@ const linkPrefetchStrategy = function linkPrefetchStrategy(url) {
   });
 };
 
-const xhrPrefetchStrategy = function xhrPrefetchStrategy(url) {
+const xhrPrefetchStrategy = function (url) {
   return new Promise((resolve, reject) => {
     const req = new XMLHttpRequest();
     req.open(`GET`, url, true);
@@ -59,7 +59,7 @@ const xhrPrefetchStrategy = function xhrPrefetchStrategy(url) {
 const supportedPrefetchStrategy = support(`prefetch`) ? linkPrefetchStrategy : xhrPrefetchStrategy;
 const preFetched = {};
 
-const prefetch = function prefetch(url) {
+const prefetch = function (url) {
   return new Promise(resolve => {
     if (preFetched[url]) {
       resolve();

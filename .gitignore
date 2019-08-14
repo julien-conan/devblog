@@ -3,3 +3,5 @@
 /.cache/caches/gatsby-transformer-remark/
 /node_modules/.cache/
 /public/static/
+.cache/.eslintrc.json
+/node_modules/
