@@ -1,7 +1,7 @@
 module.exports = [{
-      plugin: require('/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-offline/gatsby-browser'),
+      plugin: require('/mnt/c/Users/jcon/Documents/DEV/devblog/node_modules/gatsby-plugin-offline/gatsby-browser.js'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/shitstorm/Documents/GitHub/devblog/node_modules/gatsby-plugin-google-analytics/gatsby-browser'),
+      plugin: require('/mnt/c/Users/jcon/Documents/DEV/devblog/node_modules/gatsby-plugin-google-analytics/gatsby-browser.js'),
       options: {"plugins":[],"trackingId":"UA-131377558-1"},
     }]

@@ -7,6 +7,11 @@ it(`Builds cache-dir with minimal config`, done => {
     path.join(__dirname, `..`),
     `--config-file`,
     path.join(__dirname, `.babelrc`),
+<<<<<<< HEAD
+=======
+    `--ignore`,
+    `**/__tests__`,
+>>>>>>> develop
   ]
 
   const spawn = child.spawn(process.execPath, args)
@@ -14,6 +19,7 @@ it(`Builds cache-dir with minimal config`, done => {
   let stderr = ``
   let stdout = ``
 
+<<<<<<< HEAD
   spawn.stderr.on(`data`, function (chunk) {
     stderr += chunk
   })
@@ -23,6 +29,17 @@ it(`Builds cache-dir with minimal config`, done => {
   })
 
   spawn.on(`close`, function () {
+=======
+  spawn.stderr.on(`data`, function(chunk) {
+    stderr += chunk
+  })
+
+  spawn.stdout.on(`data`, function(chunk) {
+    stdout += chunk
+  })
+
+  spawn.on(`close`, function() {
+>>>>>>> develop
     expect(stderr).toEqual(``)
     expect(stdout).not.toEqual(``)
     done()

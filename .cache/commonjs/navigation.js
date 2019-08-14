@@ -23,7 +23,7 @@ var _emitter = _interopRequireDefault(require("./emitter"));
 
 var _router = require("@reach/router");
 
-var _parsePath2 = _interopRequireDefault(require("./parse-path"));
+var _gatsbyLink = require("gatsby-link");
 
 var _loadDirectlyOr = _interopRequireDefault(require("./load-directly-or-404"));
 
@@ -38,7 +38,7 @@ function maybeRedirect(pathname) {
 
   if (redirect != null) {
     if (process.env.NODE_ENV !== `production`) {
-      const pageResources = _loader.default.getResourcesForPathnameSync(pathname);
+      const pageResources = _loader.default.loadPageSync(pathname);
 
       if (pageResources != null) {
         console.error(`The route "${pathname}" matches both a page and a redirect; this is probably not intentional.`);
@@ -53,18 +53,20 @@ function maybeRedirect(pathname) {
   }
 }
 
-const onPreRouteUpdate = location => {
+const onPreRouteUpdate = (location, prevLocation) => {
   if (!maybeRedirect(location.pathname)) {
     (0, _apiRunnerBrowser.apiRunner)(`onPreRouteUpdate`, {
-      location
+      location,
+      prevLocation
     });
   }
 };
 
-const onRouteUpdate = location => {
+const onRouteUpdate = (location, prevLocation) => {
   if (!maybeRedirect(location.pathname)) {
     (0, _apiRunnerBrowser.apiRunner)(`onRouteUpdate`, {
-      location
+      location,
+      prevLocation
     }); // Temp hack while awaiting https://github.com/reach/router/issues/119
 
     window.__navigatingToLink = false;
@@ -77,19 +79,28 @@ const navigate = (to, options = {}) => {
     window.__navigatingToLink = true;
   }
 
-  let _parsePath = (0, _parsePath2.default)(to),
-      pathname = _parsePath.pathname;
-
+  let {
+    pathname
+  } = (0, _gatsbyLink.parsePath)(to);
   const redirect = redirectMap[pathname]; // If we're redirecting, just replace the passed in pathname
   // to the one we want to redirect to.
 
   if (redirect) {
     to = redirect.toPath;
+<<<<<<< HEAD
     pathname = (0, _parsePath2.default)(to).pathname;
   } // If we had a service worker update, no matter the path, reload window
 
 
   if (window.GATSBY_SW_UPDATED) {
+=======
+    pathname = (0, _gatsbyLink.parsePath)(to).pathname;
+  } // If we had a service worker update, no matter the path, reload window and
+  // reset the pathname whitelist
+
+
+  if (window.___swUpdated) {
+>>>>>>> develop
     window.location = pathname;
     return;
   } // Start a timer to wait for a second before transitioning and showing a
@@ -106,6 +117,7 @@ const navigate = (to, options = {}) => {
     });
   }, 1000);
 
+<<<<<<< HEAD
   _loader.default.getResourcesForPathname(pathname).then(pageResources => {
     if ((!pageResources || pageResources.page.path === `/404.html`) && process.env.NODE_ENV === `production`) {
       clearTimeout(timeoutId);
@@ -114,14 +126,48 @@ const navigate = (to, options = {}) => {
       (0, _router.navigate)(to, options);
       clearTimeout(timeoutId);
     }
+=======
+  _loader.default.loadPage(pathname).then(pageResources => {
+    // If no page resources, then refresh the page
+    // Do this, rather than simply `window.location.reload()`, so that
+    // pressing the back/forward buttons work - otherwise when pressing
+    // back, the browser will just change the URL and expect JS to handle
+    // the change, which won't always work since it might not be a Gatsby
+    // page.
+    if (!pageResources || pageResources.status === `error`) {
+      window.history.replaceState({}, ``, location.href);
+      window.location = pathname;
+    } // If the loaded page has a different compilation hash to the
+    // window, then a rebuild has occurred on the server. Reload.
+
+
+    if (process.env.NODE_ENV === `production` && pageResources) {
+      if (pageResources.page.webpackCompilationHash !== window.___webpackCompilationHash) {
+        // Purge plugin-offline cache
+        if (`serviceWorker` in navigator && navigator.serviceWorker.controller !== null && navigator.serviceWorker.controller.state === `activated`) {
+          navigator.serviceWorker.controller.postMessage({
+            gatsbyApi: `resetWhitelist`
+          });
+        }
+
+        console.log(`Site has changed on server. Reloading browser`);
+        window.location = pathname;
+      }
+    }
+
+    (0, _router.navigate)(to, options);
+    clearTimeout(timeoutId);
+>>>>>>> develop
   });
 };
 
 function shouldUpdateScroll(prevRouterProps, {
   location
 }) {
-  const pathname = location.pathname,
-        hash = location.hash;
+  const {
+    pathname,
+    hash
+  } = location;
   const results = (0, _apiRunnerBrowser.apiRunner)(`shouldUpdateScroll`, {
     prevRouterProps,
     // `pathname` for backwards compatibility
@@ -133,11 +179,17 @@ function shouldUpdateScroll(prevRouterProps, {
   });
 
   if (results.length > 0) {
-    return results[0];
+    // Use the latest registered shouldUpdateScroll result, this allows users to override plugin's configuration
+    // @see https://github.com/gatsbyjs/gatsby/issues/12038
+    return results[results.length - 1];
   }
 
   if (prevRouterProps) {
-    const oldPathname = prevRouterProps.location.pathname;
+    const {
+      location: {
+        pathname: oldPathname
+      }
+    } = prevRouterProps;
 
     if (oldPathname === pathname) {
       // Scroll to element if it exists, if it doesn't, or no hash is provided,
@@ -152,7 +204,6 @@ function shouldUpdateScroll(prevRouterProps, {
 function init() {
   // Temp hack while awaiting https://github.com/reach/router/issues/119
   window.__navigatingToLink = false;
-  window.___loader = _loader.default;
 
   window.___push = to => navigate(to, {
     replace: false
@@ -172,22 +223,22 @@ function init() {
 class RouteUpdates extends _react.default.Component {
   constructor(props) {
     super(props);
-    onPreRouteUpdate(props.location);
+    onPreRouteUpdate(props.location, null);
   }
 
   componentDidMount() {
-    onRouteUpdate(this.props.location);
+    onRouteUpdate(this.props.location, null);
   }
 
   componentDidUpdate(prevProps, prevState, shouldFireRouteUpdate) {
     if (shouldFireRouteUpdate) {
-      onRouteUpdate(this.props.location);
+      onRouteUpdate(this.props.location, prevProps.location);
     }
   }
 
   getSnapshotBeforeUpdate(prevProps) {
     if (this.props.location.pathname !== prevProps.location.pathname) {
-      onPreRouteUpdate(this.props.location);
+      onPreRouteUpdate(this.props.location, prevProps.location);
       return true;
     }
 

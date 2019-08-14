@@ -3,7 +3,7 @@
 exports.__esModule = true;
 exports.default = void 0;
 
-const support = function support(feature) {
+const support = function (feature) {
   if (typeof document === `undefined`) {
     return false;
   }
@@ -19,10 +19,19 @@ const support = function support(feature) {
   }
 };
 
+<<<<<<< HEAD
 const linkPrefetchStrategy = function linkPrefetchStrategy(url) {
   if (typeof document === `undefined`) {
     return;
   }
+=======
+const linkPrefetchStrategy = function (url) {
+  return new Promise((resolve, reject) => {
+    if (typeof document === `undefined`) {
+      reject();
+      return;
+    }
+>>>>>>> develop
 
   const link = document.createElement(`link`);
   link.setAttribute(`rel`, `prefetch`);
@@ -31,20 +40,48 @@ const linkPrefetchStrategy = function linkPrefetchStrategy(url) {
   parentElement.appendChild(link);
 };
 
+<<<<<<< HEAD
 const xhrPrefetchStrategy = function xhrPrefetchStrategy(url) {
   const req = new XMLHttpRequest();
   req.open(`GET`, url, true);
   req.withCredentials = true;
   req.send(null);
+=======
+const xhrPrefetchStrategy = function (url) {
+  return new Promise((resolve, reject) => {
+    const req = new XMLHttpRequest();
+    req.open(`GET`, url, true);
+    req.withCredentials = true;
+
+    req.onload = () => {
+      if (req.status === 200) {
+        resolve();
+      } else {
+        reject();
+      }
+    };
+
+    req.send(null);
+  });
+>>>>>>> develop
 };
 
 const supportedPrefetchStrategy = support(`prefetch`) ? linkPrefetchStrategy : xhrPrefetchStrategy;
 const preFetched = {};
 
+<<<<<<< HEAD
 const prefetch = function prefetch(url) {
   if (preFetched[url]) {
     return;
   }
+=======
+const prefetch = function (url) {
+  return new Promise(resolve => {
+    if (preFetched[url]) {
+      resolve();
+      return;
+    }
+>>>>>>> develop
 
   preFetched[url] = true;
   supportedPrefetchStrategy(url);
