@@ -3,3 +3,4 @@
 /.cache/caches/gatsby-transformer-remark/
 /node_modules/.cache/
 /public/static/
+node_modules/
