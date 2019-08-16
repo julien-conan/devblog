@@ -1,16 +1,6 @@
-<<<<<<< HEAD
 .cache/
 .cache/caches/
 .cache/caches/gatsby-transformer-remark/
 node_modules/.cache/
 public/static/
-node_modules/
-=======
-/.cache/
-/.cache/caches/
-/.cache/caches/gatsby-transformer-remark/
-/node_modules/.cache/
-/public/static/
-.cache/.eslintrc.json
-/node_modules/
->>>>>>> develop
+node_modules
