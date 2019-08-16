@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import pageFinderFactory from "./find-page"
 import emitter from "./emitter"
 import stripPrefix from "./strip-prefix"
+=======
+import "core-js/modules/es7.promise.finally"
+>>>>>>> develop
 =======
 import "core-js/modules/es7.promise.finally"
 >>>>>>> develop
@@ -11,6 +15,7 @@ import { setMatchPaths, findMatchPath, cleanPath } from "./find-path"
 
 const preferDefault = m => (m && m.default) || m
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 let devGetPageData
 let inInitialRender = true
@@ -31,10 +36,15 @@ const jsonPromiseStore = {}
 if (process.env.NODE_ENV !== `production`) {
   devGetPageData = require(`./socketIo`).getPageData
 =======
+=======
+>>>>>>> develop
 const stripSurroundingSlashes = s => {
   s = s[0] === `/` ? s.slice(1) : s
   s = s.endsWith(`/`) ? s.slice(0, -1) : s
   return s
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
 }
 
@@ -56,6 +66,7 @@ const doFetch = (url, method = `GET`) =>
     req.send(null)
   })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 const fetchResource = resourceName => {
   // Find resource
@@ -83,6 +94,8 @@ const fetchResource = resourceName => {
           }
           req.send(null)
 =======
+=======
+>>>>>>> develop
 const loadPageDataJson = loadObj => {
   const { pagePath, retries = 0 } = loadObj
   const url = createPageDataUrl(pagePath)
@@ -100,6 +113,9 @@ const loadPageDataJson = loadObj => {
         return Object.assign(loadObj, {
           status: `success`,
           payload: jsonPayload,
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
         })
       } catch (err) {
@@ -107,6 +123,7 @@ const loadPageDataJson = loadObj => {
       }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   // Download the resource
   hasFetched[resourceName] = true
@@ -122,12 +139,15 @@ const loadPageDataJson = loadObj => {
           resource: resourceName,
           succeeded: !failed,
 =======
+=======
+>>>>>>> develop
     // Handle 404
     if (status === 404 || status === 200) {
       // If the request was for a 404 page and it doesn't exist, we're done
       if (pagePath === `/404.html`) {
         return Object.assign(loadObj, {
           status: `failure`,
+<<<<<<< HEAD
 >>>>>>> develop
         })
       }
@@ -139,12 +159,20 @@ const loadPageDataJson = loadObj => {
 
         fetchHistory = fetchHistory.slice(-MAX_HISTORY)
 =======
+=======
+        })
+      }
+
+>>>>>>> develop
       // Need some code here to cache the 404 request. In case
       // multiple loadPageDataJsons result in 404s
       return loadPageDataJson(
         Object.assign(loadObj, { pagePath: `/404.html`, notFound: true })
       )
     }
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
 
     // handle 500 response (Unrecoverable)
@@ -167,6 +195,7 @@ const loadPageDataJson = loadObj => {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const prefetchResource = resourceName => {
   if (resourceName.slice(0, 12) === `component---`) {
     createComponentUrls(resourceName).forEach(url => prefetchHelper(url))
@@ -174,6 +203,8 @@ const prefetchResource = resourceName => {
     const url = createJsonURL(jsonDataPaths[resourceName])
     prefetchHelper(url)
 =======
+=======
+>>>>>>> develop
 const doesConnectionSupportPrefetch = () => {
   if (
     `connection` in navigator &&
@@ -185,6 +216,9 @@ const doesConnectionSupportPrefetch = () => {
     if (navigator.connection.saveData) {
       return false
     }
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
   }
   return true
@@ -235,11 +269,14 @@ export class BaseLoader {
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const onPrefetchPathname = pathname => {
   if (!prefetchTriggered[pathname]) {
     apiRunner(`onPrefetchPathname`, { pathname: pathname })
     prefetchTriggered[pathname] = true
 =======
+=======
+>>>>>>> develop
   loadPageDataJson(rawPath) {
     const pagePath = cleanPath(rawPath)
     if (this.pageDataDb.has(pagePath)) {
@@ -251,6 +288,7 @@ const onPrefetchPathname = pathname => {
 
       return pageData
     })
+<<<<<<< HEAD
 >>>>>>> develop
   }
 
@@ -303,6 +341,14 @@ const queue = {
     if (!apiRunner)
       console.error(`Run setApiRunnerForLoader() before enqueing paths`)
 =======
+=======
+  }
+
+  findMatchPath(rawPath) {
+    return findMatchPath(rawPath)
+  }
+
+>>>>>>> develop
   // TODO check all uses of this and whether they use undefined for page resources not exist
   loadPage(rawPath) {
     const pagePath = cleanPath(rawPath)
@@ -313,6 +359,9 @@ const queue = {
     if (this.inFlightDb.has(pagePath)) {
       return this.inFlightDb.get(pagePath)
     }
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
 
     const inFlight = this.loadPageDataJson(pagePath)
@@ -328,6 +377,7 @@ const queue = {
             })
           }
         }
+<<<<<<< HEAD
 
         if (result.status === `error`) {
           return {
@@ -357,6 +407,21 @@ const queue = {
       return fetchPageResourceMap().then(() => queue.enqueue(rawPath))
     }
 =======
+=======
+
+        if (result.status === `error`) {
+          return {
+            status: `error`,
+          }
+        }
+        if (result.status === `failure`) {
+          // throw an error so error trackers can pick this up
+          throw new Error(
+            `404 page could not be found. Checkout https://www.gatsbyjs.org/docs/add-404-page/`
+          )
+        }
+
+>>>>>>> develop
         const pageData = result.payload
         const { componentChunkName } = pageData
         return this.loadComponent(componentChunkName).then(component => {
@@ -384,6 +449,9 @@ const queue = {
       .finally(() => {
         this.inFlightDb.delete(pagePath)
       })
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
 
     this.inFlightDb.set(pagePath, inFlight)
@@ -406,6 +474,7 @@ const queue = {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     // Prefetch resources.
     if (process.env.NODE_ENV === `production`) {
       prefetchResource(page.jsonName)
@@ -420,6 +489,13 @@ const queue = {
     // Tell plugins the path has been successfully prefetched
     onPostPrefetchPathname(path)
 
+=======
+    // Check if the page exists.
+    if (this.pageDb.has(pagePath)) {
+      return false
+    }
+
+>>>>>>> develop
     return true
   }
 
@@ -476,6 +552,7 @@ const queue = {
       const pageResources = toPageResources(page.payload)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Add to the cache.
         pathScriptsCache[path] = pageResources
         devGetPageData(page.path).then(pageData => {
@@ -495,6 +572,8 @@ const queue = {
             return
           }
 =======
+=======
+>>>>>>> develop
       return [
         ...createComponentUrls(pageResources.page.componentChunkName),
         createPageDataUrl(pagePath),
@@ -503,6 +582,9 @@ const queue = {
       return null
     }
   }
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
 
   isPageNotFound(rawPath) {
@@ -511,6 +593,7 @@ const queue = {
     return page && page.notFound === true
   }
 }
+<<<<<<< HEAD
 
 const createComponentUrls = componentChunkName =>
   window.___chunkMapping[componentChunkName].map(
@@ -535,6 +618,19 @@ export class ProdLoader extends BaseLoader {
     const loadComponent = chunkName =>
       asyncRequires.components[chunkName]().then(preferDefault)
 
+=======
+
+const createComponentUrls = componentChunkName =>
+  window.___chunkMapping[componentChunkName].map(
+    chunk => __PATH_PREFIX__ + chunk
+  )
+
+export class ProdLoader extends BaseLoader {
+  constructor(asyncRequires, matchPaths) {
+    const loadComponent = chunkName =>
+      asyncRequires.components[chunkName]().then(preferDefault)
+
+>>>>>>> develop
     super(loadComponent, matchPaths)
   }
 
@@ -558,6 +654,9 @@ export class ProdLoader extends BaseLoader {
         )
       })
   }
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
 }
 

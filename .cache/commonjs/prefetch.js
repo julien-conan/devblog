@@ -20,11 +20,14 @@ const support = function (feature) {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const linkPrefetchStrategy = function linkPrefetchStrategy(url) {
   if (typeof document === `undefined`) {
     return;
   }
 =======
+=======
+>>>>>>> develop
 const linkPrefetchStrategy = function (url) {
   return new Promise((resolve, reject) => {
     if (typeof document === `undefined`) {
@@ -41,12 +44,15 @@ const linkPrefetchStrategy = function (url) {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const xhrPrefetchStrategy = function xhrPrefetchStrategy(url) {
   const req = new XMLHttpRequest();
   req.open(`GET`, url, true);
   req.withCredentials = true;
   req.send(null);
 =======
+=======
+>>>>>>> develop
 const xhrPrefetchStrategy = function (url) {
   return new Promise((resolve, reject) => {
     const req = new XMLHttpRequest();
@@ -70,11 +76,14 @@ const supportedPrefetchStrategy = support(`prefetch`) ? linkPrefetchStrategy : x
 const preFetched = {};
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const prefetch = function prefetch(url) {
   if (preFetched[url]) {
     return;
   }
 =======
+=======
+>>>>>>> develop
 const prefetch = function (url) {
   return new Promise(resolve => {
     if (preFetched[url]) {

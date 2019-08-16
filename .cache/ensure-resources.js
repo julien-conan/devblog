@@ -74,6 +74,7 @@ class EnsureResources extends React.Component {
 
   render() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (
       process.env.NODE_ENV === `production` &&
       !(this.state.pageResources && this.state.pageResources.json)
@@ -87,6 +88,8 @@ class EnsureResources extends React.Component {
       return null
     }
 
+=======
+>>>>>>> develop
 =======
 >>>>>>> develop
     return this.props.children(this.state)

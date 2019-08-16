@@ -21,7 +21,11 @@ class PageRenderer extends React.Component {
       createElement(this.props.pageResources.component, {
         ...props,
 <<<<<<< HEAD
+<<<<<<< HEAD
         key: this.props.location.pathname,
+=======
+        key: this.props.path || this.props.pageResources.page.path,
+>>>>>>> develop
 =======
         key: this.props.path || this.props.pageResources.page.path,
 >>>>>>> develop

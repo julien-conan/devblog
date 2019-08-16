@@ -25,12 +25,18 @@ var _matchPaths = _interopRequireDefault(require("./match-paths.json"));
 // Generated during bootstrap
 window.___emitter = _emitter.default;
 <<<<<<< HEAD
+<<<<<<< HEAD
 (0, _loader.setApiRunnerForLoader)(_apiRunnerBrowser.apiRunner); // Let the site/plugins run code very early.
 =======
+=======
+>>>>>>> develop
 const loader = new _devLoader.default(_syncRequires.default, _matchPaths.default);
 (0, _loader.setLoader)(loader);
 loader.setApiRunner(_apiRunnerBrowser.apiRunner);
 window.___loader = _loader.publicLoader; // Let the site/plugins run code very early.
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
 
 (0, _apiRunnerBrowser.apiRunnerAsync)(`onClientEntry`).then(() => {

@@ -1,8 +1,12 @@
 import React from "react"
 import ReactDOM from "react-dom"
 <<<<<<< HEAD
+<<<<<<< HEAD
 import domReady from "domready"
 import { hot } from "react-hot-loader"
+=======
+import domReady from "@mikaelkristiansson/domready"
+>>>>>>> develop
 =======
 import domReady from "@mikaelkristiansson/domready"
 >>>>>>> develop
@@ -19,7 +23,10 @@ import matchPaths from "./match-paths.json"
 window.___emitter = emitter
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> develop
 const loader = new DevLoader(syncRequires, matchPaths)
 setLoader(loader)
 loader.setApiRunner(apiRunner)

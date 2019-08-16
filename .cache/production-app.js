@@ -14,8 +14,12 @@ window.___emitter = emitter
 import PageRenderer from "./page-renderer"
 import asyncRequires from "./async-requires"
 <<<<<<< HEAD
+<<<<<<< HEAD
 import loader, { setApiRunnerForLoader } from "./loader"
 import loadDirectlyOr404 from "./load-directly-or-404"
+=======
+import { setLoader, ProdLoader, publicLoader } from "./loader"
+>>>>>>> develop
 =======
 import { setLoader, ProdLoader, publicLoader } from "./loader"
 >>>>>>> develop
@@ -100,6 +104,7 @@ apiRunnerAsync(`onClientEntry`).then(() => {
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   const { page, location: browserLoc } = window
   // TODO: comment what this check does
   if (
@@ -124,6 +129,18 @@ apiRunnerAsync(`onClientEntry`).then(() => {
   // - it's a 404 page
   // - it's the offline plugin shell (/offline-plugin-app-shell-fallback/)
   if (
+=======
+  const { pagePath, location: browserLoc } = window
+
+  // Explicitly call navigate if the canonical path (window.pagePath)
+  // is different to the browser path (window.location.pathname). But
+  // only if NONE of the following conditions hold:
+  //
+  // - The url matches a client side route (page.matchPath)
+  // - it's a 404 page
+  // - it's the offline plugin shell (/offline-plugin-app-shell-fallback/)
+  if (
+>>>>>>> develop
     pagePath &&
     __BASE_PATH__ + pagePath !== browserLoc.pathname &&
     !(
@@ -131,6 +148,9 @@ apiRunnerAsync(`onClientEntry`).then(() => {
       pagePath === `/404.html` ||
       pagePath.match(/^\/404\/?$/) ||
       pagePath.match(/^\/offline-plugin-app-shell-fallback\/?$/)
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
     )
   ) {
@@ -139,6 +159,7 @@ apiRunnerAsync(`onClientEntry`).then(() => {
     })
   }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   loader
     .getResourcesForPathname(browserLoc.pathname)
@@ -150,6 +171,8 @@ apiRunnerAsync(`onClientEntry`).then(() => {
           true
         )
 =======
+=======
+>>>>>>> develop
   loader.loadPage(browserLoc.pathname).then(page => {
     if (!page || page.status === `error`) {
       throw new Error(

@@ -6,8 +6,12 @@ import { apiRunner } from "./api-runner-browser"
 import emitter from "./emitter"
 import { navigate as reachNavigate } from "@reach/router"
 <<<<<<< HEAD
+<<<<<<< HEAD
 import parsePath from "./parse-path"
 import loadDirectlyOr404 from "./load-directly-or-404"
+=======
+import { parsePath } from "gatsby-link"
+>>>>>>> develop
 =======
 import { parsePath } from "gatsby-link"
 >>>>>>> develop
@@ -77,6 +81,9 @@ const navigate = (to, options = {}) => {
   // If we had a service worker update, no matter the path, reload window and
   // reset the pathname whitelist
   if (window.___swUpdated) {
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
     window.location = pathname
     return
@@ -92,6 +99,7 @@ const navigate = (to, options = {}) => {
   }, 1000)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   loader.getResourcesForPathname(pathname).then(pageResources => {
     if (
       (!pageResources || pageResources.page.path === `/404.html`) &&
@@ -106,6 +114,8 @@ const navigate = (to, options = {}) => {
       clearTimeout(timeoutId)
     }
 =======
+=======
+>>>>>>> develop
   loader.loadPage(pathname).then(pageResources => {
     // If no page resources, then refresh the page
     // Do this, rather than simply `window.location.reload()`, so that

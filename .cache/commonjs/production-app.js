@@ -25,6 +25,7 @@ var _pageRenderer = _interopRequireDefault(require("./page-renderer"));
 var _asyncRequires = _interopRequireDefault(require("./async-requires"));
 
 var _loader = require("./loader");
+<<<<<<< HEAD
 
 var _loadDirectlyOr = _interopRequireDefault(require("./load-directly-or-404"));
 
@@ -42,6 +43,12 @@ _loader.default.addDataPaths({
   [window.page.jsonName]: window.dataPath
 });
 =======
+var _stripPrefix = _interopRequireDefault(require("./strip-prefix"));
+>>>>>>> develop
+=======
+
+var _ensureResources = _interopRequireDefault(require("./ensure-resources"));
+
 var _stripPrefix = _interopRequireDefault(require("./strip-prefix"));
 >>>>>>> develop
 
@@ -108,6 +115,7 @@ window.___webpackCompilationHash = window.webpackCompilationHash;
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   const _window = window,
         page = _window.page,
         browserLoc = _window.location; // TODO: comment what this check does
@@ -115,6 +123,8 @@ window.___webpackCompilationHash = window.webpackCompilationHash;
   if (page && page.path !== `/404.html` && __PATH_PREFIX__ + page.path !== browserLoc.pathname && !page.path.match(/^\/offline-plugin-app-shell-fallback\/?$/) && (!page.matchPath || !(0, _utils.match)(__PATH_PREFIX__ + page.matchPath, browserLoc.pathname))) {
     (0, _router.navigate)(__PATH_PREFIX__ + page.path + browserLoc.search + browserLoc.hash, {
 =======
+=======
+>>>>>>> develop
   const {
     pagePath,
     location: browserLoc
@@ -128,11 +138,15 @@ window.___webpackCompilationHash = window.webpackCompilationHash;
 
   if (pagePath && __BASE_PATH__ + pagePath !== browserLoc.pathname && !(loader.findMatchPath((0, _stripPrefix.default)(browserLoc.pathname, __BASE_PATH__)) || pagePath === `/404.html` || pagePath.match(/^\/404\/?$/) || pagePath.match(/^\/offline-plugin-app-shell-fallback\/?$/))) {
     (0, _router.navigate)(__BASE_PATH__ + pagePath + browserLoc.search + browserLoc.hash, {
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
       replace: true
     });
   }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   _loader.default.getResourcesForPathname(browserLoc.pathname).then(resources => {
     if (!resources || resources.page.path === `/404.html`) {
@@ -147,12 +161,17 @@ window.___webpackCompilationHash = window.webpackCompilationHash;
       path: `/*`
     }));
 =======
+=======
+>>>>>>> develop
   loader.loadPage(browserLoc.pathname).then(page => {
     if (!page || page.status === `error`) {
       throw new Error(`page resources for ${browserLoc.pathname} not found. Not rendering React`);
     }
 
     const Root = () => _react.default.createElement(_router.Location, null, locationContext => _react.default.createElement(LocationHandler, locationContext));
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
 
     const WrappedRoot = (0, _apiRunnerBrowser.apiRunner)(`wrapRootElement`, {

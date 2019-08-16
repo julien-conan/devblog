@@ -8,10 +8,13 @@
   },
   "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "gatsby": "^2.0.31",
     "gatsby-cli": "^2.4.9",
     "gatsby-image": "^2.0.29",
 =======
+=======
+>>>>>>> develop
     "gatsby": "^2.13.62",
     "gatsby-cli": "^2.7.30",
     "gatsby-image": "^2.0.25",

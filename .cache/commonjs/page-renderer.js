@@ -27,7 +27,11 @@ class PageRenderer extends _react.default.Component {
     });
     const pageElement = replacementElement || (0, _react.createElement)(this.props.pageResources.component, Object.assign({}, props, {
 <<<<<<< HEAD
+<<<<<<< HEAD
       key: this.props.location.pathname
+=======
+      key: this.props.path || this.props.pageResources.page.path
+>>>>>>> develop
 =======
       key: this.props.path || this.props.pageResources.page.path
 >>>>>>> develop

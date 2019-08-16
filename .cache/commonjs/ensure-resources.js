@@ -12,6 +12,7 @@ var _loader = _interopRequireDefault(require("./loader"));
 var _shallowCompare = _interopRequireDefault(require("shallow-compare"));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _loadDirectlyOr = require("./load-directly-or-404");
 
 // Pass pathname in as prop.
@@ -19,6 +20,8 @@ var _loadDirectlyOr = require("./load-directly-or-404");
 // will just render, else will render null.
 // It will also wait for pageResources
 // before propagating location change to children.
+=======
+>>>>>>> develop
 =======
 >>>>>>> develop
 class EnsureResources extends _react.default.Component {
@@ -94,6 +97,7 @@ class EnsureResources extends _react.default.Component {
 
   render() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (process.env.NODE_ENV === `production` && !(this.state.pageResources && this.state.pageResources.json)) {
       // This should only occur if there's no custom 404 page
       const url = (0, _loadDirectlyOr.getRedirectUrl)(this.state.location.href);
@@ -105,6 +109,8 @@ class EnsureResources extends _react.default.Component {
       return null;
     }
 
+=======
+>>>>>>> develop
 =======
 >>>>>>> develop
     return this.props.children(this.state);

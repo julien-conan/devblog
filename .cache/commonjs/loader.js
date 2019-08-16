@@ -12,6 +12,7 @@ var _prefetch = _interopRequireDefault(require("./prefetch"));
 var _emitter = _interopRequireDefault(require("./emitter"));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _stripPrefix = _interopRequireDefault(require("./strip-prefix"));
 
 var _prefetch = _interopRequireDefault(require("./prefetch"));
@@ -68,9 +69,25 @@ const stripSurroundingSlashes = s => {
   s = s[0] === `/` ? s.slice(1) : s;
   s = s.endsWith(`/`) ? s.slice(0, -1) : s;
   return s;
+=======
+var _findPath = require("./find-path");
+
+const preferDefault = m => m && m.default || m;
+
+const stripSurroundingSlashes = s => {
+  s = s[0] === `/` ? s.slice(1) : s;
+  s = s.endsWith(`/`) ? s.slice(0, -1) : s;
+  return s;
+};
+
+const createPageDataUrl = path => {
+  const fixedPath = path === `/` ? `index` : stripSurroundingSlashes(path);
+  return `${__PATH_PREFIX__}/page-data/${fixedPath}/page-data.json`;
+>>>>>>> develop
 };
 >>>>>>> develop
 
+<<<<<<< HEAD
 const createPageDataUrl = path => {
   const fixedPath = path === `/` ? `index` : stripSurroundingSlashes(path);
   return `${__PATH_PREFIX__}/page-data/${fixedPath}/page-data.json`;
@@ -192,6 +209,72 @@ const loadPageDataJson = loadObj => {
       return Object.assign(loadObj, {
         status: `error`
       });
+=======
+const doFetch = (url, method = `GET`) => new Promise((resolve, reject) => {
+  const req = new XMLHttpRequest();
+  req.open(method, url, true);
+  req.withCredentials = true;
+
+  req.onreadystatechange = () => {
+    if (req.readyState == 4) {
+      resolve(req);
+    }
+  };
+
+  req.send(null);
+});
+
+const loadPageDataJson = loadObj => {
+  const {
+    pagePath,
+    retries = 0
+  } = loadObj;
+  const url = createPageDataUrl(pagePath);
+  return doFetch(url).then(req => {
+    const {
+      status,
+      responseText
+    } = req; // Handle 200
+
+    if (status === 200) {
+      try {
+        const jsonPayload = JSON.parse(responseText);
+
+        if (jsonPayload.webpackCompilationHash === undefined) {
+          throw new Error(`not a valid pageData response`);
+        }
+
+        return Object.assign(loadObj, {
+          status: `success`,
+          payload: jsonPayload
+        });
+      } catch (err) {// continue regardless of error
+      }
+    } // Handle 404
+
+
+    if (status === 404 || status === 200) {
+      // If the request was for a 404 page and it doesn't exist, we're done
+      if (pagePath === `/404.html`) {
+        return Object.assign(loadObj, {
+          status: `failure`
+        });
+      } // Need some code here to cache the 404 request. In case
+      // multiple loadPageDataJsons result in 404s
+
+
+      return loadPageDataJson(Object.assign(loadObj, {
+        pagePath: `/404.html`,
+        notFound: true
+      }));
+    } // handle 500 response (Unrecoverable)
+
+
+    if (status === 500) {
+      return Object.assign(loadObj, {
+        status: `error`
+      });
+>>>>>>> develop
     } // Handle everything else, including status === 0, and 503s. Should retry
 
 
@@ -204,11 +287,15 @@ const loadPageDataJson = loadObj => {
 
     return Object.assign(loadObj, {
       status: `error`
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
     });
   });
 };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 const prefetchResource = resourceName => {
   if (resourceName.slice(0, 12) === `component---`) {
@@ -224,11 +311,16 @@ const getResourceModule = resourceName => fetchResource(resourceName).then(prefe
 const appearsOnLine = () => {
   const isOnLine = navigator.onLine;
 =======
+=======
+>>>>>>> develop
 const doesConnectionSupportPrefetch = () => {
   if (`connection` in navigator && typeof navigator.connection !== `undefined`) {
     if ((navigator.connection.effectiveType || ``).includes(`2g`)) {
       return false;
     }
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
 
     if (navigator.connection.saveData) {
@@ -283,6 +375,7 @@ class BaseLoader {
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const onPrefetchPathname = pathname => {
   if (!prefetchTriggered[pathname]) {
     apiRunner(`onPrefetchPathname`, {
@@ -304,11 +397,21 @@ const onPostPrefetchPathname = pathname => {
       return Promise.resolve(this.pageDataDb.get(pagePath));
     }
 
+=======
+  loadPageDataJson(rawPath) {
+    const pagePath = (0, _findPath.cleanPath)(rawPath);
+
+    if (this.pageDataDb.has(pagePath)) {
+      return Promise.resolve(this.pageDataDb.get(pagePath));
+    }
+
+>>>>>>> develop
     return loadPageDataJson({
       pagePath
     }).then(pageData => {
       this.pageDataDb.set(pagePath, pageData);
       return pageData;
+<<<<<<< HEAD
 >>>>>>> develop
     });
   }
@@ -353,6 +456,10 @@ const queue = {
     onPrefetchPathname(path); // If a plugin has disabled core prefetching, stop now.
 =======
 >>>>>>> develop
+=======
+    });
+  }
+>>>>>>> develop
 
   findMatchPath(rawPath) {
     return (0, _findPath.findMatchPath)(rawPath);
@@ -363,10 +470,16 @@ const queue = {
     const pagePath = (0, _findPath.cleanPath)(rawPath);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (process.env.NODE_ENV === `production` && !page && !fetchedPageResourceMap) {
       // If page wasn't found check and we didn't fetch resources map for
       // all pages, wait for fetch to complete and try find page again
       return fetchPageResourceMap().then(() => queue.enqueue(rawPath));
+=======
+    if (this.pageDb.has(pagePath)) {
+      const page = this.pageDb.get(pagePath);
+      return Promise.resolve(page.payload);
+>>>>>>> develop
 =======
     if (this.pageDb.has(pagePath)) {
       const page = this.pageDb.get(pagePath);
@@ -416,6 +529,7 @@ const queue = {
           finalResult.status = `error`;
         } else {
           finalResult.status = `success`;
+<<<<<<< HEAD
 
           if (result.notFound === true) {
             finalResult.notFound = true;
@@ -460,6 +574,37 @@ const queue = {
   loadPageSync(rawPath) {
     const pagePath = (0, _findPath.cleanPath)(rawPath);
 
+=======
+
+          if (result.notFound === true) {
+            finalResult.notFound = true;
+          }
+
+          pageResources = toPageResources(pageData, component);
+          finalResult.payload = pageResources;
+
+          _emitter.default.emit(`onPostLoadPageResources`, {
+            page: pageResources,
+            pageResources
+          });
+        }
+
+        this.pageDb.set(pagePath, finalResult); // undefined if final result is an error
+
+        return pageResources;
+      });
+    }).finally(() => {
+      this.inFlightDb.delete(pagePath);
+    });
+    this.inFlightDb.set(pagePath, inFlight);
+    return inFlight;
+  } // returns undefined if loading page ran into errors
+
+
+  loadPageSync(rawPath) {
+    const pagePath = (0, _findPath.cleanPath)(rawPath);
+
+>>>>>>> develop
     if (this.pageDb.has(pagePath)) {
       return this.pageDb.get(pagePath).payload;
     }
@@ -494,6 +639,7 @@ const queue = {
       });
       this.prefetchTriggered.add(pagePath);
     } // If a plugin has disabled core prefetching, stop now.
+<<<<<<< HEAD
 
 
     if (this.prefetchDisabled) {
@@ -503,6 +649,17 @@ const queue = {
     const realPath = (0, _findPath.cleanPath)(pagePath); // Todo make doPrefetch logic cacheable
     // eslint-disable-next-line consistent-return
 
+=======
+
+
+    if (this.prefetchDisabled) {
+      return false;
+    }
+
+    const realPath = (0, _findPath.cleanPath)(pagePath); // Todo make doPrefetch logic cacheable
+    // eslint-disable-next-line consistent-return
+
+>>>>>>> develop
     this.doPrefetch(realPath).then(pageData => {
       if (!pageData) {
         const matchPath = (0, _findPath.findMatchPath)(realPath);
@@ -527,6 +684,7 @@ const queue = {
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       };
       pathScriptsCache[path] = pageResources;
       devGetPageData(page.path).then(pageData => {
@@ -537,6 +695,19 @@ const queue = {
 
         resolve(pageResources);
       });
+=======
+  hovering(rawPath) {
+    this.loadPage(rawPath);
+  }
+
+  getResourceURLsForPathname(rawPath) {
+    const pagePath = (0, _findPath.cleanPath)(rawPath);
+    const page = this.pageDataDb.get(pagePath);
+
+    if (page) {
+      const pageResources = toPageResources(page.payload);
+      return [...createComponentUrls(pageResources.page.componentChunkName), createPageDataUrl(pagePath)];
+>>>>>>> develop
 =======
   hovering(rawPath) {
     this.loadPage(rawPath);
@@ -564,6 +735,7 @@ const queue = {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         _emitter.default.emit(`onPostLoadPageResources`, {
           page,
           pageResources
@@ -590,6 +762,16 @@ class ProdLoader extends BaseLoader {
   constructor(asyncRequires, matchPaths) {
     const loadComponent = chunkName => asyncRequires.components[chunkName]().then(preferDefault);
 
+=======
+exports.BaseLoader = BaseLoader;
+
+const createComponentUrls = componentChunkName => window.___chunkMapping[componentChunkName].map(chunk => __PATH_PREFIX__ + chunk);
+
+class ProdLoader extends BaseLoader {
+  constructor(asyncRequires, matchPaths) {
+    const loadComponent = chunkName => asyncRequires.components[chunkName]().then(preferDefault);
+
+>>>>>>> develop
     super(loadComponent, matchPaths);
   }
 
@@ -601,6 +783,9 @@ class ProdLoader extends BaseLoader {
       if (result.status !== `success`) {
         return Promise.resolve();
       }
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
 
       const pageData = result.payload;

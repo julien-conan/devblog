@@ -5,11 +5,14 @@ const { join } = require(`path`)
 import DevelopStaticEntry from "../develop-static-entry"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 jest.mock(`fs`)
 jest.mock(`gatsby/package.json`, () => ({
   version: '2.0.0'
 }));
 =======
+=======
+>>>>>>> develop
 jest.mock(`fs`, () => {
   const fs = jest.requireActual(`fs`)
   return {

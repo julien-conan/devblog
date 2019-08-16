@@ -15,6 +15,9 @@ var _errorOverlayHandler = require("./error-overlay-handler");
 
 var _normalizePagePath = _interopRequireDefault(require("./normalize-page-path"));
 
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
 let socket = null;
 let staticQueryData = {};

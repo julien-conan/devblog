@@ -151,6 +151,11 @@ exports.onPreRenderHTML = true;
  * @param {ReactNode} $0.element The "Page" React Element built by Gatsby.
  * @param {object} $0.props Props object used by page.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @param {pluginOptions} pluginOptions
+ * @returns {ReactNode} Wrapped element
+>>>>>>> develop
 =======
  * @param {pluginOptions} pluginOptions
  * @returns {ReactNode} Wrapped element

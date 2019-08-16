@@ -83,13 +83,19 @@ export default (pagePath, callback) => {
   let bodyHtml = ``
   let headComponents = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     <meta name="generator" content={`Gatsby ${gatsbyVersion}`} />
 =======
+=======
+>>>>>>> develop
     <meta
       name="generator"
       content={`Gatsby ${gatsbyVersion}`}
       key={`generator-${gatsbyVersion}`}
     />,
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
   ]
   let htmlAttributes = {}

@@ -8,6 +8,11 @@ it(`Builds cache-dir with minimal config`, done => {
     `--config-file`,
     path.join(__dirname, `.babelrc`),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    `--ignore`,
+    `**/__tests__`,
+>>>>>>> develop
 =======
     `--ignore`,
     `**/__tests__`,
@@ -20,6 +25,7 @@ it(`Builds cache-dir with minimal config`, done => {
   let stdout = ``
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   spawn.stderr.on(`data`, function (chunk) {
     stderr += chunk
   })
@@ -30,6 +36,8 @@ it(`Builds cache-dir with minimal config`, done => {
 
   spawn.on(`close`, function () {
 =======
+=======
+>>>>>>> develop
   spawn.stderr.on(`data`, function(chunk) {
     stderr += chunk
   })
@@ -39,6 +47,9 @@ it(`Builds cache-dir with minimal config`, done => {
   })
 
   spawn.on(`close`, function() {
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
     expect(stderr).toEqual(``)
     expect(stdout).not.toEqual(``)

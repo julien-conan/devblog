@@ -91,10 +91,14 @@ class JSONStore extends React.Component {
     return (
       <StaticQueryContext.Provider value={this.state.staticQueryData}>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <PageRenderer
           {...propsWithoutPages}
           {...data}
         />
+=======
+        <PageRenderer {...this.props} {...data} />
+>>>>>>> develop
 =======
         <PageRenderer {...this.props} {...data} />
 >>>>>>> develop

@@ -24,8 +24,11 @@ var _emitter = _interopRequireDefault(require("./emitter"));
 var _router = require("@reach/router");
 
 var _gatsbyLink = require("gatsby-link");
+<<<<<<< HEAD
 
 var _loadDirectlyOr = _interopRequireDefault(require("./load-directly-or-404"));
+=======
+>>>>>>> develop
 
 // Convert to a map for faster lookup in maybeRedirect()
 const redirectMap = _redirects.default.reduce((map, redirect) => {
@@ -88,18 +91,24 @@ const navigate = (to, options = {}) => {
   if (redirect) {
     to = redirect.toPath;
 <<<<<<< HEAD
+<<<<<<< HEAD
     pathname = (0, _parsePath2.default)(to).pathname;
   } // If we had a service worker update, no matter the path, reload window
 
 
   if (window.GATSBY_SW_UPDATED) {
 =======
+=======
+>>>>>>> develop
     pathname = (0, _gatsbyLink.parsePath)(to).pathname;
   } // If we had a service worker update, no matter the path, reload window and
   // reset the pathname whitelist
 
 
   if (window.___swUpdated) {
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
     window.location = pathname;
     return;
@@ -118,6 +127,7 @@ const navigate = (to, options = {}) => {
   }, 1000);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   _loader.default.getResourcesForPathname(pathname).then(pageResources => {
     if ((!pageResources || pageResources.page.path === `/404.html`) && process.env.NODE_ENV === `production`) {
       clearTimeout(timeoutId);
@@ -127,6 +137,8 @@ const navigate = (to, options = {}) => {
       clearTimeout(timeoutId);
     }
 =======
+=======
+>>>>>>> develop
   _loader.default.loadPage(pathname).then(pageResources => {
     // If no page resources, then refresh the page
     // Do this, rather than simply `window.location.reload()`, so that
