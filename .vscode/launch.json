@@ -5,31 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch index.html",
-            "type": "firefox",
+            "type": "node",
             "request": "launch",
-            "reAttach": true,
-            "file": "${workspaceFolder}/index.html"
-        },
-        {
-            "type": "firefox",
-            "request": "launch",
-            "name": "devblog MacOs Firefox Launch",
-            "url": "http://localhost:8000",
-            "webRoot": "${workspaceFolder}/index.html"
-        },
-        {
-            "name": "Attach",
-            "type": "firefox",
-            "request": "attach"
-        },
-        {
-            "name": "Launch addon",
-            "type": "firefox",
-            "request": "launch",
-            "reAttach": true,
-            "addonType": "webExtension",
-            "addonPath": "${workspaceFolder}"
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\develop"
         }
     ]
 }

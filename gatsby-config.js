@@ -1,75 +1,64 @@
-const userConfig = require('./config');
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.org/docs/gatsby-config/
+ */
 
 module.exports = {
-  siteMetadata: {
-    title: userConfig.title,
-    author: userConfig.author,
-    description: userConfig.description,
-    siteUrl: userConfig.siteUrl,
-  },
-  pathPrefix: userConfig.pathPrefix,
+  /* Your site config here */
+  siteMetadata: require("./site-meta-data.json"),
   plugins: [
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-feed`,
-    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages`,
-        name: 'pages',
+        name: `markdown-pages`,
+        path: `${__dirname}/_data`,
       },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `img`,
-        path: `${__dirname}/src/images/`
-      }
     },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        excerpt_separator: `<!-- end -->`,
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 700,
-              linkImagesToOriginal: false,
-              wrapperStyle: 'margin: 15px -30px !important',
-            },
+        plugins: [{
+          resolve: `gatsby-remark-prismjs`,
+          options: {
+            classPrefix: "language-",
+            inlineCodeMarker: null,
+            aliases: {},
+            showLineNumbers: false,
+            noInlineHighlight: false,
           },
-          {
-            resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
-            },
-          },
-          'gatsby-remark-prismjs',
-          'gatsby-remark-copy-linked-files',
-          'gatsby-remark-smartypants',
-        ],
+        },
+        {
+          resolve: 'gatsby-remark-emojis',
+        }],
       },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-131377558-1`,
-      },
+        // The property ID; the tracking code won't be generated without it. replace with yours
+        trackingId: "UA-164743872-1",
+        head: true,
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: userConfig.title,
-        short_name: userConfig.title,
-        start_url: userConfig.siteUrl,
-        background_color: '#fff',
-        theme_color: userConfig.primaryColor,
-        display: 'minimal-ui',
-        icon: 'src/main.jpg',
+        name: `DevBlog GatbsyJS Starter`,
+        short_name: `DevBlog`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#381696`,
+        display: `standalone`,
+        icon: "src/images/icon.png",
       },
     },
+    `gatsby-plugin-sass`, 
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-netlify-cms`,
+    'gatsby-plugin-dark-mode',
+    // siteURL is a must for sitemap generation
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-offline`,
   ],
-};
+}
