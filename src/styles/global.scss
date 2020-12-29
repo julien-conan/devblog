@@ -170,8 +170,7 @@ a {
   .post-meta {
     margin-bottom: 32px;
     text-align: center;
-  }
-  
+  }  
 }
 .post-thumbnail {
   text-align: center;
@@ -405,3 +404,8 @@ body.light {
     top: 8px;
     left: 2px
 }
+// Need to be fixed in order to handle section width in blog posts
+/*#disqus_thread{
+  margin: 0, auto; 
+  max-width: 67vw;
+}*/

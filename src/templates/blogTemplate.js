@@ -2,6 +2,7 @@ import React from "react"
 import Helmet from 'react-helmet';
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import { DiscussionEmbed } from "disqus-react"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -9,6 +10,11 @@ export default function Template({
   const { site, markdownRemark } = data // data.markdownRemark holds your post data
   const { siteMetadata } = site
   const { frontmatter, html } = markdownRemark
+  const post = markdownRemark
+  const disqusConfig = {
+    shortname: "devblog-14",
+    config: { identifier: post.id, title: post.frontmatter.title },
+  }
   return (
     <Layout>
       <Helmet>
@@ -34,8 +40,14 @@ export default function Template({
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
+          <div class="discussion">
+            <DiscussionEmbed {...disqusConfig}/>
+          </div>
         </article>
+        <br/>
+        
       </div>
+      
     </Layout>
   )
 }

@@ -8,7 +8,7 @@ thumbnail: /assets/2018-11-30-welcome-stranger.jpg
 
 # Welcome
 
-Welcome to my blog, I hope you will enjoy your little tour. Decrease ambient lights, fasten your seatbelts, and enjoy following the leader inside front, back, statistics, and creative coding.
+Welcome to my blog, I hope you will enjoy your little tour. Decrease ambient lights, fasten your seatbelts, and enjoy following the lnpmeader inside front, back, statistics, and creative coding.
 
 ## Who am I ?
 

@@ -53,6 +53,12 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+          shortname: `devblog-14`
+      }
+    },
     `gatsby-plugin-sass`, 
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
