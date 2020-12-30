@@ -15,11 +15,10 @@ Looking at this blog (made with [Gatbsy.js](https://www.gatsbyjs.org)) and towar
 As a SEO for example, you might had faced difficulties trying to improve website performances through technical achievements. The main reason is, most of the time, performances have not been considered at the beginning of your development process, during the foundations of your project. In the same way that [code-first approach](https://blog.devart.com/entity-framework-code-first-support-for-oracle-mysql-postgresql-and-sqlite.html), performances-first approach will clean the path to better SEO website performances, keeping architecture clean and sticking to project first intentions.
 
 <div class="custom-images" style="max-width: 500px; margin: auto;">
-	<img src="/assets/2019-01-25-speaking-cosmic-chrome-website-audit.png">
-	<p>Google Chrome Website Audit</p>
+	<img src="/assets/2019-01-25-speaking-cosmic-lighthouse-performances-20-12-28.jpg">
 </div>
 
-Performances described here from Google Chrome Audit shows the potential of such approach. It stands as the best performances I have seen so far without the efforts. Each element is saved and pushed through actual web development best practices, which guarantee optimal balance during deployment.
+Performances described here from Google Chrome Audit shows the potential of such approach (last update : 2020-12-28). It stands as the best performances I have seen so far without the efforts. Each element is saved and pushed through actual web development best practices, which guarantee optimal balance during deployment.
 
 ## Key Performance Indicators (KPI's)
 

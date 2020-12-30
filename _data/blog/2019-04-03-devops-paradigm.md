@@ -7,29 +7,29 @@ thumbnail: /assets/2019-04-03-devops-journey.jpg
 metaDescription: Starting point
 ---
 
-# Culture, Automatisation, Lean, Mesures, Solidarité, Modèles, Process...
+# Culture, Automation, Lean, Measures, Solidarity, Models, Process...
 
-DevOps est un terme issu de la contraction des mots anglais "development" (développement) et "operations" (exploitation). Le nom a été donné par Patrick Debois lors de l'organisation des premiers devopsdays en 2009 pour qualifier un mouvement émergent visant à améliorer la qualité des services fournis par les solutions informatiques. Les personnes se réclamant de ce mouvement tentent de tirer les leçons de l'efficacité des GAFAM en matière de management, innovation, outils et bonnes pratiques... afin d'optimiser la compétitivité de leur organisation.
+DevOps is a term derived from the contraction of the English words "development" and "operations". The name was given by Patrick Debois during the organization of the first devopsdays in 2009 to describe an emerging movement to improve the quality of services provided by IT solutions. The people who call themselves part of this movement try to learn from the effectiveness of GAFAM in management, innovation, tools and good practices... in order to optimize the competitiveness of their organization.
 
 > "Bridging the gap between projects and operations" - Patrick Debois
 
-Après des années à vivre en silo avec des objectifs non alignés entre opérationnels et développeurs, l'arrivée de solutions de cloud public fait bouger les lignes : c'est la fusion du support et de l'intégration dans les features teams pour les Développeurs. Comme mentionné par Amazon : 
+After years of living in silos with objectives that are not aligned between operational and developers, the arrival of public cloud solutions is moving the lines: it is the fusion of support and integration in the features teams for both Developers and Operators. As mentioned by Amazon:
 
 > "You build it, you run it !". 
 
-Du côté des Opérationnels, il s'agit de s'aligner sur les enjeux métiers par l'introduction d'un Product Owner Infra qui saura se rapprocher des Devs. Dans un sens comme dans l'autre, c'est une évolution qui peut sembler nécessaire aujourd'hui aussi portée par l'évolution des outils.
+It is a question of aligning with the business challenges by the introduction of profiles such as Infra Product Owner, who knows how to approach the Devs. In both directions, this is a development being necessary today, also driven by the evolution of tools.
 
 > "Agile is the approach of working with complex systems anywhere. Lean is the approach of optimising the flow of work anywhere. DevOps is the application of Agile and Lean to the acceleration of value work through IT." - Rob England
 
-Le mouvement DevOps est issue de personnes qui avaient conscience de l'importance de l'agilité et de l'alignement de l'entreprise. Il propose une façon d'organiser et de manager l'entreprise dans son ensemble. Des méthodes comme le Lean Startup, SAFE... partagent des valeurs communes (à commencer par la culture de la mesure) et sont aujourd'hui de plus en plus reconnues dans les entreprises de toutes tailles. Ces méthodologies proposent une organisation et une culture adaptées aux enjeux de l'entreprise d'aujourd'hui : centrées sur les utilisateurs finaux, permettant d'expérimenter rapidement et de changer de cap rapidement si besoin. Face aux évolutions incessantes d'un environnement extrêmement complexe, c'est le moyen de robustifier son organisation et sa production en préservant ses ressources.
+The DevOps movement came from people who were aware of the importance of the agility and alignment in the company. It offers a way to organize and manage the company as a whole. Methods such as the Lean Startup, SAFE... share common values (starting with the measurement culture) and are today increasingly recognized in companies of all sizes. These methodologies propose an organization and a culture adapted to nowadays challenges: end-user-centric, allowing rapid experimentation and rapid change of direction as needed. Faced with the constant changes of an extremely complex environment, it is the way to strengthen its organization and its production while preserving its resources.
 
 > "It's time for change. Connect anything. Change everything." - MuleSoft 
 
-L'une des missions du DevOps est de s'assurer de la pérennité d'un pipeline de production répondant aux exigences du CI/CD, permettant de mettre en production rapidement et de manière sécurisée. L'approvisionnement des infrastructures doit permettre de bâtir des environnements de développement et de production reproductibles, et maîtrisés. Si ces outils et ces méthodes doivent permettre des mises en production sans interventions humaines (plus grandes sources d'erreurs), ils ne doivent pas faire oublier les autres grands principes DevOps : collaboration, mesures, lean, et amélioration continue. Le modèle C.A.L.M.S. se veut une alternative intéressante dans ce sens (comparé à I.T.S.M. dans le vieux monde de l'I.T.I.L.).
+One of DevOps' tasks is to ensure the sustainability of a production pipeline that meets the requirements of the CI-CD, enabling production to be carried out quickly and in a secure manner. Infrastructure supply must be able to build repeatable, controlled development and production environments. While these tools and methods should enable production without human intervention (the greatest sources of error), they should not make us forget the other major DevOps principles: collaboration, measures, lean, and continuous improvement. The C.A.L.M.S. model is an interesting alternative in this sense (compared to I.T.S.M. in the old world of I.T.I.L.).
 
-Le partage de connaissances est essentiel et fondamental dans la démarche du DevOps, car il est à l'origine de sa Culture. Faire travailler les Ops et les Devs ensemble est primordial, en réussissant par exemple à faire faire certaines tâches des uns par les autres, et/ou en fusionnant des compétences différentes sur une même personnne (approche Facebook). Il n'y a plus dans ce cas d'équipe opérationnelle, mais une équipe composée de profils polyvalents et pluridisciplinaires se partageant au mieux les tâches suivants leur niveau d'implication et de connaissances. C'est d'ailleurs en favorisant la 1ère méthode que l'on peut développer en interne les profiles de la 2nde.
+Knowledge sharing is essential and fundamental to DevOps' approach, as it is the origin of its Culture. Making Ops and Devs work together is essential, for example by succeeding in getting some tasks done by each other, and/or by merging different skills on the same person (Facebook approach). In this case, there is no longer an operational team, but a team composed of multi-functional and multidisciplinary profiles that share the best tasks following their level of involvement and knowledge. It is by promoting the first method that we can develop the profiles of the second.
 
-L'Equipe DevOps suivra un ensemble de 8 étapes, en une ou plusieurs fois (un ou plusieurs sprints) :
+The DevOps team will follow a set of eight steps, in one or more times (one or more sprints):
 
 * Plan
 * Code
@@ -40,10 +40,10 @@ L'Equipe DevOps suivra un ensemble de 8 étapes, en une ou plusieurs fois (un ou
 * Operate
 * Monitor
 
-## L'importance des process : Intégration continue (CI)
+## The importance of processes: Continuous Integration (CI)
 
-L'intégration continue vise la publication de code de façon régulière sur la branche principale, en l'améliorant au fur et à mesure en la soumettant à divers tests, gérés et codés par les développeurs, premières lignes de défense face aux fautes de conception et aux bugs imprévus. La synchronisation de travaux simultanés émis par plusieurs développeurs est permise par un outil de versionning publiant le code vers une plateforme d'intégration, partagée par l'ensemble de l'Equipe. Suivant les langages, la compilation se rajoute au processus permettant au passage d'optimiser le code pour une meilleur exécution, plus légère et plus rapide. Les différentes formes de tests, menés en amont et en aval de chacune des étapes, permettent de garantir la stabilité de la production tout au long des itérations. Le code est ensuite packagé, sous forme de release, rendue au propriétaire du projet, puis diffusé sous forme commerciale ou open-source.
+Continuous integration aims to publish code regularly on the main branch, improving it as it goes by subjecting it to various tests, managed and coded by developers, first lines of defense against design errors and unexpected bugs. Synchronization of simultaneous works issued by several developers is enabled by a versioning tool publishing the code to an integration platform, shared by the entire team. Depending on the language, the compilation is added to the process allowing the passage to optimize the code for better execution, lighter and faster. The different forms of testing, carried out upstream and downstream of each stage, ensure the stability of production throughout the iterations. The code is then packaged, as a release, returned to the project owner, and then deployed in commercial or open-source format.
 
-## L'importance des outils : Livraison continue (CD)
+## The importance of tools: Continuous Delivery (CD)
 
-L'environnement de production est un élement clé de la forge logicielle qui regroupe le (CI/CD). Le déploiement continu vise une automatisation à 100% des étapes de construction et de livraison d'un logiciel, sans intervention humaine en utilisant des scripts de compilation avancés par exemple. Des systèmes de sélection de features ou de rollback sont utilisés en production pour gérer les imprévus, lorsque la branche principale du projet est parfois en lien direct avec des milliers d'utilisateurs. Les systèmes de mesure permettent de garantir l'état des services rendus, et de déclencher des actions correctives si nécessaires.
+The production environment is a key element of the software factory that gathers the (CI/CD). Continuous deployment aims at building and delivering steps full-automation, without human intervention using advanced compilation scripts. Features selection or rollback systems are used in production to manage unforeseen events, when the main branch of the project is sometimes directly linked to thousands of users. Measuring systems ensure the status of the services rendered, and trigger corrective actions if necessary.
