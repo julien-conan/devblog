@@ -52,6 +52,11 @@ module.exports = {
         display: `standalone`,
         icon: "src/images/icon.png",
       },
+    },{
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'none',
+      }
     },
     `gatsby-plugin-sass`, 
     `gatsby-plugin-react-helmet`,
