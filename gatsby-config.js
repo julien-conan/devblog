@@ -34,14 +34,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // The property ID; the tracking code won't be generated without it. replace with yours
-        trackingId: "UA-164743872-1",
-        head: true,
-      }
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `DevBlog GatbsyJS Starter`,
@@ -53,10 +45,12 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },{
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: 'gatsby-plugin-google-gtag',
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'none',
-      }
+        trackingIds: [
+          process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'none',
+        ],
+      },
     },
     `gatsby-plugin-sass`, 
     `gatsby-plugin-react-helmet`,
