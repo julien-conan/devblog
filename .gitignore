@@ -68,5 +68,5 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-# Public folder build each time by Gatsby
+# Public folder generated during each build by Gatsby
 public/
