@@ -2,7 +2,7 @@
 template: BlogPost
 path: /devops-paradigm
 date: 2019-04-03T06:52:56.034Z
-title: 'A DevOps journey'
+title: 'A DevOps Journey'
 thumbnail: /assets/2019-04-03-devops-journey.jpg
 metaDescription: Starting point
 ---
