@@ -1,39 +1,36 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8ec719ad-c2f8-4529-b97d-e7561a9eaf33/deploy-status)](https://app.netlify.com/sites/delog-w3layouts/deploys) &nbsp;<a href="https://twitter.com/intent/follow?screen_name=w3layouts">
-  <img src="https://img.shields.io/twitter/follow/w3layouts.svg?label=Follow%20@w3layouts" alt="Follow @w3layouts" />
-</a>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/835007e7-56fc-4265-8fd9-cf6487586f24/deploy-status)](https://app.netlify.com/sites/jconan/deploys)
 
-# Delog - Blog for Developer and Designer
-This simple website built with GatsbyJS and Netlify CMS. Deploys on netlify with single click. This Starter is sponsered by [W3Layouts](https://w3layouts.com).
+# DevBog - A Developer and Designer Blog
+This simple website built with GatsbyJS and Netlify CMS. Deployed on netlify. Starter sponsered by [W3Layouts](https://w3layouts.com) and Gatsby starter demo.
 
-[![Delog - Gatsby Starter Demo](https://w3layouts.com/wp-content/uploads/2020/03/delog.jpg)](https://delog-w3layouts.netlify.com/)
+[![DevBlog - A Developer and Designer Blog](https://ibb.co/0QQCH2h)](https://jconan.netlify.app)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/W3Layouts/gatsby-starter-delog)
-
-Install this starter locally: (assuming you already have [NodeJS and GatsbyJS installed](https://www.gatsbyjs.org/tutorial/part-zero/))
+## Installation
 ```bash
-gatsby new gatsby-starter-delog https://github.com/W3Layouts/gatsby-starter-delog
+git clone 
+npm install
+gatsby develop
 ```
 
-Instructions also available at W3Layouts [Delog Launch Article](https://w3layouts.com/articles/delog-gatsby-starter-netlify-cms/).
+More instructions also available at W3Layouts [Delog Launch Article](https://w3layouts.com/articles/delog-gatsby-starter-netlify-cms/).
 
 ## Features
 - Built with GatsbyJS and Netlify CMS
 - Option to Add, Edit, Update and Delete posts via Netlify CMS
 - SEO friendly - Option to Add meta description
-- In-built contact form powered by [W3Layouts](https://w3layouts.com) 
+- In-built contact form powered by [Formspree.io](https://formspree.io) 
 - Comes with dark mode
 
 ---
 
-## Documentation
+## Publish
+* Create a new participation on develop or features/ branches
+* Compare and create a pull-request on production branch (master)
+* Validate merge
+* Netlify will start build process, website will be live in a few minutes
 
-* Once you hit "[Deploy to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/W3Layouts/gatsby-starter-delog)"
-* Connect Github
-* Enter Repository Name
-* And your site starts build process. After the build process your website is live
-
-### Changing repositary URL for Netlify CMS access
-You need to change repo URL to your own `repo` at `/static/admin/config.yml`, for example `username/repo-name`
+### Netlify CMS access
+Repo URL is defined at `/static/admin/config.yml`, value `julien-conan/devblog`
 
 ### Creating Github OAuth Client ID
 * Goto Github [Developer Settings](https://github.com/settings/developers)
