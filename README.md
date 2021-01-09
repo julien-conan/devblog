@@ -1,4 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/835007e7-56fc-4265-8fd9-cf6487586f24/deploy-status)](https://app.netlify.com/sites/jconan/deploys)
+[![Twitter](https://img.shields.io/twitter/follow/:twitterHandle.svg?style=social&label=@f0und4710n5)](https://twitter.com/f0und4710n5)
 
 # DevBlog - A Developer and Designer Blog
 This simple website built with GatsbyJS and Netlify CMS. Deployed on netlify. Starter sponsered by [W3Layouts](https://w3layouts.com) and Gatsby starter demo.
@@ -29,7 +30,9 @@ More instructions also available at W3Layouts [Delog Launch Article](https://w3l
 * Validate merge
 * Netlify will start build process, website will be live in a few minutes
 
-### Netlify CMS access
+---
+
+## Netlify CMS
 Repo URL is defined at `/static/admin/config.yml`, value `julien-conan/devblog`
 
 ### Creating Github OAuth Client ID
@@ -58,7 +61,9 @@ Inside you Netlify CMS admin, `Settings > Config` or you can go to `site-meta-da
 * Homepage Description
 * To get the Contact form working. you need too add a form at [W3Layouts forms](https://my.w3layouts.com/Forms/). Follow the steps [How to enable W3Layouts Contact form](https://w3layouts.com/articles/introducing-contact-forms-for-static-websites/) instructions to create a form then your contact form is all set.
 
-### Add Google Analytics
+---
+
+## Google Analytics
 Change `trackingId` in `gatsby-config.js` at `gatsby-plugin-google-analytics` plugin
 
 ---
