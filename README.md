@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/835007e7-56fc-4265-8fd9-cf6487586f24/deploy-status)](https://app.netlify.com/sites/jconan/deploys)
 
-# DevBog - A Developer and Designer Blog
+# DevBlog - A Developer and Designer Blog
 This simple website built with GatsbyJS and Netlify CMS. Deployed on netlify. Starter sponsered by [W3Layouts](https://w3layouts.com) and Gatsby starter demo.
 
 [![DevBlog - A Developer and Designer Blog](https://github.com/julien-conan/devblog/blob/master/static/assets/2021-01-09%20à%2021.31.16%20DevBlog.png)](https://jconan.netlify.app)
