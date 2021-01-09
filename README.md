@@ -3,7 +3,7 @@
 # DevBog - A Developer and Designer Blog
 This simple website built with GatsbyJS and Netlify CMS. Deployed on netlify. Starter sponsered by [W3Layouts](https://w3layouts.com) and Gatsby starter demo.
 
-[![DevBlog - A Developer and Designer Blog](https://ibb.co/0QQCH2h)](https://jconan.netlify.app)
+[![DevBlog - A Developer and Designer Blog](https://github.com/julien-conan/devblog/blob/master/static/assets/2021-01-09%20à%2021.31.16%20DevBlog.png)](https://jconan.netlify.app)
 
 ## Installation
 ```bash
