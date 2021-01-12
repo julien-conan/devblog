@@ -25,7 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} DevBlog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by Julien Conan <a href="https://w3layouts.com">from W3C.</a></p>
+        <p>&copy; {new Date().getFullYear()} Software Engineering Stories &bull; Legal notice <span role="img" aria-label="justice"></span> can be viewed with <a href="disclaimer">our lawyer</a></p>
       </footer>
     </div>
   )
