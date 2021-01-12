@@ -33,6 +33,7 @@ More instructions also available at W3Layouts [Delog Launch Article](https://w3l
 ---
 
 ## Netlify CMS
+Cool exercice, event if I prefer to edit content directly into VSCode.
 Repo URL is defined at `/static/admin/config.yml`, value `julien-conan/devblog`
 
 ### Creating Github OAuth Client ID
@@ -64,18 +65,21 @@ Inside you Netlify CMS admin, `Settings > Config` or you can go to `site-meta-da
 ---
 
 ## Google Analytics
-Change `trackingId` in `gatsby-config.js` at `gatsby-plugin-google-analytics` plugin
+The website support basic Google Analytics.
+`trackingId` configuration relies in `gatsby-config.js` at `gatsby-plugin-google-analytics` plugin
 
 ---
 
-I hope you will build a great website with Delog. If you like it please spread the word, Feel free to contribute and raise a pull request :)
-
-For issues,feedback on enhancement or sharing your new awesome website built with delog. [Create New Issue](https://github.com/W3Layouts/gatsby-starter-delog/issues/new) Here
+## Points of views are my own
+I hope you enjoyed passing by. If you like it please spread the word, also feel free to contribute and raise a pull request :)
+For issues,feedback on enhancement or sharing : [Create New Issue](https://github.com/julien-conan/devblog/issues/new)
 
 ---
 
 ## Roadmap
-We are maintaining future task in [Github Project](https://github.com/W3Layouts/gatsby-starter-delog/projects/1), even though most changes are instantaious. We try keep them posted here.
+I am maintaining the website and will make the effort to relate all interesting stuff I have learned from my profesionnel experiences in development. Since it has been more than eight years, I still have many articles to write. 2021 will be the year for this challenge. You will be able to follow my progression on the Github participation graph more or less. I will try to keep changes posted here : [Github Project](https://github.com/julien-conan/devblog/projects/1), even though most changes are instantaious.
+First things first, after continuous articles flow will be the time to continue the feature about Disqus in order to give you some freedom of speech, and better interaction. 
+Thank you for your time ! You can buy me a coffee at : https://www.buymeacoffee.com/jconan
 
 ---
 
@@ -86,7 +90,7 @@ We are maintaining future task in [Github Project](https://github.com/W3Layouts/
 ---
 
 ## Changelog
-All notable changes to this project are listed here.
+All notable changes to this project are listed here (basically from Delog original project)
 
 ### [1.6.0] - 2020-05-03
 #### Added
