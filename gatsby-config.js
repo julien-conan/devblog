@@ -1,11 +1,8 @@
 /**
- * Configure your Gatsby site with this file.
- *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
 module.exports = {
-  /* Your site config here */
   siteMetadata: require("./site-meta-data.json"),
   plugins: [
     {
@@ -56,7 +53,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-dark-mode',
-    // siteURL is a must for sitemap generation
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
   ],
