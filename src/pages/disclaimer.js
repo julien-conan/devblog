@@ -29,7 +29,7 @@ const DisclaimerPage = ({
             <p>Consent</p>
             <p>By using our website, you hereby consent to our disclaimer and agree to its terms.</p>
             <p>Update</p>
-            <p>Should we update, amend or make any changes to this document, those changes will be prominently posted here.</p>
+            <p>Should we update, amend or make any changes to this document, those changes will be prominently posted on <a href="https://github.com/julien-conan/devblog">Github</a>.</p>
         </div>
       </div>
     </Layout>
