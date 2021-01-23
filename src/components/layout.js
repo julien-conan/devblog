@@ -25,7 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} Software Engineering Stories &bull; Legal notice <span role="img" aria-label="justice"></span> can be viewed with <a href="disclaimer">our lawyer</a></p>
+        <p>DevBlog &copy; {new Date().getFullYear()} Software Engineering Stories &bull; <a href="disclaimer">Legal Notice</a></p>
       </footer>
     </div>
   )

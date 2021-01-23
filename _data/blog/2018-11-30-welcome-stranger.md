@@ -30,10 +30,10 @@ Comments sections will be added soon. Meanwhile, you can also contact me at : [j
 
 ## Is this magic?
 
-You may ask yourself, how this guy could write a blog in full .js  starting in 2012, even since Gatsby framework wasn't created yet. In fact, I started writing those articles in 2018, then think about how I become a software developer, a question asked by a lot of beginners I think. My story started a long time ago, and I take advantage of this exercice to remember myself how I have been through and share my experiences here with you. Time doesn't matter, if you can control it. Have a nice visit!
+You may ask yourself, how this guy could write a blog in full .js  starting in 2012, even since Gatsby framework wasn't created yet. In fact, I started writing those articles in 2018, then I thought about how I became a software developer, a question asked by a lot of beginners nowadays. My story started a long time ago, and I take advantage of this exercice to remember myself how I have been through and share my experiences here with you. Time doesn't matter, if you can control it. Have a nice visit!
 
 ## Last, bot not least
 
-If you are new to markdown, consider those two links which may be quite useful:
+If you are new to markdown and Gatsby, consider those two links which may be quite useful:  
+[How I Created My Blog With Gatsby](https://dev.to/mouhamedaly/how-i-created-my-blog-with-gatsby-1762)  
 [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-[How to insert a line break <br> in markdown](https://stackoverflow.com/questions/26626256/how-to-insert-a-line-break-br-in-markdown)
