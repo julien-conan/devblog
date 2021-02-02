@@ -4,26 +4,26 @@ path: /devops-paradigm
 date: 2019-04-03T06:52:56.034Z
 title: 'A DevOps Journey'
 thumbnail: /assets/2019-04-03-devops-journey.jpg
-metaDescription: Starting point
+metaDescription: DevOps state of the art, essay towards DevOps originally written to SupInfo Conference led in Paris 
 ---
 
 # Culture, Automation, Lean, Measures, Solidarity, Models, Process...
 
 DevOps is a term derived from the contraction of the English words "development" and "operations". The name was given by Patrick Debois during the organization of the first devopsdays in 2009 to describe an emerging movement to improve the quality of services provided by IT solutions. The people who call themselves part of this movement try to learn from the effectiveness of GAFAM in management, innovation, tools and good practices... in order to optimize the competitiveness of their organization.
 
-> "Bridging the gap between projects and operations" - Patrick Debois
+> "Bridging the gap between projects and operations." _Patrick Debois_
 
 After years of living in silos with objectives that are not aligned between operational and developers, the arrival of public cloud solutions is moving the lines: it is the fusion of support and integration in the features teams for both Developers and Operators. As mentioned by Amazon:
 
-> "You build it, you run it !". 
+> "You build it, you run it !" _Werner Vogels_
 
 It is a question of aligning with the business challenges by the introduction of profiles such as Infra Product Owner, who knows how to approach the Devs. In both directions, this is a development being necessary today, also driven by the evolution of tools.
 
-> "Agile is the approach of working with complex systems anywhere. Lean is the approach of optimising the flow of work anywhere. DevOps is the application of Agile and Lean to the acceleration of value work through IT." - Rob England
+> "Agile is the approach of working with complex systems anywhere. Lean is the approach of optimising the flow of work anywhere. DevOps is the application of Agile and Lean to the acceleration of value work through IT." _Rob England_
 
 The DevOps movement came from people who were aware of the importance of the agility and alignment in the company. It offers a way to organize and manage the company as a whole. Methods such as the Lean Startup, SAFE... share common values (starting with the measurement culture) and are today increasingly recognized in companies of all sizes. These methodologies propose an organization and a culture adapted to nowadays challenges: end-user-centric, allowing rapid experimentation and rapid change of direction as needed. Faced with the constant changes of an extremely complex environment, it is the way to strengthen its organization and its production while preserving its resources.
 
-> "It's time for change. Connect anything. Change everything." - MuleSoft 
+> "It's time for change. Connect anything. Change everything." _MuleSoft_
 
 One of DevOps' tasks is to ensure the sustainability of a production pipeline that meets the requirements of the CI-CD, enabling production to be carried out quickly and in a secure manner. Infrastructure supply must be able to build repeatable, controlled development and production environments. While these tools and methods should enable production without human intervention (the greatest sources of error), they should not make us forget the other major DevOps principles: collaboration, measures, lean, and continuous improvement. The C.A.L.M.S. model is an interesting alternative in this sense (compared to I.T.S.M. in the old world of I.T.I.L.).
 

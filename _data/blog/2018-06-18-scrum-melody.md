@@ -71,4 +71,6 @@ In summary, the sprint encapsulates the 4 Scrum meetings. Each offering opportun
 
 In addition, various techniques and tools could be bring to those events in order to galvanize the team and add some news to the powerful habit of scrum rythm. Have a deep look at the litterature and always found something to make some fresh air during the meetings.
 
-Source : https://www.unow.fr/blog/le-coin-des-experts/les-cinq-evenements-de-scrum
+Sources: 
+
+[Scrum 5 Events](https://www.unow.fr/blog/le-coin-des-experts/les-cinq-evenements-de-scrum)
