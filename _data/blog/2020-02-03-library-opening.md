@@ -21,6 +21,7 @@ Thinking about thinking, I will have a try with the Amazon Kindle in order to sa
 [Head First Design Patterns (Eric Freeman & Elisabeth Robson)](https://www.amazon.com/Head-First-Design-Patterns-Object-Oriented-ebook/dp/B08P3X99QP/ref=sr_1_1?dchild=1&keywords=Head+First+Design+Patterns&qid=1610816706&s=digital-text&sr=1-1) $51.51  
 [Grokking Algorithms: An illustrated guide for programmers and other curious people (Aditya Bhargava)](https://www.amazon.ca/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230?fbclid=IwAR3EWLZ-84Z9Nenlii76dU8sYJEPPWeZ9q13F_Nw0kP16yOe9weAQxhwl9k) $51.47  
 [Extreme Programming (Kent Beck)](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) $40.39  
+[The Pragmatic Programmer: From Journeyman to Master](https://www.amazon.com/gp/product/020161622X?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=020161622X) $16.48  
 
 ## C Sharp
 
