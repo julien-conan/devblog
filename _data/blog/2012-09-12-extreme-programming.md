@@ -4,7 +4,7 @@ path: /extreme-programming
 date: 2012-09-12T01:10:24.198Z
 title: 'Extreme Programming'
 thumbnail: /assets/2012-09-12-extreme-programming-alternative-version.jpg
-metaDescription: XP Extreme Programming Methodology, Benefit and Drawbacks, Team Organization, Process Theory
+metaDescription: XP, Extreme, Programming, Development, Methodology, Benefits, Drawbacks, Team, Organization, Process, Theory
 ---
 
 During my first years, I used to work in an ergonomics reasearch laboratory based in south of France. Team was composed by PHDs, engineers and students. With the benefit of youth, we managed to work on several prototyping projects, mainly with military and aeronautic customers. Driven by senior researchers and courage, because we didn't have any previous experiences except from our internship, we tried to do our best in order to build crossplatform softwares.  
@@ -149,13 +149,25 @@ Coach has got to understand, identify and apply Extreme Programming practices to
 
 ### Planning 
 
+Planning is the first step in Extreme Programming. You want to handle planning uncertainty with the development team to create consistent stories. Iterations provides structures and required operations. Developers start working on them when schemes, time estimation and resources are defined and engaged on the Kanban board.
+
 ### Designing
+
+Design process starts at the iteration beginning. In this step, remembering simplicity as a design rule among others is a key value which must not be forgotten.
+
+> "Simple as possible."
 
 ### Coding
 
+Coding is the most precious added value in the XP Lifecycle, it has priority over other tasks (except from ceremony, meeting and pair programming). Developer need to search for system implementation that is as simple as possible, still completing customer(s) and developer(s) requirements.
+
 ### Testing
 
+Test first is already covered by Extreme Programming and it is one of the reason why you must include testing in your coding tasks because, it has been in the records for forty years now. Testing aims at removing bugs before delivery. Approval test run could be added at the iteration end in order to identify and list approval results.
+
 ### Listening
+
+Comprehension between customer and developer is a mandatory. Listening allows to understand feedback given by both actors : how they understand the requirements or how technical aspects can or will be treated also garantee that the customer still be in phase with its project. He can keep track on project progress and foresee what will be coming next.
 
 <div class="custom-images" style="max-width: 500px; margin: 40px auto;">
 	<img src="/assets/2012-09-12-extreme-programming-planning-and-feedback-loops.png">
@@ -167,26 +179,53 @@ XP tries to enforce practices empowerement with a lot of different techniques. T
 
 ### The Planning Game (a.k.a. 'Poker Planning')
 
+Poker planning or Plannng game is one of the most exciting part of the XP ceremony. In fact, it is a moment where you can evaluate yourself and other collaborators on the knowledge level each one have about various topics. 
+
 1. Creation or selection of the story
 2. Story estimation
 3. Stories priorization
-
-Tools :  
-[Planning Poker Cards](https://www.amazon.fr/Planning-Poker®-Outil-dEstimation-Agile/dp/B00JUU8YC2/ref=sr_1_2?__mk_fr_FR=ÅMÅŽÕÑ&dchild=1&keywords=planning+poker+cards&qid=1611328274&s=toys&sr=1-2) 12.80€  
-[Post-it Super Sticky](https://www.amazon.fr/Post-Super-Sticky-Blocs-repositionnables/dp/B00QNBLILK/ref=pd_bxgy_img_2/257-3319388-5054235?_encoding=UTF8&pd_rd_i=B00QNBLILK&pd_rd_r=9ebe3ef6-a8f0-40d8-85aa-30e4fa197853&pd_rd_w=c62uK&pd_rd_wg=vK5GR&pf_rd_p=a23bc06b-c1d8-47e8-84ee-a2dc78a694f2&pf_rd_r=SYA11BZVEQG8TM5FMGH6&psc=1&refRID=SYA11BZVEQG8TM5FMGH6) 11.90€  
-Digital version :  
-[Planning Poker Online](https://planningpokeronline.com/) FREE  
-[Team O'clock](https://appsource.microsoft.com/en-us/product/office/wa200000127?tab=overview) FREE  
 
 <div class="custom-images" style="max-width: 500px; margin: 40px auto;">
 	<img src="/assets/2012-09-12-extreme-programming-planning-poker-cards.jpg">
 </div>
 
-### Small Releases
+[Planning Poker Cards](https://www.amazon.fr/Planning-Poker®-Outil-dEstimation-Agile/dp/B00JUU8YC2/ref=sr_1_2?__mk_fr_FR=ÅMÅŽÕÑ&dchild=1&keywords=planning+poker+cards&qid=1611328274&s=toys&sr=1-2) 12.80€  
+[Post-it Super Sticky](https://www.amazon.fr/Post-Super-Sticky-Blocs-repositionnables/dp/B00QNBLILK/ref=pd_bxgy_img_2/257-3319388-5054235?_encoding=UTF8&pd_rd_i=B00QNBLILK&pd_rd_r=9ebe3ef6-a8f0-40d8-85aa-30e4fa197853&pd_rd_w=c62uK&pd_rd_wg=vK5GR&pf_rd_p=a23bc06b-c1d8-47e8-84ee-a2dc78a694f2&pf_rd_r=SYA11BZVEQG8TM5FMGH6&psc=1&refRID=SYA11BZVEQG8TM5FMGH6) 11.90€  
+[Planning Poker Online](https://planningpokeronline.com/) FREE  
+[Team O'clock](https://appsource.microsoft.com/en-us/product/office/wa200000127?tab=overview) FREE  
 
-### Metaphor
+### Frequent Small Releases
+
+With release planning meeting, team focus on scheduling small units of work that make sense for business and add direct value during an iteration. This way, feedback about the code being produced can be given quickly and impact can be measured. 
+
+> "The longer you wait to introduce an important feature to the system's users the less time you will have to fix it."
+
+<!-- Illustration powerpoint "DevOps : Haute disponibilité" -->
+
+### System Metaphor
+
+A system metaphor consists in representing the team project with simple concepts, which allows to explain the project to newcomers without the need to dump them huge documents. 
+
+Names given to objects are very important because they give understanding to the overall design, and make the code reusable as well. A design should have a structure that helps new people begin contributing quickly.
+
+> "Choose a system of names for your objects that everyone can relate to without specific, hard to earn knowledge about the system."
 
 ### Simple Design
+
+Simple Design has been defined by Kent Beck with four rules while he was developing Extreme Programming in the late 1990's : 
+
+<!-- Replace with illustration -->
+
+- Passes the tests
+- Reveals intention
+- No duplication
+- Fewest elements
+
+Priorization is done in order with those rules. The most important one is about passing the tests. XP changed the game emphasizing the tests importance among other things. 
+
+Reveals intention means the code must be easy to understand for anyone, programs are there to be read by people. 
+
+No duplication 
 
 ### Testing
 
@@ -206,6 +245,10 @@ Digital version :
 
 ### Retrospective (bonus)
 
+## Conclusion
+
+> "There is not any best methodology when it comes to software development methodology. Extreme Programming is self-control software development based on principles of courage, feedback, communication and the most important one, simplicity. Software progress is a continuously evolving discipline. XP is popular because of its discipline between all other agile software development methodologies. Lightness can be felt with XP and constantly using the feedbacks. As programmers write and rewrite the code in XP projects, the client sees growth in the system and because the details of the requirements matter a lot and also because with XP developers can capture details more often, consequently the only object will remain is the coding."
+
 Sources:
 
 [ExtremeProgramming.org](http://www.extremeprogramming.org)  
@@ -214,3 +257,5 @@ Sources:
 [Unit Testing and the Arrange, Act and Assert (AAA) Pattern](https://medium.com/@pjbgf/title-testing-code-ocd-and-the-aaa-pattern-df453975ab80)  
 [CodeOwnership](https://martinfowler.com/bliki/CodeOwnership.html)  
 [Extreme Programming - Roles](https://www.tutorialspoint.com/extreme_programming/extreme_programming_roles.htm)
+[Extreme Programming (XP)](https://medium.com/@azimidev/extreme-programming-xp-35223784976e)  
+[Agile Vs Scrum: Difference Between Agile Methodology & Scrum](https://www.guru99.com/agile-vs-scrum.html)
