@@ -10,6 +10,10 @@ metaDescription:
 > "**We're living the future so the present is our past.**"\
 _Kanye West_
 
-Sources : 
+<div class="custom-images" style="max-width: 700px; margin: -15px auto -10px auto;">
+	<img src="/assets/material/in-progress.png">
+</div>
 
-[How to become a digital nomad](https://www.indietraveller.co/how-to-become-a-digital-nomad/)
+<!-- Sources : 
+
+[How to become a digital nomad](https://www.indietraveller.co/how-to-become-a-digital-nomad/) -->

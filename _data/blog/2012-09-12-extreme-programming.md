@@ -216,38 +216,64 @@ Simple Design has been defined by Kent Beck with four rules while he was develop
 
 <!-- Replace with illustration -->
 
-- Passes the tests
-- Reveals intention
-- No duplication
-- Fewest elements
+- Runs all the tests
+- Has no duplicated logic. Be wary of hidden duplication like parallel class hierarchies
+- States every intention important to the programmer
+- Has the fewest possible classes and methods
 
-Priorization is done in order with those rules. The most important one is about passing the tests. XP changed the game emphasizing the tests importance among other things. 
+Priorization is done in order with those rules. The most important one is about passing the tests. XP changed the coding environment emphasizing the tests importance among other things. 
 
 Reveals intention means the code must be easy to understand for anyone, programs are there to be read by people. 
 
-No duplication 
+No duplication is also a very important design principle. Duplication basically means creating a technical debt, and even if you have the good will to come back later, you never will. Don't duplicate anything, ever. Don't call your method "v1", "v2", "something_b", "something_c" either. Instead, take the appropriate time to refactor the block you are working on and always commit free from duplication.
 
-### Testing
+Last rule says that anything which doesn't fit with the three previous rules must be removed. Extra complexity doesn't serve anyone, render the system harder to modify and less flexible during practices.
 
 ### Refactoring
 
+> "First things first."
+
+A good start is to remove dead code. It will increase lisibility and doesn't break anything living. If one of your collegue had got the habit to store work in progress in comment, go talk to him or her and learn together how to use stash or private branch.
+
+Using automatic replacing, and automatic replacing only, you can safely rename anything you want in order to improve code lisibility and ramp up intention being read by everyone on the project.
+
+There is a lot to discuss about refactoring. Short term branches surely help to test your modifications, so does automatic tests, to have a look at all the impact your modifications can do on the project. 
+
+However, keep in mind that it is a hard exercice. Don't engage in too much trouble or you won't be able to handle it. 
+
 ### Pair Programming
 
-### Collective Ownership
+I just read one of the most important article of my professional life, you had guess it is one about Pair Programming written by Birgitta Böckeler and Nina Siessegger : [On Pair Programming](https://martinfowler.com/articles/on-pair-programming.html)
+
+It is indeed a collection of many people's experiences, which made the article really rich with everyday life example and practice tips. For almost forty years, pair programming has been tackled in coding industry but just a few teams practices it on a regular basis.
+
+Benefits are however numerous : knowledge sharing, reflection, focus, code review "on-the-go", two modes of thinking, collective code ownership, keep the "WIP" low.
 
 ### Continuous Integration
 
+Continuous integration is the process and automatic tools which regules code production. A developer basically commits its participation, which is sent to the software factory where it passes through static code analysis.
+
 ### 40-hour Week
+
+The idea of the 40-hour week is that team members should work the hours that they can sustain quality. Sustainable workload could be 40 hours or thereabouts. Each country or culture has differing acceptance of reasonable working hours. The important thing is to recognize what a reasonable work week should be, and then come to an agreement with the team on that number. Tremendous power comes from committing to this up-front and then having the integrity to follow through during crunch time.
 
 ### On-site Customer
 
+This is an important topic discussion here, about customer availability. You will often encountered customers who don't want to invest too much time following the project progression, or giving feedback and assistance to development team. Most of them have full agenda, where another micro-management system seems to no fit. In those cases, it is crucial to have a deeper exchange with those clients to make them understand their feedbacks critical value to the project success. You should remember them that their time is spared at first with not requiring detailed specifications and saved later by not delivering an uncooperative system.
+
+> "The Customer is Always Available"
+
+All phases of an XP project require communication with the customer, preferably face to face, on site. You also need to have an expert interlocutor in front of you, who can answer complex and advanced questions about business logic, without passing the question to another interlocutor who may take days or weeks to answer the question.
+
 ### Coding Standard
 
-### Retrospective (bonus)
+Formatting the code to agreed on coding standards keeps it consistent and easier to read and refactor. It is a step must been harvest at the beginning of a project, then expanded and shared through each iteration to improve on the long run.
 
 ## Conclusion
 
-> "There is not any best methodology when it comes to software development methodology. Extreme Programming is self-control software development based on principles of courage, feedback, communication and the most important one, simplicity. Software progress is a continuously evolving discipline. XP is popular because of its discipline between all other agile software development methodologies. Lightness can be felt with XP and constantly using the feedbacks. As programmers write and rewrite the code in XP projects, the client sees growth in the system and because the details of the requirements matter a lot and also because with XP developers can capture details more often, consequently the only object will remain is the coding."
+> "Extreme Programming is self-control software development based on principles of courage, feedback, communication and the most important one, simplicity. Software progress is a continuously evolving discipline. XP is popular because of its discipline between all other agile software development methodologies. Lightness can be felt with XP and constantly using the feedbacks. As programmers write and rewrite the code in XP projects, the client sees growth in the system and because the details of the requirements matter a lot and also because with XP developers can capture details more often, consequently the only object will remain is the coding. There is not any best methodology when it comes to software development methodology."
+
+Thank you Martin, Oncle Bob and others pioneers to have lead the way to experience sharing and knowledge rising. 
 
 Sources:
 
@@ -258,4 +284,5 @@ Sources:
 [CodeOwnership](https://martinfowler.com/bliki/CodeOwnership.html)  
 [Extreme Programming - Roles](https://www.tutorialspoint.com/extreme_programming/extreme_programming_roles.htm)
 [Extreme Programming (XP)](https://medium.com/@azimidev/extreme-programming-xp-35223784976e)  
-[Agile Vs Scrum: Difference Between Agile Methodology & Scrum](https://www.guru99.com/agile-vs-scrum.html)
+[Agile Vs Scrum: Difference Between Agile Methodology & Scrum](https://www.guru99.com/agile-vs-scrum.html)  
+[Extreme Programming Practices in Action](https://www.informit.com/articles/article.aspx?p=30187&seqNum=11)

@@ -22,3 +22,7 @@ Pair programming is like buying new shoes. First, you hesitate. You don't know w
 ### Strong-Style Pairing
 
 ### Pair Development
+
+<div class="custom-images" style="max-width: 700px; margin: -15px auto -10px auto;">
+	<img src="/assets/material/in-progress.png">
+</div>
