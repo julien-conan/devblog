@@ -36,4 +36,6 @@ You may ask yourself, how this guy could write a blog in full .js  starting in 2
 
 If you are new to markdown and Gatsby, consider those two links which may be quite useful:  
 [How I Created My Blog With Gatsby](https://dev.to/mouhamedaly/how-i-created-my-blog-with-gatsby-1762)  
-[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)  
+[Gatsby Quick Start](https://www.gatsbyjs.com/docs/quick-start/)  
+[Gatsby Starter Blog](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog)
