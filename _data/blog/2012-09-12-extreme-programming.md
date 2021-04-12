@@ -24,15 +24,15 @@ Defined by Don Wells on his [website](http://www.extremeprogramming.org/donwells
 XP was appropriate to our needs, even if we didn't have a clue about tests. In fact, we didn't have a clue about XP either. Like a lot of developers, we took the concept from its title. 'Extreme' was appropriate to our point of view which seemed to be enough to satisfy us. We were able to act if we had known something new, which brought courage to our minds to work harder. We were galvanized by the idea that XP projects, reports greater programmer productivity, even if we didn't check the framework in details neither do we really applied parts of its values, principles, and practices.
 
 <div class="custom-images" style="max-width: 500px; margin: 0px auto;">
-	<img src="/assets/2012-09-12-extreme-programming-pillars.png">
+	<img src="/assets/2012-09-12-extreme-programming-pillars-b.png">
 </div>
 
 ## Values
 
 Extreme Programming relies on five values which are: communication, simplicity, feedback, courage, and respect.
 
-<div class="custom-images" style="max-width: 700px; margin: -15px auto -10px auto;">
-	<img src="/assets/2012-09-12-extreme-programming-values.png">
+<div class="custom-images" style="max-width: 200px; margin: -15px auto 5px auto;">
+	<img src="/assets/2012-09-12-extreme-programming-values-b.png">
 </div>
 
 Like always in software development, **communication** is the key. A team that relies on communication to transfer knowledge, will reach its goal faster than a team which is focused to blame people or to be afraid of other person's success. XP stresses the importance of the appropriate kind of communication, with face to face discussion helped by whiteboard or any other way to save notes from the current discussion.
@@ -80,7 +80,7 @@ On the long run, acceptance tests can represent the customer path wanted by the 
 The customer specifies test scenarios and parameters when a user story has been correctly implemented. A story can have one or many acceptance tests, aiming to verify the functionality works as expected. Indeed, it is the customer's responsibility to verify the correctness of the acceptance tests and to review test scores to decide which failed tests are of highest priority. Acceptance tests are also used as regression tests prior to a production release.
 
 <div class="custom-images" style="max-width: 500px; margin: 40px auto;">
-	<img src="/assets/2012-09-12-extreme-programming-tests-pyramid.png">
+	<img src="/assets/2012-09-12-extreme-programming-tests-pyramid-b.png">
 </div>
 
 They should be automated as well, so they can be run more often. Quality assurance is an essential part of the XP process.
@@ -170,7 +170,7 @@ Test first is already covered by Extreme Programming and it is one of the reason
 Comprehension between customer and developer is a mandatory. Listening allows to understand feedback given by both actors : how they understand the requirements or how technical aspects can or will be treated also guarantee that the customer still be in phase with its project. He can keep track of project progress and foresee what will be coming next.
 
 <div class="custom-images" style="max-width: 500px; margin: 40px auto;">
-	<img src="/assets/2012-09-12-extreme-programming-planning-and-feedback-loops.png">
+	<img src="/assets/2012-09-12-extreme-programming-planning-and-feedback-loops-b.png">
 </div>
 
 ## Practices
@@ -185,8 +185,8 @@ Poker planning or Planning game is one of the most exciting parts of the XP cere
 2. Story estimation
 3. Story priorization
 
-<div class="custom-images" style="max-width: 500px; margin: 40px auto;">
-	<img src="/assets/2012-09-12-extreme-programming-planning-poker-cards.jpg">
+<div class="custom-images" style="max-width: 200px; margin: 40px auto;">
+	<img src="/assets/2012-09-12-extreme-programming-planning-poker-cards-b.png">
 </div>
 
 [Planning Poker Cards](https://www.amazon.fr/Planning-Poker®-Outil-dEstimation-Agile/dp/B00JUU8YC2/ref=sr_1_2?__mk_fr_FR=ÅMÅŽÕÑ&dchild=1&keywords=planning+poker+cards&qid=1611328274&s=toys&sr=1-2) 12.80€  
@@ -201,7 +201,7 @@ With release planning meeting, team focus on scheduling small units of work that
 > "The longer you wait to introduce an important feature to the system's users the less time you will have to fix it."
 
 <div class="custom-images" style="max-width: 500px; margin: 40px auto;">
-	<img src="/assets/2012-09-12-extreme-programming-small-releases.png">
+	<img src="/assets/2012-09-12-extreme-programming-small-releases-b.png">
 </div>
 
 ### System Metaphor
@@ -217,7 +217,7 @@ Names given to objects are very important because they give an understanding of 
 Simple Design has been defined by Kent Beck with four rules while he was developing Extreme Programming in the late 1990's: 
 
 <div class="custom-images" style="max-width: 500px; margin: 40px auto;">
-	<img src="/assets/2012-09-12-extreme-programming-simple-design.png">
+	<img src="/assets/2012-09-12-extreme-programming-simple-design-b.png">
 </div>
 
 - Runs all the tests
