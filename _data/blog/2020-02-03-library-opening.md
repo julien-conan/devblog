@@ -68,7 +68,7 @@ Thinking about thinking, I will have a try with the Amazon Kindle in order to sa
 
 ## DevOps 
 
-[Effective DevOps (Jennifer Davis & Ryn Daniels)](https://azure.microsoft.com/en-us/resources/effective-devops/) FREE  
+[Effective DevOps (Jennifer Davis & Ryn Daniels)](https://github.com/jblinuxclicks/Free-DevOps-Books-1/blob/master/book/Effective%20DevOps.pdf) FREE  
 [The Goal (Eliyah M Goldratt)](https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951) $19.09  
 [Toyota Kata (Mike Rother)](https://www.mhprofessional.com/9780071635233-usa-toyota-kata-managing-people-for-improvement-adaptiveness-and-superior-results-group) $34.00  
 [The DevOps Handbook (Gene Kim)](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002) $18.69  
@@ -85,6 +85,7 @@ Thinking about thinking, I will have a try with the Amazon Kindle in order to sa
 [Tribal Leadership: Leveraging Natural Groups to Build a Thriving Organization (Dave Logan)](https://www.amazon.com/gp/product/0061251321/ref=as_li_tf_tl?ie=UTF8&tag=csync-20&linkCode=as2&camp=217153&creative=399701&creativeASIN=0061251321) $11.29  
 [Turn the Ship Around!: A True Story of Turning Followers into Leaders (David Marquet & Stephen R Covey)](https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/?s=books&keywords=leadership) $9.58  
 [Chris Short Inventory on GitHub](https://github.com/chris-short/DevOps-README.md) NA
+[Free DevOps Books](https://github.com/jblinuxclicks/Free-DevOps-Books-1) NA
 
 ## Personal Development
 
