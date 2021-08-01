@@ -128,4 +128,11 @@ For more about the benefits of each of these principles, make sure to read Uncle
 
 Thank you _Stranger_, see you next time, for another coffee-programming session.
 
-_Going further: **DRY Principle, Encapsulation, Premature Optimization, Refactoring, Software Craftmanship, Clean Code and Style Guides**._
+_Going further:_  
+* [F.I.R.S.T. Principles](https://medium.com/@tasdikrahman/f-i-r-s-t-principles-of-testing-1a497acda8d6)  
+* [DRY Principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)  
+* [Encapsulation](https://www.geeksforgeeks.org/c-sharp-encapsulation/)  
+* [Premature Optimization](https://stackify.com/premature-optimization-evil/)  
+* [Refactoring](https://martinfowler.com/books/refactoring.html)  
+* [Software Craftmanship](https://en.wikipedia.org/wiki/Software_craftsmanship)  
+* [Style Guides](https://www.pullrequest.com/blog/create-a-programming-style-guide/)  
