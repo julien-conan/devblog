@@ -49,7 +49,7 @@ When working together, **respect** is compulsory to efficient communication. Pro
 
 The most obvious way to start extreme programming (XP) is with a new project. Start out collecting user stories and conducting spike solutions for things that seem risky. Spend only a few weeks doing this. Then schedule a release planning meeting. Invite customers, developers, and managers to create a schedule that everyone agrees on. Begin your iterative development with an iteration planning meeting.
 
-### Rules
+### Golden Rules
 
 XP relies on five main rules which are: planning, managing, designing, coding and testing. More information can be found on this topic at: [The Rules of Extreme Programming](http://www.extremeprogramming.org/rules.html).
 
@@ -111,7 +111,7 @@ Unit test frameworks provide tools, such as code coverage and mocks to build you
 
 The two main frameworks in C# are: NUnit and XUnit. Quite similar, chose one and stick to it on your project. Unit tests represents a long time investment effort, but it is worth it.
 
-### Code Ownership
+## Code Ownership
 
 As defined by Martin Fowler, this could be defined with three broad categories:
 
