@@ -2,7 +2,7 @@
 template: BlogPost
 path: /welcome-stranger
 date: 2018-11-30T12:12:25.364Z
-title: 'Welcome Stranger !'
+title: 'Welcome Stranger!'
 thumbnail: /assets/2018-11-30-welcome-stranger.jpg
 metaDescription: Greetings and biography
 ---
