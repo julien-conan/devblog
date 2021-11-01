@@ -10,7 +10,10 @@ metaDescription: How to organize your first actions as a freelancer, entrepreneu
 <!-- Targets/Reviewers:
 Antoine Andrieu
 Paolo Carone
-Lena Carrau -->
+Lena Carrau 
+Charlotte Wouters 
+fashbel 
+Dev / Designer -->
 
 Whats this is all about is: preparation. Prepare yourself, because battles are coming. For it is a battle against yourself, or a battle against life, the entrepreneur path could be a hard one. Dealing with complexity and a lot of different tasks, you will have to build your own strong methodology to survive. Here, you will find some keys to success.
 
@@ -40,62 +43,80 @@ Whats this is all about is: preparation. Prepare yourself, because battles are c
 
 # Network
 
-1. Mentor
+1. Champion(s)
 - First of all, your network must be composed by a mentor which is already in the business you are targetting and where she/hs has already proven her/his success. 
+- How to find him/her?
 2. Blockers
 - Blockers could be anyone in your entourage. From a friend to a only one encounter, always remember that when somebody is telling you something is impossible, she/he is talking about her/his own limits. Not yours.
+- How to identify them?
 3. Helpers
 - There is an infinite panel of helpers surrounding you at this precise moment. From an inspirational speech to an abstract detail in life, search for the things that please you and how you find them. Write down this pattern, and make a habit by finding helpers for various situation your are facing or dealing with.
-4. Meetings
-- Entrepreneur day could be very long sometimes, main reasons are meetings. You have to dedicate time to know the local market you are working on. From customers to professionnals, *suit up!* And go to see the people composing your 
+- A préciser -
+4. Going further - Meetings
+- Entrepreneur day could be very long sometimes, main reasons are meetings. You have to dedicate time to know the local market you are working on. From customers to professionnals, *suit up!* And go to see the people composing your background. [Meetup application]()
+- Join group / communities : Discord open rooms list, Slack
+- How to focus on one community and invest in it?
+- How to stick with your community?
+- Events / events planner (Entrepreneuriales, TedX): good for creativity / inspiration but warning if it is really interesting for business (!) push yourself 
+- Savoir se mettre en avant
 
 # Skills
 
+Adapt your road-map for each of them
+
+# Soft skills
+
 1. Know yourself
 - "Enjoy your qualities, work on your weaknesses."
-2. Always improve
-- 
-3. Define your goals
-- Formation strategy
+2. Curiosity
+3. Communication
+4. Flexibility
+5. Focus
 
-# Communication
+# Hard skills
 
-1. Zero email strategy
-- 
-2. Tools: website, social networks, paper cards, photos, videos
-- 
-3. Professional number and cellphone
-- 
-4. Mailing list and newsletter
-- 
-5. Manage feedback
-- 
-6. Define scaling strategy
-- 
+1. Assesment with existing road-map
+- Target: est-ce que c'est en fonction du besoin d'un client ou d'une envie personnelle d'apprendre une technologie ? par extension, choisr ses clients pour apprendre quelque chose en particulier
+- Exemple: roadmap.sh
 
-# Prioritization
+# Vente
 
+1. Quelles sont les techniques de vente pour se mettre en avant ?
+2. Savoir comment ça marche dans les grandes lignes + quelques tips pour accrocher des clients
+
+# Operationnal Tips (Management)
+
+1. Time
+- Timetracking, deepwork, pomodoro
+2. Money
+- Comment calculer son taux journalier moyen
+3. **Portefeuille** / Comptabilité / facturation / 
+3.1 Recurrency
+3.2 Survey your accountability
+- Like milk on the grill
+3.3 Find recurrency
+- It could take years, but it is also the key to a sustainable activity.
+3.4 Fidelize your customers
+- Read above. Take feedback, good or worst. Don't hesitate to loose some projects if they don't impact your accountability severly. 
+5. Création d'un status
+- attendre au maximum et prendre le statut le plus simple exemple auto-entrepreneur en France
+6. Prioritization
 "Choose your battle"
-
-1. Systematic time tracking
+5.1. Systematic time tracking
 - Use an Excel sheet, a paper or a dedicated application to precisely follow the time you spend working. And when I say precisely, I say by the minute. Digital age rules.
-2. Follow your agenda
+5.2. Follow your agenda
 - *C'est dans les vieux pots qu'on fait les meilleures soupes.* 
-3. Ground notes
+5.3. Ground notes
 - The most valuable materials of all are: pen and paper. Use a ground paperbook which will follow you everywhere, 24h/24 and 7d/7.
-4. Know how to rest
-- 
-5. Positive mindset
+5.4. Know how to rest
+5.5 Positive mindset
 - Only.
 
-# Recurrency
+# Personnal branding
 
-1. Survey your accountability
-- Like milk on the grill
-2. Find recurrency
-- It could take years, but it is also the key to a sustainable activity.
-3. Fidelize your customers
-- Read above. Take feedback, good or worst. Don't hesitate to loose some projects if they don't impact your accountability severly. 
+1. Email address
+2. Web profile: LinkedIn, Twitter, Dribbble, Behance, 500px... en fonction de la typologie de client
+3. Optional: professional phone number
 
 You are playing on the long run now and you are doing fine. Keep on going!
 
