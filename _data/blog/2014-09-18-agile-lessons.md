@@ -245,3 +245,5 @@ A design approach described in Eric Evans’ “Domain Driven Design” (2003), 
 [Agile Alliance Essentials](https://www.agilealliance.org/agile-essentials/)  
 [Socraa Agile Blog](https://www.socraagile.ch/fr/blog/)  
 [Software Economic System](https://www.youtube.com/watch?v=TQ9rng6YFeY)
+
+<!-- You are not Agile because you use JIRA -->
