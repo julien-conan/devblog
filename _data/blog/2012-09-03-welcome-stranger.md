@@ -1,8 +1,8 @@
 ---
 template: BlogPost
 path: /welcome-stranger
-date: 2018-11-30T12:12:25.364Z
-title: 'Welcome Stranger!'
+date: 2012-09-03T12:12:25.364Z
+title: 'Welcome, Foreigner'
 thumbnail: /assets/2018-11-30-welcome-stranger.jpg
 metaDescription: Greetings and biography
 ---
