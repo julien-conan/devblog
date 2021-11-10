@@ -4,7 +4,7 @@ path: /end-to-end-testing-with-cypress
 date: 2021-08-25T08:35:30.125Z
 title: 'End to end testing with Cypress'
 thumbnail: /assets/2021-09-01-end-to-end-testing-cypress-react.png
-metaDescription: 
+metaDescription: How to install and configure Cypress on your laptop, and write your first UI end to end tests
 ---
 
 # What is smoke testing?
