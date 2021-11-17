@@ -84,6 +84,12 @@ There are a lot of tools available, such as **[CodeTogether](https://www.codetog
 	<img src="/assets/2018-07-02-extreme-pair-programming-remote.png"></img>
 </div>
 
+### Going further with: Mob Programming
+
+Mob Programming is a software development approach where the whole team works on the same thing, at the same time, in the same space, and at the same computer. With mob programming, the collaboration is extended to everyone on the team, while still using a single computer for writing the code and inputting it into the code base.
+
+> "The basic concept of mob programming is simple: the entire team works as a team together on one task at the time. That is: one team – one (active) keyboard – one screen (projector of course)." - *Marcus Hammarberg, Mob programming – Full Team, Full Throttle*
+
 ## How to make pair programming a reality in your company?
 
 From the casual perspective of an untrained eye, pair programming can easily be misinterpreted as a big waste of time. Two developers engaging in separate tasks would be able to accomplish twice the amount of work, right? Wrong. Because of the programming complexity, and human weaknesses, twice the production means twice errors in that case. Industry years of experience will learn people that doing pairs is not only a necessity, but a strategic decision to make and to dedicate with. Not only pair programming saves time (how many time will you loose fixing a bug in production?), but it will also ingeniously generate high-quality code and improve knowledge sharing and code ownership distribution.  
