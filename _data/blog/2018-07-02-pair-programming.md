@@ -11,8 +11,6 @@ As many people know, pair programming tends to be a good practice. However, it i
 
 > "Write all production programs with two people sitting at one machine." _Kent Beck_
 
-Pair programming is like buying new shoes. First, you hesitate. You don't know where to find the good ones. Until you find them. Then you ask yourselves how you were able to live without them.
-
 <div class="custom-images" style="max-width: 600px; margin: 40px auto 40px auto;">
 	<img src="/assets/2018-07-02-extreme-pair-programming-benefits.jpg"></img>
 </div>
