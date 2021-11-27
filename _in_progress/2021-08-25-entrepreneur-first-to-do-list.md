@@ -15,7 +15,7 @@ Charlotte Wouters
 fashbel 
 Dev / Designer -->
 
-Whats this is all about is: preparation. Prepare yourself, because battles are coming. For it is a battle against yourself, or a battle against life, the entrepreneur path could be a hard one. Dealing with complexity and a lot of different tasks, you will have to build your own strong methodology to survive. Here, you will find some keys to success.
+Prepare yourself, because battles are coming. For it is a battle against yourself, or a battle against life, the entrepreneur path could be a hard one. Dealing with complexity and a lot of different tasks, you will have to build your own strong methodology to survive. Here, you will find some keys to success.
 
 # Workspace
 

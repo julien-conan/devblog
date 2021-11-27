@@ -7,6 +7,8 @@ thumbnail: /assets/2019-04-03-self-awareness.jpg
 metaDescription: A post about alimentation and exercice through IT constraints and point of view
 ---
 
-<div class="custom-images" style="max-width: 700px; margin: -15px auto -10px auto;">
-	<img src="/assets/material/in-progress.png">
-</div>
+# Connect with yourself
+
+# Connect with your environment
+
+# Deconnect from internet
