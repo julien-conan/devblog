@@ -47,3 +47,7 @@ Continuous integration aims to publish code regularly on the main branch, improv
 ## The importance of tools: Continuous Delivery (CD)
 
 The production environment is a key element of the software factory that gathers the (CI/CD). Continuous deployment aims at building and delivering steps full-automation, without human intervention using advanced compilation scripts. Features selection or rollback systems are used in production to manage unforeseen events, when the main branch of the project is sometimes directly linked to thousands of users. Measuring systems ensure the status of the services rendered, and trigger corrective actions if necessary.
+
+<div class="custom-images" style="max-width: 300px; margin: 40px auto;">
+	<img src="/assets/2019-04-03-devops-journey-tools-overview.png">
+</div>
