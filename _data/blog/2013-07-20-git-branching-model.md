@@ -7,6 +7,98 @@ thumbnail: /assets/2013-07-21-git-flow-b.jpg
 metaDescription:
 ---
 
+# Branching Strategies
+
+Based on version control systems, branching strategies are used to orchestrate parallel development allowing developers to work on tasks simultaneously as part of a team. Parallel builds and testing ensure quick feedbacks.
+
+In order to manage complex and parallel activites, the **merge early and often** must be the team basic strategy to prevent massive merge conflicts and release delays.
+
+A good branching strategy should aim to:
+
+- Optimize productivity
+- Enable parallel development
+- Allow for a set of planned, structured releases
+- Provide a clear promotion path for software changes through production
+- Evolve to accommodate changes that are delivered, perhaps daily
+- Support multiple versions of released software and patches
+
+## Production Branch
+
+> Everything starts and ends here.
+
+- Any new feature branch is branched out from production
+- Once the feature is developed it is merged into QA or equivalent branch for testing.
+- Once testing is approved, the feature branch is merged with production.
+- Make production branch as the default branch in repository settings. This way, all merge request will be automatically made against this branch, unless we specify a different one
+- Make production branch protected, so that no direct commit can be done by anyone against this branch. Only allow merge request or pull request
+
+<div class="custom-images" style="width: 700px; margin: auto;">
+	<img src="/assets/2013-07-21-git-flow-production-strategy.png"></img>
+</div>
+
+## Feature Branching
+
+Using a feature branching strategy allows developers to create a branch for a specific feature or task. These are often referred to as user stories. This branch-per-issue workflow allows developers to work separately.
+
+- Feature branch has just production + this feature related commits
+- If some other feature got released while this feature is still in development, developer need to rebase with production. Else he won’t be able to merge it to production.
+- Developer is forced to handle how his feature behaves with other newly released features. This is handled at feature branch level itself rather than environment branch
+
+<div class="custom-images" style="width: 700px; margin: auto;">
+	<img src="/assets/2013-07-21-git-flow-feature-strategy.png"></img>
+</div>
+
+## Feature Flag/Toggles
+
+To help support this type of development, some teams implement feature toggles or flags, instead of maintaining a separate feature branch.The advantage is that all work can be done right from in the mainline. This means less branches and minimal merging.
+
+## Release Branching
+
+A release branching strategy involves creating a branch for a potential release that includes all applicable stories. When a team starts working on a new release, the branch is created.
+
+## Feature Driven Development
+
+Feature driven development (also called feature-based development) breaks up branches based on the features in a product. Teams plan, design, and build by features. This method is closely aligned with the Agile methodology and is a popular pattern in GitFlow.
+
+| Benefits | Challenges |
+| -------- | ---------- |
+| Easily manage large scale projects | - Difficult to manage thousands of branches |
+| Work in parallel | - Conflict management |
+| Reduce mainline contention and broken builds | - Lot of coordination |
+
+<br/>
+
+If you are just starting up a project, feature drive development may not be a good place to start. That is because you might not even know all the features you want to include.
+
+In the beginning, you need teams to move fast and iterate quickly. Using feature branches can slow you down and not allow you to adapt as quickly. Lots of branches and merge requests take time (and people) to manage.
+
+But if you have a big team with a variety of skill levels, feature based development is a strong choice. You can easily plan out resources you need for specific features. And because you can test code more easily, you can make sure that immature code does not destabilize your codebase.
+
+<div class="custom-images" style="width: 700px; margin: auto;">
+	<img src="/assets/2013-07-21-git-flow-feature-driven-development.png"></img>
+</div>
+
+- Merge the feature branch to qa
+- Complete the testing
+- Don’t merge qa branch to production. Merge the feature branch to prod
+- Forget the concept of qa being a sacred branch. In this case, qa branch is our convenience branch for testing. What we expect to test goes here. Over a period of time, if it contains code which are out of sync with production, force rebase it from production branch
+
+```cmd
+git checkout production
+git pull --rebase
+git push origin production:qa --force
+```
+
+<br/>
+
+## Best practices
+
+- Know and Communicate Your Branching Strategy for a Project
+- Minimize How Long Code Is Checked Out
+- Figure Out Your Dependencies
+- Review Your Merge/Integration Process
+- Pick the Right Version Control System
+
 # Branching Models
 
 ## Trunk Based Development
@@ -144,97 +236,40 @@ Although stages may vary depending on the organization, some teams may choose to
 
 The benefit in the example is while developers continue to submit code to development and integration branches, QA is working against a stable QA branch. This can be thoroughly tested.
 
-# Branching Strategies
+# Choose a branching strategies with a DevOps mindset
 
-Based on version control systems, branching strategies are used to orchestrate parallel development allowing developers to work on tasks simultaneously as part of a team. Parallel builds and testing ensure quick feedbacks.
+- How do I decide on the right branching strategy?
+- Is there an effective strategy for DevOps?
+- How do I support applications with single or multiple versions?
 
-In order to manage complex and parallel activites, the **merge early and often** must be the team basic strategy to prevent massive merge conflicts and release delays.
+## Keep it simple!
 
-A good branching strategy should aim to:
+By adopting an effective branching strategy, you'll:
 
-- Optimize productivity
-- Enable parallel development
-- Allow for a set of planned, structured releases
-- Provide a clear promotion path for software changes through production
-- Evolve to accommodate changes that are delivered, perhaps daily
-- Support multiple versions of released software and patches
+- Foster a DevOps culture
+- Promote collaboration flow and increased productivity
+- Enable teams to spend more time developing and less time managing code
 
-## Production Branch
+To embrace DevOps, it's important to keep your branch strategy simple and strive for high quality. Some suggestions:
 
-> Everything starts and ends here.
+- Start with a simple strategy and evolve as needed
+- Use consistent naming conventions for branches
+- Frequently reverse integrate (RI) and merge into your main branch
+- Encourage consistent code reviews - garbage in, garbage out
+- Implement a CI/CD pipeline, using:
+    - Gated checkins
+    - Automated testing
 
-- Any new feature branch is branched out from production
-- Once the feature is developed it is merged into QA or equivalent branch for testing.
-- Once testing is approved, the feature branch is merged with production.
-- Make production branch as the default branch in repository settings. This way, all merge request will be automatically made against this branch, unless we specify a different one
-- Make production branch protected, so that no direct commit can be done by anyone against this branch. Only allow merge request or pull request
+# Start with a simple branching strategy
 
-<div class="custom-images" style="width: 700px; margin: auto;">
-	<img src="/assets/2013-07-21-git-flow-production-strategy.png"></img>
-</div>
+Create a source control structure that identifies shippable release units. The concept of releasable units is a foundational piece of this strategy, which Steve St Jean describes as follows:
 
-## Feature Branching
-
-Using a feature branching strategy allows developers to create a branch for a specific feature or task. These are often referred to as user stories. This branch-per-issue workflow allows developers to work separately.
-
-- Feature branch has just production + this feature related commits
-- If some other feature got released while this feature is still in development, developer need to rebase with production. Else he won’t be able to merge it to production.
-- Developer is forced to handle how his feature behaves with other newly released features. This is handled at feature branch level itself rather than environment branch
-
-<div class="custom-images" style="width: 700px; margin: auto;">
-	<img src="/assets/2013-07-21-git-flow-feature-strategy.png"></img>
-</div>
-
-## Feature Flag/Toggles
-
-To help support this type of development, some teams implement feature toggles or flags, instead of maintaining a separate feature branch.The advantage is that all work can be done right from in the mainline. This means less branches and minimal merging.
-
-## Release Branching
-
-A release branching strategy involves creating a branch for a potential release that includes all applicable stories. When a team starts working on a new release, the branch is created.
-
-## Feature Driven Development
-
-Feature driven development (also called feature-based development) breaks up branches based on the features in a product. Teams plan, design, and build by features. This method is closely aligned with the Agile methodology and is a popular pattern in GitFlow.
-
-| Benefits | Challenges |
-| -------- | ---------- |
-| Easily manage large scale projects | - Difficult to manage thousands of branches |
-| Work in parallel | - Conflict management |
-| Reduce mainline contention and broken builds | - Lot of coordination |
-
-<br/>
-
-If you are just starting up a project, feature drive development may not be a good place to start. That is because you might not even know all the features you want to include.
-
-In the beginning, you need teams to move fast and iterate quickly. Using feature branches can slow you down and not allow you to adapt as quickly. Lots of branches and merge requests take time (and people) to manage.
-
-But if you have a big team with a variety of skill levels, feature based development is a strong choice. You can easily plan out resources you need for specific features. And because you can test code more easily, you can make sure that immature code does not destabilize your codebase.
-
-<div class="custom-images" style="width: 700px; margin: auto;">
-	<img src="/assets/2013-07-21-git-flow-feature-driven-development.png"></img>
-</div>
-
-- Merge the feature branch to qa
-- Complete the testing
-- Don’t merge qa branch to production. Merge the feature branch to prod
-- Forget the concept of qa being a sacred branch. In this case, qa branch is our convenience branch for testing. What we expect to test goes here. Over a period of time, if it contains code which are out of sync with production, force rebase it from production branch
-
-```cmd
-git checkout production
-git pull --rebase
-git push origin production:qa --force
-```
-
-<br/>
-
-## Best practices
-
-- Know and Communicate Your Branching Strategy for a Project
-- Minimize How Long Code Is Checked Out
-- Figure Out Your Dependencies
-- Review Your Merge/Integration Process
-- Pick the Right Version Control System
+- The physical unit of versioning and delivery.
+- The primary unit to support the branching and release models.
+- Can be at the Suite-, Application-, or Component-level.
+- For Suites, all applications must version and patch together. For example, Microsoft Word and Excel are part of the Microsoft Office Suite. Visio is not, as it may release or patch independent of the rest of the Microsoft Office Suite.
+- In TFVC, this would be the root node under the team project node.
+- Can be equated to a repo in Git
 
 Do you have any questions? Are you blocked by a Git-related operation? Don't hesitate to get in touch with me I will be glad to support you on those tasks.
 
@@ -244,3 +279,4 @@ Do you have any questions? Are you blocked by a Git-related operation? Don't hes
 [The Best Branching Strategies For High-Velocity Development](https://www.perforce.com/blog/vcs/best-branching-strategies-high-velocity-development)  
 [Trunk based development or feature driven development](https://www.perforce.com/blog/vcs/trunk-based-development-or-feature-driven-development)
 [Git branching strategy to achieve continuous delivery](https://sairamkrish.medium.com/git-branching-strategy-for-true-continuous-delivery-eade4435b57e)  
+[Choose a branching strategies with a DevOps mindset](https://docs.microsoft.com/en-us/azure/devops/repos/tfvc/effective-tfvc-branching-strategies-for-devops?view=azure-devops)
