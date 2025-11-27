@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="page.title">Your Name – Software Architect</title>
+
+  <!-- Typos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <!-- TOP BAR -->
+    <header class="top-bar">
+      <div class="brand" data-i18n="brand.name">Your Name</div>
+      <nav class="top-links">
+        <a class="pill-link" id="cv-link" href="My-Resume.pdf" target="_blank" rel="noopener" data-i18n="nav.resume">
+          Download resume
+        </a>
+        <a class="pill-link" href="https://www.linkedin.com/in/julien-conan/" target="_blank" rel="noopener" data-i18n="nav.linkedin">
+          LinkedIn
+        </a>
+        <a class="pill-link" href="mailto:jconan@outlook.fr" data-i18n="nav.email">
+          Email
+        </a>
+
+        <!-- SWITCH LANGUE -->
+        <div class="lang-switch pill-link">
+          <button type="button" class="lang-btn lang-active" data-lang="en">EN</button>
+          <span>·</span>
+          <button type="button" class="lang-btn" data-lang="fr">FR</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-main">
+        <div class="hero-eyebrow" data-i18n="hero.eyebrow">
+          Software Architecture · Distributed Systems · Technical Leadership
+        </div>
+        <h1 class="hero-title" data-i18n="hero.title">
+          I design software architectures built to <span class="hero-highlight">last</span>.
+        </h1>
+        <p class="hero-lede" data-i18n="hero.lede">
+          I’m a software architect with 10+ years of experience designing, evolving, and stabilizing
+          complex systems in different industries and team environments. My work focuses on clarity,
+          reliability, and helping teams move with confidence.
+        </p>
+
+        <div class="hero-tags">
+          <div class="hero-tag-line" data-i18n="hero.tag1">
+            From <span>legacy</span> to maintainable platforms.
+          </div>
+          <div class="hero-tag-line" data-i18n="hero.tag2">
+            From ad-hoc decisions to coherent architecture.
+          </div>
+          <div class="hero-tag-line" data-i18n="hero.tag3">
+            From “please don’t touch” to <span>safe to change</span>.
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn-main" href="Your-Resume.pdf" target="_blank" rel="noopener" data-i18n="hero.cta.primary">
+            📄 Download my resume
+          </a>
+          <a class="btn-ghost" href="mailto:you@email.com" data-i18n="hero.cta.secondary">
+            🤝 Discuss a system or project
+          </a>
+        </div>
+
+        <div class="hero-note" data-i18n="hero.note">
+          <span>10+ years</span> across product startups, scale-ups, and enterprise environments — mostly where the systems
+          are complex, business-critical, or both.
+        </div>
+      </div>
+
+      <aside class="hero-side">
+        <div class="avatar-wrapper">
+          <div class="avatar">
+            <img src="profile.png" alt="My profile photo" class="avatar-image">
+          </div>
+          <div class="avatar-caption" data-i18n="avatar.caption">
+            Temporary avatar — swap in your actual photo when you’re ready.  
+            Until then, the work speaks first.
+          </div>
+        </div>
+
+        <div class="side-quote">
+          <p data-i18n="sidequote.text">
+            “<strong>Your Name</strong> has a rare ability to make complex systems understandable,
+            and to guide teams through change without drama. Their architectural decisions hold up over time.”
+          </p>
+          <small data-i18n="sidequote.small">
+            — Fictional reference, reflecting the kind of feedback I aim to earn and keep
+          </small>
+        </div>
+
+        <div class="side-meta" data-i18n="side.meta">
+          Based in · Your City<br />
+          Experience · 10+ years across SaaS, internal tools, and large-scale platforms<br />
+          Available for · Architecture reviews, platform redesigns, technical advisory, mentoring
+        </div>
+      </aside>
+    </section>
+
+    <!-- PRINCIPLES -->
+    <section>
+      <div class="section-kicker" data-i18n="section1.kicker">
+        How I approach architecture
+      </div>
+      <h2 class="section-heading" data-i18n="section1.heading">
+        Practical principles shaped by <span>real systems</span>, not theory alone.
+      </h2>
+      <p class="section-description" data-i18n="section1.description">
+        My approach comes from years of working with growing codebases, distributed architectures,
+        and teams under real delivery pressure. These principles help keep systems understandable,
+        resilient, and adaptable.
+      </p>
+
+      <div class="principles">
+        <article class="principle">
+          <div class="principle-number">01</div>
+          <div class="principle-title" data-i18n="principle.1.title">
+            Boundaries before buzzwords
+          </div>
+          <p class="principle-body" data-i18n="principle.1.body">
+            I start with responsibilities, boundaries, and contracts — then pick patterns and
+            technologies that fit. Whether it’s a monolith, a modular monolith, or microservices,
+            the architecture follows the business and the team, not a trend.
+          </p>
+        </article>
+
+        <article class="principle">
+          <div class="principle-number">02</div>
+          <div class="principle-title" data-i18n="principle.2.title">
+            Reliable, “boring” foundations
+          </div>
+          <p class="principle-body" data-i18n="principle.2.body">
+            I favor proven tools and patterns used consistently. Stability, observability, and
+            clear failure modes matter more than shiny stacks. The result is easier onboarding,
+            clearer operations, and fewer surprises in production.
+          </p>
+        </article>
+
+        <article class="principle">
+          <div class="principle-number">03</div>
+          <div class="principle-title" data-i18n="principle.3.title">
+            Architecture as a shared language
+          </div>
+          <p class="principle-body" data-i18n="principle.3.body">
+            I treat architecture as something the whole team can understand and work with.
+            Diagrams, docs, and decisions stay close to the code and the roadmap, so people
+            don’t depend on one person to “translate” how things work.
+          </p>
+        </article>
+
+        <article class="principle">
+          <div class="principle-number">04</div>
+          <div class="principle-title" data-i18n="principle.4.title">
+            Grounded in operational reality
+          </div>
+          <p class="principle-body" data-i18n="principle.4.body">
+            Metrics, incidents, and day-to-day constraints shape the design. I care deeply about
+            how systems behave under load, during deployments, and when things fail — not just how
+            they look on a diagram.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section>
+      <div class="section-kicker" data-i18n="section2.kicker">
+        Selected work themes
+      </div>
+      <h2 class="section-heading" data-i18n="section2.heading">
+        Examples of systems I’ve helped make <span>simpler and safer</span>.
+      </h2>
+      <p class="section-description" data-i18n="section2.description">
+        These are anonymized summaries of the types of projects I’ve worked on.
+        Replace them with concrete case studies, metrics, and tech stacks as you document your own path.
+      </p>
+
+      <div class="projects">
+        <article class="project">
+          <div class="project-tag" data-i18n="project.1.tag">
+            Enterprise · Legacy modernization
+          </div>
+          <h3 class="project-title" data-i18n="project.1.title">
+            Evolving a 10+ year old monolith without stopping the business
+          </h3>
+          <p class="project-description" data-i18n="project.1.description">
+            Working with product and engineering teams to introduce clear service boundaries,
+            stabilize performance, and gradually extract critical domains — while keeping releases
+            safe and predictable.
+          </p>
+          <div class="project-impact" data-i18n="project.1.impact">
+            Impact · clearer ownership · safer deployments · architecture aligned with current business reality
+          </div>
+          <a class="project-link" href="#" target="_blank" rel="noopener" data-i18n="project.1.link">
+            Detailed case study coming soon ↗
+          </a>
+        </article>
+
+        <article class="project">
+          <div class="project-tag" data-i18n="project.2.tag">
+            SaaS · Multi-tenant platform
+          </div>
+          <h3 class="project-title" data-i18n="project.2.title">
+            Designing a platform that scales across customers and teams
+          </h3>
+          <p class="project-description" data-i18n="project.2.description">
+            Defining a multi-tenant architecture with well-designed extension points,
+            data isolation where needed, and guardrails so new features don’t break existing tenants.
+          </p>
+          <div class="project-impact" data-i18n="project.2.impact">
+            Impact · easier onboarding of new customers · predictable performance · clear model for extensions
+          </div>
+          <a class="project-link" href="#" target="_blank" rel="noopener" data-i18n="project.2.link">
+            Show diagrams & trade-offs ↗
+          </a>
+        </article>
+
+        <article class="project">
+          <div class="project-tag" data-i18n="project.3.tag">
+            Scale & reliability
+          </div>
+          <h3 class="project-title" data-i18n="project.3.title">
+            Helping teams ship confidently, not cautiously
+          </h3>
+          <p class="project-description" data-i18n="project.3.description">
+            Introducing observability, deployment strategies, and guardrails that turned releases
+            from stressful events into routine activities — with faster feedback and fewer incidents.
+          </p>
+          <div class="project-impact" data-i18n="project.3.impact">
+            Impact · better incident response · clearer signals in production · more frequent, safer releases
+          </div>
+          <a class="project-link" href="#" target="_blank" rel="noopener" data-i18n="project.3.link">
+            Read more about the approach ↗
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div data-i18n="footer.main">
+        If you’re dealing with a complex or aging system and want a second pair of eyes,  
+        <strong>you@email.com</strong>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:you@email.com" data-i18n="footer.email">
+          Email
+        </a>
+        <span>·</span>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener" data-i18n="footer.linkedin">
+          LinkedIn
+        </a>
+        <span>·</span>
+        <span data-i18n="footer.meta">
+          10+ years · remote-friendly
+        </span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="i18n.js"></script>
+</body>
+</html>
