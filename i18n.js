@@ -51,34 +51,34 @@ const translations = {
     "section2.heading":
       "Examples of systems I’ve helped make <span>simpler and safer</span>.",
     "section2.description":
-      "These are anonymized summaries of the types of projects I’ve worked on. Replace them with concrete case studies, metrics, and tech stacks as you document your own path.",
+      "These experiences illustrate my expertise in architecture, development and DevOps in various environments.",
 
     "project.1.tag": "Enterprise · Legacy modernization",
     "project.1.title": "Evolving a 10+ year old monolith without stopping the business",
     "project.1.description":
-      "Working with product and engineering teams to introduce clear service boundaries, stabilize performance, and gradually extract critical domains — while keeping releases safe and predictable.",
+      "Development of a critical software component, allowing payment in 4x without fees on a consumer sales platform. Contractualization of response times, management of interdependence and control of the workflow with functional and unit tests in.NET Core.",
     "project.1.impact":
       "Impact · clearer ownership · safer deployments · architecture aligned with current business reality",
     "project.1.link": "Detailed case study coming soon ↗",
 
-    "project.2.tag": "SaaS · Multi-tenant platform",
-    "project.2.title": "Designing a platform that scales across customers and teams",
+    "project.2.tag": "Automation · DevOps Excellence",
+    "project.2.title": "Automating repetitive operational tasks at scale",
     "project.2.description":
-      "Defining a multi-tenant architecture with well-designed extension points, data isolation where needed, and guardrails so new features don’t break existing tenants.",
+      "Designing and implementing automation scripts in PowerShell, Terraform and YML to streamline deployment, maintenance and environment management processes.",
     "project.2.impact":
-      "Impact · easier onboarding of new customers · predictable performance · clear model for extensions",
-    "project.2.link": "Show diagrams & trade-offs ↗",
+      "Impact · 30–50% reduction in manual operations · more reliable workflows · faster and safer deployments",
+    "project.2.link": "Show scripts & before/after workflows soon ↗",
 
-    "project.3.tag": "Scale & reliability",
-    "project.3.title": "Helping teams ship confidently, not cautiously",
+    "project.3.tag": "Code Quality · Governance",
+    "project.3.title": "Rolling out SonarQube across teams and legacy systems",
     "project.3.description":
-      "Introducing observability, deployment strategies, and guardrails that turned releases from stressful events into routine activities — with faster feedback and fewer incidents.",
+      "Implementing and standardizing SonarQube across new and historical projects, defining quality gates, rulesets and reporting to improve visibility and technical consistency.",
     "project.3.impact":
-      "Impact · better incident response · clearer signals in production · more frequent, safer releases",
-    "project.3.link": "Read more about the approach ↗",
+      "Impact · 60–80% project coverage · fewer regressions · stronger code quality culture and clearer accountability",
+    "project.3.link": "Show dashboards & quality-gate setup soon ↗",
 
     "footer.main":
-      "If you’re dealing with a complex or aging system and want a second pair of eyes,<br /><strong>you@email.com</strong>",
+      "If you’re dealing with a complex or aging system and want a second pair of eyes:<br /><strong>jconan@outlook.fr</strong>",
     "footer.email": "Email",
     "footer.linkedin": "LinkedIn",
     "footer.meta": "10+ years · remote-friendly"
@@ -137,34 +137,34 @@ const translations = {
     "section2.heading":
       "Des exemples de systèmes que j’ai aidé à rendre <span>plus simples et plus sûrs</span>.",
     "section2.description":
-      "Ce sont des résumés anonymisés des projets sur lesquels j’ai travaillé. Tu pourras les remplacer par des études de cas concrètes, avec métriques et stack technique, au fil de ton parcours.",
+      "Ces expériences illustrent mon expertise en architecture, développement et DevOps dans des environnements variés.",
 
     "project.1.tag": "Entreprise · Modernisation de legacy",
     "project.1.title": "Faire évoluer un monolithe de plus de 10 ans sans arrêter l’activité",
     "project.1.description":
-      "Travailler avec les équipes produit et engineering pour introduire des frontières claires entre services, stabiliser les performances et extraire progressivement les domaines critiques — tout en gardant des mises en production sûres et prévisibles.",
+      "Développement d’une brique logicielle critique, permettant le paiement en 4x sans frais sur une plateforme de vente grand public. Contractualisation des temps de réponse, gestion de l’interdépendance et maîtrise du workflow avec tests fonctionnels et unitaires en .NET Core.",
     "project.1.impact":
       "Impact · responsabilités plus claires · déploiements plus sûrs · architecture réalignée sur le business actuel",
     "project.1.link": "Étude de cas détaillée à venir ↗",
 
-    "project.2.tag": "SaaS · Plateforme multi-tenant",
-    "project.2.title": "Concevoir une plateforme qui s’adapte aux clients et aux équipes",
+    "project.2.tag": "Automatisation · Excellence DevOps",
+    "project.2.title": "Automatiser les tâches opérationnelles répétitives à grande échelle",
     "project.2.description":
-      "Définir une architecture multi-tenant avec des points d’extension bien pensés, l’isolation des données là où c’est nécessaire, et des garde-fous pour éviter qu’une nouvelle fonctionnalité ne casse les clients existants.",
+      "Conception et mise en œuvre de scripts PowerShell, Terraform et YML pour automatiser les déploiements, la maintenance et la gestion des environnements.",
     "project.2.impact":
-      "Impact · onboarding des nouveaux clients simplifié · performances prévisibles · modèle d’extension clair",
-    "project.2.link": "Voir les diagrammes et les arbitrages ↗",
+      "Impact · réduction de 30 à 50% des opérations manuelles · workflows plus fiables · déploiements plus rapides et sécurisés",
+    "project.2.link": "Voir scripts & workflows avant/après à venir↗",
 
-    "project.3.tag": "Échelle & fiabilité",
-    "project.3.title": "Aider les équipes à livrer avec confiance, pas avec appréhension",
+    "project.3.tag": "Qualité du code · Gouvernance",
+    "project.3.title": "Déployer et unifier SonarQube sur les projets et équipes",
     "project.3.description":
-      "Mettre en place observabilité, stratégies de déploiement et garde-fous qui transforment les mises en prod en routine plutôt qu’en événement stressant — avec un feedback plus rapide et moins d’incidents.",
+      "Mise en place et standardisation de SonarQube sur les projets neufs et historiques, définition des quality gates, des règles et des reportings pour améliorer la visibilité et la cohérence technique.",
     "project.3.impact":
-      "Impact · meilleure gestion des incidents · signaux plus lisibles en production · mises en production plus fréquentes et plus sûres",
-    "project.3.link": "En savoir plus sur cette approche ↗",
+      "Impact · couverture de 60–80% des projets · réduction des régressions · culture qualité renforcée et meilleures responsabilités techniques",
+    "project.3.link": "Voir dashboards & configuration des quality gates bientôt ↗",
 
     "footer.main":
-      "Si vous travaillez avec un système complexe ou vieillissant et que vous cherchez un regard extérieur,<br /><strong>you@email.com</strong>",
+      "Si vous travaillez avec un système complexe ou vieillissant et que vous cherchez un regard extérieur :<br /><strong>jconan@outlook.fr</strong>",
     "footer.email": "Email",
     "footer.linkedin": "LinkedIn",
     "footer.meta": "10+ ans d’expérience · remote-friendly"
@@ -203,6 +203,15 @@ function setLanguage(lang) {
       cvLink.href = "CV Julien Conan (FR).pdf";
     } else {
       cvLink.href = "CV Julien Conan (EN).pdf";
+    }
+  }
+
+  const cvLink2 = document.getElementById("cv-link2");
+  if (cvLink2) {
+    if (lang === "fr") {
+      cvLink2.href = "CV Julien Conan (FR).pdf";
+    } else {
+      cvLink2.href = "CV Julien Conan (EN).pdf";
     }
   }
 
