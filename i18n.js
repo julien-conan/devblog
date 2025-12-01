@@ -59,7 +59,7 @@ const translations = {
       "Development of a critical software component, allowing payment in 4x without fees on a consumer sales platform. Contractualization of response times, management of interdependence and control of the workflow with functional and unit tests in.NET Core.",
     "project.1.impact":
       "Impact · clearer ownership · safer deployments · architecture aligned with current business reality",
-    "project.1.link": "Detailed case study coming soon ↗",
+    "project.1.link": "Detailed case study ↗",
 
     "project.2.tag": "Automation · DevOps Excellence",
     "project.2.title": "Automating repetitive operational tasks at scale",
@@ -145,7 +145,7 @@ const translations = {
       "Développement d’une brique logicielle critique, permettant le paiement en 4x sans frais sur une plateforme de vente grand public. Contractualisation des temps de réponse, gestion de l’interdépendance et maîtrise du workflow avec tests fonctionnels et unitaires en .NET Core.",
     "project.1.impact":
       "Impact · responsabilités plus claires · déploiements plus sûrs · architecture réalignée sur le business actuel",
-    "project.1.link": "Étude de cas détaillée à venir ↗",
+    "project.1.link": "Étude de cas détaillée ↗",
 
     "project.2.tag": "Automatisation · Excellence DevOps",
     "project.2.title": "Automatiser les tâches opérationnelles répétitives à grande échelle",

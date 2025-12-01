@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Case Study – Modernisation .NET</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+
+<body>
+
+    <div class="page">
+
+      <!-- TOP BAR -->
+    <header class="top-bar">
+      <div class="brand" data-i18n="brand.name">Your Name</div>
+      <nav class="top-links">
+        <a class="pill-link" id="cv-link" href="My-Resume.pdf" target="_blank" rel="noopener" data-i18n="nav.resume">
+          Download resume
+        </a>
+        <a class="pill-link" href="https://www.linkedin.com/in/julien-conan/" target="_blank" rel="noopener" data-i18n="nav.linkedin">
+          LinkedIn
+        </a>
+        <a class="pill-link" href="mailto:jconan@outlook.fr" data-i18n="nav.email">
+          Email
+        </a>
+
+        <!-- SWITCH LANGUE -->
+        <div class="lang-switch pill-link">
+          <button type="button" class="lang-btn lang-active" data-lang="en">EN</button>
+          <span>·</span>
+          <button type="button" class="lang-btn" data-lang="fr">FR</button>
+        </div>
+      </nav>
+    </header>
+
+  <header>
+    <a href="../index.html">← Retour au portfolio</a>
+    <h1>Modernisation d’un module .NET pour un e-commerce à fort trafic</h1>
+    <p>
+      Refonte complète d’une brique .NET legacy en micro-services .NET Core, 
+      avec 120 critères utilisateur traités en moins de 300 ms, 
+      couverture de tests &gt; 80 %, optimisation et monitoring.
+    </p>
+  </header>
+
+  <main>
+
+    
+    <!-- Contexte -->
+    <section>
+        <div class="section-kicker"></div>
+        <h2 class="section-heading">Contexte</h2>
+      <p class="section-description">
+        Le site e-commerce utilisait une brique métier .NET Framework devenue trop lente
+        pour l'affichage des pages produit. Elle devait agréger plus de 120 critères personnalisés 
+        par utilisateur, ce qui générait une latence importante.
+      </p>
+      <p class="section-description">
+        L'objectif était de passer sous les <strong>200–300 ms</strong>, d'améliorer la stabilité
+        et de moderniser totalement la structure en plus de rendre l’ensemble testable.
+      </p>
+    </section>
+
+    <!-- Architecture -->
+    <section>
+      <h2 class="section-heading">Architecture : du monolithe aux micro-services</h2>
+      <p class="section-description">
+        La brique monolithique a été découpée en plusieurs micro-services .NET Core :
+      </p>
+      <ul class="project-tag">
+        <li>Service d’orchestration</li>
+        <li>Service de validation des règles</li>
+        <li>Service de gestion des critères</li>
+        <li>API internes documentées (OpenAPI)</li>
+      </ul>
+
+      <div class="figure-row">
+        <figure>
+            <img src="./images/Microservice_Architecture.png"
+                alt="Schéma des micro-services" />
+            <figcaption>
+            <i>Découpage du monolithe vers les micro-services.</i>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="./images/Clean-Architecture-Diagram-Asp-Net.png"
+                alt="Schéma de clean architecture .NET" />
+            <figcaption>
+            <i>Organisation en couches : Domain, Application, Infrastructure.</i>
+            </figcaption>
+        </figure>
+      </div>
+
+      <p class="section-description">
+          Impact :
+          <br/>✔ meilleure lisibilité du code
+          <br/>✔ fiabilité accrue
+          <br/>✔ scalabilité horizontale sans refonte
+          <br/>✔ base idéale pour les optimisations suivantes
+      </p>
+
+    </section>
+
+    <!-- Tests unitaires -->
+    <section>
+      <h2 class="section-heading">Tests unitaires &gt; 80 %</h2>
+      <p class="section-description">
+        Une véritable culture de test a été introduite : xUnit, Moq, refactorisation pour
+        rendre les classes testables et intégration dans la CI.
+      </p>
+
+      <pre class="code-snippet"><code>[Fact]
+            public void Should_ReturnError_When_UserHasInvalidCriteria()
+            {
+                var service = new CriteriaValidator(mockRepo.Object);
+                var result = service.Validate(user);
+                Assert.False(result.IsValid);
+            }</code></pre>
+
+      <div class="figure-row">
+        <figure>
+            <img src="./images/unit-tests-dahboard.png"
+                alt="Schéma des micro-services" />
+            <figcaption>
+            <i>Dashboard de couverture</i>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="./images/unit-tests-monitoring.png"
+                alt="Schéma de clean architecture .NET" />
+            <figcaption>
+            <i>Monitoring</i>
+            </figcaption>
+        </figure>
+      </div>
+
+      <p class="section-description">
+          Résultat : Couverture > 80 %, sécurisant les nombreux refactorings.
+      </p>
+
+    </section>
+
+    <!-- Contrats -->
+    <section>
+      <h2 class="section-heading">Contrats d’API & SLA</h2>
+      <p class="section-description">
+        Les échanges entre micro-services ont été entièrement contractualisés :
+      </p>
+      <ul class="project-tag">
+        <li>Spécifications OpenAPI/Swagger</li>
+        <li>Timeouts, retry policy, circuit breaker</li>
+        <li>SLA &lt; 200–300 ms sur l’endpoint principal</li>
+        <li>Structure unifiée pour les 120 critères</li>
+      </ul>
+
+      <div class="figure-row">
+        <figure>
+            <img src="./images/contract-swaggerhub-swaggerui.png"
+                alt="API Contract with Swagger Hub" />
+            <figcaption>
+            <i>Swagger Hub</i>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="./images/contract-api-consumers.png"
+                alt="API Contract Principle" />
+            <figcaption>
+            <i>Contrats API / Consomma(c)teurs</i>
+            </figcaption>
+        </figure>
+      </div>
+
+        <p class="section-description">
+          Résultat : respect des SLA même sous charge élevée.
+          <br/>✔ Baisse drastique des erreurs d'intégration
+          <br/>✔ Facilitation de la maintenance
+          <br/>✔ Prévisibilité des temps de réponse
+        </p>
+    </section>
+
+    <!-- Monitoring -->
+    <section>
+      <h2 class="section-heading">Monitoring & Performance</h2>
+      <p class="section-description">
+        Un monitoring complet a été mis en place pour analyser les temps de réponse, erreurs,
+        saturation et performance des appels externes.
+      </p>
+
+      <div class="figure-row">
+        <figure>
+            <img src="./images/monitoring-application_performance_dashboard.png"
+                alt="Monitoring dashboard" />
+            <figcaption>
+            <i>Tableau de bord</i>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="./images/monitoring-showcase_visualize.jpg"
+                alt="Monitoring showcase" />
+            <figcaption>
+            <i>Suivi des indicateurs</i>
+            </figcaption>
+        </figure>
+      </div>
+
+      <p class="section-description">
+        Résultat final : 
+        <br/>✔ Temps de réponse entre <strong>40 et 150 ms</strong>, même sous charge.
+        <br/>✔ Disponibilité > 99,9 %
+        <br/>✔ Composant devenu totalement scalable
+      </p>
+    </section>
+
+    <!-- Role -->
+    <section>
+      <h2 class="section-heading">Rôle & Résultats</h2>
+      <p class="section-description">Ma contribution :</p>
+      <ul class="project-tag">
+        <li>Migration .NET Framework → .NET Core</li>
+        <li>Conception de l’architecture micro-services</li>
+        <li>Mise en place des tests unitaires & CI/CD</li>
+        <li>Définition / documentation des API contractuelles</li>
+        <li>Optimisations de performance et parallélisation</li>
+        <li>Mise en place du monitoring APM</li>
+      </ul>
+
+      <br/>
+
+      <p class="section-description">Résultats :</p>
+      <ul class="project-tag">
+        <li>Temps de réponse : 40–150 ms</li>
+        <li>Disponibilité : &gt; 99,9 %</li>
+        <li>Couverture de tests : &gt; 80 %</li>
+      </ul>
+    </section>
+
+    </div>
+
+  </main>
+
+  <script src="../i18n.js"></script>
+
+</body>
+</html>

@@ -440,3 +440,52 @@ footer {
   border-radius: 30px;   
   display: block;
 }
+
+/* CODE BLOCKS */
+.code-snippet {
+  margin: 24px 0;
+  padding: 16px 18px;
+  border-radius: 16px;
+  background: var(--accent-soft);
+  border: 1px solid rgba(148, 163, 184, 0.5);
+  font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  overflow-x: auto;
+}
+
+.code-snippet code {
+  white-space: pre;
+  display: block;
+}
+
+/* IMAGES & FIGURES */
+.figure-row{
+  max-width: 70%;
+}
+figure {
+  margin: 24px 0;
+}
+
+figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+/* Deux images côte à côte, responsive */
+.figure-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  margin: 24px 0;
+}
+
+@media (min-width: 900px) {
+  .figure-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
