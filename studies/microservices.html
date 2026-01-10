@@ -71,7 +71,7 @@
       <p class="section-description">
         La brique monolithique a été découpée en plusieurs micro-services .NET Core :
       </p>
-      <ul class="project-tag">
+      <ul class="project-tag" style="margin-left: 2em">
         <li>Service d’orchestration</li>
         <li>Service de validation des règles</li>
         <li>Service de gestion des critères</li>
@@ -110,17 +110,20 @@
     <section>
       <h2 class="section-heading">Tests unitaires &gt; 80 %</h2>
       <p class="section-description">
-        Une véritable culture de test a été introduite : xUnit, Moq, refactorisation pour
-        rendre les classes testables et intégration dans la CI.
+        Une véritable culture du test est présente dans l'équipe de développement : xUnit, Moq, refactorisation pour
+        rendre les classes testables et intégration dans la CI. Application systématique du pattern "AAA" (Arrange, Act, Assert). Approche "TDD" (Test Driven Development).
       </p>
 
       <pre class="code-snippet"><code>[Fact]
-            public void Should_ReturnError_When_UserHasInvalidCriteria()
-            {
-                var service = new CriteriaValidator(mockRepo.Object);
-                var result = service.Validate(user);
-                Assert.False(result.IsValid);
-            }</code></pre>
+public void Should_ReturnError_When_UserHasInvalidCriteria()
+{
+    // Arrange
+    var service = new CriteriaValidator(mockRepo.Object);
+    // Act
+    var result = service.Validate(user);
+    // Assert
+    Assert.False(result.IsValid);
+}</code></pre>
 
       <div class="figure-row">
         <figure>
@@ -152,7 +155,7 @@
       <p class="section-description">
         Les échanges entre micro-services ont été entièrement contractualisés :
       </p>
-      <ul class="project-tag">
+      <ul class="project-tag" style="margin-left: 2em">
         <li>Spécifications OpenAPI/Swagger</li>
         <li>Timeouts, retry policy, circuit breaker</li>
         <li>SLA &lt; 200–300 ms sur l’endpoint principal</li>
@@ -222,8 +225,8 @@
     <!-- Role -->
     <section>
       <h2 class="section-heading">Rôle & Résultats</h2>
-      <p class="section-description">Ma contribution :</p>
-      <ul class="project-tag">
+      <p class="section-description">Mes contributions :</p>
+      <ul class="project-tag" style="margin-left: 2em">
         <li>Migration .NET Framework → .NET Core</li>
         <li>Conception de l’architecture micro-services</li>
         <li>Mise en place des tests unitaires & CI/CD</li>
@@ -235,7 +238,7 @@
       <br/>
 
       <p class="section-description">Résultats :</p>
-      <ul class="project-tag">
+      <ul class="project-tag" style="margin-left: 2em">
         <li>Temps de réponse : 40–150 ms</li>
         <li>Disponibilité : &gt; 99,9 %</li>
         <li>Couverture de tests : &gt; 80 %</li>
