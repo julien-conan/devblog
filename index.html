@@ -9,7 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -68,7 +69,7 @@
           <a class="btn-main" id="cv-link2" href="My-Resume.pdf" target="_blank" rel="noopener" data-i18n="hero.cta.primary">
             📄 Download my resume
           </a>
-          <a class="btn-ghost" href="mailto:jconan@outlook.fr" data-i18n="hero.cta.secondary">
+          <a class="btn-ghost" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/jconan/60min'});return false;" data-i18n="hero.cta.secondary">
             🤝 Discuss a system or project
           </a>
         </div>
